@@ -1,0 +1,131 @@
+.navbar {
+  height: 80px;
+  box-shadow: 0px 4px 4px 0px #d1d5db40;
+
+  &__container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    justify-content: space-between;
+  }
+
+  &__line {
+    width: 2px;
+    height: 30px;
+    border-radius: 100px;
+    background: #d1d5db;
+  }
+
+  &__links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar__link-item {
+    padding-inline: 12px;
+
+    > a {
+      opacity: 0.7;
+      font-weight: 400;
+      text-transform: uppercase;
+      transition: all 250ms ease;
+      text-shadow: 0px 0px 4px rgba(0, 0, 0, 0);
+
+      &:hover {
+        opacity: 1;
+        text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+      }
+    }
+
+    &--active > a {
+      opacity: 1;
+      text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
+.language-picker {
+  position: relative;
+
+  &--active {
+    .language-picker__lists {
+      pointer-events: all;
+      opacity: 1;
+      transform: scaleY(1);
+    }
+  }
+
+  &__selected-language {
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 6px;
+    padding-inline: 12px;
+    border: 1px solid #f3f3f3;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+
+    > img {
+      width: 24px;
+      height: 24px;
+    }
+
+    > span {
+      opacity: 0.8;
+      font-size: 14px;
+      font-weight: 600;
+      display: block;
+      min-width: 53px;
+    }
+  }
+
+  &__lists {
+    position: absolute;
+    bottom: -142px;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 8px; 
+    box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08),
+      0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+
+    opacity: 0;
+    transform: scaleY(0.9);
+    transform-origin: top center;
+    transition: all 300ms ease;
+    transition-property: opacity, transform;
+    pointer-events: none;
+  }
+
+  &__list-item {
+    height: 46px;
+    width: 100%;
+    padding-inline: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 6px;
+    background-color: transparent;
+    transition: background-color 300ms ease;
+
+    &:hover {
+      background-color: #f3f3f3; 
+    }
+
+    > img {
+      width: 24px;
+      height: 24px;
+    }
+
+    > span {
+      opacity: 0.8;
+      font-size: 14px;
+      font-weight: 600;
+      display: block;
+      min-width: 53px;
+    }
+  }
+}

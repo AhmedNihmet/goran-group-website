@@ -55,3 +55,17 @@ li {
 .disable-scroll {
   overflow: hidden;
 }
+
+.button {
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.max-w {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+}

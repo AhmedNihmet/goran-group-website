@@ -6,6 +6,7 @@ const Index = () => {
   return (
     <article className="home">
       Home page
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     </article>
   );
 }

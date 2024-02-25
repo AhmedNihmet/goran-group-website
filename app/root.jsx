@@ -11,6 +11,8 @@ import {
 
 import rootStyles from "~/styles/root.css";
 
+import Navbar from "~/components/Navbar";
+
 /**
  * @returns {import("@remix-run/node").LinkDescriptor[]}
  */
@@ -31,6 +33,7 @@ export default function App() {
         <Links />
       </head>
       <body>
+        <Navbar />
         <Outlet />
         <ScrollRestoration />
         <Scripts />
