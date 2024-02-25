@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "build": "remix build",
-    "dev": "remix dev --manual",
+    "dev": "concurrently \"yarn sass:dev\" \"yarn remix dev\"",
+    "sass:dev": "sass -q --no-source-map --watch styles/:app/styles",
+    "sass:build": "sass styles/:app/styles",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
     "start": "remix-serve ./build/index.js"
   },
@@ -20,10 +22,12 @@
   },
   "devDependencies": {
     "@remix-run/dev": "^2.7.2",
+    "concurrently": "^8.2.2",
     "eslint": "^8.38.0",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "sass": "^1.71.1"
   },
   "engines": {
     "node": ">=18.0.0"
