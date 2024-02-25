@@ -33,6 +33,11 @@ module.exports = {
         "plugin:react-hooks/recommended",
         "plugin:jsx-a11y/recommended",
       ],
+      rules: {
+        "no-console": ["warn", { allow: ["warn"] }],
+        "react/prop-types": "off",
+        "no-prototype-builtins": "off",
+      },
       settings: {
         react: {
           version: "detect",
