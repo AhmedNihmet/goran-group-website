@@ -43,6 +43,11 @@ li {
   list-style-type: none;
 }
 
+.main-wrapper {
+  width: 100%;
+  min-height: calc(100vh - 520px - 80px);
+}
+
 // Shared Classes
 .img {
   width: 100%;

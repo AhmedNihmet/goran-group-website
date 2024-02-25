@@ -1,0 +1,122 @@
+
+.footer {
+  height: 520px;
+  overflow: hidden;
+  background-color: #F4F4F4;
+
+  &__links-section {
+    display: flex;
+    justify-content: space-between;
+    margin-block-start: 100px;
+    margin-block-end: 60px;
+  }
+
+  &__links {
+
+    > span {
+      display: block;
+      color: #1E1C23;
+      margin-block-end: 16px;
+    }
+  }
+
+  &__link-items {
+    height: 26px;
+    font-size: 16px;
+    font-weight: 300;
+    padding-inline-start: 4px;
+
+    > a {
+      font-weight: inherit;
+    }
+  }
+
+  &__links-end-section-phone-numbers {
+    direction: ltr;
+    display: grid;
+    text-align: end;
+    margin-block-start: 40px;
+    font-weight: 300;
+
+    > span {
+      font-weight: inherit;
+    }
+  }
+
+  &__social-sections {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+  }
+
+  &__social-first-part {
+    display: flex;
+    column-gap: 20px;
+
+    > a {
+      color: #1E1C23; 
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+  }
+
+  &__social-middle-part {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    &::before {
+      content: "";
+      width: 100%;
+      height: 1px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #717171;
+    }
+  }
+
+  &__social-section-arrow {
+    width: 46px;
+    height: 46px;
+    background: white;
+    border-radius: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #a3a3a3;
+    color: #333232;
+
+    > svg {
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  &__social-end-part {
+    display: flex;
+    column-gap: 20px;
+
+    > a {
+      color: #1E1C23; 
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+  }
+
+  &__rights-section {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+
+    > span {
+      text-transform: uppercase;
+    }
+  }
+}

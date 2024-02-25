@@ -12,6 +12,7 @@ import {
 import rootStyles from "~/styles/root.css";
 
 import Navbar from "~/components/Navbar";
+import Footer from "~/components/Footer";
 
 /**
  * @returns {import("@remix-run/node").LinkDescriptor[]}
@@ -34,7 +35,10 @@ export default function App() {
       </head>
       <body>
         <Navbar />
-        <Outlet />
+        <main className="main-wrapper">
+          <Outlet />
+        </main>
+        <Footer />
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
@@ -44,8 +48,6 @@ export default function App() {
 }
 export function ErrorBoundary() {
   const error = useRouteError();
-
-  console.log(error)
 
   return (
     <html lang="en">
