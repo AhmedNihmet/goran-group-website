@@ -1,14 +1,28 @@
 import classNames from "classnames";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import { LANGUAGES } from "~/utils/constants";
 
 const LanguagePicker = () => {
+  const menuRef = useRef(null);
+
   const [isActive, setIsActive] = useState(false);
   const [selectedLanguage, setSelectedLanguage] = useState(LANGUAGES[1]);
 
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (menuRef.current && !menuRef.current.contains(event.target))
+        setIsActive(false);
+    };
+
+    if (isActive) document.addEventListener("click", handleClickOutside);
+
+    return () => document.removeEventListener("click", handleClickOutside);
+  }, [isActive]);
+
   return (
     <section
+      ref={menuRef}
       className={classNames("language-picker", {
         "language-picker--active": isActive,
       })}

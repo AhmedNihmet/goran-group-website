@@ -1,3 +1,6 @@
+// Tools
+@import "tools/defaultScrollbar";
+
 // Generals
 @import "./fonts";
 @import "./global";
@@ -6,3 +9,4 @@
 @import "./components/footer";
 @import "./components/navbar";
 @import "./components/language-picker";
+@import "./components/custom-button";

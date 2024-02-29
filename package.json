@@ -9,7 +9,7 @@
     "sass:dev": "sass -q --no-source-map --watch styles/:app/styles",
     "sass:build": "sass styles/:app/styles",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
-    "start": "cross-env NODE_ENV=production remix-serve ./build/index.js"
+    "start": "remix-serve ./build/index.js"
   },
   "dependencies": {
     "@remix-run/css-bundle": "^2.7.2",
@@ -17,10 +17,10 @@
     "@remix-run/react": "^2.7.2",
     "@remix-run/serve": "^2.7.2",
     "classnames": "^2.5.1",
-    "cross-env": "^7.0.3",
     "isbot": "^4.1.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-slick": "0.29.0"
   },
   "devDependencies": {
     "@remix-run/dev": "^2.7.2",
@@ -33,6 +33,5 @@
   },
   "engines": {
     "node": ">=18.0.0"
-  },
-  "packageManager": "yarn@4.1.0"
+  }
 }

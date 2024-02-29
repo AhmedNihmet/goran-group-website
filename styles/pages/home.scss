@@ -1,0 +1,53 @@
+.home {
+  &__hero-section {
+    width: 100%;
+    height: 100vh;
+    max-height: 800px;
+    min-height: 600px;
+    position: relative;
+  }
+
+  &__hero-background {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__hero-background-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.56) 0%,
+      rgba(0, 0, 0, 0.2) 50%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+
+  &__hero-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__hero-content-container {
+    margin-block-start: 160px;
+
+    h1 {
+      color: white;
+      max-width: 544px;
+      margin-block-end: 26px;
+    }
+
+    p {
+      color: white;
+      max-width: 470px;
+      letter-spacing: 0.5px;
+      margin-block-end: 40px;
+    }
+  }
+}

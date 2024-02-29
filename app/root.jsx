@@ -22,6 +22,16 @@ export const links = () => [
     rel: "stylesheet",
     href: rootStyles,
   },
+  {
+    rel: "stylesheet",
+    type: "text/css",
+    href: "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css",
+  },
+  {
+    rel: "stylesheet",
+    type: "text/css",
+    href: "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css",
+  },
 ];
 
 export default function App() {
