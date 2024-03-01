@@ -1,11 +1,13 @@
 import classNames from "classnames";
+import { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCards, Navigation } from "swiper/modules";
 
 import aboutUsStyles from "~/styles/pages/about-us.css";
 
 import Arrow from "~/Icons/Arrow";
-import { useEffect, useState } from "react";
+
+import Partners from "~/components/Partners";
 
 /**
  * @returns {import("@remix-run/node").LinkDescriptor[]}
@@ -36,9 +38,7 @@ const AboutUs = () => {
       setTimeout(() => {
         setIsThumbActionActive(null);
       }, 300);
-  }, [isThumbActionActive]);
-
-  console.log(specializationActions);
+  }, [isThumbActionActive]); 
 
   return (
     <article className="about-us">
@@ -406,6 +406,10 @@ const AboutUs = () => {
             </p>
           </div>
         </div>
+      </section>
+
+      <section className="about-us__partners">
+        <Partners />
       </section>
     </article>
   );
