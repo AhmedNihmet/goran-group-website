@@ -8,7 +8,10 @@ import Play from "~/Icons/Play";
 import CustomButton from "~/components/CustomButton";
 
 import { buildUrl } from "~/api/config";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
+import { truncateString } from "~/utils/general";
+import Arrow from "~/Icons/Arrow";
+import classNames from "classnames";
 
 const SliderWrapper = Slider.default.default;
 
@@ -50,6 +53,10 @@ const settingsMain = {
   fade: true,
   slidesToShow: 1,
   slidesToScroll: 1,
+  swipe: false,
+  slide: false,
+  lazyLoad: true,
+  className: "home__main-slider",
 };
 
 /** @type {import("react-slick").Settings} */
@@ -58,43 +65,55 @@ const settingsThumbs = {
   arrows: false,
   infinite: true,
   speed: 500,
+  autoplay: true,
+  autoplaySpeed: 8000,
   slidesToShow: 4,
   slidesToScroll: 1,
-  focusOnSelect: true, 
+  focusOnSelect: true,
   swipeToSlide: true,
 };
 
 const Home = () => {
   const mainSliderRef = useRef(null);
+  const thumbSliderRef = useRef(null);
   const loaderData = useLoaderData();
 
-  console.log(loaderData);
+  const [currentActiveThumb, setCurrentActiveThumb] = useState(0);
+  const [isThumbActionActive, setIsThumbActionActive] = useState(null);
+
+  useEffect(() => {
+    if (isThumbActionActive !== null)
+      setTimeout(() => {
+        setIsThumbActionActive(null);
+      }, 300);
+  }, [isThumbActionActive]);
+
+  useEffect(() => {
+    mainSliderRef.current.slickGoTo(currentActiveThumb);
+  }, [currentActiveThumb]);
+
+  settingsThumbs.beforeChange = (_, activeIndex) =>
+    setCurrentActiveThumb(activeIndex);
 
   return (
     <article className="home">
-      <SliderWrapper
-        {...settingsMain}
-        ref={mainSliderRef}
-        className="slider-main"
-      >
-        {Array.from({ length: 4 }).map((_, index) => (
-          <div key={index}>
+      <SliderWrapper {...settingsMain} ref={mainSliderRef}>
+        {loaderData.map((item) => (
+          <div key={item.key}>
             <section className="home__hero-section">
               <div className="home__hero-background">
                 <div className="home__hero-background-mask" />
                 <img
-                  src="/images/home/hero.jpg"
-                  alt="Construction background"
+                  alt={item.title}
+                  src={item.image_path}
+                  className="home__hero-background-image"
                 />
               </div>
               <div className="home__hero-content">
-                <div className="home__hero-content-container max-w">
-                  <h1 className="large-title">
-                    Your Gateway to Excellence in Energy Power {index + 1}
-                  </h1>
+                <div className="home__hero-content-container side-padding">
+                  <h1 className="large-title">{item.title}</h1>
                   <p className="medium-paragraph">
-                    Empowering the Future through Sustainable Energy Solutions,
-                    Fueling Tomorrow Twice as Much.
+                    {truncateString(item.description, 21)}
                   </p>
                   <CustomButton text="see a video" icon={<Play />} />
                 </div>
@@ -105,19 +124,60 @@ const Home = () => {
       </SliderWrapper>
 
       <section className="home__hero-thumbs">
-        <SliderWrapper {...settingsThumbs} className="slider-nav">
-          <div>
-            <button className="button" onClick={() => mainSliderRef.current.slickGoTo(0)}>go to slide 1</button>
-          </div>
-          <div>
-            <button className="button" onClick={() => mainSliderRef.current.slickGoTo(1)}>go to slide 2</button>
-          </div>
-          <div>
-            <button className="button" onClick={() => mainSliderRef.current.slickGoTo(2)}>go to slide 3</button>
-          </div>
-          <div>
-            <button className="button" onClick={() => mainSliderRef.current.slickGoTo(3)}>go to slide 4</button>
-          </div>
+        <section className="home__hero-thumb-actions-container">
+          <button
+            className={classNames(
+              "button home__hero-thumb-action",
+              "home__hero-thumb-action--prev",
+              {
+                "home__hero-thumb-action--active":
+                  isThumbActionActive === "thumb--prev",
+              }
+            )}
+            onClick={() => {
+              thumbSliderRef.current.slickPrev();
+              setIsThumbActionActive("thumb--prev");
+            }}
+          >
+            <Arrow
+              width={32}
+              height={32}
+              className="home__hero-thumb-action-icon home__hero-thumb-action-icon--prev"
+            />
+          </button>
+          <button
+            className={classNames("button home__hero-thumb-action", {
+              "home__hero-thumb-action--active":
+                isThumbActionActive === "thumb--next",
+            })}
+            onClick={() => {
+              thumbSliderRef.current.slickNext();
+              setIsThumbActionActive("thumb--next");
+            }}
+          >
+            <Arrow
+              width={32}
+              height={32}
+              className="home__hero-thumb-action-icon"
+            />
+          </button>
+        </section>
+        <SliderWrapper {...settingsThumbs} ref={thumbSliderRef}>
+          {loaderData.map((item) => (
+            <div key={item.key}>
+              <div className="home__hero-thumb-card">
+                <div className="home__hero-thumb-card-image">
+                  <img src={item.card_icon_path} alt={item.thumb_title} />
+                </div>
+                <h3 className="home__hero-thumb-card-title">
+                  {item.thumb_title}
+                </h3>
+                <p className="home__hero-thumb-card-paragraph">
+                  {truncateString(item.description, 21)}
+                </p>
+              </div>
+            </div>
+          ))}
         </SliderWrapper>
       </section>
 

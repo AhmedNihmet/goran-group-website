@@ -73,6 +73,19 @@ img {
   width: 100%;
   max-width: 1200px;
   margin-inline: auto;
+} 
+
+.side-padding {
+  padding-inline-start: 100px;
+  padding-inline-end: 100px;
+}
+
+.side-padding-start {
+  padding-inline-start: 100px;
+}
+
+.side-padding-end {
+  padding-inline-end: 100px;
 }
 
 .large-title {

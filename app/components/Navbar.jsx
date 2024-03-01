@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <section className="navbar__container max-w">
+      <section className="navbar__container side-padding">
         <div className="navbar__logo-container">
           <Link to="/">
             <MainLogo />
