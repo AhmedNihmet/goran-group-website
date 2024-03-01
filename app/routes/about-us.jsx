@@ -26,6 +26,10 @@ export const meta = () => {
 
 const AboutUs = () => {
   const [isThumbActionActive, setIsThumbActionActive] = useState(null);
+  const [specializationActions, setSpecializationActions] = useState({
+    isEnd: false,
+    isBeginning: true,
+  });
 
   useEffect(() => {
     if (isThumbActionActive !== null)
@@ -33,6 +37,8 @@ const AboutUs = () => {
         setIsThumbActionActive(null);
       }, 300);
   }, [isThumbActionActive]);
+
+  console.log(specializationActions);
 
   return (
     <article className="about-us">
@@ -48,11 +54,11 @@ const AboutUs = () => {
         <div className="about-us__hero-stacked-cards">
           <Swiper
             dir="rtl"
-            effect={"cards"} 
+            effect={"cards"}
             modules={[Navigation, EffectCards]}
             navigation={{
-              nextEl: '.about-us__hero-stacked-cards-action-button--next',
-              prevEl: '.about-us__hero-stacked-cards-action-button--prev',
+              nextEl: ".about-us__hero-stacked-cards-action-button--next",
+              prevEl: ".about-us__hero-stacked-cards-action-button--prev",
             }}
             cardsEffect={{
               rotate: false,
@@ -134,6 +140,229 @@ const AboutUs = () => {
           Goran Group thrives across diverse sectors, guided by visionary
           leadership. With a professional team and strategic decisions.
         </p>
+      </section>
+
+      <section className="about-us__specializations max-w">
+        <div className="about-us__specializations-actions">
+          <button
+            onClick={() => setIsThumbActionActive("specialization--prev")}
+            className={classNames(
+              "button about-us__specializations-action-button",
+              "about-us__specializations-action-button--prev",
+              {
+                "about-us__specializations-action-button--hidden":
+                  specializationActions.isBeginning === true,
+                "about-us__specializations-action-button--prev-active":
+                  isThumbActionActive === "specialization--prev",
+              }
+            )}
+          >
+            <Arrow
+              width={32}
+              height={32}
+              className="about-us__hero-stacked-cards-action-prev-icon"
+            />
+          </button>
+          <button
+            onClick={() => setIsThumbActionActive("specialization--next")}
+            className={classNames(
+              "button about-us__specializations-action-button",
+              "about-us__specializations-action-button--next",
+              {
+                "about-us__specializations-action-button--hidden":
+                  specializationActions.isEnd === true,
+                "about-us__specializations-action-button--next-active":
+                  isThumbActionActive === "specialization--next",
+              }
+            )}
+          >
+            <Arrow width={32} height={32} />
+          </button>
+        </div>
+        <Swiper
+          slidesPerView={3}
+          slidesPerGroup={3}
+          modules={[Navigation]}
+          navigation={{
+            nextEl: ".about-us__specializations-action-button--next",
+            prevEl: ".about-us__specializations-action-button--prev",
+          }}
+          onSlideChange={({ isEnd, isBeginning }) =>
+            setSpecializationActions({ isEnd, isBeginning })
+          }
+        >
+          <SwiperSlide>
+            <div className="about-us__specialization-cards">
+              <div className="about-us__specialization-card-image">
+                <img
+                  src="/images/about-us/specialization/1.jpg"
+                  alt="construction"
+                />
+              </div>
+              <div className="about-us__specialization-card-line" />
+              <div className="about-us__specialization-card-content">
+                <h4>construction company</h4>
+                <p>
+                  Goran Group thrives across diverse sectors, guided by
+                  visionary leadership. With a professional team and strategic
+                  decisions.
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="about-us__specialization-cards">
+              <div className="about-us__specialization-card-image">
+                <img
+                  src="/images/about-us/specialization/2.jpg"
+                  alt="construction"
+                />
+              </div>
+              <div className="about-us__specialization-card-line" />
+              <div className="about-us__specialization-card-content">
+                <h4>Oil Company</h4>
+                <p>
+                  Goran Group thrives across diverse sectors, guided by
+                  visionary leadership. With a professional team and strategic
+                  decisions.
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="about-us__specialization-cards">
+              <div className="about-us__specialization-card-image">
+                <img
+                  src="/images/about-us/specialization/3.jpg"
+                  alt="construction"
+                />
+              </div>
+              <div className="about-us__specialization-card-line" />
+              <div className="about-us__specialization-card-content">
+                <h4>Generator Company</h4>
+                <p>
+                  Goran Group thrives across diverse sectors, guided by
+                  visionary leadership. With a professional team and strategic
+                  decisions.
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="about-us__specialization-cards">
+              <div className="about-us__specialization-card-image">
+                <img
+                  src="/images/about-us/specialization/1.jpg"
+                  alt="construction"
+                />
+              </div>
+              <div className="about-us__specialization-card-line" />
+              <div className="about-us__specialization-card-content">
+                <h4>construction company</h4>
+                <p>
+                  Goran Group thrives across diverse sectors, guided by
+                  visionary leadership. With a professional team and strategic
+                  decisions.
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="about-us__specialization-cards">
+              <div className="about-us__specialization-card-image">
+                <img
+                  src="/images/about-us/specialization/2.jpg"
+                  alt="construction"
+                />
+              </div>
+              <div className="about-us__specialization-card-line" />
+              <div className="about-us__specialization-card-content">
+                <h4>Oil Company</h4>
+                <p>
+                  Goran Group thrives across diverse sectors, guided by
+                  visionary leadership. With a professional team and strategic
+                  decisions.
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="about-us__specialization-cards">
+              <div className="about-us__specialization-card-image">
+                <img
+                  src="/images/about-us/specialization/3.jpg"
+                  alt="construction"
+                />
+              </div>
+              <div className="about-us__specialization-card-line" />
+              <div className="about-us__specialization-card-content">
+                <h4>Generator Company</h4>
+                <p>
+                  Goran Group thrives across diverse sectors, guided by
+                  visionary leadership. With a professional team and strategic
+                  decisions.
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="about-us__specialization-cards">
+              <div className="about-us__specialization-card-image">
+                <img
+                  src="/images/about-us/specialization/1.jpg"
+                  alt="construction"
+                />
+              </div>
+              <div className="about-us__specialization-card-line" />
+              <div className="about-us__specialization-card-content">
+                <h4>construction company</h4>
+                <p>
+                  Goran Group thrives across diverse sectors, guided by
+                  visionary leadership. With a professional team and strategic
+                  decisions.
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="about-us__specialization-cards">
+              <div className="about-us__specialization-card-image">
+                <img
+                  src="/images/about-us/specialization/2.jpg"
+                  alt="construction"
+                />
+              </div>
+              <div className="about-us__specialization-card-line" />
+              <div className="about-us__specialization-card-content">
+                <h4>Oil Company</h4>
+                <p>
+                  Goran Group thrives across diverse sectors, guided by
+                  visionary leadership. With a professional team and strategic
+                  decisions.
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="about-us__specialization-cards">
+              <div className="about-us__specialization-card-image">
+                <img
+                  src="/images/about-us/specialization/3.jpg"
+                  alt="construction"
+                />
+              </div>
+              <div className="about-us__specialization-card-line" />
+              <div className="about-us__specialization-card-content">
+                <h4>Generator Company</h4>
+                <p>
+                  Goran Group thrives across diverse sectors, guided by
+                  visionary leadership. With a professional team and strategic
+                  decisions.
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
+        </Swiper>
       </section>
     </article>
   );

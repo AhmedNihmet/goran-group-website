@@ -7,7 +7,7 @@
     > img {
       object-position: top;
     }
-  } 
+  }
 
   &__hero-details {
     display: flex;
@@ -20,17 +20,17 @@
 
     > h1 {
       font-size: 112px;
-      color: #1E1C23;
+      color: #1e1c23;
     }
 
     > p {
       font-size: 32px;
-      color: #1E1C23;
+      color: #1e1c23;
       line-height: 115%;
       max-width: 610px;
     }
   }
- 
+
   &__hero-stacked-cards {
     width: 350px;
 
@@ -54,13 +54,13 @@
 
     &--next-active {
       transform: translateX(6px);
-    } 
+    }
     &--prev-active {
       transform: translateX(-6px);
-    } 
+    }
   }
 
-  &__hero-stacked-cards-action-prev-icon { 
+  &__hero-stacked-cards-action-prev-icon {
     transform: rotate(0.5turn);
   }
 
@@ -68,8 +68,98 @@
     margin-block-end: 120px;
 
     > p {
-      color: #49494B;
+      color: #49494b;
       max-width: 1100px;
+    }
+  }
+
+  &__specializations {
+    position: relative;
+    margin-block-end: 120px;
+
+    .swiper-slide:nth-child(even) .about-us__specialization-cards {
+      flex-direction: column-reverse;
+    }
+  }
+
+  &__specialization-cards { 
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__specialization-card-image {
+    width: 100%;
+    height: 210px;
+    padding-inline: 4px;
+  }
+
+  &__specialization-card-line {
+    width: 100%;
+    height: 2px;
+    position: relative;
+    background-color: #d9d9d9; 
+    margin-block: 24px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 18px;
+      height: 18px;
+      border-radius: 10px;
+      background-color: #1d1d1d;
+    }
+  }
+
+  &__specialization-card-content {
+    height: 210px;
+    text-align: center;
+    padding-inline: 16px;
+    padding-block-start: 24px;
+
+    > h4 {
+      font-size: 18px;
+      text-transform: capitalize;
+      margin-block-end: 16px;
+    }
+
+    > p {
+      color: #49494b;
+      max-height: 130px;
+      overflow-y: auto;
+    }
+  }
+
+  &__specializations-actions {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(100% + 24px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__specializations-action-button {
+    width: 32px;
+    height: 32px;
+    transform: translateX(0);
+    transition: all 300ms ease;
+    transition-property: transform, opacity;
+
+    &--next-active {
+      transform: translateX(6px);
+    }
+    &--prev-active {
+      transform: translateX(-6px);
+    }
+    &--hidden {
+      opacity: 0;
+      pointer-events: none;
     }
   }
 }
