@@ -1,0 +1,56 @@
+.partners {
+  padding-block: 34px;
+
+  &__content {
+    text-align: center;
+
+     h3 {
+      font-size: 42px;
+      text-transform: uppercase;
+      color: #1E1C23;
+      margin-block-end: 24px;
+    }
+
+    > p {
+      color: #555555;
+      max-width: 560px;
+      text-align: center;
+      margin-inline: auto;
+      margin-block-end: 100px;
+    }
+  }
+
+  &__content-subtitle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 16px;
+    margin-block-end: 14px;
+
+    > span {
+      color: #555555;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    > hr {
+      height: 3px;
+    width: 120px;
+    background-color: #555555;
+    }
+  }
+
+  &__logo-container {
+    display: grid;
+    column-gap: 40px;
+    row-gap: 60px;
+    grid-template-columns: repeat(5, 1fr);
+
+    > img {
+      max-width: 150px;
+      max-height: 100px;
+      object-fit: contain;
+      margin-inline: auto;
+    }
+  }
+}

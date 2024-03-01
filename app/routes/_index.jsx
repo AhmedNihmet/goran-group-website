@@ -12,6 +12,7 @@ import { useEffect, useRef, useState } from "react";
 import { truncateString } from "~/utils/general";
 import Arrow from "~/Icons/Arrow";
 import classNames from "classnames";
+import Partners from "~/components/Partners";
 
 const SliderWrapper = Slider.default.default;
 
@@ -203,6 +204,10 @@ const Home = () => {
             medical and plastic surgery materials, and equipment.
           </p>
         </div>
+      </section>
+
+      <section className="home__partners side-padding">
+        <Partners />
       </section>
     </article>
   );

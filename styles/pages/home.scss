@@ -179,11 +179,11 @@
     }
   }
 
-  &__chairman  {
+  &__chairman {
     height: 610px;
     margin-block-end: 120px;
     display: flex;
-    background-color: #F4F4F4;
+    background-color: #f4f4f4;
   }
 
   &__chairman-image {
@@ -196,25 +196,29 @@
     padding-inline-start: 100px;
 
     span {
-      color: #1E1C23;
+      color: #1e1c23;
       font-size: 14px;
     }
 
     h1 {
       font-size: 32px;
-      color: #BF2025;
+      color: #bf2025;
       line-height: 32px;
       margin-block-end: 32px;
       font-weight: 500;
     }
 
     p {
-      color: #1E1C23;
+      color: #1e1c23;
       font-size: 18px;
       max-width: 373px;
       line-height: 140%;
       max-height: 400px;
       overflow-y: auto;
     }
+  }
+
+  &__partners {
+    margin-block-end: 200px;
   }
 }

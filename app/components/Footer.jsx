@@ -1,12 +1,12 @@
 import { Link } from "@remix-run/react";
 import ArrowTop from "~/Icons/ArrowTop";
 import MainLogo from "~/Icons/MainLogo";
-import { NAVIGATION_LINKS } from "~/utils/constants";
+import { NAVIGATION_LINKS } from "~/utils/constants"; 
 
 const Footer = () => {
   return (
     <section className="footer">
-      <div className="max-w">
+      <div className="side-padding">
         <section className="footer__links-section">
           <ul className="footer__links">
             <span>Specialization</span>
@@ -74,7 +74,16 @@ const Footer = () => {
             <Link>Partners</Link>
           </div>
           <div className="footer__social-middle-part">
-            <button className="button footer__social-section-arrow">
+            <button
+              className="button footer__social-section-arrow"
+              onClick={() =>
+                typeof window !== "undefined" &&
+                window?.scrollTo({
+                  top: 0,
+                  behavior: "smooth",
+                })
+              }
+            >
               <ArrowTop />
             </button>
           </div>
