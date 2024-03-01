@@ -364,6 +364,49 @@ const AboutUs = () => {
           </SwiperSlide>
         </Swiper>
       </section>
+
+      <section className="about-us__mission-and-vision max-w">
+        <div className="about-us__mission-and-vision-card">
+          <div className="about-us__mission-and-vision-card-image">
+            <img
+              alt="about us mission section img"
+              src="/images/about-us/mission-and-vision/mission.jpg"
+            />
+          </div>
+          <div className="about-us__mission-and-vision-content">
+            <h3>OUR MISSION</h3>
+            <p>
+              United in Excellence, Goran Group thrives across diverse sectors,
+              guided by visionary leadership. With a professional team and
+              strategic decisions, we elevate benefits, fostering growth and
+              innovation since 2005.United in Excellence, Goran Group thrives
+              across diverse sectors, guided by visionary leadership. With a
+              professional team and strategic decisions, we elevate benefits,
+              fostering growth and innovation since 2005.
+            </p>
+          </div>
+        </div>
+        <div className="about-us__mission-and-vision-card">
+          <div className="about-us__mission-and-vision-card-image">
+            <img
+              alt="about us vision section img"
+              src="/images/about-us/mission-and-vision/vision.jpg"
+            />
+          </div>
+          <div className="about-us__mission-and-vision-content">
+            <h3>OUR VISION</h3>
+            <p>
+              United in Excellence, Goran Group thrives across diverse sectors,
+              guided by visionary leadership. With a professional team and
+              strategic decisions, we elevate benefits, fostering growth and
+              innovation since 2005.United in Excellence, Goran Group thrives
+              across diverse sectors, guided by visionary leadership. With a
+              professional team and strategic decisions, we elevate benefits,
+              fostering growth and innovation since 2005.
+            </p>
+          </div>
+        </div>
+      </section>
     </article>
   );
 };
