@@ -97,91 +97,113 @@ const Home = () => {
 
   return (
     <article className="home">
-      <SliderWrapper {...settingsMain} ref={mainSliderRef}>
-        {loaderData.map((item) => (
-          <div key={item.key}>
-            <section className="home__hero-section">
-              <div className="home__hero-background">
-                <div className="home__hero-background-mask" />
-                <img
-                  alt={item.title}
-                  src={item.image_path}
-                  className="home__hero-background-image"
-                />
-              </div>
-              <div className="home__hero-content">
-                <div className="home__hero-content-container side-padding">
-                  <h1 className="large-title">{item.title}</h1>
-                  <p className="medium-paragraph">
-                    {truncateString(item.description, 21)}
-                  </p>
-                  <CustomButton text="see a video" icon={<Play />} />
-                </div>
-              </div>
-            </section>
-          </div>
-        ))}
-      </SliderWrapper>
-
-      <section className="home__hero-thumbs">
-        <section className="home__hero-thumb-actions-container">
-          <button
-            className={classNames(
-              "button home__hero-thumb-action",
-              "home__hero-thumb-action--prev",
-              {
-                "home__hero-thumb-action--active":
-                  isThumbActionActive === "thumb--prev",
-              }
-            )}
-            onClick={() => {
-              thumbSliderRef.current.slickPrev();
-              setIsThumbActionActive("thumb--prev");
-            }}
-          >
-            <Arrow
-              width={32}
-              height={32}
-              className="home__hero-thumb-action-icon home__hero-thumb-action-icon--prev"
-            />
-          </button>
-          <button
-            className={classNames("button home__hero-thumb-action", {
-              "home__hero-thumb-action--active":
-                isThumbActionActive === "thumb--next",
-            })}
-            onClick={() => {
-              thumbSliderRef.current.slickNext();
-              setIsThumbActionActive("thumb--next");
-            }}
-          >
-            <Arrow
-              width={32}
-              height={32}
-              className="home__hero-thumb-action-icon"
-            />
-          </button>
-        </section>
-        <SliderWrapper {...settingsThumbs} ref={thumbSliderRef}>
+      <section className="home__hero-container">
+        <SliderWrapper {...settingsMain} ref={mainSliderRef}>
           {loaderData.map((item) => (
             <div key={item.key}>
-              <div className="home__hero-thumb-card">
-                <div className="home__hero-thumb-card-image">
-                  <img src={item.card_icon_path} alt={item.thumb_title} />
+              <section className="home__hero-section">
+                <div className="home__hero-background">
+                  <div className="home__hero-background-mask" />
+                  <img
+                    alt={item.title}
+                    src={item.image_path}
+                    className="home__hero-background-image"
+                  />
                 </div>
-                <h3 className="home__hero-thumb-card-title">
-                  {item.thumb_title}
-                </h3>
-                <p className="home__hero-thumb-card-paragraph">
-                  {truncateString(item.description, 21)}
-                </p>
-              </div>
+                <div className="home__hero-content">
+                  <div className="home__hero-content-container side-padding">
+                    <h2 className="large-title">{item.title}</h2>
+                    <p className="medium-paragraph">
+                      {truncateString(item.description, 21)}
+                    </p>
+                    <CustomButton text="see a video" icon={<Play />} />
+                  </div>
+                </div>
+              </section>
             </div>
           ))}
         </SliderWrapper>
+
+        <section className="home__hero-thumbs max-w">
+          <section className="home__hero-thumb-actions-container">
+            <button
+              className={classNames(
+                "button home__hero-thumb-action",
+                "home__hero-thumb-action--prev",
+                {
+                  "home__hero-thumb-action--active":
+                    isThumbActionActive === "thumb--prev",
+                }
+              )}
+              onClick={() => {
+                thumbSliderRef.current.slickPrev();
+                setIsThumbActionActive("thumb--prev");
+              }}
+            >
+              <Arrow
+                width={32}
+                height={32}
+                className="home__hero-thumb-action-icon home__hero-thumb-action-icon--prev"
+              />
+            </button>
+            <button
+              className={classNames("button home__hero-thumb-action", {
+                "home__hero-thumb-action--active":
+                  isThumbActionActive === "thumb--next",
+              })}
+              onClick={() => {
+                thumbSliderRef.current.slickNext();
+                setIsThumbActionActive("thumb--next");
+              }}
+            >
+              <Arrow
+                width={32}
+                height={32}
+                className="home__hero-thumb-action-icon"
+              />
+            </button>
+          </section>
+          <SliderWrapper {...settingsThumbs} ref={thumbSliderRef}>
+            {loaderData.map((item) => (
+              <div key={item.key}>
+                <div className="home__hero-thumb-card">
+                  <div className="home__hero-thumb-card-image">
+                    <img src={item.card_icon_path} alt={item.thumb_title} />
+                  </div>
+                  <h3 className="home__hero-thumb-card-title">
+                    {item.thumb_title}
+                  </h3>
+                  <p className="home__hero-thumb-card-paragraph">
+                    {truncateString(item.description, 21)}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </SliderWrapper>
+        </section>
       </section>
 
-      <div style={{ height: 600 }} />
+      <section className="home__chairman max-w">
+        <div className="home__chairman-image">
+          <img
+            src="/images/home/chairman.jpg"
+            alt="Mr. Khalil Abbo Mirza. goran groups chairman"
+          />
+        </div>
+        <div className="home__chairman-content">
+          <span>CEO of Goran Group Company</span>
+          <h1>Mr. Khalil Abbo Mirza</h1>
+          <p>
+            Mr. Khalil, entered business from its narrow gate and insisted to
+            work alone as in 1981 he started with setting up a small store for
+            selling agricultural materials. Although he started business at a
+            young age, yet he finished his education. Currently, he is head of
+            the Administration Board of Goran Group, which consists of several
+            trading companies, constructions, and selling power generators,
+            medical and plastic surgery materials, and equipment.
+          </p>
+        </div>
+      </section>
     </article>
   );
 };
