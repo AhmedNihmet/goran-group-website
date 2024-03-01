@@ -32,6 +32,11 @@ export const links = () => [
     type: "text/css",
     href: "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css",
   },
+  {
+    rel: "stylesheet",
+    type: "text/css",
+    href: "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css",
+  },
 ];
 
 export default function App() {
@@ -42,6 +47,7 @@ export default function App() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
         <Links />
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
       </head>
       <body>
         <Navbar />

@@ -1,4 +1,3 @@
-
 .language-picker {
   position: relative;
 
@@ -7,6 +6,29 @@
       pointer-events: all;
       opacity: 1;
       transform: scaleY(1);
+    }
+  }
+
+  &--transparent {
+    .language-picker__selected-language {
+      color: white;
+      border-color: white;
+      background-color: transparent;
+    }
+    .language-picker__list-item > span,
+    .language-picker__selected-language > span {
+      opacity: 1;
+      font-weight: 400;
+    }
+    .language-picker__lists {
+      background-color: transparent;
+      border: thin solid white;
+    }
+    .language-picker__list-item {
+      color: white;
+    }
+    .language-picker__list-item:hover {
+      background-color: #0000001c;
     }
   }
 
@@ -41,7 +63,7 @@
     width: 100%;
     overflow: hidden;
     background-color: white;
-    border-radius: 8px; 
+    border-radius: 8px;
     box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08),
       0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
 
@@ -65,7 +87,7 @@
     transition: background-color 300ms ease;
 
     &:hover {
-      background-color: #f3f3f3; 
+      background-color: #f3f3f3;
     }
 
     > img {

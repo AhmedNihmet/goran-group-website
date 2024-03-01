@@ -3,6 +3,22 @@
   position: relative;
   z-index: 100;
   box-shadow: 0px 4px 4px 0px #d1d5db40;
+  background-color: white;
+  transition: background-color 300ms ease;
+
+  &--transparent {
+    margin-block-end: -80px;
+    box-shadow: unset;
+    background-color: transparent;
+
+    .navbar__link-item > a {
+      color: white;
+    }
+
+    .navbar__link-item--active > a {
+      text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.1) !important;
+    }
+  }
 
   &__container {
     height: 100%;

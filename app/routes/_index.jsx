@@ -1,18 +1,18 @@
+import classNames from "classnames";
 import * as Slider from "react-slick";
+import { useEffect, useRef, useState } from "react";
 import { json, useLoaderData } from "@remix-run/react";
 
 import homeStyles from "~/styles/pages/home.css";
 
 import Play from "~/Icons/Play";
+import Arrow from "~/Icons/Arrow";
 
+import Partners from "~/components/Partners";
 import CustomButton from "~/components/CustomButton";
 
 import { buildUrl } from "~/api/config";
-import { useEffect, useRef, useState } from "react";
 import { truncateString } from "~/utils/general";
-import Arrow from "~/Icons/Arrow";
-import classNames from "classnames";
-import Partners from "~/components/Partners";
 
 const SliderWrapper = Slider.default.default;
 

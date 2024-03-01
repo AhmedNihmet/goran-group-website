@@ -1,20 +1,27 @@
-import { Link, useLocation } from "@remix-run/react";
 import classNames from "classnames";
+import { Link, useLocation } from "@remix-run/react";
 
 import MainLogo from "~/Icons/MainLogo";
 
+import LanguagePicker from "~/components/LanguagePicker";
+
 import { NAVIGATION_LINKS } from "~/utils/constants";
-import LanguagePicker from "./LanguagePicker";
+import MainLogoWhite from "~/Icons/MainLogoWhite";
 
 const Navbar = () => {
   const { pathname } = useLocation();
 
+  const isCurrentPageAboutUs = pathname.includes("/about-us")
+
   return (
-    <nav className="navbar">
+    <nav className={classNames("navbar", {
+      "navbar--transparent": isCurrentPageAboutUs
+    })}>
       <section className="navbar__container side-padding">
         <div className="navbar__logo-container">
           <Link to="/">
-            <MainLogo />
+            {isCurrentPageAboutUs ? <MainLogoWhite /> : <MainLogo />}
+            
           </Link>
         </div>
         <div className="navbar__line" />
@@ -31,7 +38,7 @@ const Navbar = () => {
           ))}
         </ul>
         <div className="navbar__actions">
-          <LanguagePicker />
+          <LanguagePicker onTransparent={isCurrentPageAboutUs} />
         </div>
       </section>
     </nav>
