@@ -221,4 +221,44 @@
   &__partners {
     margin-block-end: 200px;
   }
+
+  &__about-us {
+    display: flex;
+    column-gap: 40px;
+    margin-block-end: 120px;
+  }
+
+  &__about-us-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    > span {
+      font-size: 18px;
+      color: #1E1C23;
+      display: block;
+      margin-block-end: 24px;
+    }
+
+    > h4 {
+      font-size: 40px;
+      color: #00203F;
+      margin-block-end: 24px;
+    }
+
+    > p {
+      font-size: 18px;
+      max-width: 730px;
+      margin-block-end: 40px;
+    }
+  }
+
+  &__about-us-image {
+    max-width: 50%;
+    max-height: 580px;
+    border-radius: 3px;
+    overflow: hidden;
+  }
 }

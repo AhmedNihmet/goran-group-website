@@ -184,6 +184,28 @@ const Home = () => {
         </section>
       </section>
 
+      <section className="home__about-us side-padding">
+        <div className="home__about-us-content">
+          <span>About Us</span>
+          <h4>Get to know us better!</h4>
+          <p>
+            Our tailored energy solutions focus on optimizing efficiency,
+            reducing consumption, and enhancing sustainability. From
+            cutting-edge technologies to personalized energy audits, we provide
+            innovative strategies to streamline your energy audits, we provide
+            innovative strategies to streamline your
+          </p>
+
+          <CustomButton text="Learn More" icon={<Arrow />} />
+        </div>
+        <div className="home__about-us-image">
+          <img
+            src="/images/home/about-us-image.webp"
+            alt="Get to know us better"
+          />
+        </div>
+      </section>
+
       <section className="home__chairman max-w">
         <div className="home__chairman-image">
           <img
