@@ -163,42 +163,6 @@
     }
   }
 
-  &__mission-and-vision {
-    margin-block-end: 120px;
-  }
-
-  &__mission-and-vision-card {
-    display: flex;
-    column-gap: 24px;
-
-    &:nth-child(even) {
-      flex-direction: row-reverse;
-    }
-  }
-
-  &__mission-and-vision-card-image {
-    width: 49%;
-  }
-
-  &__mission-and-vision-content {
-    flex: 1;
-    padding-block-start: 80px;
-    padding-inline-start: 40px;
-    padding-inline-end: 24px;
-
-    > h3 {
-      color: #00203f;
-      font-size: 24px;
-      font-weight: 600;
-      margin-block-end: 12px;
-    }
-
-    > p {
-      color: #49494b;
-      max-width: 440px;
-    }
-  }
-
   &__partners {
     margin-block-end: 200px;
   }

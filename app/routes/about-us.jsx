@@ -8,6 +8,7 @@ import aboutUsStyles from "~/styles/pages/about-us.css";
 import Arrow from "~/Icons/Arrow";
 
 import Partners from "~/components/Partners";
+import MissionAndVision from "~/components/page/MissionAndVision";
 
 /**
  * @returns {import("@remix-run/node").LinkDescriptor[]}
@@ -38,7 +39,7 @@ const AboutUs = () => {
       setTimeout(() => {
         setIsThumbActionActive(null);
       }, 300);
-  }, [isThumbActionActive]); 
+  }, [isThumbActionActive]);
 
   return (
     <article className="about-us">
@@ -365,48 +366,9 @@ const AboutUs = () => {
         </Swiper>
       </section>
 
-      <section className="about-us__mission-and-vision max-w">
-        <div className="about-us__mission-and-vision-card">
-          <div className="about-us__mission-and-vision-card-image">
-            <img
-              alt="about us mission section img"
-              src="/images/about-us/mission-and-vision/mission.jpg"
-            />
-          </div>
-          <div className="about-us__mission-and-vision-content">
-            <h3>OUR MISSION</h3>
-            <p>
-              United in Excellence, Goran Group thrives across diverse sectors,
-              guided by visionary leadership. With a professional team and
-              strategic decisions, we elevate benefits, fostering growth and
-              innovation since 2005.United in Excellence, Goran Group thrives
-              across diverse sectors, guided by visionary leadership. With a
-              professional team and strategic decisions, we elevate benefits,
-              fostering growth and innovation since 2005.
-            </p>
-          </div>
-        </div>
-        <div className="about-us__mission-and-vision-card">
-          <div className="about-us__mission-and-vision-card-image">
-            <img
-              alt="about us vision section img"
-              src="/images/about-us/mission-and-vision/vision.jpg"
-            />
-          </div>
-          <div className="about-us__mission-and-vision-content">
-            <h3>OUR VISION</h3>
-            <p>
-              United in Excellence, Goran Group thrives across diverse sectors,
-              guided by visionary leadership. With a professional team and
-              strategic decisions, we elevate benefits, fostering growth and
-              innovation since 2005.United in Excellence, Goran Group thrives
-              across diverse sectors, guided by visionary leadership. With a
-              professional team and strategic decisions, we elevate benefits,
-              fostering growth and innovation since 2005.
-            </p>
-          </div>
-        </div>
-      </section>
+      <div className="max-w">
+        <MissionAndVision />
+      </div>
 
       <section className="about-us__partners">
         <Partners />
