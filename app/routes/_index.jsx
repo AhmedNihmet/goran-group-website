@@ -1,7 +1,7 @@
 import classNames from "classnames";
 import * as Slider from "react-slick";
 import { useEffect, useRef, useState } from "react";
-import { json, useLoaderData } from "@remix-run/react";
+import { Link, json, useLoaderData } from "@remix-run/react";
 
 import homeStyles from "~/styles/pages/home.css";
 
@@ -203,6 +203,42 @@ const Home = () => {
             src="/images/home/about-us-image.webp"
             alt="Get to know us better"
           />
+        </div>
+      </section>
+
+      <section className="home__companies side-padding">
+        <div className="home__companies-header">
+          <h2>Embrace Your experience</h2>
+          <p>
+            United in Excellence, Goran Group thrives across diverse sectors,
+            guided by visionary leadership. With a professional team and
+            strategic
+          </p>
+        </div>
+        <ul className="home__companies-cards">
+          {Array.from({ length: 4 }).map((_, index) => {
+            return (
+              <Link className="home__companies-card-item" key={index}>
+                <div className="home__companies-card-item-image">
+                  <img
+                    alt="Company alt text"
+                    src="/images/home/hero-slider/restaurant.jpg"
+                  />
+                </div>
+                <div className="home__companies-card-item-image-content">
+                  <h3>Saray Baklava</h3>
+                  <p>
+                    United in Excellence, Goran Group thrives across diverse
+                    sectors, guided by visionary leadership
+                  </p>
+                </div>
+              </Link>
+            );
+          })}
+        </ul>
+
+        <div className="home__companies-see-more">
+          <CustomButton text="See More" />
         </div>
       </section>
 

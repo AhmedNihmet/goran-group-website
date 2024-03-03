@@ -237,14 +237,14 @@
 
     > span {
       font-size: 18px;
-      color: #1E1C23;
+      color: #1e1c23;
       display: block;
       margin-block-end: 24px;
     }
 
     > h4 {
       font-size: 40px;
-      color: #00203F;
+      color: #00203f;
       margin-block-end: 24px;
     }
 
@@ -260,5 +260,72 @@
     max-height: 580px;
     border-radius: 3px;
     overflow: hidden;
+  }
+
+  &__companies {
+    margin-block-end: 120px;
+  }
+
+  &__companies-header {
+    margin-block-end: 30px;
+
+    h2 {
+      font-size: 48px;
+      color: #1e1c23;
+      line-height: 100%;
+      margin-block-end: 16px;
+      text-transform: uppercase;
+    }
+
+    p {
+      line-height: 140%;
+      color: #1e1c23;
+      max-width: 630px;
+    }
+  }
+
+  &__companies-cards {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(24, 1fr);
+  }
+
+  &__companies-card-item {
+    grid-column: 11 span;
+
+    &:nth-of-type(1),
+    &:nth-of-type(4) {
+      grid-column: 13 span;
+    }
+  }
+
+  &__companies-card-item-image {
+    height: 300px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-block-end: 12px;
+  }
+
+  &__companies-card-item-image-content {
+    margin-block-end: 40px;
+
+    > h3 {
+      text-transform: uppercase;
+      font-size: 32px;
+      color: #1e1c23;
+      margin-block-end: 8px;
+    }
+
+    > p {
+      color: #1e1c23;
+      height: 46px;
+      overflow-y: auto;
+      max-width: 640px;
+    }
+  }
+
+  &__companies-see-more {
+    display: flex;
+    justify-content: center;
   }
 }
