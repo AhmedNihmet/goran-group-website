@@ -1,11 +1,12 @@
 export const NAVIGATION_LINKS = [
   {
     to: "/",
-    title: "Home",
+    title: "Home", 
   },
   {
     to: "/companies",
     title: "Companies",
+    sub_children_key: "/company"
   },
   {
     to: "/contact-us",

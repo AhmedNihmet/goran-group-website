@@ -1,9 +1,10 @@
+import { Link } from "@remix-run/react";
+
 import companiesStyles from "~/styles/pages/companies.css";
 
 import Play from "~/Icons/Play";
 
 import CustomButton from "~/components/CustomButton";
-import { Link } from "@remix-run/react";
 import MissionAndVision from "~/components/page/MissionAndVision";
 
 /**
@@ -58,7 +59,7 @@ const Companies = () => {
         <div className="companies__our-companies-list">
           {Array.from({ length: 10 }).map((_, index) => {
             return (
-              <Link key={index} className="companies__our-companies-list-item">
+              <Link to={`/company/${index + 1}/view`} key={index} className="companies__our-companies-list-item">
                 <div className="companies__our-companies-list-item-image">
                   <img
                     src="/images/companies/company-img-2.jpg"
