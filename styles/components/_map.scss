@@ -1,0 +1,25 @@
+.map {
+  position: relative;
+
+  &__actions {
+    position: absolute;
+    z-index: 1001;
+    top: 80px;
+    left: 10px; 
+  }
+
+  &__actions-button {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+
+    &--active {
+      color: rgb(255, 162, 0);
+    }
+  }
+}

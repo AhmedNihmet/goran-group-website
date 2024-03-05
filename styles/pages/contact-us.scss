@@ -1,0 +1,72 @@
+.contact-us {
+  &__header {
+    margin-block-start: 80px;
+
+    > h1 {
+      font-size: 48px;
+      font-weight: 500;
+      color: #1E1C23;
+      margin-block-end: 48px;
+      line-height: 100%;
+    }
+  }
+
+  &__header-content-container {
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-block-end: 80px;
+  }
+
+  &__header-content > span {
+    font-size: 18px;
+    color: #1E1C23;
+    font-weight: 500;
+    display: block;
+    margin-block-end: 8px;
+  }
+
+  &__header-content-item {
+    color: #1E1C23;
+    margin-block-end: 6px;
+  }
+
+  &__header-socials {
+    min-width: 200px;
+
+    > span {
+      font-size: 18px;
+      color: #1e1c23;
+      font-weight: 500;
+      display: block;
+      margin-block-end: 8px;
+    }
+  }
+
+  &__header-social-lists {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+  }
+
+  &__header-social-item {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  &__map {
+    height: 550px;
+    margin-block-end: 100px;
+    border-radius: 3px;
+    overflow: hidden;
+
+    .leaflet-control-attribution.leaflet-control {
+      visibility: hidden;
+    }
+  }
+}
