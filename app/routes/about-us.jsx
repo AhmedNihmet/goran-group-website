@@ -9,6 +9,7 @@ import Arrow from "~/Icons/Arrow";
 
 import Partners from "~/components/Partners";
 import MissionAndVision from "~/components/page/MissionAndVision";
+import Stats from "~/components/page/Stats";
 
 /**
  * @returns {import("@remix-run/node").LinkDescriptor[]}
@@ -141,6 +142,10 @@ const AboutUs = () => {
           Goran Group thrives across diverse sectors, guided by visionary
           leadership. With a professional team and strategic decisions.
         </p>
+      </section>
+
+      <section className="about-us__stats">
+        <Stats />
       </section>
 
       <section className="about-us__specializations max-w">

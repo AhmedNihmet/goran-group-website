@@ -13,6 +13,7 @@ import CustomButton from "~/components/CustomButton";
 
 import { buildUrl } from "~/api/config";
 import { truncateString } from "~/utils/general";
+import Stats from "~/components/page/Stats";
 
 const SliderWrapper = Slider.default.default;
 
@@ -262,6 +263,10 @@ const Home = () => {
             medical and plastic surgery materials, and equipment.
           </p>
         </div>
+      </section>
+
+      <section className="home__stats">
+        <Stats />
       </section>
 
       <section className="home__partners side-padding">

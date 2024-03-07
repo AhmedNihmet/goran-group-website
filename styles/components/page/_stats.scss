@@ -1,0 +1,46 @@
+.stats {
+  padding-block: 60px;
+
+  &__content {
+    margin-block-end: 60px;
+
+    > span {
+      display: block;
+      text-align: center;
+      color: #555;
+      font-size: 14px;
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+
+    > h5 {
+      font-size: 42px;
+      text-transform: uppercase;
+      color: #1e1c23;
+      text-align: center;
+    }
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+  }
+
+  &__list-item {
+    min-width: 200px;
+
+    > span {
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #bf2025;
+      font-weight: 700;
+    }
+  }
+
+  &__list-item-count {
+    font-size: 64px;
+    color: #1e1c23;
+  }
+}
