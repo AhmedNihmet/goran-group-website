@@ -1,4 +1,4 @@
-import { Link } from "@remix-run/react";
+import { Link, json, useLoaderData } from "@remix-run/react";
 
 import companiesStyles from "~/styles/pages/companies.css";
 
@@ -6,6 +6,7 @@ import Play from "~/Icons/Play";
 
 import CustomButton from "~/components/CustomButton";
 import MissionAndVision from "~/components/page/MissionAndVision";
+import { buildUrl } from "~/api/config";
 
 /**
  * @returns {import("@remix-run/node").LinkDescriptor[]}
@@ -24,7 +25,22 @@ export const meta = () => {
   return [{ title: "Goran Group | Companies page" }];
 };
 
+/**
+ * @type {import("react-router").LoaderFunction}
+ */
+export const loader = async ({ request }) => {
+  const url = buildUrl(request, "/data/companies.json");
+
+  const res = await fetch(url);
+
+  const { companies } = await res.json();
+
+  return json({ companies });
+};
+
 const Companies = () => {
+  const { companies } = useLoaderData();
+
   return (
     <article className="companies">
       <section className="companies__hero">
@@ -57,25 +73,23 @@ const Companies = () => {
           </p>
         </div>
         <div className="companies__our-companies-list">
-          {Array.from({ length: 10 }).map((_, index) => {
+          {companies.map((company) => {
             return (
-              <Link to={`/company/${index + 1}/view`} key={index} className="companies__our-companies-list-item">
+              <Link
+                key={company.slug}
+                to={`/company/${company.slug}/view`}
+                className="companies__our-companies-list-item"
+              >
                 <div className="companies__our-companies-list-item-image">
-                  <img
-                    src="/images/companies/company-img-2.jpg"
-                    alt="alt text"
-                  />
+                  <img alt={company.title} src={company.thumbnail} />
                 </div>
-                <h5>FalconOil</h5>
-                <p>
-                  developing, producing and distributing high quality lubricants
-                  and specialties for more than 40 years
-                </p>
+                <h5>{company.card_title}</h5>
+                <p>{company.card_paragraph}</p>
               </Link>
             );
           })}
         </div>
-      </section> 
+      </section>
 
       <section className="companies__we-have-worked max-w">
         <div className="companies__we-have-worked-header">
@@ -103,7 +117,6 @@ const Companies = () => {
         </p>
       </section>
 
-      
       <div className="max-w">
         <MissionAndVision />
       </div>

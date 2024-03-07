@@ -38,12 +38,22 @@ export const meta = () => {
  * @type {import("react-router").LoaderFunction}
  */
 export const loader = async ({ request }) => {
-  const url = buildUrl(request, "/data/specialization.json");
+  const url = buildUrl(request, "/data/home.json");
+  const companiesUrl = buildUrl(request, "/data/companies.json");
 
-  const specializationsResponse = await fetch(url);
-  const { specializations } = await specializationsResponse.json();
+  const res = await fetch(url);
+  const companiesRes = await fetch(companiesUrl);
 
-  return json(specializations);
+  const data = await res.json();
+  const { companies } = await companiesRes.json();
+
+  return json({
+    ...data,
+    companies: {
+      ...data.companies,
+      data: companies,
+    },
+  });
 };
 
 /** @type {import("react-slick").Settings} */
@@ -78,7 +88,7 @@ const settingsThumbs = {
 const Home = () => {
   const mainSliderRef = useRef(null);
   const thumbSliderRef = useRef(null);
-  const loaderData = useLoaderData();
+  const { specializations, about_us, companies } = useLoaderData();
 
   const [currentActiveThumb, setCurrentActiveThumb] = useState(0);
   const [isThumbActionActive, setIsThumbActionActive] = useState(null);
@@ -101,7 +111,7 @@ const Home = () => {
     <article className="home">
       <section className="home__hero-container">
         <SliderWrapper {...settingsMain} ref={mainSliderRef}>
-          {loaderData.map((item) => (
+          {specializations.map((item) => (
             <div key={item.key}>
               <section className="home__hero-section">
                 <div className="home__hero-background">
@@ -166,7 +176,7 @@ const Home = () => {
             </button>
           </section>
           <SliderWrapper {...settingsThumbs} ref={thumbSliderRef}>
-            {loaderData.map((item) => (
+            {specializations.map((item) => (
               <div key={item.key}>
                 <div className="home__hero-thumb-card">
                   <div className="home__hero-thumb-card-image">
@@ -187,17 +197,15 @@ const Home = () => {
 
       <section className="home__about-us side-padding">
         <div className="home__about-us-content">
-          <span>About Us</span>
-          <h4>Get to know us better!</h4>
-          <p>
-            Our tailored energy solutions focus on optimizing efficiency,
-            reducing consumption, and enhancing sustainability. From
-            cutting-edge technologies to personalized energy audits, we provide
-            innovative strategies to streamline your energy audits, we provide
-            innovative strategies to streamline your
-          </p>
+          <span>{about_us.sub_title}</span>
+          <h4>{about_us.title}</h4>
+          <p>{about_us.paragraph}</p>
 
-          <CustomButton text="Learn More" icon={<Arrow />} />
+          <CustomButton
+            icon={<Arrow />}
+            text={about_us.action.text}
+            linkTo={about_us.action.link_to}
+          />
         </div>
         <div className="home__about-us-image">
           <img
@@ -209,29 +217,23 @@ const Home = () => {
 
       <section className="home__companies side-padding">
         <div className="home__companies-header">
-          <h2>Embrace Your experience</h2>
-          <p>
-            United in Excellence, Goran Group thrives across diverse sectors,
-            guided by visionary leadership. With a professional team and
-            strategic
-          </p>
+          <h2>{companies.title}</h2>
+          <p>{companies.paragraph}</p>
         </div>
         <ul className="home__companies-cards">
-          {Array.from({ length: 4 }).map((_, index) => {
+          {companies.data.map((company) => {
             return (
-              <Link className="home__companies-card-item" key={index}>
+              <Link
+                key={company.slug}
+                to={`/company/${company.slug}/view`}
+                className="home__companies-card-item"
+              >
                 <div className="home__companies-card-item-image">
-                  <img
-                    alt="Company alt text"
-                    src="/images/home/hero-slider/restaurant.jpg"
-                  />
+                  <img alt={company.title} src={company.thumbnail} />
                 </div>
                 <div className="home__companies-card-item-image-content">
-                  <h3>Saray Baklava</h3>
-                  <p>
-                    United in Excellence, Goran Group thrives across diverse
-                    sectors, guided by visionary leadership
-                  </p>
+                  <h3>{company.card_title}</h3>
+                  <p>{company.card_paragraph}</p>
                 </div>
               </Link>
             );
@@ -239,7 +241,7 @@ const Home = () => {
         </ul>
 
         <div className="home__companies-see-more">
-          <CustomButton text="See More" />
+          <CustomButton text="See More" linkTo="/companies" />
         </div>
       </section>
 

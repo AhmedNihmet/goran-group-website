@@ -20,7 +20,12 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, rgba(0, 0, 0, .56) 0%, rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.56) 0%,
+      rgba(0, 0, 0, 0.2) 70%,
+      rgba(0, 0, 0, 0) 100%
+    );
   }
 
   &__hero-content {
@@ -41,6 +46,7 @@
       line-height: 100%;
       font-weight: 600;
       margin-block-end: 10px;
+      max-width: 700px;
     }
 
     p {
@@ -57,7 +63,7 @@
   }
 
   &__service-card:nth-child(even) {
-    background-color: #F4F4F4;
+    background-color: #f4f4f4;
 
     .company-view__service-card-container {
       flex-direction: row-reverse;
@@ -82,7 +88,7 @@
     width: 50%;
 
     > h3 {
-      color: #00203F;
+      color: #00203f;
       font-size: 24px;
       text-transform: uppercase;
       line-height: 100%;
@@ -104,16 +110,16 @@
 
     > h2 {
       text-align: center;
-      color: #1E1C23;
+      color: #1e1c23;
       font-size: 38px;
       text-transform: uppercase;
       line-height: 100%;
       margin-block-end: 16px;
-    } 
+    }
 
     > p {
       font-size: 18px;
-      color: #1E1C23;
+      color: #1e1c23;
       max-width: 900px;
       margin-inline: auto;
       text-align: center;
@@ -138,7 +144,7 @@
     align-items: center;
     justify-content: space-between;
     padding-inline: 40px;
-    border: 2px solid #F4F4F4;
+    border: 2px solid #f4f4f4;
     border-radius: 3px;
     background-color: #0202024d;
   }
