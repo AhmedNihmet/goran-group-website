@@ -1,8 +1,21 @@
+import { useParallax } from "react-scroll-parallax";
+
 const MissionAndVision = () => {
+  const visionParallax = useParallax({
+    speed: -5,
+  });
+  const missionParallax = useParallax({
+    speed: 5,
+  });
+
   return (
     <section className="mission-and-vision">
-      <div className="mission-and-vision__card">
-        <div className="mission-and-vision__card-image">
+      <div
+        className="mission-and-vision__card"
+        data-sal="fade"
+        data-sal-delay="200"
+      >
+        <div className="mission-and-vision__card-image" ref={visionParallax.ref}>
           <img
             alt="about us mission section img"
             src="/images/about-us/mission-and-vision/mission.jpg"
@@ -21,8 +34,12 @@ const MissionAndVision = () => {
           </p>
         </div>
       </div>
-      <div className="mission-and-vision__card">
-        <div className="mission-and-vision__card-image">
+      <div
+        className="mission-and-vision__card"
+        data-sal="fade"
+        data-sal-delay="200"
+      >
+        <div className="mission-and-vision__card-image" ref={missionParallax.ref}>
           <img
             alt="about us vision section img"
             src="/images/about-us/mission-and-vision/vision.jpg"

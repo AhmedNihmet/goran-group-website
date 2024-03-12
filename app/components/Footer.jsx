@@ -1,11 +1,13 @@
 import { Link } from "@remix-run/react";
+
 import ArrowTop from "~/Icons/ArrowTop";
 import MainLogo from "~/Icons/MainLogo";
-import { NAVIGATION_LINKS } from "~/utils/constants"; 
+
+import { NAVIGATION_LINKS } from "~/utils/constants";
 
 const Footer = () => {
   return (
-    <section className="footer">
+    <section className="footer" data-sal="fade" data-sal-delay="200">
       <div className="side-padding">
         <section className="footer__links-section">
           <ul className="footer__links">

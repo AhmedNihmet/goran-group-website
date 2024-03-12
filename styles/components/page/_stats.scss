@@ -30,17 +30,17 @@
 
   &__list-item {
     min-width: 200px;
-
-    > span {
-      font-size: 14px;
-      text-transform: uppercase;
-      color: #bf2025;
-      font-weight: 700;
-    }
   }
 
-  &__list-item-count {
+  &__list-item-count-container { 
     font-size: 64px;
     color: #1e1c23;
+  }
+
+  &__list-item-count-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #bf2025;
+    font-weight: 700;
   }
 }

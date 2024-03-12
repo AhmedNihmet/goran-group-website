@@ -8,11 +8,13 @@ import {
   isRouteErrorResponse,
   useRouteError,
 } from "@remix-run/react";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 import rootStyles from "~/styles/root.css";
+import salStyles from "../node_modules/sal.js/dist/sal.css";
 
 import Navbar from "~/components/Navbar";
-import Footer from "~/components/Footer";
+import Footer from "~/components/Footer"; 
 
 /**
  * @returns {import("@remix-run/node").LinkDescriptor[]}
@@ -21,6 +23,10 @@ export const links = () => [
   {
     rel: "stylesheet",
     href: rootStyles,
+  },
+  {
+    rel: "stylesheet",
+    href: salStyles,
   },
   {
     rel: "stylesheet",
@@ -40,6 +46,7 @@ export const links = () => [
 ];
 
 export default function App() {
+
   return (
     <html lang="en">
       <head>
@@ -48,12 +55,15 @@ export default function App() {
         <Meta />
         <Links />
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script></script>
       </head>
       <body>
         <Navbar />
+        <ParallaxProvider>
         <main className="main-wrapper">
           <Outlet />
         </main>
+        </ParallaxProvider>
         <Footer />
         <ScrollRestoration />
         <Scripts />

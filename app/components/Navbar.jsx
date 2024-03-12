@@ -23,6 +23,7 @@ const Navbar = () => {
 
   return (
     <nav
+      data-sal="fade"
       className={classNames("navbar", {
         "navbar--transparent": prepareNavbarsTransparentState,
       })}

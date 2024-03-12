@@ -1,3 +1,4 @@
+import sal from "sal.js";
 import classNames from "classnames";
 import { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -7,9 +8,9 @@ import aboutUsStyles from "~/styles/pages/about-us.css";
 
 import Arrow from "~/Icons/Arrow";
 
+import Stats from "~/components/page/Stats";
 import Partners from "~/components/Partners";
 import MissionAndVision from "~/components/page/MissionAndVision";
-import Stats from "~/components/page/Stats";
 
 /**
  * @returns {import("@remix-run/node").LinkDescriptor[]}
@@ -36,6 +37,12 @@ const AboutUs = () => {
   });
 
   useEffect(() => {
+    sal({
+      threshold: 0.5,
+    });
+  }, []);
+
+  useEffect(() => {
     if (isThumbActionActive !== null)
       setTimeout(() => {
         setIsThumbActionActive(null);
@@ -44,16 +51,24 @@ const AboutUs = () => {
 
   return (
     <article className="about-us">
-      <section className="about-us__hero">
+      <section className="about-us__hero" data-sal="fade">
         <img src="/images/about-us/hero.jpg" alt="About us hero section" />
       </section>
 
       <section className="about-us__hero-details max-w">
         <div className="about-us__hero-content">
-          <h1>About Us</h1>
-          <p>“We’ve worked extensively in terms of geography and sector”</p>
+          <h1 data-sal="fade" data-sal-delay="200">
+            About Us
+          </h1>
+          <p data-sal="fade" data-sal-delay="300">
+            “We’ve worked extensively in terms of geography and sector”
+          </p>
         </div>
-        <div className="about-us__hero-stacked-cards">
+        <div
+          className="about-us__hero-stacked-cards"
+          data-sal="fade"
+          data-sal-delay="500"
+        >
           <Swiper
             dir="rtl"
             effect={"cards"}
@@ -125,30 +140,36 @@ const AboutUs = () => {
 
       <section className="about-us__hero-detailed-paragraph max-w">
         <p>
-          Goran Group thrives across diverse sectors, guided by visionary
-          leadership. With a professional team and strategic decisions, we
-          elevate benefits, fostering growth and innovation since 2005.
+          <span data-sal="fade" data-sal-delay="200">
+            Goran Group thrives across diverse sectors, guided by visionary
+            leadership. With a professional team and strategic decisions, we
+            elevate benefits, fostering growth and innovation since 2005.
+          </span>
           <br />
           <br />
-          United in Excellence, Goran Group thrives across diverse sectors,
-          guided by visionary leadership. With a professional team and strategic
-          decisions, we elevate benefits, fostering growth and innovation since
-          2005.United in Excellence, Goran Group thrives across diverse sectors,
-          guided by visionary leadership. With a professional team and strategic
-          decisions, we elevate benefits, fostering growth and innovation since
-          2005.
+          <span data-sal="fade" data-sal-delay="300">
+            United in Excellence, Goran Group thrives across diverse sectors,
+            guided by visionary leadership. With a professional team and
+            strategic decisions, we elevate benefits, fostering growth and
+            innovation since 2005.United in Excellence, Goran Group thrives
+            across diverse sectors, guided by visionary leadership. With a
+            professional team and strategic decisions, we elevate benefits,
+            fostering growth and innovation since 2005.
+          </span>
           <br />
           <br />
-          Goran Group thrives across diverse sectors, guided by visionary
-          leadership. With a professional team and strategic decisions.
+          <span data-sal="fade" data-sal-delay="400">
+            Goran Group thrives across diverse sectors, guided by visionary
+            leadership. With a professional team and strategic decisions.
+          </span>
         </p>
       </section>
 
-      <section className="about-us__stats">
+      <section className="about-us__stats" data-sal="fade" data-sal-delay="200">
         <Stats />
       </section>
 
-      <section className="about-us__specializations max-w">
+      <section className="about-us__specializations max-w" data-sal="fade" data-sal-delay="200">
         <div className="about-us__specializations-actions">
           <button
             onClick={() => setIsThumbActionActive("specialization--prev")}

@@ -1,3 +1,4 @@
+import sal from "sal.js";
 import classNames from "classnames";
 import * as Slider from "react-slick";
 import { useEffect, useRef, useState } from "react";
@@ -8,12 +9,12 @@ import homeStyles from "~/styles/pages/home.css";
 import Play from "~/Icons/Play";
 import Arrow from "~/Icons/Arrow";
 
+import Stats from "~/components/page/Stats";
 import Partners from "~/components/Partners";
 import CustomButton from "~/components/CustomButton";
 
 import { buildUrl } from "~/api/config";
 import { truncateString } from "~/utils/general";
-import Stats from "~/components/page/Stats";
 
 const SliderWrapper = Slider.default.default;
 
@@ -104,12 +105,22 @@ const Home = () => {
     mainSliderRef.current.slickGoTo(currentActiveThumb);
   }, [currentActiveThumb]);
 
+  useEffect(() => {
+    sal({
+      threshold: 0.5,
+    });
+  }, []);
+
   settingsThumbs.beforeChange = (_, activeIndex) =>
     setCurrentActiveThumb(activeIndex);
 
   return (
     <article className="home">
-      <section className="home__hero-container">
+      <section
+        className="home__hero-container"
+        data-sal="fade"
+        data-sal-delay="300"
+      >
         <SliderWrapper {...settingsMain} ref={mainSliderRef}>
           {specializations.map((item) => (
             <div key={item.key}>
@@ -197,17 +208,30 @@ const Home = () => {
 
       <section className="home__about-us side-padding">
         <div className="home__about-us-content">
-          <span>{about_us.sub_title}</span>
-          <h4>{about_us.title}</h4>
-          <p>{about_us.paragraph}</p>
+          <span data-sal="fade" data-sal-delay="100">
+            {about_us.sub_title}
+          </span>
+          <h4 data-sal="fade" data-sal-delay="200">
+            {about_us.title}
+          </h4>
+          <p data-sal="fade" data-sal-delay="300">
+            {about_us.paragraph}
+          </p>
 
-          <CustomButton
-            icon={<Arrow />}
-            text={about_us.action.text}
-            linkTo={about_us.action.link_to}
-          />
+          <div data-sal="fade" data-sal-delay="400">
+            <CustomButton
+              icon={<Arrow />}
+              text={about_us.action.text}
+              linkTo={about_us.action.link_to}
+            />
+          </div>
         </div>
-        <div className="home__about-us-image">
+        <div
+          className="home__about-us-image"
+          data-sal="fade"
+          data-sal-delay="500"
+          style={{ "--sal-duration": "1s" }}
+        >
           <img
             src="/images/home/about-us-image.webp"
             alt="Get to know us better"
@@ -217,13 +241,19 @@ const Home = () => {
 
       <section className="home__companies side-padding">
         <div className="home__companies-header">
-          <h2>{companies.title}</h2>
-          <p>{companies.paragraph}</p>
+          <h2 data-sal="fade" data-sal-delay="200">
+            {companies.title}
+          </h2>
+          <p data-sal="fade" data-sal-delay="250">
+            {companies.paragraph}
+          </p>
         </div>
         <ul className="home__companies-cards">
           {companies.data.map((company) => {
             return (
               <Link
+                data-sal="fade"
+                data-sal-delay="200"
                 key={company.slug}
                 to={`/company/${company.slug}/view`}
                 className="home__companies-card-item"
@@ -240,22 +270,34 @@ const Home = () => {
           })}
         </ul>
 
-        <div className="home__companies-see-more">
+        <div
+          data-sal="fade"
+          data-sal-delay="200"
+          className="home__companies-see-more"
+        >
           <CustomButton text="See More" linkTo="/companies" />
         </div>
       </section>
 
       <section className="home__chairman max-w">
-        <div className="home__chairman-image">
+        <div
+          className="home__chairman-image"
+          data-sal="fade"
+          data-sal-delay="200"
+        >
           <img
             src="/images/home/chairman.jpg"
             alt="Mr. Khalil Abbo Mirza. goran groups chairman"
           />
         </div>
         <div className="home__chairman-content">
-          <span>CEO of Goran Group Company</span>
-          <h1>Mr. Khalil Abbo Mirza</h1>
-          <p>
+          <span data-sal="fade" data-sal-delay="400">
+            CEO of Goran Group Company
+          </span>
+          <h1 data-sal="fade" data-sal-delay="500">
+            Mr. Khalil Abbo Mirza
+          </h1>
+          <p data-sal="fade" data-sal-delay="600">
             Mr. Khalil, entered business from its narrow gate and insisted to
             work alone as in 1981 he started with setting up a small store for
             selling agricultural materials. Although he started business at a
@@ -267,7 +309,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="home__stats">
+      <section className="home__stats" data-sal="fade" data-sal-delay="200">
         <Stats />
       </section>
 
