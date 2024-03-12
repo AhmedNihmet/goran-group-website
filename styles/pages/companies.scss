@@ -69,14 +69,14 @@
 
     > h2 {
       text-transform: uppercase;
-      color: #1E1C23;
+      color: #1e1c23;
       font-size: 48px;
       line-height: 100%;
       margin-block-end: 12px;
     }
 
     > p {
-      color: #1E1C23;
+      color: #1e1c23;
       max-width: 630px;
     }
   }
@@ -92,16 +92,26 @@
     width: 100%;
 
     > h5 {
-      color: #1E1C23;
+      color: #1e1c23;
       font-size: 32px;
       text-align: center;
       margin-block-end: 12px;
       line-height: 100%;
+      transition: color 400ms ease;
     }
 
     > p {
-      color: #1E1C23;
+      color: #1e1c23;
       text-align: center;
+    }
+
+    &:hover {
+      > h5 {
+        color: #bf2025;
+      }
+      .companies__our-companies-list-item-image > img {
+        transform: scale(1.025);
+      }
     }
   }
 
@@ -110,6 +120,11 @@
     overflow: hidden;
     border-radius: 3px;
     margin-block-end: 18px;
+
+    > img {
+      transform: scale(1);
+      transition: transform 400ms ease;
+    }
   }
 
   &__we-have-worked {
@@ -131,6 +146,6 @@
   &__we-have-worked-content {
     max-width: 600px;
     line-height: 160%;
-    color: #1E1C23;
+    color: #1e1c23;
   }
 }
