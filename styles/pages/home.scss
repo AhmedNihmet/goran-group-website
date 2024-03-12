@@ -296,6 +296,15 @@
     &:nth-of-type(4) {
       grid-column: 13 span;
     }
+
+    &:hover {
+      .home__companies-card-item-image-content > h3 {
+        color: #bf2025;
+      }
+      .home__companies-card-item-image > img {
+        transform: scale(1.025);
+      }
+    }
   }
 
   &__companies-card-item-image {
@@ -303,6 +312,11 @@
     border-radius: 3px;
     overflow: hidden;
     margin-block-end: 12px;
+
+    > img {
+      transform: scale(1);
+      transition: transform 400ms ease;
+    }
   }
 
   &__companies-card-item-image-content {
@@ -313,6 +327,7 @@
       font-size: 32px;
       color: #1e1c23;
       margin-block-end: 8px;
+      transition: color 400ms ease;
     }
 
     > p {
