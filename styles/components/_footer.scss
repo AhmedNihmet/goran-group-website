@@ -26,8 +26,13 @@
     font-weight: 300;
     padding-inline-start: 4px;
 
+    &:hover a {
+      color: #bf2025;
+    }
+
     > a {
       font-weight: inherit;
+      transition: color 250ms ease;
     }
   }
 
@@ -54,12 +59,17 @@
 
   &__social-first-part {
     display: flex;
-    column-gap: 20px;
+    column-gap: 20px; 
 
     > a {
       color: #1E1C23; 
       font-size: 14px;
       text-transform: uppercase;
+      transition: color 250ms ease;
+      
+      &:hover {
+        color: #bf2025;
+      }
     }
   }
 
@@ -91,10 +101,18 @@
     justify-content: center;
     border: 1px solid #a3a3a3;
     color: #333232;
+    transition: all 300ms ease;
+    transition-property: color, background-color, border-color;
 
     > svg {
       width: 18px;
       height: 18px;
+    }
+
+    &:hover {
+      color: white;
+      border-color: #bf2025;
+      background-color: #bf2025;
     }
   }
 
@@ -106,6 +124,11 @@
       color: #1E1C23; 
       font-size: 14px;
       text-transform: uppercase;
+      transition: color 250ms ease;
+      
+      &:hover {
+        color: #bf2025;
+      }
     }
   }
 
