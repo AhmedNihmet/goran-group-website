@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { Link, json, useLoaderData } from "@remix-run/react";
 
 import homeStyles from "~/styles/pages/home.css";
+import mediaQueryStyles from "~/styles/media-queries.css";
 
 import Play from "~/Icons/Play";
 import Arrow from "~/Icons/Arrow";
@@ -25,6 +26,10 @@ export const links = () => [
   {
     rel: "stylesheet",
     href: homeStyles,
+  },
+  {
+    rel: "stylesheet",
+    href: mediaQueryStyles,
   },
 ];
 
@@ -84,6 +89,26 @@ const settingsThumbs = {
   slidesToScroll: 1,
   focusOnSelect: true,
   swipeToSlide: true,
+  responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 3,
+      },
+    },
+    {
+      breakpoint: 540,
+      settings: {
+        slidesToShow: 2,
+      },
+    },
+    {
+      breakpoint: 420,
+      settings: {
+        slidesToShow: 1,
+      },
+    },
+  ],
 };
 
 const Home = () => {

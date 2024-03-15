@@ -106,3 +106,24 @@ img {
   color: #1E1C23;
   letter-spacing: 0.5px;
 }
+
+
+
+@media (max-width: 1200px) {
+  .max-w { 
+    max-width: calc(100% - 40px); 
+  } 
+  
+  .side-padding {
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+  }
+  
+  .side-padding-start {
+    padding-inline-start: 20px;
+  }
+  
+  .side-padding-end {
+    padding-inline-end: 20px;
+  }
+}

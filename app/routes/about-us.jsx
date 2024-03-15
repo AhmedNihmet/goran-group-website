@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCards, Navigation } from "swiper/modules";
 
 import aboutUsStyles from "~/styles/pages/about-us.css";
+import mediaQueryStyles from "~/styles/media-queries.css";
 
 import Arrow from "~/Icons/Arrow";
 
@@ -19,6 +20,10 @@ export const links = () => [
   {
     rel: "stylesheet",
     href: aboutUsStyles,
+  },
+  {
+    rel: "stylesheet",
+    href: mediaQueryStyles,
   },
 ];
 

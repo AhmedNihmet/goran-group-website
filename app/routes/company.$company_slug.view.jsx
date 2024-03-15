@@ -6,6 +6,7 @@ import { json, redirect, useLoaderData } from "@remix-run/react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import companyViewStyles from "~/styles/pages/company-view.css";
+import mediaQueryStyles from "~/styles/media-queries.css";
 
 import Play from "~/Icons/Play";
 import Indicator from "~/Icons/Indicator";
@@ -21,6 +22,10 @@ export const links = () => [
   {
     rel: "stylesheet",
     href: companyViewStyles,
+  },
+  {
+    rel: "stylesheet",
+    href: mediaQueryStyles,
   },
 ];
 

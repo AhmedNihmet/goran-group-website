@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { Link } from "@remix-run/react";
 
 import contactUsStyles from "~/styles/pages/contact-us.css";
+import mediaQueryStyles from "~/styles/media-queries.css";
 
 import LinkedIn from "~/Icons/social/LinkedIn";
 import Facebook from "~/Icons/social/Facebook";
@@ -18,6 +19,10 @@ export const links = () => [
   {
     rel: "stylesheet",
     href: contactUsStyles,
+  },
+  {
+    rel: "stylesheet",
+    href: mediaQueryStyles,
   },
   {
     rel: "stylesheet",

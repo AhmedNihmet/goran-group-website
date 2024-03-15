@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 
 import { LANGUAGES } from "~/utils/constants";
 
-const LanguagePicker = ({ onTransparent = false }) => {
+const LanguagePicker = ({ onTransparent = false, appearOnTop = false }) => {
   const menuRef = useRef(null);
 
   const [isActive, setIsActive] = useState(false);
@@ -26,6 +26,7 @@ const LanguagePicker = ({ onTransparent = false }) => {
       className={classNames("language-picker", {
         "language-picker--active": isActive,
         "language-picker--transparent": onTransparent,
+        "language-picker--open-upwards": appearOnTop,
       })}
     >
       <button

@@ -15,8 +15,25 @@ export const NAVIGATION_LINKS = [
   {
     to: "/about-us",
     title: "About Us",
+    isSubLink: false,
   },
 ];
+
+export const MOBILE_NAVIGATION_LINKS = [
+  ...NAVIGATION_LINKS, 
+  {
+    isSubLink: true,
+    subLinkHash: "#vision",
+    to: "/about-us#vision",
+    title: "Vision",
+  },
+  {
+    isSubLink: true,
+    subLinkHash: "#mission",
+    to: "/about-us#mission",
+    title: "Mission",
+  },
+]
 
 export const LANGUAGES = [
   {

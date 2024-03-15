@@ -48,11 +48,18 @@
     row-gap: 60px;
     grid-template-columns: repeat(5, 1fr);
 
-    > img {
+     img {
+      cursor: pointer;
       max-width: 150px;
       max-height: 100px;
       object-fit: contain;
       margin-inline: auto;
+      transition: transform 300ms ease;
+      transform: scale(1);
+
+      &:hover {
+        transform: scale(1.1);
+      }
     }
   }
 }

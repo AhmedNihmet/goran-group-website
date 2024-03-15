@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { Link, json, useLoaderData } from "@remix-run/react";
 
 import companiesStyles from "~/styles/pages/companies.css";
+import mediaQueryStyles from "~/styles/media-queries.css";
 
 import Play from "~/Icons/Play";
 
@@ -18,6 +19,10 @@ export const links = () => [
   {
     rel: "stylesheet",
     href: companiesStyles,
+  },
+  {
+    rel: "stylesheet",
+    href: mediaQueryStyles,
   },
 ];
 

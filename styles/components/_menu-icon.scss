@@ -1,0 +1,96 @@
+.menu-icon {
+  display: none;
+  cursor: pointer;
+
+  &--on-transparent-bg {
+    .line {
+      stroke: white !important;
+    }
+  }
+
+  svg {
+    height: 60px;
+    position: absolute;
+    width: 60px;
+  }
+  .plate {
+    height: 60px;
+    width: 60px;
+  }
+  .burger {
+    filter: url(#gooeyness);
+  }
+  .x {
+    transform: scale(0);
+    transition: transform 400ms;
+  }
+  .line {
+    fill: none;
+    stroke: black;
+    stroke-width: 6px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transform-origin: 50%;
+    transition: stroke-dasharray 500ms 200ms, stroke-dashoffset 500ms 200ms,
+      transform 500ms 200ms;
+  }
+  .x .line {
+    stroke-width: 4px;
+  }
+  .active .line {
+    transition: stroke-dasharray 500ms, stroke-dashoffset 500ms, transform 500ms;
+  }
+  .active .x {
+    transform: scale(1);
+    transition: transform 400ms 350ms;
+  }
+  
+  .plate5 .line {
+    transition: stroke-dasharray 400ms 100ms, stroke-dashoffset 400ms 100ms,
+      transform 400ms 100ms;
+  }
+  .plate5 .line1 {
+    stroke-dasharray: 40 40;
+  }
+  .plate5 .line2 {
+    stroke-dasharray: 21 39;
+  }
+  .plate5 .line3 {
+    stroke-dasharray: 21 39;
+  }
+  .plate5 .line4 {
+    stroke-dasharray: 40 40;
+  }
+  .plate5 .x {
+    transition: transform 400ms 50ms;
+  }
+
+  .active.plate5 .line {
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms, transform 400ms;
+  }
+  .active.plate5 .line1 {
+    stroke-dasharray: 1 40;
+    stroke-dashoffset: -33px;
+  }
+  .active.plate5 .line2 {
+    stroke-dasharray: 5 39;
+    stroke-dashoffset: -37px;
+  }
+  .active.plate5 .line3 {
+    stroke-dasharray: 5 39;
+    stroke-dashoffset: -37px;
+  }
+  .active.plate5 .line4 {
+    stroke-dasharray: 1 40;
+    stroke-dashoffset: -33px;
+  }
+  .active.plate5 .x {
+    transition: transform 400ms 50ms;
+  }
+}
+
+@media (max-width: 1100px) {
+  .menu-icon {
+    display: block;
+  }
+}

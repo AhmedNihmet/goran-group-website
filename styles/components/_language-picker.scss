@@ -32,6 +32,15 @@
     }
   }
 
+  &--open-upwards {
+    .language-picker__lists {
+      bottom: 50px;
+      transform-origin: bottom center;
+      box-shadow: 0 0px 16px #00000014, 0 0px 6px -4px #0000001f,
+        0 0px 28px 8px #0000000d;
+    }
+  }
+
   &__selected-language {
     height: 46px;
     display: flex;

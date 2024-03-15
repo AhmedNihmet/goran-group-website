@@ -320,7 +320,6 @@
   }
 
   &__companies-card-item-image-content {
-    margin-block-end: 40px;
 
     > h3 {
       text-transform: uppercase;
@@ -341,6 +340,7 @@
   &__companies-see-more {
     display: flex;
     justify-content: center;
+    margin-block-start: 40px;
   }
 
   &__stats {
