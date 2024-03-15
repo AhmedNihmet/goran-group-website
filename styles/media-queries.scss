@@ -254,9 +254,11 @@
     }
   }
 
+  .company-view__hero-content h1,
   .companies__hero-content > h1 {
     font-size: 48px;
   }
+  .company-view__hero-content p,
   .companies__hero-content > p {
     font-size: 16px;
   }
@@ -273,6 +275,10 @@
   }
   .about-us__hero-content > p {
     font-size: 28px;
+  }
+
+  .company-view__hero-background-mask { 
+    background: #22222270;
   }
 }
 
@@ -347,6 +353,8 @@
   .home__companies-card-item-image-content > h3 {
     font-size: 20px;
   }
+  
+  .company-view__hero-content h1,
   .companies__hero-content > h1 {
     font-size: 34px;
   }
@@ -408,6 +416,26 @@
   .about-us__hero-stacked-cards .swiper {
     width: 240px;
     height: 240px;
+  }
+
+  .company-view__hero {
+    max-height: 610px;
+  }
+  .company-view__service-card-container {
+    flex-direction: column !important;
+    grid-gap: 12px;
+  }
+  .company-view__service-card-image {
+    width: 100%;
+  }
+  .company-view__service-card-content {
+    width: 100%;
+  }
+  .company-view__slider-section-header > h2 {
+    font-size: 28px;
+  }
+  .company-view__slider-section-header > p {
+    font-size: 16px;
   }
 }
 
@@ -473,8 +501,19 @@
   .about-us__hero-content > p {
     font-size: 16px;
   }
+
+  .company-view__slider-section,
   .about-us__partners {
     margin-block-end: 100px;
+  }
+
+  .company-view__slider-card-image {
+    height: 600px;
+  }
+  .company-view__slider-card-content {
+    bottom: 20px;
+    width: calc(100% - 20px);
+    padding-inline: 10px;
   }
 }
 
@@ -541,6 +580,9 @@
 @media (max-width: 420px) {
   .partners__logo-container {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .company-view__slider-card-image {
+    height: 420px;
   }
 }
 
