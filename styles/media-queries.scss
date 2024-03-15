@@ -260,12 +260,19 @@
   .companies__hero-content > p {
     font-size: 16px;
   }
-  
+
   .mission-and-vision__content {
     padding-inline: 16px;
   }
   .mission-and-vision__content > p {
     font-size: 14px;
+  }
+
+  .about-us__hero-content > h1 {
+    font-size: 78px;
+  }
+  .about-us__hero-content > p {
+    font-size: 28px;
   }
 }
 
@@ -339,7 +346,7 @@
   }
   .home__companies-card-item-image-content > h3 {
     font-size: 20px;
-  } 
+  }
   .companies__hero-content > h1 {
     font-size: 34px;
   }
@@ -364,7 +371,7 @@
     flex-direction: column;
     margin-block-end: 60px;
     align-items: center;
-  } 
+  }
   .mission-and-vision__content {
     flex: unset;
     width: 100%;
@@ -376,6 +383,31 @@
     max-height: 270px;
     overflow: hidden;
     margin-block-end: 18px;
+  }
+
+  .contact-us__header > h1 {
+    font-size: 28px;
+  }
+  .contact-us__header-socials > span,
+  .contact-us__header-content > span {
+    font-size: 16px;
+  }
+  .contact-us__header-content-item {
+    font-size: 14px;
+  }
+
+  .about-us__hero-content > h1 {
+    font-size: 48px;
+  }
+  .about-us__hero-content > p {
+    font-size: 20px;
+  }
+  .about-us__hero-stacked-cards {
+    width: 240px;
+  }
+  .about-us__hero-stacked-cards .swiper {
+    width: 240px;
+    height: 240px;
   }
 }
 
@@ -425,7 +457,7 @@
   .partners__logo-container {
     grid-template-columns: repeat(3, 1fr);
   }
-  
+
   .companies__we-have-worked {
     flex-direction: column;
     row-gap: 28px;
@@ -433,6 +465,16 @@
   }
   .companies__we-have-worked-content {
     max-width: 100%;
+  }
+
+  .about-us__hero-content > h1 {
+    font-size: 32px;
+  }
+  .about-us__hero-content > p {
+    font-size: 16px;
+  }
+  .about-us__partners {
+    margin-block-end: 100px;
   }
 }
 
@@ -466,6 +508,33 @@
     > p {
       font-size: 16px;
     }
+  }
+
+  .about-us__hero-details {
+    flex-direction: column;
+    grid-gap: 40px;
+  }
+  .about-us__hero-content {
+    text-align: center;
+    padding-inline-end: unset;
+  }
+  .about-us__hero-stacked-cards {
+    width: 100%;
+  }
+  .about-us__hero-stacked-cards-action {
+    justify-content: center;
+  }
+  .about-us__hero-stacked-cards-action-button {
+    width: 24px;
+    height: 24px;
+
+    > svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  .about-us__hero-detailed-paragraph > p {
+    text-align: center;
   }
 }
 

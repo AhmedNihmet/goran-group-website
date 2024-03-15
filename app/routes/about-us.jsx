@@ -212,9 +212,19 @@ const AboutUs = () => {
           </button>
         </div>
         <Swiper
-          slidesPerView={3}
-          slidesPerGroup={3}
+          slidesPerView={1}
+          slidesPerGroup={1}
           modules={[Navigation]}
+          breakpoints={{
+            540: {
+              slidesPerView: 2, 
+              slidesPerGroup: 2
+            },
+            768: {
+              slidesPerView: 3, 
+              slidesPerGroup: 3
+            },
+          }}
           navigation={{
             nextEl: ".about-us__specializations-action-button--next",
             prevEl: ".about-us__specializations-action-button--prev",
