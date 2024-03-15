@@ -1,11 +1,14 @@
+import { useMediaQuery } from "react-responsive";
 import { useParallax } from "react-scroll-parallax";
 
 const MissionAndVision = () => {
+  const isMobile = useMediaQuery({ maxWidth: 768 });
+
   const visionParallax = useParallax({
-    speed: -5,
+    speed: isMobile ? 0 : -5,
   });
   const missionParallax = useParallax({
-    speed: 5,
+    speed: isMobile ? 0 : 5,
   });
 
   return (
@@ -15,7 +18,10 @@ const MissionAndVision = () => {
         data-sal="fade"
         data-sal-delay="200"
       >
-        <div className="mission-and-vision__card-image" ref={visionParallax.ref}>
+        <div
+          className="mission-and-vision__card-image"
+          ref={visionParallax.ref}
+        >
           <img
             alt="about us mission section img"
             src="/images/about-us/mission-and-vision/mission.jpg"
@@ -39,7 +45,10 @@ const MissionAndVision = () => {
         data-sal="fade"
         data-sal-delay="200"
       >
-        <div className="mission-and-vision__card-image" ref={missionParallax.ref}>
+        <div
+          className="mission-and-vision__card-image"
+          ref={missionParallax.ref}
+        >
           <img
             alt="about us vision section img"
             src="/images/about-us/mission-and-vision/vision.jpg"

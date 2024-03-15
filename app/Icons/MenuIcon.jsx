@@ -1,8 +1,11 @@
 import { useLocation } from "@remix-run/react";
 import classNames from "classnames";
-import { useEffect, useState } from "react";
+import { forwardRef, useEffect, useImperativeHandle, useState } from "react";
 
-const MenuIcon = ({ onStateChange, isOnTransparent = true }) => {
+const MenuIcon = forwardRef(function MenuIcon(
+  { onStateChange, isOnTransparent = true },
+  ref
+) {
   const { pathname, hash } = useLocation();
 
   const [isActive, setIsActive] = useState(false);
@@ -14,6 +17,10 @@ const MenuIcon = ({ onStateChange, isOnTransparent = true }) => {
   useEffect(() => {
     setIsActive(false);
   }, [pathname, hash]);
+
+  useImperativeHandle(ref, () => ({
+    closeMenu: () => setIsActive(false)
+  }));
 
   return (
     // eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-static-element-interactions
@@ -69,6 +76,6 @@ const MenuIcon = ({ onStateChange, isOnTransparent = true }) => {
       </div>
     </div>
   );
-};
+});
 
 export default MenuIcon;

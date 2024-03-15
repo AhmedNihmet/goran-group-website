@@ -1,6 +1,6 @@
 import classNames from "classnames";
-import { useMemo, useState } from "react";
 import { Link, useLocation } from "@remix-run/react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 import MainLogo from "~/Icons/MainLogo";
 import MenuIcon from "~/Icons/MenuIcon";
@@ -14,6 +14,7 @@ import LanguagePicker from "~/components/LanguagePicker";
 import { MOBILE_NAVIGATION_LINKS, NAVIGATION_LINKS } from "~/utils/constants";
 
 const Navbar = () => {
+  const menuIconRef = useRef(null);
   const { pathname } = useLocation();
 
   const [isMenuActive, setIsMenuActive] = useState(false);
@@ -26,6 +27,21 @@ const Navbar = () => {
 
     return false;
   }, [pathname]);
+
+  useEffect(() => {
+    const element =
+      typeof window !== "undefined" ? document.querySelector("html") : null;
+    if (isMenuActive && element) {
+      window?.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+
+      element.classList.add("disable-scroll");
+    } else {
+      element.classList.remove("disable-scroll");
+    }
+  }, [isMenuActive]);
 
   return (
     <nav
@@ -64,6 +80,7 @@ const Navbar = () => {
         </div>
         <div className="navbar__menu-icon">
           <MenuIcon
+            ref={menuIconRef}
             onStateChange={setIsMenuActive}
             isOnTransparent={prepareNavbarsTransparentState}
           />
@@ -73,7 +90,11 @@ const Navbar = () => {
             "navbar__menu--active": isMenuActive,
           })}
         >
-          <div className="navbar__menu-mask" />
+          {/* eslint-disable-next-line jsx-a11y/no-static-element-interactions, jsx-a11y/click-events-have-key-events */}
+          <div
+            className="navbar__menu-mask"
+            onClick={() => menuIconRef.current.closeMenu()}
+          />
           <div className="navbar__menu-content">
             <ul className="navbar__menu-links">
               {MOBILE_NAVIGATION_LINKS.map((link) => {
