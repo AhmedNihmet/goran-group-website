@@ -15,3 +15,18 @@ export const truncateString = (str, numberOfWords) => {
     ? `${truncatedStr}...`
     : truncatedStr;
 };
+
+/**
+ * Checks if a given string is a valid URL.
+ *
+ * @param {string} str - The string to be checked as a URL.
+ * @returns {boolean} `true` if the string is a valid URL, otherwise `false`.
+ */
+export const isUrlValid = (str) => {
+  try {
+    new URL(str);
+    return true;
+  } catch (error) {
+    return false;
+  }
+};

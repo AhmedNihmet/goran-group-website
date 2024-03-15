@@ -2,7 +2,7 @@ import sal from "sal.js";
 import classNames from "classnames";
 import * as Slider from "react-slick";
 import { useEffect, useRef, useState } from "react";
-import { Link, json, useLoaderData } from "@remix-run/react";
+import { Link, json, useLoaderData, useSearchParams } from "@remix-run/react";
 
 import homeStyles from "~/styles/pages/home.css";
 import mediaQueryStyles from "~/styles/media-queries.css";
@@ -114,7 +114,10 @@ const settingsThumbs = {
 const Home = () => {
   const mainSliderRef = useRef(null);
   const thumbSliderRef = useRef(null);
+
   const { specializations, about_us, companies } = useLoaderData();
+
+  const [searchParams, setSearchParams] = useSearchParams();
 
   const [currentActiveThumb, setCurrentActiveThumb] = useState(0);
   const [isThumbActionActive, setIsThumbActionActive] = useState(null);
@@ -138,6 +141,17 @@ const Home = () => {
 
   settingsThumbs.beforeChange = (_, activeIndex) =>
     setCurrentActiveThumb(activeIndex);
+
+  const playVideo = (url) => {
+    const updatedSearchParams = new URLSearchParams(searchParams);
+    updatedSearchParams.set("reel-state", "active");
+    updatedSearchParams.set(
+      "reel-url",
+      `${window?.location?.href || ""}${url}`
+    );
+
+    return setSearchParams(updatedSearchParams);
+  };
 
   return (
     <article className="home">
@@ -164,7 +178,13 @@ const Home = () => {
                     <p className="medium-paragraph">
                       {truncateString(item.description, 21)}
                     </p>
-                    <CustomButton text="see a video" icon={<Play />} />
+                    {item?.video_path && (
+                      <CustomButton
+                        text="see a video"
+                        icon={<Play />}
+                        onClick={() => playVideo(item.video_path)}
+                      />
+                    )}
                   </div>
                 </div>
               </section>

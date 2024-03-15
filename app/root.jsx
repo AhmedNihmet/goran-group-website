@@ -7,6 +7,7 @@ import {
   ScrollRestoration,
   isRouteErrorResponse,
   useRouteError,
+  useSearchParams,
 } from "@remix-run/react";
 import { ParallaxProvider } from "react-scroll-parallax";
 
@@ -15,6 +16,8 @@ import salStyles from "../node_modules/sal.js/dist/sal.css";
 
 import Navbar from "~/components/Navbar";
 import Footer from "~/components/Footer"; 
+import { isUrlValid } from "./utils/general";
+import Reel from "./components/Reel";
 
 /**
  * @returns {import("@remix-run/node").LinkDescriptor[]}
@@ -46,6 +49,7 @@ export const links = () => [
 ];
 
 export default function App() {
+  const [searchParams, setSearchParams] = useSearchParams(); 
 
   return (
     <html lang="en">
@@ -62,6 +66,23 @@ export default function App() {
         <ParallaxProvider>
         <main className="main-wrapper">
           <Outlet />
+
+          
+
+        {searchParams.get("reel-state") === "active" &&
+          isUrlValid(searchParams.get("reel-url")) && (
+            <Reel
+              state={searchParams.get("reel-state")}
+              reelUrl={searchParams.get("reel-url")}
+              onCloseClicked={() => {
+                const updatedSearchParams = new URLSearchParams(searchParams);
+                updatedSearchParams.delete("reel-state");
+                updatedSearchParams.delete("reel-url");
+
+                setSearchParams(updatedSearchParams);
+              }}
+            />
+          )}
         </main>
         </ParallaxProvider>
         <Footer />
