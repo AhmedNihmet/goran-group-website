@@ -1,3 +1,5 @@
+import { useChangeLanguage } from "remix-i18next/react";
+import { ParallaxProvider } from "react-scroll-parallax";
 import {
   Links,
   LiveReload,
@@ -7,19 +9,21 @@ import {
   ScrollRestoration,
   isRouteErrorResponse,
   json,
+  useLoaderData,
   useRouteError,
   useSearchParams,
 } from "@remix-run/react";
-import { ParallaxProvider } from "react-scroll-parallax";
 
 import rootStyles from "~/styles/root.css";
 import salStyles from "../node_modules/sal.js/dist/sal.css";
 
+import Reel from "~/components/Reel";
 import Navbar from "~/components/Navbar";
 import Footer from "~/components/Footer";
-import { isUrlValid } from "./utils/general";
-import Reel from "./components/Reel";
-import { buildUrl } from "./api/config";
+
+import { buildUrl } from "~/api/config";
+import { isUrlValid } from "~/utils/general";
+import i18next from "~/lib/i18next.server";
 
 /**
  * @returns {import("@remix-run/node").LinkDescriptor[]}
@@ -54,20 +58,39 @@ export const links = () => [
  * @type {import("react-router").LoaderFunction}
  */
 export const loader = async ({ request }) => {
+  let locale = await i18next.getLocale(request);
   const url = buildUrl(request, "/data/general.json");
 
   const res = await fetch(url);
 
   const body = await res.json();
+  body.locale = locale;
 
   return json(body);
 };
 
+export let handle = {
+  // In the handle export, we can add a i18n key with namespaces our route
+  // will need to load. This key can be a single string or an array of strings.
+  // TIP: In most cases, you should set this to your defaultNS from your i18n config
+  // or if you did not set one, set it to the i18next default namespace "translation"
+  i18n: "common",
+};
+
 export default function App() {
+  const { locale } = useLoaderData();
+
   const [searchParams, setSearchParams] = useSearchParams();
 
+  // This hook will change the i18n instance language to the current locale
+  // detected by the loader, this way, when we do something to change the
+  // language, this locale will change and i18next will load the correct
+  // translation files
+  useChangeLanguage(locale);
+  
+
   return (
-    <html lang="en">
+    <html lang={locale} dir={locale === "en" ? "ltr" : "rtl"}>
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

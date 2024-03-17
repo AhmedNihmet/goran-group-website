@@ -1,4 +1,5 @@
 import classNames from "classnames";
+import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "@remix-run/react";
 import { useEffect, useMemo, useRef, useState } from "react";
 
@@ -14,6 +15,7 @@ import LanguagePicker from "~/components/LanguagePicker";
 import { MOBILE_NAVIGATION_LINKS, NAVIGATION_LINKS } from "~/utils/constants";
 
 const Navbar = () => {
+  const { t } = useTranslation(); 
   const menuIconRef = useRef(null);
   const { pathname } = useLocation();
 
@@ -71,7 +73,7 @@ const Navbar = () => {
                   pathname.includes(link?.sub_children_key),
               })}
             >
-              <Link to={link.to}>{link.title}</Link>
+              <Link to={link.to}>{t(link.title)}</Link>
             </li>
           ))}
         </ul>

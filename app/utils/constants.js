@@ -1,12 +1,12 @@
 export const NAVIGATION_LINKS = [
   {
     to: "/",
-    title: "Home", 
+    title: "Home",
   },
   {
     to: "/companies",
     title: "Companies",
-    sub_children_key: "/company"
+    sub_children_key: "/company",
   },
   {
     to: "/contact-us",
@@ -20,7 +20,7 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const MOBILE_NAVIGATION_LINKS = [
-  ...NAVIGATION_LINKS, 
+  ...NAVIGATION_LINKS,
   {
     isSubLink: true,
     subLinkHash: "#vision",
@@ -33,28 +33,25 @@ export const MOBILE_NAVIGATION_LINKS = [
     to: "/about-us#mission",
     title: "Mission",
   },
-]
+];
 
 export const LANGUAGES = [
   {
     abbreviation: "ku",
     title: "Kurdish",
-    key: "kurdish",
     image_src: "/images/flags/ku.png",
-    image_alt: "Kurdish language picker icon"
+    image_alt: "Kurdish language picker icon",
   },
   {
     abbreviation: "en",
     title: "English",
-    key: "english",
     image_src: "/images/flags/en.png",
-    image_alt: "English language picker icon"
+    image_alt: "English language picker icon",
   },
   {
     abbreviation: "ar",
     title: "Arabic",
-    key: "arabic",
     image_src: "/images/flags/ar.png",
-    image_alt: "Arabic language picker icon"
+    image_alt: "Arabic language picker icon",
   },
-]
+];

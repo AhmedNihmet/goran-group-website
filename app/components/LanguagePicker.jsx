@@ -1,10 +1,12 @@
 import classNames from "classnames";
 import { useEffect, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 import { LANGUAGES } from "~/utils/constants";
 
 const LanguagePicker = ({ onTransparent = false, appearOnTop = false }) => {
   const menuRef = useRef(null);
+  const { t, i18n } = useTranslation();
 
   const [isActive, setIsActive] = useState(false);
   const [selectedLanguage, setSelectedLanguage] = useState(LANGUAGES[1]);
@@ -19,6 +21,11 @@ const LanguagePicker = ({ onTransparent = false, appearOnTop = false }) => {
 
     return () => document.removeEventListener("click", handleClickOutside);
   }, [isActive]);
+
+  useEffect(() => {
+    if (Object.keys(selectedLanguage).length > 0)
+      localStorage.setItem("language", selectedLanguage.abbreviation);
+  }, [selectedLanguage]);
 
   return (
     <section
@@ -37,17 +44,21 @@ const LanguagePicker = ({ onTransparent = false, appearOnTop = false }) => {
           src={selectedLanguage.image_src}
           alt={selectedLanguage.image_alt}
         />
-        <span>{selectedLanguage.title}</span>
+        <span>{t(selectedLanguage.title)}</span>
       </button>
       <ul className="language-picker__lists">
         {LANGUAGES.map((language) => (
           <button
-            key={language.key}
+            key={language.abbreviation}
             className="button language-picker__list-item"
-            onClick={() => (setSelectedLanguage(language), setIsActive(false))}
+            onClick={() => (
+              i18n.changeLanguage(language.abbreviation),
+              setSelectedLanguage(language),
+              setIsActive(false)
+            )}
           >
             <img src={language.image_src} alt={language.image_alt} />
-            <span>{language.title}</span>
+            <span>{t(language.title)}</span>
           </button>
         ))}
       </ul>
