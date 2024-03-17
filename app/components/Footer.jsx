@@ -13,22 +13,26 @@ const Footer = () => {
           <ul className="footer__links">
             <span>Specialization</span>
             <li className="footer__link-items">
-              <Link>General Trading</Link>
+              <Link to="?specialty=general-trading">General Trading</Link>
             </li>
             <li className="footer__link-items">
-              <Link>Health Care</Link>
+              <Link to="?specialty=health-care">Health Care</Link>
             </li>
             <li className="footer__link-items">
-              <Link>Oil Company</Link>
+              <Link to="?specialty=oil-company">Oil Company</Link>
             </li>
             <li className="footer__link-items">
-              <Link>Food & Restaurants</Link>
+              <Link to="?specialty=food-and-restaurants">
+                Food & Restaurants
+              </Link>
             </li>
             <li className="footer__link-items">
-              <Link>Power Generators</Link>
+              <Link to="?specialty=power-generators">Power Generators</Link>
             </li>
             <li className="footer__link-items">
-              <Link>General Constructions</Link>
+              <Link to="?specialty=general-constructions">
+                General Constructions
+              </Link>
             </li>
           </ul>
 

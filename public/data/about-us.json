@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "image_path": "/images/about-us/hero.jpg",
+    "title": {
+      "en": "About Us",
+      "ku": "About Us",
+      "ar": "About Us"
+    },
+    "sub_title": {
+      "en": "“We’ve worked extensively in terms of geography and sector”",
+      "ku": "“We’ve worked extensively in terms of geography and sector”",
+      "ar": "“We’ve worked extensively in terms of geography and sector”"
+    },
+    "slider": [
+      "/images/about-us/stacked-cards/1.jpg",
+      "/images/about-us/stacked-cards/2.png",
+      "/images/about-us/stacked-cards/3.jpg"
+    ],
+    "paragraphs": [
+      {
+        "en": "Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.",
+        "ku": "Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.",
+        "ar": "Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005."
+      },
+      {
+        "en": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.",
+        "ku": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.",
+        "ar": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005."
+      },
+      {
+        "en": "Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions.",
+        "ku": "Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions.",
+        "ar": "Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions."
+      }
+    ]
+  }
+}

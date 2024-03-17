@@ -1,0 +1,42 @@
+{
+  "title": {
+    "en": "Contact Us",
+    "ku": "Contact Us",
+    "ar": "Contact Us"
+  },
+  "phone": {
+    "title": {
+      "en": "Phone",
+      "ku": "Phone",
+      "ar": "Phone"
+    },
+    "entities": ["+964 (750) 200 3000", "+964 (750) 200 4000"]
+  },
+  "address": {
+    "title": {
+      "en": "Address",
+      "ku": "Address",
+      "ar": "Address"
+    },
+    "entities": [
+      "Iraq - Kurdistan - Erbil: Italian Village",
+      "Iraq - Kurdistan - Slemani"
+    ]
+  },
+  "email": {
+    "title": {
+      "en": "Email",
+      "ku": "Email",
+      "ar": "Email"
+    },
+    "entities": ["gorangroup@emial.com"]
+  },
+  "social": {
+    "title": {
+      "en": "Social Media",
+      "ku": "Social Media",
+      "ar": "Social Media"
+    }
+  },
+  "coordinates": [36.18541073719607, 43.96496355094828]
+}

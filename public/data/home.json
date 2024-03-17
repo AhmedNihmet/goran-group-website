@@ -1,71 +1,58 @@
 {
-  "specializations": [
-    {
-      "key": "health",
-      "thumb_title": "Health",
-      "title": "Leading Healthcare Solutions Provider",
-      "card_icon_path": "/images/specializations/health.png",
-      "image_path": "/images/home/hero-slider/health.jpg",
-      "description": "Innovating care for healthier communities, trusted by professionals.",
-      "video_path": ""
+  "about_us": { 
+    "sub_title": {
+      "en": "About Us",
+      "ku": "About Us",
+      "ar": "About Us"
+    }, 
+    "title": {
+      "en": "Get to know us better!",
+      "ku": "Get to know us better!",
+      "ar": "Get to know us better!"
+    }, 
+    "paragraph": {
+      "en": "Goran Group is a diverse conglomerate, housing multiple sectors each characterized by distinct methodologies. A cohesive and proficient team, under the leadership of the Chief Executive Officer and the oversight of the monitoring and planning committee, strives to enhance the organization's gains and foster its growth.",
+      "ku": "Goran Group is a diverse conglomerate, housing multiple sectors each characterized by distinct methodologies. A cohesive and proficient team, under the leadership of the Chief Executive Officer and the oversight of the monitoring and planning committee, strives to enhance the organization's gains and foster its growth.",
+      "ar": "Goran Group is a diverse conglomerate, housing multiple sectors each characterized by distinct methodologies. A cohesive and proficient team, under the leadership of the Chief Executive Officer and the oversight of the monitoring and planning committee, strives to enhance the organization's gains and foster its growth."
     },
-    {
-      "key": "oil_company",
-      "thumb_title": "Oil Company",
-      "title": "Global Energy Solutions Provider",
-      "card_icon_path": "/images/specializations/oil-company.png",
-      "image_path": "/images/home/hero-slider/oil-company.jpg",
-      "description": "Sustainable energy production for a dynamic, World powering progress.",
-      "video_path": "/images/company/falkonoil/falkenoil-video.mp4"
-    },
-    {
-      "key": "restaurant",
-      "thumb_title": "Restaurant",
-      "title": "Culinary Excellence Redefined",
-      "card_icon_path": "/images/specializations/restaurant.png",
-      "image_path": "/images/home/hero-slider/restaurant.jpg",
-      "description": "Savior memorable dining experiences, crafted with passion and quality.",
-      "video_path": ""
-    },
-    {
-      "key": "constructions",
-      "thumb_title": "Constructions",
-      "title": "Premier Construction Solutions Provider",
-      "card_icon_path": "/images/specializations/constructions.png",
-      "image_path": "/images/home/hero-slider/construction.jpg",
-      "description": "Building the future with precision and reliability, shaping skylines.",
-      "video_path": ""
-    },
-    { 
-      "key": "trading",
-      "thumb_title": "Trading",
-      "title": "Lighting the Path to a Powerful Future",
-      "card_icon_path": "/images/specializations/trading.png",
-      "image_path": "/images/home/hero-slider/trading.jpg",
-      "description": "Navigating Markets, Delivering Excellence in Every Transaction.",
-      "video_path": ""
-    },
-    {
-      "key": "generators",
-      "thumb_title": "Generators",
-      "title": "Your Trusted Partner in General Trading",
-      "card_icon_path": "/images/specializations/generators.png",
-      "image_path": "/images/home/hero-slider/generator.jpg",
-      "description": "Empowering the future with reliable electricity.",
-      "video_path": ""
-    }
-  ],
-  "about_us": {
-    "sub_title": "About Us",
-    "title": "Get to know us better!",
-    "paragraph": "Goran Group is a diverse conglomerate, housing multiple sectors each characterized by distinct methodologies. A cohesive and proficient team, under the leadership of the Chief Executive Officer and the oversight of the monitoring and planning committee, strives to enhance the organization's gains and foster its growth.",
+    "image_path": "/images/home/about-us-image.webp",
     "action": {
       "link_to": "/about-us",
-      "text": "Learn More"
+      "text": {
+        "en": "Learn More",
+        "ku": "Learn More",
+        "ar": "Learn More"
+      }
     }
   },
-  "companies": {
-    "title": "EMBRACE YOUR EXPERIENCE",
-    "paragraph": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic"
+  "companies_header": {
+    "title": {
+      "en": "EMBRACE YOUR EXPERIENCE",
+      "ku": "EMBRACE YOUR EXPERIENCE",
+      "ar": "EMBRACE YOUR EXPERIENCE"
+    },
+    "paragraph": {
+      "en": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic",
+      "ku": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic",
+      "ar": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic"
+    }
+  },
+  "chairman": {
+    "image_path": "/images/home/chairman.jpg",
+    "sub_title": {
+      "en": "CEO of Goran Group Company",
+      "ku": "CEO of Goran Group Company",
+      "ar": "CEO of Goran Group Company"
+    },
+    "title": {
+      "en": "Mr. Khalil Abbo Mirza",
+      "ku": "Mr. Khalil Abbo Mirza",
+      "ar": "Mr. Khalil Abbo Mirza"
+    },
+    "paragraph": {
+      "en": "Mr. Khalil, entered business from its narrow gate and insisted to work alone as in 1981 he started with setting up a small store for selling agricultural materials. Although he started business at a young age, yet he finished his education. Currently, he is head of the Administration Board of Goran Group, which consists of several trading companies, constructions, and selling power generators, medical and plastic surgery materials, and equipment.",
+      "ku": "Mr. Khalil, entered business from its narrow gate and insisted to work alone as in 1981 he started with setting up a small store for selling agricultural materials. Although he started business at a young age, yet he finished his education. Currently, he is head of the Administration Board of Goran Group, which consists of several trading companies, constructions, and selling power generators, medical and plastic surgery materials, and equipment.",
+      "ar": "Mr. Khalil, entered business from its narrow gate and insisted to work alone as in 1981 he started with setting up a small store for selling agricultural materials. Although he started business at a young age, yet he finished his education. Currently, he is head of the Administration Board of Goran Group, which consists of several trading companies, constructions, and selling power generators, medical and plastic surgery materials, and equipment."
+    }
   }
-}     
+}

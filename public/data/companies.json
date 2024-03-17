@@ -1,182 +1,57 @@
 {
-  "companies": [
-    {
-      "slug": "goran_generator",
-      "thumbnail": "/images/company/goran-generator/thumbnail.jpg",
-      "card_title": "Goran Generator",
-      "card_paragraph": "Goran Generator Company excels in premium diesel generators, backed by 1000-hour guarantee!",
-      "title": "Goran Generator Co.",
-      "paragraph": "Goran Generator Company excels in premium diesel generators, backed by 1000-hour guarantee!",
-      "hero_image": "/images/company/goran-generator/hero.jpg",
-      "company_video": "",
-      "sub_sections": [
-        {
-          "key": 1,
-          "title": "Superior Quality Generators",
-          "description": "Goran Generator Company, located in Erbil, Kurdistan – Iraq, specializes in providing top-notch diesel generators with a 1000-hour work guarantee. Our commitment to excellence ensures reliable electricity solutions tailored for private sectors.",
-          "image_path": "/images/company/goran-generator/thumbnail.jpg"
-        },
-        {
-          "key": 2,
-          "title": "Expert Team and Diverse Brands",
-          "description": "As a crucial division of the Goran Group, our success is owed to a skilled workforce spanning accounting, sales, marketing, and services. We offer a wide array of globally recognized generator brands, including British Perkins, Swedish Volvo, and American Cummins, each certified to instill trust in our clientele.",
-          "image_path": "/images/company/goran-generator/thumbnail.jpg"
-        },
-        {
-          "key": 3,
-          "title": "Leading Sales and Service Provider",
-          "description": "With pride, we've secured the top spot in both sales and service provision in Kurdistan and Iraq. Strong partnerships with governmental bodies, organizations, and petroleum companies have propelled our success.",
-          "image_path": "/images/company/goran-generator/thumbnail.jpg"
-        },
-        {
-          "key": 4,
-          "title": "Continuous Commitment to Excellence",
-          "description": "Driven by an unwavering commitment, we strive to enhance services for citizens and enterprises continually. Our impressive track record underscores our dedication to delivering exemplary services in collaboration with the government.",
-          "image_path": "/images/company/goran-generator/thumbnail.jpg"
-        }
-      ],
-      "gallery": {
-        "title": "Driving Progress, Energizing Tomorrow",
-        "paragraph": "Propelling innovation and sustainability, our dedication fuels a future defined by advancement.",
-        "images": [
-          "/images/company/goran-generator/slider-2.jpg",
-          "/images/company/goran-generator/slider-3.jpg",
-          "/images/company/goran-generator/slider-4.jpg",
-          "/images/company/goran-generator/slider-5.jpg",
-          "/images/company/goran-generator/slider-6.jpg",
-          "/images/company/goran-generator/slider-7.jpg",
-          "/images/company/goran-generator/slider-9.jpg",
-          "/images/company/goran-generator/slider-10.jpg",
-          "/images/company/goran-generator/slider-11.jpg",
-          "/images/company/goran-generator/slider-12.jpg",
-          "/images/company/goran-generator/slider-13.jpg",
-          "/images/company/goran-generator/slider-14.jpg",
-          "/images/company/goran-generator/slider-1.jpg"
-        ]
-      }
+  "hero": {
+    "title": {
+      "en": "our companies",
+      "ku": "our companies",
+      "ar": "our companies"
     },
-    {
-      "slug": "bahceci_medical_center",
-      "thumbnail": "/images/company/bahceci/thumbnail.jpg",
-      "card_title": "Bahceci",
-      "card_paragraph": "Leading healthcare provider with advanced equipment and specialized services.",
-      "title": "Bahceci Medical Center - Erbil",
-      "paragraph": "Leading healthcare provider with advanced equipment and specialized services.",
-      "hero_image": "/images/company/bahceci/home.jpg",
-      "company_video": "",
-      "sub_sections": [
-        {
-          "key": 1,
-          "title": "Central Location and Prestige",
-          "description": "Bahceci Erbil Medical Center is a key establishment in Erbil, Iraq, centrally situated on 30th Street near the Iranian Consulate.",
-          "image_path": "/images/company/bahceci/slider-6.jpg"
-        },
-        {
-          "key": 2,
-          "title": "Advanced Medical Equipment",
-          "description": "Renowned for its cutting-edge medical equipment, Bahceci Erbil Medical Center ensures top-quality healthcare.",
-          "image_path": "/images/company/bahceci/slider-6.jpg"
-        },
-        {
-          "key": 3,
-          "title": "Comprehensive Healthcare Services",
-          "description": "Bahceci Erbil Medical Center offers an array of specialized services, including Aesthetics, Orthopedics, and Traumatologies",
-          "image_path": "/images/company/bahceci/slider-6.jpg"
-        },
-        {
-          "key": 4,
-          "title": "Specialized Sections",
-          "description": "Bahceci Erbil Medical Center boasts specialized departments focusing on Vertebrae, Brain, Nervous System, Physiotherapy, and Rehabilitation.",
-          "image_path": "/images/company/bahceci/slider-6.jpg"
-        }
-      ],
-      "gallery": {
-        "title": "Pioneering Healthcare, Shaping Tomorrow",
-        "paragraph": "Bahceci Erbil Medical Center pioneers healthcare in Erbil, Iraq, fostering progress and well-being.",
-        "images": [
-          "/images/company/bahceci/slider-1.jpg",
-          "/images/company/bahceci/slider-2.jpg",
-          "/images/company/bahceci/slider-3.jpg",
-          "/images/company/bahceci/slider-4.jpg",
-          "/images/company/bahceci/slider-5.jpg",
-          "/images/company/bahceci/slider-6.jpg",
-          "/images/company/bahceci/slider-7.jpg"
-        ]
-      }
+    "paragraph": {
+      "en": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.",
+      "ku": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.",
+      "ar": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005."
     },
-    {
-      "slug": "jazeerat",
-      "thumbnail": "/images/company/jazeerat/thumbnail.jpg",
-      "card_title": "Jazeerat",
-      "card_paragraph": "Petroleum limited services for purification and filtering used oil.",
-      "title": "Jazeerat Al-Naft Co.",
-      "paragraph": "Oil Company Located In Kirkuk. Petroleum limited services for purification and filtering used oil. It consists of 25 highly experienced employees.",
-      "hero_image": "/images/company/jazeerat/hero.jpg",
-      "company_video": "",
-      "sub_sections": [],
-      "gallery": {
-        "title": "FUELING INNOVATION, SHAPING TOMORROW",
-        "paragraph": "At our Kirkuk-based Oil Company, innovation and sustainability drive our commitment to excellence.",
-        "images": [
-          "/images/company/jazeerat/slider-1.jpg",
-          "/images/company/jazeerat/slider-2.jpg",
-          "/images/company/jazeerat/slider-3.jpg"
-        ]
-      }
+    "video_button_title": {
+      "en": "See our work",
+      "ku": "See our work",
+      "ar": "See our work"
     },
-    {
-      "slug": "falkonoil",
-      "thumbnail": "/images/company/falkonoil/thumbnail.jpg",
-      "card_title": "Falkenoil",
-      "card_paragraph": "40+ years supplying high-quality lubricants globally, embodying German excellence.",
-      "title": "Falkenoil",
-      "paragraph": "40+ years supplying high-quality lubricants globally, embodying German excellence.",
-      "hero_image": "/images/company/falkonoil/hero.jpg",
-      "company_video": "/images/company/falkonoil/falkenoil-video.mp4",
-      "sub_sections": [
-        {
-          "key": 1,
-          "title": "Decades of Dedication",
-          "description": "Falcon Oil has been developing, producing, and distributing high-quality lubricants and specialties for more than 40 years",
-          "image_path": "/images/company/falkonoil/service-1.jpg"
-        },
-        {
-          "key": 2,
-          "title": "Global Supply and Quality Assurance",
-          "description": "We supply our customers globally with OEM certified engine oils, as well as performance-level engine oils, such as lubricants for industrial use. Continuous control of production processes through our partner's laboratories gives us a constant advantage.",
-          "image_path": "/images/company/falkonoil/service-2.jpg"
-        },
-        {
-          "key": 3,
-          "title": "Optimal Performance Assurance",
-          "description": "Quality and constant communication with the engineering departments of the original equipment manufacturer ensure optimal performance.",
-          "image_path": "/images/company/falkonoil/service-3.jpg"
-        },
-        {
-          "key": 4,
-          "title": "Seamless Coordination and Compliance",
-          "description": "Falkenwell is the link between its customers and premium German manufacturers and will always coordinate the ordering process according to their customers' needs. Constant contact with our distribution partners takes care of compliance with individual orders based on a fair price-performance ratio.",
-          "image_path": "/images/company/falkonoil/service-1.jpg"
-        },
-        {
-          "key": 5,
-          "title": "Diverse Product Line",
-          "description": "Falcon Oil products include antifreeze, automobile oils, motorcycle oils, gear oils, hydraulic oils, and multi-grade motor oils.",
-          "image_path": "/images/company/falkonoil/service-2.jpg"
-        }
-      ],
-      "gallery": {
-        "title": "POWERING PROGRESS, FUELING TOMORROW",
-        "paragraph": "Accelerating innovation and sustainability, our commitment runs deep in every drop, propelling a future defined by progress and environmental responsibility.",
-        "images": [
-          "/images/company/falkonoil/slider-1.jpg",
-          "/images/company/falkonoil/slider-2.jpg",
-          "/images/company/falkonoil/slider-3.jpg",
-          "/images/company/falkonoil/slider-4.jpg",
-          "/images/company/falkonoil/slider-5.jpg",
-          "/images/company/falkonoil/slider-6.jpg"
-        ]
-      }
+    "image_path": "/images/companies/hero-bg.jpg",
+    "video_path": "/images/company/falkonoil/falkenoil-video.mp4"
+  },
+  "companies_header": {
+    "title": {
+      "en": "Embrace Your experience",
+      "ku": "Embrace Your experience",
+      "ar": "Embrace Your experience"
+    },
+    "paragraph": {
+      "en": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic",
+      "ku": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic",
+      "ar": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic"
     }
-  ]
+  },
+  "we_work": {
+    "title": {
+      "en": "We’ve worked extensively in terms of geography",
+      "ku": "We’ve worked extensively in terms of geography",
+      "ar": "We’ve worked extensively in terms of geography"
+    },
+    "paragraphs": [
+      {
+        "en": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.",
+        "ku": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.",
+        "ar": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005."
+      },
+      {
+        "en": "Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.",
+        "ku": "Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.",
+        "ar": "Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005."
+      },
+      {
+        "en": "Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005. Goran Group thrives across diverse sectors, guided by visionary leadership",
+        "ku": "Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005. Goran Group thrives across diverse sectors, guided by visionary leadership",
+        "ar": "Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005. Goran Group thrives across diverse sectors, guided by visionary leadership"
+      }
+    ]
+  }
 }

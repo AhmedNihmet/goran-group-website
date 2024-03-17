@@ -6,8 +6,7 @@ import CurrentLocation from "~/Icons/CurrentLocation";
 
 const DEFAULT_MAP_TILE_STYLE = "light-v11"
 
-export const Map = ({ height }) => {
-  const position = [36.18541073719607, 43.96496355094828];
+export const Map = ({ height, position }) => {
 
   const [mapStyle, setMapStyle] = useState(DEFAULT_MAP_TILE_STYLE);
 

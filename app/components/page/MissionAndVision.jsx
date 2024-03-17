@@ -1,7 +1,9 @@
+import { useRouteLoaderData } from "@remix-run/react";
 import { useMediaQuery } from "react-responsive";
 import { useParallax } from "react-scroll-parallax";
 
 const MissionAndVision = () => {
+  const { vision_and_mission } = useRouteLoaderData("root");
   const isMobile = useMediaQuery({ maxWidth: 768 });
 
   const visionParallax = useParallax({
@@ -24,20 +26,12 @@ const MissionAndVision = () => {
         >
           <img
             alt="about us mission section img"
-            src="/images/about-us/mission-and-vision/mission.jpg"
+            src={vision_and_mission.mission.image_path}
           />
         </div>
         <div className="mission-and-vision__content">
-          <h3>OUR MISSION</h3>
-          <p>
-            United in Excellence, Goran Group thrives across diverse sectors,
-            guided by visionary leadership. With a professional team and
-            strategic decisions, we elevate benefits, fostering growth and
-            innovation since 2005.United in Excellence, Goran Group thrives
-            across diverse sectors, guided by visionary leadership. With a
-            professional team and strategic decisions, we elevate benefits,
-            fostering growth and innovation since 2005.
-          </p>
+          <h3>{vision_and_mission.mission.title.en}</h3>
+          <p>{vision_and_mission.mission.paragraph.en}</p>
         </div>
       </div>
       <div
@@ -51,20 +45,12 @@ const MissionAndVision = () => {
         >
           <img
             alt="about us vision section img"
-            src="/images/about-us/mission-and-vision/vision.jpg"
+            src={vision_and_mission.vision.image_path}
           />
         </div>
         <div className="mission-and-vision__content">
-          <h3>OUR VISION</h3>
-          <p>
-            United in Excellence, Goran Group thrives across diverse sectors,
-            guided by visionary leadership. With a professional team and
-            strategic decisions, we elevate benefits, fostering growth and
-            innovation since 2005.United in Excellence, Goran Group thrives
-            across diverse sectors, guided by visionary leadership. With a
-            professional team and strategic decisions, we elevate benefits,
-            fostering growth and innovation since 2005.
-          </p>
+          <h3>{vision_and_mission.vision.title.en}</h3>
+          <p>{vision_and_mission.vision.paragraph.en}</p>
         </div>
       </div>
     </section>

@@ -40,13 +40,13 @@ export const meta = () => {
  * @type {import("react-router").LoaderFunction}
  */
 export const loader = async ({ request, params }) => {
-  const url = buildUrl(request, "/data/companies.json");
+  const url = buildUrl(request, "/data/general.json");
 
   const res = await fetch(url);
   const { companies } = await res.json();
 
   const { company_slug } = params;
-  const company = companies.filter((item) => item.slug === company_slug);
+  const company = companies.filter((item) => item.slug === company_slug); 
 
   if (company.length === 0) return redirect("/companies");
 
@@ -78,15 +78,15 @@ const CompanyView = () => {
       <section className="company-view__hero" data-sal="fade">
         <div className="company-view__hero-background">
           <div className="company-view__hero-background-mask" />
-          <img src={data.hero_image} alt={data.title} />
+          <img src={data.hero_image} alt={data.title.en} />
         </div>
         <div className="company-view__hero-content">
           <div className="side-padding">
             <h1 data-sal="fade" data-sal-delay="200">
-              {data.title}
+              {data.title.en}
             </h1>
             <p data-sal="fade" data-sal-delay="300">
-              {data.paragraph}
+              {data.paragraph.en}
             </p>
             <div data-sal="fade" data-sal-delay="500">
               {data.company_video && (
@@ -109,14 +109,14 @@ const CompanyView = () => {
                     data-sal-delay="500"
                     style={{ "--sal-duration": "1s" }}
                   >
-                    <img src={service.image_path} alt={service.title} />
+                    <img src={service.image_path} alt={service.title.en} />
                   </div>
                   <div className="company-view__service-card-content">
                     <h3 data-sal="fade" data-sal-delay="300">
-                      {service.title}
+                      {service.title.en}
                     </h3>
                     <p data-sal="fade" data-sal-delay="300">
-                      {service.description}
+                      {service.description.en}
                     </p>
                   </div>
                 </div>
@@ -130,10 +130,10 @@ const CompanyView = () => {
         <section className="company-view__slider-section side-padding">
           <div className="company-view__slider-section-header">
             <h2 data-sal="fade" data-sal-delay="200">
-              {data.gallery.title}
+              {data.gallery.title.en}
             </h2>
             <p data-sal="fade" data-sal-delay="300">
-              {data.gallery.paragraph}
+              {data.gallery.paragraph.en}
             </p>
           </div>
           <div data-sal="fade" data-sal-delay="300">
@@ -156,7 +156,7 @@ const CompanyView = () => {
               <div className="company-view__slider-card-content">
                 <div className="company-view__slider-card-details">
                   <span>Gallery</span>
-                  <h5>Falkonoil</h5>
+                  <h5>{data.title.en}</h5>
                 </div>
                 <div className="company-view__slider-card-controls">
                   <button

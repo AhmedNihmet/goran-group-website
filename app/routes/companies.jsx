@@ -1,6 +1,12 @@
 import sal from "sal.js";
 import { useEffect } from "react";
-import { Link, json, useLoaderData } from "@remix-run/react";
+import {
+  Link,
+  json,
+  useLoaderData,
+  useRouteLoaderData,
+  useSearchParams,
+} from "@remix-run/react";
 
 import companiesStyles from "~/styles/pages/companies.css";
 import mediaQueryStyles from "~/styles/media-queries.css";
@@ -41,13 +47,16 @@ export const loader = async ({ request }) => {
 
   const res = await fetch(url);
 
-  const { companies } = await res.json();
+  const body = await res.json();
 
-  return json({ companies });
+  return json(body);
 };
 
 const Companies = () => {
-  const { companies } = useLoaderData();
+  const { companies } = useRouteLoaderData("root");
+  const { hero, companies_header, we_work } = useLoaderData();
+
+  const [searchParams, setSearchParams] = useSearchParams();
 
   useEffect(() => {
     sal({
@@ -55,39 +64,48 @@ const Companies = () => {
     });
   }, []);
 
+  const playVideo = (url) => {
+    const updatedSearchParams = new URLSearchParams(searchParams);
+    updatedSearchParams.set("reel-state", "active");
+    updatedSearchParams.set(
+      "reel-url",
+      `${window?.location?.origin || ""}${url}`
+    );
+
+    return setSearchParams(updatedSearchParams);
+  };
+
   return (
     <article className="companies">
       <section className="companies__hero">
         <div className="companies__hero-background" data-sal="fade">
           <div className="companies__hero-background-mask" />
-          <img
-            src="/images/companies/hero-bg.jpg"
-            alt="Our Companies main background"
-          />
+          <img src={hero.image_path} alt="Our Companies main background" />
         </div>
         <div className="companies__hero-content">
           <h1 data-sal="fade" data-sal-delay="200">
-            our companies
+            {hero.title.en}
           </h1>
           <p data-sal="fade" data-sal-delay="300">
-            United in Excellence, Goran Group thrives across diverse sectors,
-            guided by visionary leadership. With a professional team and
-            strategic decisions, we elevate benefits, fostering growth and
-            innovation since 2005.
+            {hero.paragraph.en}
           </p>
           <div data-sal="fade" data-sal-delay="500">
-            <CustomButton text="See our work" icon={<Play />} />
+            {hero?.video_path && (
+              <CustomButton
+                icon={<Play />}
+                text={hero.video_button_title.en}
+                onClick={() => playVideo(hero.video_path)}
+              />
+            )}
           </div>
         </div>
       </section>
 
       <section className="companies__our-companies max-w">
         <div className="companies__our-companies-header">
-          <h2 data-sal="fade">Embrace Your experience</h2>
+          <h2 data-sal="fade">{companies_header.title.en}</h2>
           <p data-sal="fade" data-sal-delay="100">
-            United in Excellence, Goran Group thrives across diverse sectors,
-            guided by visionary leadership. With a professional team and
-            strategic
+            {companies_header.paragraph.en}
           </p>
         </div>
         <div
@@ -107,10 +125,10 @@ const Companies = () => {
                 className="companies__our-companies-list-item"
               >
                 <div className="companies__our-companies-list-item-image">
-                  <img alt={company.title} src={company.thumbnail} />
+                  <img alt={company.title.en} src={company.thumbnail} />
                 </div>
-                <h5>{company.card_title}</h5>
-                <p>{company.card_paragraph}</p>
+                <h5>{company.card_title.en}</h5>
+                <p>{company.card_paragraph.en}</p>
               </Link>
             );
           })}
@@ -120,7 +138,7 @@ const Companies = () => {
       <section className="companies__we-have-worked max-w">
         <div className="companies__we-have-worked-header">
           <h3 data-sal="fade" data-sal-delay="100">
-            We’ve worked extensively in terms of geography{" "}
+            {we_work.title.en}
           </h3>
         </div>
         <p
@@ -128,30 +146,15 @@ const Companies = () => {
           data-sal="fade"
           data-sal-delay="100"
         >
-          <span data-sal="fade" data-sal-delay="200">
-            United in Excellence, Goran Group thrives across diverse sectors,
-            guided by visionary leadership. With a professional team and
-            strategic decisions, we elevate benefits, fostering growth and
-            innovation since 2005.United in Excellence, Goran Group thrives
-            across diverse sectors, guided by visionary leadership. With a
-            professional team and strategic decisions, we elevate benefits,
-            fostering growth and innovation since 2005.
-          </span>
-          <br />
-          <br />
-          <span data-sal="fade" data-sal-delay="300">
-            Goran Group thrives across diverse sectors, guided by visionary
-            leadership. With a professional team and strategic decisions, we
-            elevate benefits, fostering growth and innovation since 2005.
-          </span>
-          <br />
-          <br />
-          <span data-sal="fade" data-sal-delay="400">
-            Goran Group thrives across diverse sectors, guided by visionary
-            leadership. With a professional team and strategic decisions, we
-            elevate benefits, fostering growth and innovation since 2005. Goran
-            Group thrives across diverse sectors, guided by visionary leadership
-          </span>
+          {we_work.paragraphs.map((paragraph, index) => {
+            const delay = 200 + index * 100;
+
+            return (
+              <span key={index} data-sal="fade" data-sal-delay={delay}>
+                {paragraph.en}
+              </span>
+            );
+          })}
         </p>
       </section>
 

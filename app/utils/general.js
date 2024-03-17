@@ -4,7 +4,7 @@
  * @param {number} numberOfWords - The number of words to truncate the string to.
  * @returns {string} The truncated string.
  */
-export const truncateString = (str, numberOfWords) => {
+export const truncateString = (str = "", numberOfWords) => {
   if (!str) return "";
 
   const words = str.split(" ");

@@ -6,6 +6,7 @@ import {
   Scripts,
   ScrollRestoration,
   isRouteErrorResponse,
+  json,
   useRouteError,
   useSearchParams,
 } from "@remix-run/react";
@@ -15,9 +16,10 @@ import rootStyles from "~/styles/root.css";
 import salStyles from "../node_modules/sal.js/dist/sal.css";
 
 import Navbar from "~/components/Navbar";
-import Footer from "~/components/Footer"; 
+import Footer from "~/components/Footer";
 import { isUrlValid } from "./utils/general";
 import Reel from "./components/Reel";
+import { buildUrl } from "./api/config";
 
 /**
  * @returns {import("@remix-run/node").LinkDescriptor[]}
@@ -48,8 +50,21 @@ export const links = () => [
   },
 ];
 
+/**
+ * @type {import("react-router").LoaderFunction}
+ */
+export const loader = async ({ request }) => {
+  const url = buildUrl(request, "/data/general.json");
+
+  const res = await fetch(url);
+
+  const body = await res.json();
+
+  return json(body);
+};
+
 export default function App() {
-  const [searchParams, setSearchParams] = useSearchParams(); 
+  const [searchParams, setSearchParams] = useSearchParams();
 
   return (
     <html lang="en">
@@ -64,26 +79,26 @@ export default function App() {
       <body>
         <Navbar />
         <ParallaxProvider>
-        <main className="main-wrapper">
-          <Outlet />
+          <main className="main-wrapper">
+            <Outlet />
 
-          
+            {searchParams.get("reel-state") === "active" &&
+              isUrlValid(searchParams.get("reel-url")) && (
+                <Reel
+                  state={searchParams.get("reel-state")}
+                  reelUrl={searchParams.get("reel-url")}
+                  onCloseClicked={() => {
+                    const updatedSearchParams = new URLSearchParams(
+                      searchParams
+                    );
+                    updatedSearchParams.delete("reel-state");
+                    updatedSearchParams.delete("reel-url");
 
-        {searchParams.get("reel-state") === "active" &&
-          isUrlValid(searchParams.get("reel-url")) && (
-            <Reel
-              state={searchParams.get("reel-state")}
-              reelUrl={searchParams.get("reel-url")}
-              onCloseClicked={() => {
-                const updatedSearchParams = new URLSearchParams(searchParams);
-                updatedSearchParams.delete("reel-state");
-                updatedSearchParams.delete("reel-url");
-
-                setSearchParams(updatedSearchParams);
-              }}
-            />
-          )}
-        </main>
+                    setSearchParams(updatedSearchParams);
+                  }}
+                />
+              )}
+          </main>
         </ParallaxProvider>
         <Footer />
         <ScrollRestoration />
