@@ -77,14 +77,17 @@ const ContactUs = () => {
 
         <div className="contact-us__header-content-container">
           <ul
-            className="contact-us__header-content"
-            dir="ltr"
             data-sal="fade"
             data-sal-delay="300"
+            className="contact-us__header-content"
           >
             <span>{loaderData.phone.title.en}</span>
             {loaderData.phone.entities.map((item, index) => (
-              <li key={index} className="contact-us__header-content-item">
+              <li
+                dir="ltr"
+                key={index}
+                className="contact-us__header-content-item"
+              >
                 {item}
               </li>
             ))}
@@ -97,7 +100,7 @@ const ContactUs = () => {
             <span>{loaderData.address.title.en}</span>
             {loaderData.address.entities.map((item, index) => (
               <li key={index} className="contact-us__header-content-item">
-                {item}
+                {item.en}
               </li>
             ))}
           </ul>
@@ -108,7 +111,7 @@ const ContactUs = () => {
           >
             <span>{loaderData.email.title.en}</span>
             {loaderData.email.entities.map((item, index) => (
-              <li key={index} className="contact-us__header-content-item">
+              <li key={index} className="contact-us__header-content-item" dir="ltr">
                 {item}
               </li>
             ))}

@@ -168,9 +168,10 @@ const AboutUs = () => {
       </section>
 
       <section
-        className="about-us__specializations max-w"
         data-sal="fade"
         data-sal-delay="200"
+        id="specializations"
+        className="about-us__specializations max-w"
       >
         <div className="about-us__specializations-actions">
           <button
@@ -251,7 +252,7 @@ const AboutUs = () => {
         <MissionAndVision />
       </div>
 
-      <section className="about-us__partners">
+      <section className="about-us__partners" id="our-brands">
         <Partners />
       </section>
     </article>

@@ -16,6 +16,7 @@ const MissionAndVision = () => {
   return (
     <section className="mission-and-vision">
       <div
+        id="mission"
         className="mission-and-vision__card"
         data-sal="fade"
         data-sal-delay="200"
@@ -35,6 +36,7 @@ const MissionAndVision = () => {
         </div>
       </div>
       <div
+        id="vision"
         className="mission-and-vision__card"
         data-sal="fade"
         data-sal-delay="200"

@@ -2,18 +2,18 @@
   "hero": {
     "title": {
       "en": "our companies",
-      "ku": "our companies",
-      "ar": "our companies"
+      "ku": "کۆمپانیاکانمان",
+      "ar": "شركاتنا"
     },
     "paragraph": {
       "en": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.",
-      "ku": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.",
-      "ar": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005."
+      "ku": "یەکگرتوو لە نایابی، گروپی گۆران لە سەرانسەری کەرتە جۆراوجۆرەکاندا گەشە دەکات، بە ڕێنمایی سەرکردایەتی دیدەوان. بە تیمێکی پیشەیی و بڕیاری ستراتیژی، ئێمە سوودەکان بەرز دەکەینەوە، پەرەپێدانی گەشەکردن و داهێنان لە ساڵی ٢٠٠٥ەوە.",
+      "ar": "تزدهر مجموعة جوران، متحدة في التميز، عبر قطاعات متنوعة، مسترشدة بقيادة حكيمة. بفضل فريق محترف وقرارات استراتيجية، نعمل على رفع الفوائد وتعزيز النمو والابتكار منذ عام 2005."
     },
     "video_button_title": {
       "en": "See our work",
-      "ku": "See our work",
-      "ar": "See our work"
+      "ku": "کارەکانمان ببینە",
+      "ar": "انظر عملنا"
     },
     "image_path": "/images/companies/hero-bg.jpg",
     "video_path": "/images/company/falkonoil/falkenoil-video.mp4"
@@ -21,36 +21,36 @@
   "companies_header": {
     "title": {
       "en": "Embrace Your experience",
-      "ku": "Embrace Your experience",
-      "ar": "Embrace Your experience"
+      "ku": "باشترین ئەزموون وەربگرە",
+      "ar": "احتضان تجربتك"
     },
     "paragraph": {
       "en": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic",
-      "ku": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic",
-      "ar": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic"
+      "ku": "یەکگرتوو لە نایابی، گروپی گۆران لە سەرانسەری کەرتە جۆراوجۆرەکاندا گەشە دەکات، بە ڕێنمایی سەرکردایەتی دیدەوان. لەگەڵ تیمێکی پیشەیی و ستراتیژی",
+      "ar": "تزدهر مجموعة جوران، متحدة في التميز، عبر قطاعات متنوعة، مسترشدة بقيادة حكيمة. مع فريق محترف واستراتيجي"
     }
   },
   "we_work": {
     "title": {
       "en": "We’ve worked extensively in terms of geography",
-      "ku": "We’ve worked extensively in terms of geography",
-      "ar": "We’ve worked extensively in terms of geography"
+      "ku": "ئێمە لە ڕووی جوگرافیاوە بە شێوەیەکی بەرفراوان کارمان کردووە",
+      "ar": "لقد عملنا على نطاق واسع من حيث الجغرافيا"
     },
     "paragraphs": [
       {
         "en": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.",
-        "ku": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.",
-        "ar": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005."
+        "ku": "یەکگرتوو لە نایابی، گروپی گۆران لە سەرانسەری کەرتە جۆراوجۆرەکاندا گەشە دەکات، بە ڕێنمایی سەرکردایەتی دیدەوان. بە تیمێکی پیشەیی و بڕیاری ستراتیژی، ئێمە سوودەکان بەرز دەکەینەوە، پەرەپێدانی گەشەکردن و داهێنان لە ساڵی ٢٠٠٥ەوە. یەکگرتوو لە نایابی، گروپی گۆران لە سەرانسەری کەرتە جۆراوجۆرەکاندا گەشە دەکات، بە ڕێنمایی سەرکردایەتی دیدەوان. بە تیمێکی پیشەیی و بڕیاری ستراتیژی، ئێمە سوودەکان بەرز دەکەینەوە، پەرەپێدانی گەشەکردن و داهێنان لە ساڵی ٢٠٠٥ەوە.",
+        "ar": "تزدهر مجموعة جوران، متحدة في التميز، عبر قطاعات متنوعة، مسترشدة بقيادة حكيمة. بفضل فريق محترف وقرارات استراتيجية، نعمل على رفع الفوائد وتعزيز النمو والابتكار منذ عام 2005. تزدهر مجموعة جوران، متحدة في التميز، عبر قطاعات متنوعة، مسترشدة بقيادة حكيمة. بفضل فريق محترف وقرارات استراتيجية، نعمل على رفع الفوائد وتعزيز النمو والابتكار منذ عام 2005."
       },
       {
         "en": "Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.",
-        "ku": "Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.",
-        "ar": "Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005."
+        "ku": "گروپی گۆران لە سەرانسەری کەرتە جۆراوجۆرەکاندا گەشە دەکات، بە ڕێنمایی سەرکردایەتی دیدەوان. بە تیمێکی پیشەیی و بڕیاری ستراتیژی، ئێمە سوودەکان بەرز دەکەینەوە، پەرەپێدانی گەشەکردن و داهێنان لە ساڵی ٢٠٠٥ەوە.",
+        "ar": "تزدهر مجموعة جوران عبر قطاعات متنوعة، مسترشدة بقيادة حكيمة. بفضل فريق محترف وقرارات استراتيجية، نعمل على رفع الفوائد وتعزيز النمو والابتكار منذ عام 2005."
       },
       {
         "en": "Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005. Goran Group thrives across diverse sectors, guided by visionary leadership",
-        "ku": "Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005. Goran Group thrives across diverse sectors, guided by visionary leadership",
-        "ar": "Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005. Goran Group thrives across diverse sectors, guided by visionary leadership"
+        "ku": "گروپی گۆران لە سەرانسەری کەرتە جۆراوجۆرەکاندا گەشە دەکات، بە ڕێنمایی سەرکردایەتی دیدەوان. بە تیمێکی پیشەیی و بڕیاری ستراتیژی، ئێمە سوودەکان بەرز دەکەینەوە، پەرەپێدانی گەشەکردن و داهێنان لە ساڵی ٢٠٠٥ەوە. گروپی گۆران لە سەرانسەری کەرتە جۆراوجۆرەکاندا گەشە دەکات، بە ڕێنمایی سەرکردایەتی دیدەوان",
+        "ar": "تزدهر مجموعة جوران عبر قطاعات متنوعة، مسترشدة بقيادة حكيمة. بفضل فريق محترف وقرارات استراتيجية، نعمل على رفع الفوائد وتعزيز النمو والابتكار منذ عام 2005. تزدهر مجموعة جوران عبر قطاعات متنوعة، مسترشدة بقيادة حكيمة"
       }
     ]
   }

@@ -1,6 +1,6 @@
 import classNames from "classnames";
 import { useTranslation } from "react-i18next";
-import { Link, useLocation } from "@remix-run/react";
+import { Link, useLocation, useRouteLoaderData } from "@remix-run/react";
 import { useEffect, useMemo, useRef, useState } from "react";
 
 import MainLogo from "~/Icons/MainLogo";
@@ -15,9 +15,10 @@ import LanguagePicker from "~/components/LanguagePicker";
 import { MOBILE_NAVIGATION_LINKS, NAVIGATION_LINKS } from "~/utils/constants";
 
 const Navbar = () => {
-  const { t } = useTranslation(); 
+  const { t } = useTranslation();
   const menuIconRef = useRef(null);
   const { pathname } = useLocation();
+  const { social_links } = useRouteLoaderData("root");
 
   const [isMenuActive, setIsMenuActive] = useState(false);
 
@@ -109,20 +110,35 @@ const Navbar = () => {
                         pathname.includes(link?.sub_children_key),
                     })}
                   >
-                    <Link to={link.to}>{link.title}</Link>
+                    <Link to={link.to}>{t(link.title)}</Link>
                   </li>
                 );
               })}
             </ul>
             <div className="navbar__menu-end-section">
               <div className="navbar__menu-social">
-                <Link className="navbar__menu-social-item">
+                <Link
+                  target="_blank"
+                  rel="noreferrer"
+                  to={social_links.facebook}
+                  className="navbar__menu-social-item"
+                >
                   <Facebook width={28} height={28} />
                 </Link>
-                <Link className="navbar__menu-social-item">
+                <Link
+                  target="_blank"
+                  rel="noreferrer"
+                  to={social_links.instagram}
+                  className="navbar__menu-social-item"
+                >
                   <Instagram width={23} height={23} />
                 </Link>
-                <Link className="navbar__menu-social-item">
+                <Link
+                  target="_blank"
+                  rel="noreferrer"
+                  to={social_links.linked_in}
+                  className="navbar__menu-social-item"
+                >
                   <LinkedIn width={32} height={32} />
                 </Link>
               </div>

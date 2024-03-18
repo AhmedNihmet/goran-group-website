@@ -2,21 +2,21 @@
   "statistics": {
     "sub_title": {
       "en": "Overview Of Our Career",
-      "ku": "Overview Of Our Career",
-      "ar": "Overview Of Our Career"
+      "ku": "تێڕوانینێکی گشتی بۆ پیشەکەمان",
+      "ar": "نظرة عامة على مسيرتنا المهنية"
     },
     "title": {
       "en": "QUICK FACTS ON US",
-      "ku": "QUICK FACTS ON US",
-      "ar": "QUICK FACTS ON US"
+      "ku": "دەست کەوتەکانمان",
+      "ar": "حقائق سريعة عنا"
     },
     "award": {
       "prefix": "",
       "number": 120,
       "title": {
         "en": "AWARDS",
-        "ku": "AWARDS",
-        "ar": "AWARDS"
+        "ku": "خەڵاتەکان",
+        "ar": "الجوائز"
       }
     },
     "clients": {
@@ -24,8 +24,8 @@
       "number": 26000,
       "title": {
         "en": "CLIENTS AROUND THE WORLD",
-        "ku": "CLIENTS AROUND THE WORLD",
-        "ar": "CLIENTS AROUND THE WORLD"
+        "ku": "کڕیاران لە سەرانسەری جیهان",
+        "ar": "العملاء في جميع أنحاء العالم"
       }
     },
     "employees": {
@@ -33,8 +33,8 @@
       "number": 400,
       "title": {
         "en": "EMPLOYEES",
-        "ku": "EMPLOYEES",
-        "ar": "EMPLOYEES"
+        "ku": "کارمەند",
+        "ar": "موظفين"
       }
     },
     "projects": {
@@ -42,8 +42,8 @@
       "number": 6000,
       "title": {
         "en": "PROJECTS",
-        "ku": "PROJECTS",
-        "ar": "PROJECTS"
+        "ku": "پڕۆژەکان",
+        "ar": "المشاريع"
       }
     }
   },
@@ -52,44 +52,44 @@
       "image_path": "/images/about-us/mission-and-vision/mission.jpg",
       "title": {
         "en": "OUR MISSION",
-        "ku": "OUR MISSION",
-        "ar": "OUR MISSION"
+        "ku": "ئەرکی ئێمە",
+        "ar": "مهمتنا"
       },
       "paragraph": {
         "en": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.",
-        "ku": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.",
-        "ar": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005."
+        "ku": "یەکگرتوو لە نایابی، گروپی گۆران لە سەرانسەری کەرتە جۆراوجۆرەکاندا گەشە دەکات، بە ڕێنمایی سەرکردایەتی دیدەوان. بە تیمێکی پیشەیی و بڕیاری ستراتیژی، ئێمە سوودەکان بەرز دەکەینەوە، پەرەپێدانی گەشەکردن و داهێنان لە ساڵی ٢٠٠٥ەوە. یەکگرتوو لە نایابی، گروپی گۆران لە سەرانسەری کەرتە جۆراوجۆرەکاندا گەشە دەکات، بە ڕێنمایی سەرکردایەتی دیدەوان. بە تیمێکی پیشەیی و بڕیاری ستراتیژی، ئێمە سوودەکان بەرز دەکەینەوە، پەرەپێدانی گەشەکردن و داهێنان لە ساڵی ٢٠٠٥ەوە.",
+        "ar": "تزدهر مجموعة جوران، متحدة في التميز، عبر قطاعات متنوعة، مسترشدة بقيادة حكيمة. بفضل فريق محترف وقرارات استراتيجية، نعمل على رفع الفوائد وتعزيز النمو والابتكار منذ عام 2005. تزدهر مجموعة جوران، متحدة في التميز، عبر قطاعات متنوعة، مسترشدة بقيادة حكيمة. بفضل فريق محترف وقرارات استراتيجية، نعمل على رفع الفوائد وتعزيز النمو والابتكار منذ عام 2005."
       }
     },
     "vision": {
       "image_path": "/images/about-us/mission-and-vision/vision.jpg",
       "title": {
         "en": "OUR VISION",
-        "ku": "OUR VISION",
-        "ar": "OUR VISION"
+        "ku": "دیدگای ئێمە",
+        "ar": "رؤيتنا"
       },
       "paragraph": {
         "en": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.",
-        "ku": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.",
-        "ar": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005."
+        "ku": "یەکگرتوو لە نایابی، گروپی گۆران لە سەرانسەری کەرتە جۆراوجۆرەکاندا گەشە دەکات، بە ڕێنمایی سەرکردایەتی دیدەوان. بە تیمێکی پیشەیی و بڕیاری ستراتیژی، ئێمە سوودەکان بەرز دەکەینەوە، پەرەپێدانی گەشەکردن و داهێنان لە ساڵی ٢٠٠٥ەوە. یەکگرتوو لە نایابی، گروپی گۆران لە سەرانسەری کەرتە جۆراوجۆرەکاندا گەشە دەکات، بە ڕێنمایی سەرکردایەتی دیدەوان. بە تیمێکی پیشەیی و بڕیاری ستراتیژی، ئێمە سوودەکان بەرز دەکەینەوە، پەرەپێدانی گەشەکردن و داهێنان لە ساڵی ٢٠٠٥ەوە.",
+        "ar": "تزدهر مجموعة جوران، متحدة في التميز، عبر قطاعات متنوعة، مسترشدة بقيادة حكيمة. بفضل فريق محترف وقرارات استراتيجية، نعمل على رفع الفوائد وتعزيز النمو والابتكار منذ عام 2005. تزدهر مجموعة جوران، متحدة في التميز، عبر قطاعات متنوعة، مسترشدة بقيادة حكيمة. بفضل فريق محترف وقرارات استراتيجية، نعمل على رفع الفوائد وتعزيز النمو والابتكار منذ عام 2005."
       }
     }
   },
   "partners": {
     "sub_title": {
       "en": "Goran Group‘s Companies",
-      "ku": "Goran Group‘s Companies",
-      "ar": "Goran Group‘s Companies"
+      "ku": "کۆمپانیاکانی گروپی گۆران",
+      "ar": "شركات مجموعة جوران"
     },
     "title": {
       "en": "PARTNERS & BRANDS.",
-      "ku": "PARTNERS & BRANDS.",
-      "ar": "PARTNERS & BRANDS."
+      "ku": "هاوبەشان و براندەکان.",
+      "ar": "الشركاء والعلامات التجارية."
     },
     "paragraph": {
       "en": "Goran Group company provides top quality products for its customers with the intention of providing best customer services.",
-      "ku": "Goran Group company provides top quality products for its customers with the intention of providing best customer services.",
-      "ar": "Goran Group company provides top quality products for its customers with the intention of providing best customer services."
+      "ku": "کۆمپانیای گۆران گروپ بەرهەمی کوالێتی بەرز بۆ کڕیارەکانی دابین دەکات بە مەبەستی پێشکەشکردنی باشترین خزمەتگوزاری کڕیاران.",
+      "ar": "توفر شركة مجموعة جوران منتجات عالية الجودة لعملائها بهدف تقديم أفضل الخدمات للعملاء."
     },
     "logos": [
       {
@@ -140,23 +140,23 @@
       "thumbnail": "/images/company/goran-generator/thumbnail.jpg",
       "card_title": {
         "en": "Goran Generator",
-        "ku": "Goran Generator",
-        "ar": "Goran Generator"
+        "ku": "کۆمپانیای گۆران بۆ مۆلیدە",
+        "ar": "مولد جوران"
       },
       "card_paragraph": {
         "en": "Goran Generator Company excels in premium diesel generators, backed by 1000-hour guarantee!",
-        "ku": "Goran Generator Company excels in premium diesel generators, backed by 1000-hour guarantee!",
-        "ar": "Goran Generator Company excels in premium diesel generators, backed by 1000-hour guarantee!"
+        "ku": "کۆمپانیای مۆلیدەی گۆران لە مۆلیدەی دیزڵی بەرزدا سەرکەوتووە، بە گرەنتی 1000 کاتژمێر پشتگیری دەکرێت!",
+        "ar": "تتفوق شركة جوران للمولدات في إنتاج مولدات الديزل المتميزة، والمدعومة بضمان 1000 ساعة!"
       },
       "title": {
         "en": "Goran Generator Co.",
-        "ku": "Goran Generator Co.",
-        "ar": "Goran Generator Co."
+        "ku": "کۆمپانیای گۆران بۆ مۆلیدە.",
+        "ar": "شركة جوران للمولدات"
       },
       "paragraph": {
         "en": "Goran Generator Company excels in premium diesel generators, backed by 1000-hour guarantee!",
-        "ku": "Goran Generator Company excels in premium diesel generators, backed by 1000-hour guarantee!",
-        "ar": "Goran Generator Company excels in premium diesel generators, backed by 1000-hour guarantee!"
+        "ku": "کۆمپانیای مۆلیدەی گۆران لە مۆلیدەی دیزڵی بەرزدا سەرکەوتووە، بە گرەنتی 1000 کاتژمێر پشتگیری دەکرێت!",
+        "ar": "تتفوق شركة جوران للمولدات في إنتاج مولدات الديزل المتميزة، والمدعومة بضمان 1000 ساعة!"
       },
       "hero_image": "/images/company/goran-generator/hero.jpg",
       "company_video": "",
@@ -165,13 +165,13 @@
           "key": 1,
           "title": {
             "en": "Superior Quality Generators",
-            "ku": "Superior Quality Generators",
-            "ar": "Superior Quality Generators"
+            "ku": "مۆلیدەی کوالیتی بەرز",
+            "ar": "مولدات عالية الجودة"
           },
           "description": {
             "en": "Goran Generator Company, located in Erbil, Kurdistan – Iraq, specializes in providing top-notch diesel generators with a 1000-hour work guarantee. Our commitment to excellence ensures reliable electricity solutions tailored for private sectors.",
-            "ku": "Goran Generator Company, located in Erbil, Kurdistan – Iraq, specializes in providing top-notch diesel generators with a 1000-hour work guarantee. Our commitment to excellence ensures reliable electricity solutions tailored for private sectors.",
-            "ar": "Goran Generator Company, located in Erbil, Kurdistan – Iraq, specializes in providing top-notch diesel generators with a 1000-hour work guarantee. Our commitment to excellence ensures reliable electricity solutions tailored for private sectors."
+            "ku": "کۆمپانیای مۆلیدەی گۆران کە دەکەوێتە شاری هەولێری کوردستان – عێراق، تایبەتمەندە لە دابینکردنی مۆلیدەی دیزڵی ئاست بەرز بە گرەنتی کارکردنی 1000 کاتژمێر. پابەندبوونمان بە باشی، چارەسەری کارەبایی متمانەپێکراو مسۆگەر دەکات کە بۆ کەرتە تایبەتەکان گونجاوە.",
+            "ar": "شركة غوران للمولدات، والتي تقع في أربيل، كردستان – العراق، متخصصة في توفير مولدات الديزل من الدرجة الأولى مع ضمان العمل لمدة 1000 ساعة. إن التزامنا بالتميز يضمن حلول كهرباء موثوقة ومصممة خصيصًا للقطاع الخاص."
           },
           "image_path": "/images/company/goran-generator/thumbnail.jpg"
         },
@@ -179,13 +179,13 @@
           "key": 2,
           "title": {
             "en": "Expert Team and Diverse Brands",
-            "ku": "Expert Team and Diverse Brands",
-            "ar": "Expert Team and Diverse Brands"
+            "ku": "تیمی پسپۆڕ و براندە هەمەچەشنەکان",
+            "ar": "فريق الخبراء والعلامات التجارية المتنوعة"
           },
           "description": {
             "en": "As a crucial division of the Goran Group, our success is owed to a skilled workforce spanning accounting, sales, marketing, and services. We offer a wide array of globally recognized generator brands, including British Perkins, Swedish Volvo, and American Cummins, each certified to instill trust in our clientele.",
-            "ku": "As a crucial division of the Goran Group, our success is owed to a skilled workforce spanning accounting, sales, marketing, and services. We offer a wide array of globally recognized generator brands, including British Perkins, Swedish Volvo, and American Cummins, each certified to instill trust in our clientele.",
-            "ar": "As a crucial division of the Goran Group, our success is owed to a skilled workforce spanning accounting, sales, marketing, and services. We offer a wide array of globally recognized generator brands, including British Perkins, Swedish Volvo, and American Cummins, each certified to instill trust in our clientele."
+            "ku": "وەک دابەشکردنێکی چارەنووسساز لە گروپی گۆران، سەرکەوتنەکانمان قەرزاری هێزێکی کاری لێهاتووە کە ژمێریاری، فرۆشتن، بازاڕکردن، و خزمەتگوزاری دەگرێتەوە. ئێمە کۆمەڵێک براندی مۆلیدەی ناسراوی جیهانی پێشکەش دەکەین، لەوانە پێرکنزی بەریتانی، ڤۆڵڤۆی سویدی، و کامینزی ئەمریکی، کە هەریەکەیان بڕوانامەیان هەیە بۆ چاندنی متمانە بە کڕیارەکانمان.",
+            "ar": "باعتبارنا قسمًا مهمًا في مجموعة جوران، فإن نجاحنا يرجع إلى القوى العاملة الماهرة التي تشمل المحاسبة والمبيعات والتسويق والخدمات. نحن نقدم مجموعة واسعة من العلامات التجارية للمولدات المعترف بها عالميًا، بما في ذلك British Perkins، وVolvo السويدية، وAmerican Cummins، وكل منها معتمدة لغرس الثقة في عملائنا."
           },
           "image_path": "/images/company/goran-generator/thumbnail.jpg"
         },
@@ -193,13 +193,13 @@
           "key": 3,
           "title": {
             "en": "Leading Sales and Service Provider",
-            "ku": "Leading Sales and Service Provider",
-            "ar": "Leading Sales and Service Provider"
+            "ku": "پێشەنگی فرۆشتن و پێشکەشکاری خزمەتگوزاری",
+            "ar": "الرائدة في مجال المبيعات والخدمات"
           },
           "description": {
             "en": "With pride, we've secured the top spot in both sales and service provision in Kurdistan and Iraq. Strong partnerships with governmental bodies, organizations, and petroleum companies have propelled our success.",
-            "ku": "With pride, we've secured the top spot in both sales and service provision in Kurdistan and Iraq. Strong partnerships with governmental bodies, organizations, and petroleum companies have propelled our success.",
-            "ar": "With pride, we've secured the top spot in both sales and service provision in Kurdistan and Iraq. Strong partnerships with governmental bodies, organizations, and petroleum companies have propelled our success."
+            "ku": "بە شانازییەوە پلەی یەکەممان لە هەردوو بواری فرۆشتن و پێشکەشکردنی خزمەتگوزاری لە کوردستان و عێراق مسۆگەر کردووە. هاوبەشی بەهێز لەگەڵ ئۆرگان و ڕێکخراوە حکومییەکان و کۆمپانیاکانی نەوت سەرکەوتنی ئێمەی بەرەوپێش بردووە.",
+            "ar": "وبكل فخر، حصلنا على المركز الأول في كل من المبيعات وتقديم الخدمات في كردستان والعراق. لقد ساهمت الشراكات القوية مع الهيئات الحكومية والمنظمات وشركات النفط في نجاحنا."
           },
           "image_path": "/images/company/goran-generator/thumbnail.jpg"
         },
@@ -207,13 +207,13 @@
           "key": 4,
           "title": {
             "en": "Continuous Commitment to Excellence",
-            "ku": "Continuous Commitment to Excellence",
-            "ar": "Continuous Commitment to Excellence"
+            "ku": "پابەندبوونی بەردەوام بە باشترین",
+            "ar": "الالتزام المستمر بالتميز"
           },
           "description": {
             "en": "Driven by an unwavering commitment, we strive to enhance services for citizens and enterprises continually. Our impressive track record underscores our dedication to delivering exemplary services in collaboration with the government.",
-            "ku": "Driven by an unwavering commitment, we strive to enhance services for citizens and enterprises continually. Our impressive track record underscores our dedication to delivering exemplary services in collaboration with the government.",
-            "ar": "Driven by an unwavering commitment, we strive to enhance services for citizens and enterprises continually. Our impressive track record underscores our dedication to delivering exemplary services in collaboration with the government."
+            "ku": "ئێمە بەهۆی پابەندبوونێکی نەگۆڕەوە، هەوڵدەدەین خزمەتگوزارییەکان بۆ هاوڵاتیان و کۆمپانیاکان بە بەردەوامی بەرز بکەینەوە. پێشینەی سەرنجڕاکێشمان جەخت لەسەر خۆبەخشیمان دەکاتەوە بۆ پێشکەشکردنی خزمەتگوزارییە نموونەییەکان بە هاوکاری لەگەڵ حکومەت.",
+            "ar": "وانطلاقًا من التزامنا الثابت، فإننا نسعى جاهدين لتحسين الخدمات المقدمة للمواطنين والشركات بشكل مستمر. ويؤكد سجلنا الحافل تفانينا في تقديم خدمات مثالية بالتعاون مع الحكومة."
           },
           "image_path": "/images/company/goran-generator/thumbnail.jpg"
         }
@@ -221,13 +221,13 @@
       "gallery": {
         "title": {
           "en": "Driving Progress, Energizing Tomorrow",
-          "ku": "Driving Progress, Energizing Tomorrow",
-          "ar": "Driving Progress, Energizing Tomorrow"
+          "ku": "پێشکەوتنی لێخوڕین، سبەی وزەبەخش",
+          "ar": "قيادة التقدم وتنشيط الغد"
         },
         "paragraph": {
           "en": "Propelling innovation and sustainability, our dedication fuels a future defined by advancement.",
-          "ku": "Propelling innovation and sustainability, our dedication fuels a future defined by advancement.",
-          "ar": "Propelling innovation and sustainability, our dedication fuels a future defined by advancement."
+          "ku": "پاڵنەرەکانی داهێنان و بەردەوامی، خۆبەخشیمان سووتەمەنی داهاتوویەک دەدات کە بە پێشکەوتن پێناسە کراوە.",
+          "ar": "من خلال دفع الابتكار والاستدامة، فإن تفانينا يغذي مستقبلًا محددًا بالتقدم."
         },
         "images": [
           "/images/company/goran-generator/slider-2.jpg",
@@ -251,23 +251,23 @@
       "thumbnail": "/images/company/bahceci/thumbnail.jpg",
       "card_title": {
         "en": "Bahceci",
-        "ku": "Bahceci",
-        "ar": "Bahceci"
+        "ku": "باخچەچی",
+        "ar": "بهجيجي"
       },
       "card_paragraph": {
         "en": "Leading healthcare provider with advanced equipment and specialized services.",
-        "ku": "Leading healthcare provider with advanced equipment and specialized services.",
-        "ar": "Leading healthcare provider with advanced equipment and specialized services."
+        "ku": "پێشەنگی دابینکەری چاودێری تەندروستی بە ئامێری پێشکەوتوو و خزمەتگوزاری تایبەتمەند.",
+        "ar": "الرائدة في مجال تقديم الرعاية الصحية مع المعدات المتطورة والخدمات المتخصصة."
       },
       "title": {
         "en": "Bahceci Medical Center - Erbil",
-        "ku": "Bahceci Medical Center - Erbil",
-        "ar": "Bahceci Medical Center - Erbil"
+        "ku": "سەنتەری پزیشکی بەهجەچی - هەولێر",
+        "ar": "مركز بهجيجي الطبي - اربيل"
       },
       "paragraph": {
         "en": "Leading healthcare provider with advanced equipment and specialized services.",
-        "ku": "Leading healthcare provider with advanced equipment and specialized services.",
-        "ar": "Leading healthcare provider with advanced equipment and specialized services."
+        "ku": "پێشەنگی دابینکەری چاودێری تەندروستی بە ئامێری پێشکەوتوو و خزمەتگوزاری تایبەتمەند.",
+        "ar": "الرائدة في مجال تقديم الرعاية الصحية مع المعدات المتطورة والخدمات المتخصصة."
       },
       "hero_image": "/images/company/bahceci/home.jpg",
       "company_video": "",
@@ -276,13 +276,13 @@
           "key": 1,
           "title": {
             "en": "Central Location and Prestige",
-            "ku": "Central Location and Prestige",
-            "ar": "Central Location and Prestige"
+            "ku": "شوێنی ناوەندی و پرێستیژ",
+            "ar": "موقع مركزي وهيبة"
           },
           "description": {
             "en": "Bahceci Erbil Medical Center is a key establishment in Erbil, Iraq, centrally situated on 30th Street near the Iranian Consulate.",
-            "ku": "Bahceci Erbil Medical Center is a key establishment in Erbil, Iraq, centrally situated on 30th Street near the Iranian Consulate.",
-            "ar": "Bahceci Erbil Medical Center is a key establishment in Erbil, Iraq, centrally situated on 30th Street near the Iranian Consulate."
+            "ku": "سەنتەری پزیشکی بەهجەچی هەولێر دامەزراوەیەکی سەرەکییە لە شاری هەولێری پایتەختی عێراق و لە ناوەنددا هەڵکەوتووە لە شەقامی 30 لە نزیک کونسوڵخانەی ئێران.",
+            "ar": "مركز بهجيجي أربيل الطبي هو مؤسسة رئيسية في أربيل، العراق، ويقع في موقع مركزي في شارع 30 بالقرب من القنصلية الإيرانية."
           },
           "image_path": "/images/company/bahceci/slider-6.jpg"
         },
@@ -290,13 +290,13 @@
           "key": 2,
           "title": {
             "en": "Advanced Medical Equipment",
-            "ku": "Advanced Medical Equipment",
-            "ar": "Advanced Medical Equipment"
+            "ku": "ئامێری پزیشکی پێشکەوتوو",
+            "ar": "المعدات الطبية المتقدمة"
           },
           "description": {
             "en": "Renowned for its cutting-edge medical equipment, Bahceci Erbil Medical Center ensures top-quality healthcare.",
-            "ku": "Renowned for its cutting-edge medical equipment, Bahceci Erbil Medical Center ensures top-quality healthcare.",
-            "ar": "Renowned for its cutting-edge medical equipment, Bahceci Erbil Medical Center ensures top-quality healthcare."
+            "ku": "سەنتەری پزیشکی بەهجەچی هەولێر کە بە ئامێرە پزیشکییە پێشکەوتووەکانی ناوبانگی دەرکردووە، چاودێری تەندروستی کوالیتی بەرز مسۆگەر دەکات.",
+            "ar": "يشتهر مركز بهجيجي أربيل الطبي بمعداته الطبية المتطورة، ويضمن رعاية صحية عالية الجودة."
           },
           "image_path": "/images/company/bahceci/slider-6.jpg"
         },
@@ -304,13 +304,13 @@
           "key": 3,
           "title": {
             "en": "Comprehensive Healthcare Services",
-            "ku": "Comprehensive Healthcare Services",
-            "ar": "Comprehensive Healthcare Services"
+            "ku": "خزمەتگوزاری چاودێری تەندروستی گشتگیر",
+            "ar": "خدمات الرعاية الصحية الشاملة"
           },
           "description": {
             "en": "Bahceci Erbil Medical Center offers an array of specialized services, including Aesthetics, Orthopedics, and Traumatologies",
-            "ku": "Bahceci Erbil Medical Center offers an array of specialized services, including Aesthetics, Orthopedics, and Traumatologies",
-            "ar": "Bahceci Erbil Medical Center offers an array of specialized services, including Aesthetics, Orthopedics, and Traumatologies"
+            "ku": "سەنتەری پزیشکی بەهجەچی هەولێر کۆمەڵێک خزمەتگوزاری تایبەتمەند پێشکەش دەکات، لەوانە جوانکاری، ئێسک و پروسکی، و زەبر و زەنگ",
+            "ar": "يقدم مركز بهجيجي أربيل الطبي مجموعة من الخدمات المتخصصة، بما في ذلك التجميل وجراحة العظام والكسور"
           },
           "image_path": "/images/company/bahceci/slider-6.jpg"
         },
@@ -318,13 +318,13 @@
           "key": 4,
           "title": {
             "en": "Specialized Sections",
-            "ku": "Specialized Sections",
-            "ar": "Specialized Sections"
+            "ku": "بەشە تایبەتمەندەکان",
+            "ar": "الأقسام المتخصصة"
           },
           "description": {
             "en": "Bahceci Erbil Medical Center boasts specialized departments focusing on Vertebrae, Brain, Nervous System, Physiotherapy, and Rehabilitation.",
-            "ku": "Bahceci Erbil Medical Center boasts specialized departments focusing on Vertebrae, Brain, Nervous System, Physiotherapy, and Rehabilitation.",
-            "ar": "Bahceci Erbil Medical Center boasts specialized departments focusing on Vertebrae, Brain, Nervous System, Physiotherapy, and Rehabilitation."
+            "ku": "سەنتەری پزیشکی بەهجەچی هەولێر شانازی بە بەشە تایبەتمەندەکانەوە دەکات کە گرنگی بە کڕکڕاگەکان، مێشک، کۆئەندامی دەمار، چارەسەری فیزیۆتێراپی، و چاکسازی دەدەن.",
+            "ar": "يضم مركز بهجيجي أربيل الطبي أقسامًا متخصصة تركز على الفقرات والدماغ والجهاز العصبي والعلاج الطبيعي وإعادة التأهيل."
           },
           "image_path": "/images/company/bahceci/slider-6.jpg"
         }
@@ -332,13 +332,13 @@
       "gallery": {
         "title": {
           "en": "Pioneering Healthcare, Shaping Tomorrow",
-          "ku": "Pioneering Healthcare, Shaping Tomorrow",
-          "ar": "Pioneering Healthcare, Shaping Tomorrow"
+          "ku": "چاودێری تەندروستی پێشەنگ، داڕشتنی سبەی",
+          "ar": "الرعاية الصحية الرائدة، تشكيل الغد"
         },
         "paragraph": {
           "en": "Bahceci Erbil Medical Center pioneers healthcare in Erbil, Iraq, fostering progress and well-being",
-          "ku": "Bahceci Erbil Medical Center pioneers healthcare in Erbil, Iraq, fostering progress and well-being",
-          "ar": "Bahceci Erbil Medical Center pioneers healthcare in Erbil, Iraq, fostering progress and well-being"
+          "ku": "سەنتەری پزیشکی بەهجەچی هەولێر پێشەنگە لە بواری چاودێری تەندروستی لە هەولێری عێراق، پەرەپێدانی پێشکەوتن و خۆشگوزەرانی",
+          "ar": "مركز بهجيجي أربيل الطبي رائد في مجال الرعاية الصحية في أربيل، العراق، مما يعزز التقدم والرفاهية"
         },
         "images": [
           "/images/company/bahceci/slider-1.jpg",
@@ -356,23 +356,23 @@
       "thumbnail": "/images/company/jazeerat/thumbnail.jpg",
       "card_title": {
         "en": "Jazeerat",
-        "ku": "Jazeerat",
-        "ar": "Jazeerat"
+        "ku": "جەزیرەت",
+        "ar": "الجزيرة"
       },
       "card_paragraph": {
         "en": "Petroleum limited services for purification and filtering used oil.",
-        "ku": "Petroleum limited services for purification and filtering used oil.",
-        "ar": "Petroleum limited services for purification and filtering used oil."
+        "ku": "خزمەتگوزاری سنووردار بە نەوت بۆ پاککردنەوە و فلتەرکردنی ڕۆنی بەکارهاتوو.",
+        "ar": "خدمات بترولية محدودة لتنقية وتصفية الزيوت المستعملة."
       },
       "title": {
         "en": "Jazeerat Al-Naft Co.",
-        "ku": "Jazeerat Al-Naft Co.",
-        "ar": "Jazeerat Al-Naft Co."
+        "ku": "کۆمپانیای جەزیرەت ئەلنەفت.",
+        "ar": "شركة جزيرة النفط"
       },
       "paragraph": {
         "en": "Oil Company Located In Kirkuk. Petroleum limited services for purification and filtering used oil. It consists of 25 highly experienced employees.",
-        "ku": "Oil Company Located In Kirkuk. Petroleum limited services for purification and filtering used oil. It consists of 25 highly experienced employees.",
-        "ar": "Oil Company Located In Kirkuk. Petroleum limited services for purification and filtering used oil. It consists of 25 highly experienced employees."
+        "ku": "کۆمپانیای نەوت دەکەوێتە شاری کەرکوک. خزمەتگوزاری سنووردار بە نەوت بۆ پاککردنەوە و فلتەرکردنی ڕۆنی بەکارهاتوو. پێکهاتووە لە ٢٥ کارمەندی خاوەن ئەزموونی بەرز.",
+        "ar": "شركة النفط الموجودة في كركوك. خدمات بترولية محدودة لتنقية وتصفية الزيوت المستعملة. وتتكون من 25 موظفًا من ذوي الخبرة العالية."
       },
       "hero_image": "/images/company/jazeerat/hero.jpg",
       "company_video": "",
@@ -380,13 +380,13 @@
       "gallery": {
         "title": {
           "en": "FUELING INNOVATION, SHAPING TOMORROW",
-          "ku": "FUELING INNOVATION, SHAPING TOMORROW",
-          "ar": "FUELING INNOVATION, SHAPING TOMORROW"
+          "ku": "داهێنانی سووتەمەنی، سبەی لە قاڵبدان",
+          "ar": "تعزيز الابتكار وتشكيل الغد"
         },
         "paragraph": {
           "en": "At our Kirkuk-based Oil Company, innovation and sustainability drive our commitment to excellence.",
-          "ku": "At our Kirkuk-based Oil Company, innovation and sustainability drive our commitment to excellence.",
-          "ar": "At our Kirkuk-based Oil Company, innovation and sustainability drive our commitment to excellence."
+          "ku": "لە کۆمپانیای نەوتمان کە بنکەکەی لە کەرکوکە، داهێنان و بەردەوامی پابەندبوونمان بە باشی دەباتە پێشەوە.",
+          "ar": "في شركة النفط التابعة لنا في كركوك، يقود الابتكار والاستدامة التزامنا بالتميز."
         },
         "images": [
           "/images/company/jazeerat/slider-1.jpg",
@@ -400,23 +400,23 @@
       "thumbnail": "/images/company/falkonoil/thumbnail.jpg",
       "card_title": {
         "en": "Falkenoil",
-        "ku": "Falkenoil",
-        "ar": "Falkenoil"
+        "ku": "فالکینۆیل",
+        "ar": "فالكينويل"
       },
       "card_paragraph": {
         "en": "40+ years supplying high-quality lubricants globally, embodying German excellence.",
-        "ku": "40+ years supplying high-quality lubricants globally, embodying German excellence.",
-        "ar": "40+ years supplying high-quality lubricants globally, embodying German excellence."
+        "ku": "40+ ساڵ دابینکردنی چەورکەری کوالیتی بەرز لە ئاستی جیهانیدا، بەرجەستەکردنی نایابی ئەڵمانی.",
+        "ar": "أكثر من 40 عامًا في توريد مواد التشحيم عالية الجودة عالميًا، وتجسيد التميز الألماني."
       },
       "title": {
         "en": "Falkenoil",
-        "ku": "Falkenoil",
-        "ar": "Falkenoil"
+        "ku": "فالکینۆیل",
+        "ar": "فالكينويل"
       },
       "paragraph": {
         "en": "40+ years supplying high-quality lubricants globally, embodying German excellence.",
-        "ku": "40+ years supplying high-quality lubricants globally, embodying German excellence.",
-        "ar": "40+ years supplying high-quality lubricants globally, embodying German excellence."
+        "ku": "40+ ساڵ دابینکردنی چەورکەری کوالیتی بەرز لە ئاستی جیهانیدا، بەرجەستەکردنی نایابی ئەڵمانی.",
+        "ar": "أكثر من 40 عامًا في توريد مواد التشحيم عالية الجودة عالميًا، وتجسيد التميز الألماني."
       },
       "hero_image": "/images/company/falkonoil/hero.jpg",
       "company_video": "/images/company/falkonoil/falkenoil-video.mp4",
@@ -425,13 +425,13 @@
           "key": 1,
           "title": {
             "en": "Decades of Dedication",
-            "ku": "Decades of Dedication",
-            "ar": "Decades of Dedication"
+            "ku": "دەیان ساڵە خۆبەخشی",
+            "ar": "عقود من التفاني"
           },
           "description": {
             "en": "Falcon Oil has been developing, producing, and distributing high-quality lubricants and specialties for more than 40 years",
-            "ku": "Falcon Oil has been developing, producing, and distributing high-quality lubricants and specialties for more than 40 years",
-            "ar": "Falcon Oil has been developing, producing, and distributing high-quality lubricants and specialties for more than 40 years"
+            "ku": "زەیتی فالکۆن زیاتر لە ٤٠ ساڵە خەریکی پەرەپێدان و بەرهەمهێنان و دابەشکردنی چەورکەر و تایبەتمەندییە کوالیتی بەرزەکانە",
+            "ar": "تعمل شركة فالكون أويل على تطوير وإنتاج وتوزيع مواد التشحيم والتخصصات عالية الجودة منذ أكثر من 40 عامًا"
           },
           "image_path": "/images/company/falkonoil/service-1.jpg"
         },
@@ -439,13 +439,13 @@
           "key": 2,
           "title": {
             "en": "Global Supply and Quality Assurance",
-            "ku": "Global Supply and Quality Assurance",
-            "ar": "Global Supply and Quality Assurance"
+            "ku": "دابینکردنی جیهانی و دڵنیایی جۆری",
+            "ar": "العرض العالمي وضمان الجودة"
           },
           "description": {
             "en": "We supply our customers globally with OEM certified engine oils, as well as performance-level engine oils, such as lubricants for industrial use. Continuous control of production processes through our partner's laboratories gives us a constant advantage.",
-            "ku": "We supply our customers globally with OEM certified engine oils, as well as performance-level engine oils, such as lubricants for industrial use. Continuous control of production processes through our partner's laboratories gives us a constant advantage.",
-            "ar": "We supply our customers globally with OEM certified engine oils, as well as performance-level engine oils, such as lubricants for industrial use. Continuous control of production processes through our partner's laboratories gives us a constant advantage."
+            "ku": "ئێمە ڕۆنی بزوێنەری بڕوانامەی OEM بۆ کڕیارەکانمان دابین دەکەین لە ئاستی جیهانیدا، هەروەها ڕۆنی بزوێنەر لە ئاستی کاراییدا، وەک چەورکەر بۆ بەکارهێنانی پیشەسازی. کۆنترۆڵی بەردەوامی پرۆسەکانی بەرهەمهێنان لە ڕێگەی تاقیگەکانی هاوبەشەکەمانەوە سوودێکی بەردەواممان پێدەبەخشێت.",
+            "ar": "نحن نزود عملائنا على مستوى العالم بزيوت محركات معتمدة من صانعي القطع الأصلية (OEM)، بالإضافة إلى زيوت محركات ذات مستوى أداء، مثل مواد التشحيم للاستخدام الصناعي. إن التحكم المستمر في عمليات الإنتاج من خلال مختبرات شركائنا يمنحنا ميزة ثابتة."
           },
           "image_path": "/images/company/falkonoil/service-2.jpg"
         },
@@ -453,13 +453,13 @@
           "key": 3,
           "title": {
             "en": "Optimal Performance Assurance",
-            "ku": "Optimal Performance Assurance",
-            "ar": "Optimal Performance Assurance"
+            "ku": "دڵنیایی ئەدای گونجاو",
+            "ar": "ضمان الأداء الأمثل"
           },
           "description": {
             "en": "Quality and constant communication with the engineering departments of the original equipment manufacturer ensure optimal performance",
-            "ku": "Quality and constant communication with the engineering departments of the original equipment manufacturer ensure optimal performance",
-            "ar": "Quality and constant communication with the engineering departments of the original equipment manufacturer ensure optimal performance"
+            "ku": "کوالیتی و پەیوەندی بەردەوام لەگەڵ بەشی ئەندازیاری بەرهەمهێنەری ئامێرە ئەسڵیەکان دڵنیای دەدات لە ئەدای گونجاو",
+            "ar": "الجودة والتواصل المستمر مع الأقسام الهندسية للشركة المصنعة للمعدات الأصلية يضمنان الأداء الأمثل"
           },
           "image_path": "/images/company/falkonoil/service-3.jpg"
         },
@@ -467,13 +467,13 @@
           "key": 4,
           "title": {
             "en": "Seamless Coordination and Compliance",
-            "ku": "Seamless Coordination and Compliance",
-            "ar": "Seamless Coordination and Compliance"
+            "ku": "هەماهەنگی و پابەندبوون بە بێ کێشە",
+            "ar": "التنسيق والامتثال السلس"
           },
           "description": {
             "en": "Falkenwell is the link between its customers and premium German manufacturers and will always coordinate the ordering process according to their customers' needs. Constant contact with our distribution partners takes care of compliance with individual orders based on a fair price-performance ratio.",
-            "ku": "Falkenwell is the link between its customers and premium German manufacturers and will always coordinate the ordering process according to their customers' needs. Constant contact with our distribution partners takes care of compliance with individual orders based on a fair price-performance ratio.",
-            "ar": "Falkenwell is the link between its customers and premium German manufacturers and will always coordinate the ordering process according to their customers' needs. Constant contact with our distribution partners takes care of compliance with individual orders based on a fair price-performance ratio."
+            "ku": "فالکنوێڵ پەیوەندی نێوان کڕیارەکانی و بەرهەمهێنەرە ئەڵمانییە بەرزەکانە و هەمیشە بەپێی پێویستی کڕیارەکانیان پرۆسەی داواکردن هەماهەنگ دەکات. پەیوەندی بەردەوام لەگەڵ هاوبەشەکانی دابەشکردنمان ئاگاداری پابەندبوونە بە داواکاری تاکەکەسی لەسەر بنەمای ڕێژەی دادپەروەرانەی نرخ-ئەدا.",
+            "ar": "Falkenwell هي حلقة الوصل بين عملائها والشركات المصنعة الألمانية المتميزة وستقوم دائمًا بتنسيق عملية الطلب وفقًا لاحتياجات عملائها. إن الاتصال المستمر مع شركاء التوزيع لدينا يعتني بالامتثال للطلبات الفردية بناءً على نسبة السعر إلى الأداء العادلة."
           },
           "image_path": "/images/company/falkonoil/service-1.jpg"
         },
@@ -481,13 +481,13 @@
           "key": 5,
           "title": {
             "en": "Diverse Product Line",
-            "ku": "Diverse Product Line",
-            "ar": "Diverse Product Line"
+            "ku": "هێڵی بەرهەمی هەمەچەشن",
+            "ar": "خط إنتاج متنوع"
           },
           "description": {
             "en": "Falcon Oil products include antifreeze, automobile oils, motorcycle oils, gear oils, hydraulic oils, and multi-grade motor oils.",
-            "ku": "Falcon Oil products include antifreeze, automobile oils, motorcycle oils, gear oils, hydraulic oils, and multi-grade motor oils.",
-            "ar": "Falcon Oil products include antifreeze, automobile oils, motorcycle oils, gear oils, hydraulic oils, and multi-grade motor oils."
+            "ku": "بەرهەمەکانی زەیتی فالکۆن بریتین لە دژە بەستن، ڕۆنی ئۆتۆمبێل، ڕۆنی ماتۆڕسکیل، ڕۆنی گێڕ، ڕۆنی هایدرۆلیکی، ڕۆنی ماتۆڕی فرە پلە.",
+            "ar": "تشمل منتجات زيوت فالكون مانع التجمد، وزيوت السيارات، وزيوت الدراجات النارية، وزيوت التروس، والزيوت الهيدروليكية، وزيوت المحركات متعددة الدرجات."
           },
           "image_path": "/images/company/falkonoil/service-2.jpg"
         }
@@ -495,13 +495,13 @@
       "gallery": {
         "title": {
           "en": "POWERING PROGRESS, FUELING TOMORROW",
-          "ku": "POWERING PROGRESS, FUELING TOMORROW",
-          "ar": "POWERING PROGRESS, FUELING TOMORROW"
+          "ku": "پێشکەوتنی کارەبا، سووتەمەنی سبەی",
+          "ar": "تعزيز التقدم، وتغذية الغد"
         },
         "paragraph": {
           "en": "Accelerating innovation and sustainability, our commitment runs deep in every drop, propelling a future defined by progress and environmental responsibility.",
-          "ku": "Accelerating innovation and sustainability, our commitment runs deep in every drop, propelling a future defined by progress and environmental responsibility.",
-          "ar": "Accelerating innovation and sustainability, our commitment runs deep in every drop, propelling a future defined by progress and environmental responsibility."
+          "ku": "خێراکردنی داهێنان و بەردەوامیی، پابەندبوونمان لە قووڵایی هەموو دڵۆپێکدا دەڕوات، داهاتوویەک دەباتە پێشەوە کە بە پێشکەوتن و بەرپرسیارێتی ژینگەیی پێناسە کراوە.",
+          "ar": "من خلال تسريع الابتكار والاستدامة، فإن التزامنا يتجذر في كل قطرة، مما يدفع مستقبلًا محددًا بالتقدم والمسؤولية البيئية."
         },
         "images": [
           "/images/company/falkonoil/slider-1.jpg",
@@ -519,21 +519,21 @@
       "key": "health-care",
       "thumb_title": {
         "en": "Health",
-        "ku": "Health",
-        "ar": "Health"
+        "ku": "تەندروستی",
+        "ar": "صحة"
       },
       "title": {
         "en": "Leading Healthcare Solutions Provider",
-        "ku": "Leading Healthcare Solutions Provider",
-        "ar": "Leading Healthcare Solutions Provider"
+        "ku": "پێشەنگی دابینکەری چارەسەری چاودێری تەندروستی",
+        "ar": "الرائدة في مجال توفير حلول الرعاية الصحية"
       },
       "card_icon_path": "/images/specializations/health.png",
       "image_path": "/images/home/hero-slider/health.jpg",
       "thumbnail": "/images/home/hero-slider/health.jpg",
       "description": {
         "en": "Innovating care for healthier communities, trusted by professionals.",
-        "ku": "Innovating care for healthier communities, trusted by professionals.",
-        "ar": "Innovating care for healthier communities, trusted by professionals."
+        "ku": "داهێنانی چاودێری بۆ کۆمەڵگا تەندروستەکان، متمانەپێکراو لەلایەن کەسانی پیشەییەوە.",
+        "ar": "رعاية مبتكرة لمجتمعات أكثر صحة، موثوق بها من قبل المتخصصين."
       },
       "video_path": ""
     },
@@ -541,21 +541,21 @@
       "key": "oil-company",
       "thumb_title": {
         "en": "Oil Company",
-        "ku": "Oil Company",
-        "ar": "Oil Company"
+        "ku": "کۆمپانیای نەوت",
+        "ar": "شركة نفط"
       },
       "title": {
         "en": "Global Energy Solutions Provider",
-        "ku": "Global Energy Solutions Provider",
-        "ar": "Global Energy Solutions Provider"
+        "ku": "دابینکەری چارەسەری وزەی جیهانی",
+        "ar": "مزود حلول الطاقة العالمية"
       },
       "card_icon_path": "/images/specializations/oil-company.png",
       "image_path": "/images/home/hero-slider/oil-company.jpg",
       "thumbnail": "/images/home/hero-slider/oil-company.jpg",
       "description": {
         "en": "Sustainable energy production for a dynamic, World powering progress.",
-        "ku": "Sustainable energy production for a dynamic, World powering progress.",
-        "ar": "Sustainable energy production for a dynamic, World powering progress."
+        "ku": "بەرهەمهێنانی وزەی بەردەوام بۆ پێشکەوتنێکی دینامیکی و بەهێزکەری جیهانی.",
+        "ar": "إنتاج الطاقة المستدامة من أجل تقدم ديناميكي عالمي."
       },
       "video_path": "/images/company/falkonoil/falkenoil-video.mp4"
     },
@@ -563,21 +563,21 @@
       "key": "food-and-restaurants",
       "thumb_title": {
         "en": "Restaurant",
-        "ku": "Restaurant",
-        "ar": "Restaurant"
+        "ku": "چێشتخانە",
+        "ar": "مطعم"
       },
       "title": {
         "en": "Culinary Excellence Redefined",
-        "ku": "Culinary Excellence Redefined",
-        "ar": "Culinary Excellence Redefined"
+        "ku": "باشترین چێشتلێنان",
+        "ar": "إعادة تعريف التميز في الطهي"
       },
       "card_icon_path": "/images/specializations/restaurant.png",
       "image_path": "/images/home/hero-slider/restaurant.jpg",
       "thumbnail": "/images/home/hero-slider/restaurant.jpg",
       "description": {
         "en": "Savior memorable dining experiences, crafted with passion and quality.",
-        "ku": "Savior memorable dining experiences, crafted with passion and quality.",
-        "ar": "Savior memorable dining experiences, crafted with passion and quality."
+        "ku": "ئەزموونی خواردنی یادگاری ڕزگارکەر، کە بە سۆز و کوالیتی دروستکراوە.",
+        "ar": "استمتع بتجارب تناول طعام لا تُنسى، صُنعت بشغف وجودة عالية."
       },
       "video_path": ""
     },
@@ -585,21 +585,21 @@
       "key": "general-constructions",
       "thumb_title": {
         "en": "Constructions",
-        "ku": "Constructions",
-        "ar": "Constructions"
+        "ku": "بیناسازییەکان",
+        "ar": "اعمال البناء"
       },
       "title": {
         "en": "Premier Construction Solutions Provider",
-        "ku": "Premier Construction Solutions Provider",
-        "ar": "Premier Construction Solutions Provider"
+        "ku": "دابینکەری چارەسەری بیناسازی پریمیێر",
+        "ar": "مزود حلول البناء الممتاز"
       },
       "card_icon_path": "/images/specializations/constructions.png",
       "image_path": "/images/home/hero-slider/construction.jpg",
       "thumbnail": "/images/home/hero-slider/construction.jpg",
       "description": {
         "en": "Building the future with precision and reliability, shaping skylines.",
-        "ku": "Building the future with precision and reliability, shaping skylines.",
-        "ar": "Building the future with precision and reliability, shaping skylines."
+        "ku": "بنیاتنانی داهاتوو بە وردبینی و متمانەپێکراوی، داڕشتنی ئاسمانەکان.",
+        "ar": "بناء المستقبل بدقة وموثوقية وتشكيل الآفاق."
       },
       "video_path": ""
     },
@@ -607,21 +607,21 @@
       "key": "general-trading",
       "thumb_title": {
         "en": "Trading",
-        "ku": "Trading",
-        "ar": "Trading"
+        "ku": "بازرگانی",
+        "ar": "تجارة"
       },
       "title": {
         "en": "Lighting the Path to a Powerful Future",
-        "ku": "Lighting the Path to a Powerful Future",
-        "ar": "Lighting the Path to a Powerful Future"
+        "ku": "ڕووناککردنەوەی ڕێگای داهاتوویەکی بەهێز",
+        "ar": "إضاءة الطريق إلى مستقبل قوي"
       },
       "card_icon_path": "/images/specializations/trading.png",
       "image_path": "/images/home/hero-slider/trading.jpg",
       "thumbnail": "/images/home/hero-slider/trading.jpg",
       "description": {
         "en": "Navigating Markets, Delivering Excellence in Every Transaction.",
-        "ku": "Navigating Markets, Delivering Excellence in Every Transaction.",
-        "ar": "Navigating Markets, Delivering Excellence in Every Transaction."
+        "ku": "گەشتکردن بە بازاڕەکاندا، گەیاندنی نایابی لە هەموو مامەڵەیەکدا.",
+        "ar": "التنقل في الأسواق، وتقديم التميز في كل معاملة."
       },
       "video_path": ""
     },
@@ -629,21 +629,21 @@
       "key": "power-generators",
       "thumb_title": {
         "en": "Generators",
-        "ku": "Generators",
-        "ar": "Generators"
+        "ku": "مۆلیدەکان",
+        "ar": "مولدات كهرباء"
       },
       "title": {
         "en": "Your Trusted Partner in General Trading",
-        "ku": "Your Trusted Partner in General Trading",
-        "ar": "Your Trusted Partner in General Trading"
+        "ku": "هاوبەشی متمانەپێکراوت لە بازرگانی گشتیدا",
+        "ar": "شريكك الموثوق في التجارة العامة"
       },
       "card_icon_path": "/images/specializations/generators.png",
       "image_path": "/images/home/hero-slider/generator.jpg",
       "thumbnail": "/images/home/hero-slider/generator.jpg",
       "description": {
         "en": "Empowering the future with reliable electricity.",
-        "ku": "Empowering the future with reliable electricity.",
-        "ar": "Empowering the future with reliable electricity."
+        "ku": "بەهێزکردنی داهاتوو بە کارەبای متمانەپێکراو.",
+        "ar": "تمكين المستقبل بالكهرباء الموثوقة."
       },
       "video_path": ""
     }

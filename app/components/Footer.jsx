@@ -1,4 +1,5 @@
-import { Link } from "@remix-run/react";
+import { Link, useRouteLoaderData } from "@remix-run/react";
+import { useTranslation } from "react-i18next";
 
 import ArrowTop from "~/Icons/ArrowTop";
 import MainLogo from "~/Icons/MainLogo";
@@ -6,68 +7,72 @@ import MainLogo from "~/Icons/MainLogo";
 import { NAVIGATION_LINKS } from "~/utils/constants";
 
 const Footer = () => {
+  const { t } = useTranslation();
+  const { social_links } = useRouteLoaderData("root");
+
   return (
     <section className="footer" data-sal="fade" data-sal-delay="200">
       <div className="side-padding">
         <section className="footer__links-section">
           <ul className="footer__links">
-            <span>Specialization</span>
+            <span>{t("Specialization")}</span>
             <li className="footer__link-items">
-              <Link to="?specialty=general-trading">General Trading</Link>
-            </li>
-            <li className="footer__link-items">
-              <Link to="?specialty=health-care">Health Care</Link>
-            </li>
-            <li className="footer__link-items">
-              <Link to="?specialty=oil-company">Oil Company</Link>
-            </li>
-            <li className="footer__link-items">
-              <Link to="?specialty=food-and-restaurants">
-                Food & Restaurants
+              <Link to="?specialty=general-trading">
+                {t("General Trading")}
               </Link>
             </li>
             <li className="footer__link-items">
-              <Link to="?specialty=power-generators">Power Generators</Link>
+              <Link to="?specialty=health-care">{t("Health Care")}</Link>
+            </li>
+            <li className="footer__link-items">
+              <Link to="?specialty=oil-company">{t("Oil Company")}</Link>
+            </li>
+            <li className="footer__link-items">
+              <Link to="?specialty=food-and-restaurants">
+                {t("Food & Restaurants")}
+              </Link>
+            </li>
+            <li className="footer__link-items">
+              <Link to="?specialty=power-generators">
+                {t("Power Generators")}
+              </Link>
             </li>
             <li className="footer__link-items">
               <Link to="?specialty=general-constructions">
-                General Constructions
+                {t("General Constructions")}
               </Link>
             </li>
           </ul>
 
           <ul className="footer__links">
-            <span>Links</span>
+            <span>{t("Links")}</span>
             {NAVIGATION_LINKS.map((link) => (
               <li className="footer__link-items" key={link.to}>
-                <Link to={link.to}>{link.title}</Link>
+                <Link to={link.to}>{t(link.title)}</Link>
               </li>
             ))}
           </ul>
 
           <ul className="footer__links">
-            <span>Company</span>
+            <span>{t("Company")}</span>
             <li className="footer__link-items">
-              <Link>About Us</Link>
+              <Link to="/about-us#specializations">{t("Specializations")}</Link>
             </li>
             <li className="footer__link-items">
-              <Link>Specializations</Link>
+              <Link to="/about-us#mission">{t("Our Mission")}</Link>
             </li>
             <li className="footer__link-items">
-              <Link>Our Mission</Link>
+              <Link to="/about-us#vision">{t("Our Vision")}</Link>
             </li>
             <li className="footer__link-items">
-              <Link>Our Vision</Link>
-            </li>
-            <li className="footer__link-items">
-              <Link>Our Brands</Link>
+              <Link to="/about-us#our-brands">{t("Our Brands")}</Link>
             </li>
           </ul>
 
           <div className="footer__links-end-section">
             <MainLogo width={195} height={76} />
 
-            <div className="footer__links-end-section-phone-numbers">
+            <div className="footer__links-end-section-phone-numbers" dir="ltr">
               <span>+964 (750) 200 4000</span>
               <span>+964 (750) 200 3000</span>
             </div>
@@ -75,9 +80,9 @@ const Footer = () => {
         </section>
         <section className="footer__social-sections">
           <div className="footer__social-first-part">
-            <Link>Achievements</Link>
-            <Link>Careers</Link>
-            <Link>Partners</Link>
+            <Link to="/#companies">{t("Companies")}</Link>
+            <Link to="/#achievements">{t("Achievements")}</Link>
+            <Link to="/#partners">{t("Partners")}</Link>
           </div>
           <div className="footer__social-middle-part">
             <button
@@ -94,13 +99,19 @@ const Footer = () => {
             </button>
           </div>
           <div className="footer__social-end-part">
-            <Link>Instagram</Link>
-            <Link>Facebook</Link>
-            <Link>LinkedIn</Link>
+            <Link target="_blank" rel="noreferrer" to={social_links.instagram}>
+              {t("Instagram")}
+            </Link>
+            <Link target="_blank" rel="noreferrer" to={social_links.facebook}>
+              {t("Facebook")}
+            </Link>
+            <Link target="_blank" rel="noreferrer" to={social_links.linked_in}>
+              {t("LinkedIn")}
+            </Link>
           </div>
         </section>
         <section className="footer__rights-section">
-          <span>©2023 GORAN gROUP cO. ALL RIGHTS RESERVED.</span>
+          <span>{t("RIGHTS RESERVED")}</span>
         </section>
       </div>
     </section>

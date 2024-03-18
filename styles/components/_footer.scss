@@ -1,8 +1,6 @@
-
 .footer {
-  height: 520px;
   overflow: hidden;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 
   &__links-section {
     display: flex;
@@ -16,7 +14,7 @@
 
     > span {
       display: block;
-      color: #1E1C23;
+      color: #1e1c23;
       margin-block-end: 16px;
     }
   }
@@ -60,14 +58,14 @@
 
   &__social-first-part {
     display: flex;
-    column-gap: 20px; 
+    column-gap: 20px;
 
     > a {
-      color: #1E1C23; 
+      color: #1e1c23;
       font-size: 14px;
       text-transform: uppercase;
       transition: color 250ms ease;
-      
+
       &:hover {
         color: #bf2025;
       }
@@ -122,11 +120,11 @@
     column-gap: 20px;
 
     > a {
-      color: #1E1C23; 
+      color: #1e1c23;
       font-size: 14px;
       text-transform: uppercase;
       transition: color 250ms ease;
-      
+
       &:hover {
         color: #bf2025;
       }

@@ -300,7 +300,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="home__companies side-padding">
+      <section className="home__companies side-padding" id="companies">
         <div className="home__companies-header">
           <h2 data-sal="fade" data-sal-delay="200">
             {companies_header.title.en}
@@ -364,11 +364,16 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="home__stats" data-sal="fade" data-sal-delay="200">
+      <section
+        className="home__stats"
+        data-sal="fade"
+        data-sal-delay="200"
+        id="achievements"
+      >
         <Stats />
       </section>
 
-      <section className="home__partners side-padding">
+      <section className="home__partners side-padding" id="partners">
         <Partners />
       </section>
     </article>

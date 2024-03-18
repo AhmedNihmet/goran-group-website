@@ -2,57 +2,57 @@
   "about_us": { 
     "sub_title": {
       "en": "About Us",
-      "ku": "About Us",
-      "ar": "About Us"
+      "ku": "دەربارەی ئێمە",
+      "ar": "معلومات عنا"
     }, 
     "title": {
       "en": "Get to know us better!",
-      "ku": "Get to know us better!",
-      "ar": "Get to know us better!"
+      "ku": "زیاتر بزانە!",
+      "ar": "سوف تحظى بفرصة لتعرفنا أكثر!"
     }, 
     "paragraph": {
       "en": "Goran Group is a diverse conglomerate, housing multiple sectors each characterized by distinct methodologies. A cohesive and proficient team, under the leadership of the Chief Executive Officer and the oversight of the monitoring and planning committee, strives to enhance the organization's gains and foster its growth.",
-      "ku": "Goran Group is a diverse conglomerate, housing multiple sectors each characterized by distinct methodologies. A cohesive and proficient team, under the leadership of the Chief Executive Officer and the oversight of the monitoring and planning committee, strives to enhance the organization's gains and foster its growth.",
-      "ar": "Goran Group is a diverse conglomerate, housing multiple sectors each characterized by distinct methodologies. A cohesive and proficient team, under the leadership of the Chief Executive Officer and the oversight of the monitoring and planning committee, strives to enhance the organization's gains and foster its growth."
+      "ku": "گروپی گۆران کۆمەڵەیەکی هەمەچەشنە، چەندین کەرت لەخۆدەگرێت کە هەریەکەیان بە میتۆدۆلۆژیای جیاواز تایبەتمەندن. تیمێکی یەکگرتوو و لێهاتوو، بە سەرکردایەتی بەڕێوەبەری جێبەجێکار و چاودێری لیژنەی چاودێری و پلاندانان، هەوڵدەدات بۆ بەرزکردنەوەی دەستکەوتەکانی ڕێکخراوەکە و پەرەپێدانی گەشەکردنی.",
+      "ar": "مجموعة جوران هي مجموعة متنوعة تضم قطاعات متعددة تتميز كل منها بمنهجيات متميزة. يسعى فريق متماسك ومتقن، بقيادة الرئيس التنفيذي وإشراف لجنة المراقبة والتخطيط، إلى تعزيز مكاسب المنظمة وتعزيز نموها."
     },
     "image_path": "/images/home/about-us-image.webp",
     "action": {
       "link_to": "/about-us",
       "text": {
         "en": "Learn More",
-        "ku": "Learn More",
-        "ar": "Learn More"
+        "ku": "زیاتر",
+        "ar": "تعلم المزيد عن"
       }
     }
   },
   "companies_header": {
     "title": {
       "en": "EMBRACE YOUR EXPERIENCE",
-      "ku": "EMBRACE YOUR EXPERIENCE",
-      "ar": "EMBRACE YOUR EXPERIENCE"
+      "ku": "باشترین ئەزموون وەربگرە",
+      "ar": "احتضن تجربتك"
     },
     "paragraph": {
       "en": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic",
-      "ku": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic",
-      "ar": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic"
+      "ku": "یەکگرتوو لە نایابی، گروپی گۆران لە سەرانسەری کەرتە جۆراوجۆرەکاندا گەشە دەکات، بە ڕێنمایی سەرکردایەتی دیدەوان. لەگەڵ تیمێکی پیشەیی و ستراتیژی",
+      "ar": "تزدهر مجموعة جوران، متحدة في التميز، عبر قطاعات متنوعة، مسترشدة بقيادة حكيمة. مع فريق محترف واستراتيجي"
     }
   },
   "chairman": {
     "image_path": "/images/home/chairman.jpg",
     "sub_title": {
       "en": "CEO of Goran Group Company",
-      "ku": "CEO of Goran Group Company",
-      "ar": "CEO of Goran Group Company"
+      "ku": "بەڕێوەبەری جێبەجێکاری کۆمپانیای گۆران گروپ",
+      "ar": "الرئيس التنفيذي لشركة مجموعة جوران"
     },
     "title": {
       "en": "Mr. Khalil Abbo Mirza",
-      "ku": "Mr. Khalil Abbo Mirza",
-      "ar": "Mr. Khalil Abbo Mirza"
+      "ku": "بەڕێز. خەلیل ئەبۆ میرزا",
+      "ar": "السيد خليل أبو ميرزا"
     },
     "paragraph": {
       "en": "Mr. Khalil, entered business from its narrow gate and insisted to work alone as in 1981 he started with setting up a small store for selling agricultural materials. Although he started business at a young age, yet he finished his education. Currently, he is head of the Administration Board of Goran Group, which consists of several trading companies, constructions, and selling power generators, medical and plastic surgery materials, and equipment.",
-      "ku": "Mr. Khalil, entered business from its narrow gate and insisted to work alone as in 1981 he started with setting up a small store for selling agricultural materials. Although he started business at a young age, yet he finished his education. Currently, he is head of the Administration Board of Goran Group, which consists of several trading companies, constructions, and selling power generators, medical and plastic surgery materials, and equipment.",
-      "ar": "Mr. Khalil, entered business from its narrow gate and insisted to work alone as in 1981 he started with setting up a small store for selling agricultural materials. Although he started business at a young age, yet he finished his education. Currently, he is head of the Administration Board of Goran Group, which consists of several trading companies, constructions, and selling power generators, medical and plastic surgery materials, and equipment."
+      "ku": "بەڕێز خەلیل، لە دەروازە تەسکەکەیەوە هاتە ناو کاروبارەوە و پێداگری کرد لەسەر ئەوەی بە تەنیا کار بکات وەک چۆن لە ساڵی ١٩٨١ دەستی پێکرد بە دانانی فرۆشگایەکی بچووک بۆ فرۆشتنی کەرەستەی کشتوکاڵی. هەرچەندە لە تەمەنێکی گەنجیدا دەستی بە کاروبارەکان کردووە، بەڵام لەگەڵ ئەوەشدا خوێندنی تەواو کردووە. لە ئێستادا سەرۆکی دەستەی کارگێڕی گروپی گۆرانە کە پێکهاتووە لە چەند کۆمپانیایەکی بازرگانی و بیناسازی و فرۆشتنی مۆلیدەی کارەبا و کەرەستەی پزیشکی و نەشتەرگەری جوانکاری و کەلوپەل.",
+      "ar": "دخل السيد خليل العمل من بابها الضيق وأصر على العمل بمفرده، ففي عام 1981 بدأ بإنشاء محل صغير لبيع المواد الزراعية. على الرغم من أنه بدأ العمل في سن مبكرة، إلا أنه أنهى تعليمه. ويرأس حاليًا مجلس إدارة مجموعة جوران التي تتكون من عدة شركات تجارية ومقاولات وبيع مولدات الطاقة والمواد والمعدات الطبية والجراحية التجميلية."
     }
   }
 }
