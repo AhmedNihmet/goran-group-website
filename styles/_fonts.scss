@@ -41,3 +41,35 @@
   font-display: swap;
   src: url("/fonts/open-sans/OpenSans-ExtraBold.ttf");
 }
+
+// Kurdish Fonts  
+@font-face {
+  font-family: "kurdish";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/fonts/kurdish/regular.ttf");
+}
+@font-face {
+  font-family: "kurdish";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/kurdish/bold.ttf");
+}
+
+// Arabic Fonts  
+@font-face {
+  font-family: "arabic";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/fonts/arabic/regular.ttf");
+}
+@font-face {
+  font-family: "arabic";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/arabic/bold.ttf");
+}
