@@ -1,15 +1,27 @@
 import classNames from "classnames";
-import { useEffect, useRef, useState } from "react";
+import { useFetcher, useRouteLoaderData } from "@remix-run/react";
 import { useTranslation } from "react-i18next";
+import { useEffect, useRef, useState } from "react";
 
 import { LANGUAGES } from "~/utils/constants";
 
 const LanguagePicker = ({ onTransparent = false, appearOnTop = false }) => {
+  const fetcher = useFetcher();
   const menuRef = useRef(null);
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
+  const { locale } = useRouteLoaderData("root");
 
   const [isActive, setIsActive] = useState(false);
   const [selectedLanguage, setSelectedLanguage] = useState(LANGUAGES[1]);
+
+  useEffect(() => {
+    if (locale !== LANGUAGES[1].abbreviation) {
+      let selectedLanguage = LANGUAGES.filter(
+        (language) => language.abbreviation === locale
+      )?.[0];
+      setSelectedLanguage(selectedLanguage);
+    }
+  }, [locale]);
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -21,11 +33,6 @@ const LanguagePicker = ({ onTransparent = false, appearOnTop = false }) => {
 
     return () => document.removeEventListener("click", handleClickOutside);
   }, [isActive]);
-
-  useEffect(() => {
-    if (Object.keys(selectedLanguage).length > 0)
-      localStorage.setItem("language", selectedLanguage.abbreviation);
-  }, [selectedLanguage]);
 
   return (
     <section
@@ -48,18 +55,21 @@ const LanguagePicker = ({ onTransparent = false, appearOnTop = false }) => {
       </button>
       <ul className="language-picker__lists">
         {LANGUAGES.map((language) => (
-          <button
+          <fetcher.Form
+            method="post"
             key={language.abbreviation}
-            className="button language-picker__list-item"
-            onClick={() => (
-              i18n.changeLanguage(language.abbreviation),
-              setSelectedLanguage(language),
-              setIsActive(false)
-            )}
+            action={`/actions/change-languages?lng=${language.abbreviation}`}
           >
-            <img src={language.image_src} alt={language.image_alt} />
-            <span>{t(language.title)}</span>
-          </button>
+            <button
+              className="button language-picker__list-item"
+              onClick={() => (
+                setSelectedLanguage(language), setIsActive(false)
+              )}
+            >
+              <img src={language.image_src} alt={language.image_alt} />
+              <span>{t(language.title)}</span>
+            </button>
+          </fetcher.Form>
         ))}
       </ul>
     </section>

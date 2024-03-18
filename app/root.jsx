@@ -24,6 +24,7 @@ import Footer from "~/components/Footer";
 import { buildUrl } from "~/api/config";
 import { isUrlValid } from "~/utils/general";
 import i18next from "~/lib/i18next.server";
+import { languageCookie } from "./cookies/language";
 
 /**
  * @returns {import("@remix-run/node").LinkDescriptor[]}
@@ -59,11 +60,16 @@ export const links = () => [
  */
 export const loader = async ({ request }) => {
   let locale = await i18next.getLocale(request);
+
+  const cookieString = request.headers.get("Cookie");
+  const selectedLanguage = await languageCookie.parse(cookieString);
+  if (selectedLanguage) locale = selectedLanguage;
+
   const url = buildUrl(request, "/data/general.json");
 
   const res = await fetch(url);
-
   const body = await res.json();
+
   body.locale = locale;
 
   return json(body);
@@ -87,7 +93,6 @@ export default function App() {
   // language, this locale will change and i18next will load the correct
   // translation files
   useChangeLanguage(locale);
-  
 
   return (
     <html lang={locale} dir={locale === "en" ? "ltr" : "rtl"}>
