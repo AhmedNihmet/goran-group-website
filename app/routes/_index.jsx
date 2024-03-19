@@ -1,7 +1,10 @@
 import sal from "sal.js";
 import classNames from "classnames";
-import * as Slider from "react-slick";
+
+import { useTranslation } from "react-i18next";
+import { Swiper, SwiperSlide } from "swiper/react";
 import { useEffect, useRef, useState } from "react";
+import { Autoplay, EffectFade, Navigation } from "swiper/modules";
 import {
   Link,
   json,
@@ -23,8 +26,6 @@ import CustomButton from "~/components/CustomButton";
 
 import { buildUrl } from "~/api/config";
 import { truncateString } from "~/utils/general";
-
-const SliderWrapper = Slider.default.default;
 
 /**
  * @returns {import("@remix-run/node").LinkDescriptor[]}
@@ -60,62 +61,15 @@ export const loader = async ({ request }) => {
   return json(data);
 };
 
-/** @type {import("react-slick").Settings} */
-const settingsMain = {
-  dots: false,
-  arrows: false,
-  infinite: true,
-  speed: 1000,
-  fade: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  swipe: false,
-  slide: false,
-  lazyLoad: true,
-  className: "home__main-slider",
-};
-
-/** @type {import("react-slick").Settings} */
-const settingsThumbs = {
-  dots: false,
-  arrows: false,
-  infinite: true,
-  speed: 500,
-  autoplay: true,
-  autoplaySpeed: 8000,
-  slidesToShow: 4,
-  slidesToScroll: 1,
-  focusOnSelect: true,
-  swipeToSlide: true,
-  responsive: [
-    {
-      breakpoint: 1200,
-      settings: {
-        slidesToShow: 3,
-      },
-    },
-    {
-      breakpoint: 540,
-      settings: {
-        slidesToShow: 2,
-      },
-    },
-    {
-      breakpoint: 420,
-      settings: {
-        slidesToShow: 1,
-      },
-    },
-  ],
-};
-
 const Home = () => {
   const mainSliderRef = useRef(null);
   const thumbSliderRef = useRef(null);
 
+  const { t } = useTranslation();
   const { search } = useLocation();
+  const { i18n } = useTranslation();
   const { about_us, chairman, companies_header } = useLoaderData();
-  const { specializations, companies } = useRouteLoaderData("root");
+  const { specializations, companies, locale } = useRouteLoaderData("root");
 
   const [searchParams, setSearchParams] = useSearchParams();
 
@@ -132,8 +86,8 @@ const Home = () => {
       );
 
       setTimeout(() => {
-        mainSliderRef.current.slickGoTo(selectedSpecialtyIndex);
-        thumbSliderRef.current.slickGoTo(selectedSpecialtyIndex);
+        mainSliderRef?.current?.swiper?.slideTo(selectedSpecialtyIndex);
+        thumbSliderRef?.current?.swiper?.slideTo(selectedSpecialtyIndex);
       }, 500);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -147,8 +101,14 @@ const Home = () => {
   }, [isThumbActionActive]);
 
   useEffect(() => {
-    mainSliderRef?.current?.slickGoTo(currentActiveThumb);
+    mainSliderRef?.current?.swiper?.slideTo(currentActiveThumb);
   }, [currentActiveThumb]);
+
+  useEffect(() => {
+    const isRTL = locale === "en" ? "ltr" : "rtl";
+    mainSliderRef?.current?.swiper.changeLanguageDirection(isRTL);
+    thumbSliderRef?.current?.swiper.changeLanguageDirection(isRTL);
+  }, [locale]);
 
   useEffect(() => {
     sal({
@@ -156,8 +116,23 @@ const Home = () => {
     });
   }, []);
 
-  settingsThumbs.beforeChange = (_, activeIndex) =>
-    setCurrentActiveThumb(activeIndex);
+  useEffect(() => {
+    const thumbSlider = thumbSliderRef.current.swiper;
+
+    const handleSlideChange = () => {
+      setCurrentActiveThumb(thumbSlider.realIndex);
+    };
+
+    if (thumbSlider) {
+      thumbSlider.on("slideChange", handleSlideChange);
+    }
+
+    return () => {
+      if (thumbSlider) {
+        thumbSlider.off("slideChange", handleSlideChange);
+      }
+    };
+  }, []);
 
   const playVideo = (url) => {
     const updatedSearchParams = new URLSearchParams(searchParams);
@@ -177,27 +152,33 @@ const Home = () => {
         data-sal="fade"
         data-sal-delay="300"
       >
-        <SliderWrapper {...settingsMain} ref={mainSliderRef}>
+        <Swiper
+          loop
+          effect={"fade"}
+          ref={mainSliderRef}
+          allowTouchMove={false}
+          modules={[EffectFade, Navigation]}
+        >
           {specializations.map((item) => (
-            <div key={item.key}>
+            <SwiperSlide key={item.key}>
               <section className="home__hero-section">
                 <div className="home__hero-background">
                   <div className="home__hero-background-mask" />
                   <img
-                    alt={item.title.en}
+                    alt={item.title[i18n.language]}
                     src={item.image_path}
                     className="home__hero-background-image"
                   />
                 </div>
                 <div className="home__hero-content">
                   <div className="home__hero-content-container side-padding">
-                    <h2 className="large-title">{item.title.en}</h2>
+                    <h2 className="large-title">{item.title[i18n.language]}</h2>
                     <p className="medium-paragraph">
-                      {truncateString(item.description.en, 21)}
+                      {truncateString(item.description[i18n.language], 21)}
                     </p>
                     {item?.video_path && (
                       <CustomButton
-                        text="see a video"
+                        text={t("see a video")}
                         icon={<Play />}
                         onClick={() => playVideo(item.video_path)}
                       />
@@ -205,9 +186,9 @@ const Home = () => {
                   </div>
                 </div>
               </section>
-            </div>
+            </SwiperSlide>
           ))}
-        </SliderWrapper>
+        </Swiper>
 
         <section className="home__hero-thumbs max-w">
           <section className="home__hero-thumb-actions-container">
@@ -222,7 +203,7 @@ const Home = () => {
                 }
               )}
               onClick={() => {
-                thumbSliderRef.current.slickPrev();
+                thumbSliderRef.current.swiper.slidePrev();
                 setIsThumbActionActive("thumb--prev");
               }}
             >
@@ -239,7 +220,7 @@ const Home = () => {
                   isThumbActionActive === "thumb--next",
               })}
               onClick={() => {
-                thumbSliderRef.current.slickNext();
+                thumbSliderRef.current.swiper.slideNext();
                 setIsThumbActionActive("thumb--next");
               }}
             >
@@ -250,42 +231,68 @@ const Home = () => {
               />
             </button>
           </section>
-          <SliderWrapper {...settingsThumbs} ref={thumbSliderRef}>
+
+          <Swiper
+            loop
+            speed={500}
+            autoplay={{
+              delay: 8_000,
+              disableOnInteraction: false,
+            }}
+            slidesPerView={1}
+            spaceBetween={0}
+            ref={thumbSliderRef}
+            modules={[Navigation, Autoplay]}
+            breakpoints={{
+              1200: {
+                slidesPerView: 4,
+              },
+              640: {
+                slidesPerView: 3,
+              },
+              540: {
+                slidesPerView: 2,
+              },
+            }}
+          >
             {specializations.map((item) => (
-              <div key={item.key}>
+              <SwiperSlide key={item.key}>
                 <div className="home__hero-thumb-card">
                   <div className="home__hero-thumb-card-image">
-                    <img src={item.card_icon_path} alt={item.thumb_title.en} />
+                    <img
+                      src={item.card_icon_path}
+                      alt={item.thumb_title[i18n.language]}
+                    />
                   </div>
                   <h3 className="home__hero-thumb-card-title">
-                    {item.thumb_title.en}
+                    {item.thumb_title[i18n.language]}
                   </h3>
                   <p className="home__hero-thumb-card-paragraph">
-                    {truncateString(item.description.en, 21)}
+                    {truncateString(item.description[i18n.language], 21)}
                   </p>
                 </div>
-              </div>
+              </SwiperSlide>
             ))}
-          </SliderWrapper>
+          </Swiper>
         </section>
       </section>
 
       <section className="home__about-us side-padding">
         <div className="home__about-us-content">
           <span data-sal="fade" data-sal-delay="100">
-            {about_us.sub_title.en}
+            {about_us.sub_title[i18n.language]}
           </span>
           <h4 data-sal="fade" data-sal-delay="200">
-            {about_us.title.en}
+            {about_us.title[i18n.language]}
           </h4>
           <p data-sal="fade" data-sal-delay="300">
-            {about_us.paragraph.en}
+            {about_us.paragraph[i18n.language]}
           </p>
 
           <div data-sal="fade" data-sal-delay="400">
             <CustomButton
               icon={<Arrow />}
-              text={about_us.action.text.en}
+              text={about_us.action.text[i18n.language]}
               linkTo={about_us.action.link_to}
             />
           </div>
@@ -303,10 +310,10 @@ const Home = () => {
       <section className="home__companies side-padding" id="companies">
         <div className="home__companies-header">
           <h2 data-sal="fade" data-sal-delay="200">
-            {companies_header.title.en}
+            {companies_header.title[i18n.language]}
           </h2>
           <p data-sal="fade" data-sal-delay="250">
-            {companies_header.paragraph.en}
+            {companies_header.paragraph[i18n.language]}
           </p>
         </div>
         <ul className="home__companies-cards">
@@ -320,11 +327,14 @@ const Home = () => {
                 className="home__companies-card-item"
               >
                 <div className="home__companies-card-item-image">
-                  <img alt={company.title.en} src={company.thumbnail} />
+                  <img
+                    alt={company.title[i18n.language]}
+                    src={company.thumbnail}
+                  />
                 </div>
                 <div className="home__companies-card-item-image-content">
-                  <h3>{company.card_title.en}</h3>
-                  <p>{company.card_paragraph.en}</p>
+                  <h3>{company.card_title[i18n.language]}</h3>
+                  <p>{company.card_paragraph[i18n.language]}</p>
                 </div>
               </Link>
             );
@@ -336,7 +346,7 @@ const Home = () => {
           data-sal-delay="200"
           className="home__companies-see-more"
         >
-          <CustomButton text="See More" linkTo="/companies" />
+          <CustomButton text={t("See More")} linkTo="/companies" />
         </div>
       </section>
 
@@ -353,13 +363,13 @@ const Home = () => {
         </div>
         <div className="home__chairman-content">
           <span data-sal="fade" data-sal-delay="400">
-            {chairman.sub_title.en}
+            {chairman.sub_title[i18n.language]}
           </span>
           <h1 data-sal="fade" data-sal-delay="500">
-            {chairman.title.en}
+            {chairman.title[i18n.language]}
           </h1>
           <p data-sal="fade" data-sal-delay="600">
-            {chairman.paragraph.en}
+            {chairman.paragraph[i18n.language]}
           </p>
         </div>
       </section>

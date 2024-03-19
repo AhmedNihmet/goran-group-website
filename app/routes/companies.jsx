@@ -1,5 +1,6 @@
 import sal from "sal.js";
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import {
   Link,
   json,
@@ -53,6 +54,7 @@ export const loader = async ({ request }) => {
 };
 
 const Companies = () => {
+  const { i18n } = useTranslation()
   const { companies } = useRouteLoaderData("root");
   const { hero, companies_header, we_work } = useLoaderData();
 
@@ -84,16 +86,16 @@ const Companies = () => {
         </div>
         <div className="companies__hero-content">
           <h1 data-sal="fade" data-sal-delay="200">
-            {hero.title.en}
+            {hero.title[i18n.language]}
           </h1>
           <p data-sal="fade" data-sal-delay="300">
-            {hero.paragraph.en}
+            {hero.paragraph[i18n.language]}
           </p>
           <div data-sal="fade" data-sal-delay="500">
             {hero?.video_path && (
               <CustomButton
                 icon={<Play />}
-                text={hero.video_button_title.en}
+                text={hero.video_button_title[i18n.language]}
                 onClick={() => playVideo(hero.video_path)}
               />
             )}
@@ -103,9 +105,9 @@ const Companies = () => {
 
       <section className="companies__our-companies max-w">
         <div className="companies__our-companies-header">
-          <h2 data-sal="fade">{companies_header.title.en}</h2>
+          <h2 data-sal="fade">{companies_header.title[i18n.language]}</h2>
           <p data-sal="fade" data-sal-delay="100">
-            {companies_header.paragraph.en}
+            {companies_header.paragraph[i18n.language]}
           </p>
         </div>
         <div
@@ -125,10 +127,10 @@ const Companies = () => {
                 className="companies__our-companies-list-item"
               >
                 <div className="companies__our-companies-list-item-image">
-                  <img alt={company.title.en} src={company.thumbnail} />
+                  <img alt={company.title[i18n.language]} src={company.thumbnail} />
                 </div>
-                <h5>{company.card_title.en}</h5>
-                <p>{company.card_paragraph.en}</p>
+                <h5>{company.card_title[i18n.language]}</h5>
+                <p>{company.card_paragraph[i18n.language]}</p>
               </Link>
             );
           })}
@@ -138,7 +140,7 @@ const Companies = () => {
       <section className="companies__we-have-worked max-w">
         <div className="companies__we-have-worked-header">
           <h3 data-sal="fade" data-sal-delay="100">
-            {we_work.title.en}
+            {we_work.title[i18n.language]}
           </h3>
         </div>
         <p
@@ -151,7 +153,7 @@ const Companies = () => {
 
             return (
               <span key={index} data-sal="fade" data-sal-delay={delay}>
-                {paragraph.en}
+                {paragraph[i18n.language]}
               </span>
             );
           })}

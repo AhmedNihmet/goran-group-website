@@ -88,6 +88,14 @@
   .home__chairman-content {
     padding-inline-start: 60px;
   }
+
+  html[dir="rtl"] .about-us__hero-content > h1 {
+    font-size: 68px;
+  }
+
+  html[dir="rtl"] .about-us__hero-content > p {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -277,8 +285,14 @@
     font-size: 28px;
   }
 
-  .company-view__hero-background-mask { 
+  html[dir="rtl"] .company-view__hero-background-mask,
+  .company-view__hero-background-mask {
     background: #22222270;
+  }
+
+  html[dir="rtl"] .home__chairman-content p {
+    font-size: 16px;
+    line-height: normal;
   }
 }
 
@@ -353,7 +367,7 @@
   .home__companies-card-item-image-content > h3 {
     font-size: 20px;
   }
-  
+
   .company-view__hero-content h1,
   .companies__hero-content > h1 {
     font-size: 34px;
@@ -404,6 +418,7 @@
     font-size: 14px;
   }
 
+  html[dir="rtl"] .about-us__hero-content > h1,
   .about-us__hero-content > h1 {
     font-size: 48px;
   }
@@ -448,6 +463,8 @@
   .home__hero-thumb-card-title {
     font-size: 18px;
   }
+
+  html[dir="rtl"] .home__hero-background-mask,
   .home__hero-background-mask {
     background: #22222270;
   }
@@ -495,6 +512,7 @@
     max-width: 100%;
   }
 
+  html[dir="rtl"] .about-us__hero-content > h1,
   .about-us__hero-content > h1 {
     font-size: 32px;
   }
@@ -514,6 +532,10 @@
     bottom: 20px;
     width: calc(100% - 20px);
     padding-inline: 10px;
+  }
+
+  html[dir="rtl"] .company-view__slider-card-details > h5 {
+    font-size: 16px;
   }
 }
 

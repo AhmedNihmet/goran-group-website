@@ -15,6 +15,7 @@ import Partners from "~/components/Partners";
 import MissionAndVision from "~/components/page/MissionAndVision";
 
 import { buildUrl } from "~/api/config";
+import { useTranslation } from "react-i18next";
 
 /**
  * @returns {import("@remix-run/node").LinkDescriptor[]}
@@ -52,6 +53,7 @@ export const loader = async ({ request }) => {
 
 const AboutUs = () => {
   const { hero } = useLoaderData();
+  const { i18n } = useTranslation();
   const { specializations } = useRouteLoaderData("root");
 
   const [isThumbActionActive, setIsThumbActionActive] = useState(null);
@@ -82,10 +84,10 @@ const AboutUs = () => {
       <section className="about-us__hero-details max-w">
         <div className="about-us__hero-content">
           <h1 data-sal="fade" data-sal-delay="200">
-            {hero.title.en}
+            {hero.title[i18n.language]}
           </h1>
           <p data-sal="fade" data-sal-delay="300">
-            {hero.sub_title.en}
+            {hero.sub_title[i18n.language]}
           </p>
         </div>
         <div
@@ -156,7 +158,7 @@ const AboutUs = () => {
 
             return (
               <span key={index} data-sal="fade" data-sal-delay={delay}>
-                {paragraph.en}
+                {paragraph[i18n.language]}
               </span>
             );
           })}
@@ -235,12 +237,15 @@ const AboutUs = () => {
             <SwiperSlide key={specialty.key}>
               <div className="about-us__specialization-cards">
                 <div className="about-us__specialization-card-image">
-                  <img alt={specialty.title.en} src={specialty.thumbnail} />
+                  <img
+                    alt={specialty.title[i18n.language]}
+                    src={specialty.thumbnail}
+                  />
                 </div>
                 <div className="about-us__specialization-card-line" />
                 <div className="about-us__specialization-card-content">
-                  <h4>{specialty.thumb_title.en}</h4>
-                  <p>{specialty.description.en}</p>
+                  <h4>{specialty.thumb_title[i18n.language]}</h4>
+                  <p>{specialty.description[i18n.language]}</p>
                 </div>
               </div>
             </SwiperSlide>

@@ -1,9 +1,69 @@
-html[lang="ku"] * {
+html[lang="ku"] body {
   font-family: "kurdish";
   font-weight: 300;
 }
 
-html[lang="ar"] * {
+html[lang="ar"] body {
   font-family: "arabic";
   font-weight: 300;
+}
+
+html[lang="ar"] .stats__list-item-count-container,
+html[lang="ku"] .stats__list-item-count-container {
+  font-family: "OpenSans" !important;
+}
+
+html[dir="rtl"] {
+  .about-us__hero-stacked-cards-action,
+  .home__hero-thumb-actions-container {
+    flex-direction: row-reverse;
+  }
+  .company-view__hero-background-mask,
+  .home__hero-background-mask {
+    background: linear-gradient(
+      270deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.3) 50%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+
+  .custom-link svg,
+  .custom-button svg {
+    transform: rotate(0.5turn);
+  }
+
+  .home__companies-card-item-image-content > p {
+    height: 62px;
+  }
+  .home__chairman-content p {
+    font-size: 20px;
+    line-height: normal;
+    max-width: unset;
+    padding-inline-end: 16px;
+  }
+
+  .about-us__specializations-actions {
+    .about-us__hero-stacked-cards-action-prev-icon {
+      transform: rotate(0);
+    }
+    .about-us__specializations-action-button--next svg {
+      transform: rotate(0.5turn);
+    }
+  } 
+
+  .about-us__hero-details {
+    padding-inline-end: 40px;
+  }
+
+  .company-view__hero-content h1 {
+    font-weight: 300;
+  }
+  
+  .company-view__slider-action-icon--prev > svg {
+    transform: rotate(0);
+  }
+  .company-view__slider-action-button--next  svg {
+    transform: rotate(0.5turn); 
+  }
 }

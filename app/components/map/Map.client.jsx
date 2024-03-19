@@ -1,5 +1,6 @@
 import classNames from "classnames";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
 import CurrentLocation from "~/Icons/CurrentLocation";
@@ -7,7 +8,7 @@ import CurrentLocation from "~/Icons/CurrentLocation";
 const DEFAULT_MAP_TILE_STYLE = "light-v11"
 
 export const Map = ({ height, position }) => {
-
+  const { t } = useTranslation()
   const [mapStyle, setMapStyle] = useState(DEFAULT_MAP_TILE_STYLE);
 
   const handleMapStyleToggle = () => {
@@ -42,7 +43,7 @@ export const Map = ({ height, position }) => {
         />
         <Marker position={position}>
           <Popup>
-            Goran Group
+            {t("Goran Group")}
           </Popup>
         </Marker>
       </MapContainer>

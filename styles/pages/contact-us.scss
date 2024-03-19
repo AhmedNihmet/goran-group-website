@@ -5,7 +5,7 @@
     > h1 {
       font-size: 48px;
       font-weight: 500;
-      color: #1E1C23;
+      color: #1e1c23;
       margin-block-end: 48px;
       line-height: 100%;
     }
@@ -23,15 +23,19 @@
 
   &__header-content > span {
     font-size: 18px;
-    color: #1E1C23;
+    color: #1e1c23;
     font-weight: 500;
     display: block;
     margin-block-end: 8px;
   }
 
   &__header-content-item {
-    color: #1E1C23;
+    color: #1e1c23;
     margin-block-end: 6px;
+  }
+  &__header-content-item.email,
+  &__header-content-item.phone {
+    font-family: "OpenSans" !important;
   }
 
   &__header-socials {
@@ -59,7 +63,7 @@
     align-items: center;
     justify-content: center;
   }
- 
+
   &__map {
     height: 550px;
     margin-block-end: 100px;

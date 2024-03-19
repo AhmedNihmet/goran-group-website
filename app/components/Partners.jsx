@@ -1,19 +1,21 @@
+import { useTranslation } from "react-i18next";
 import { useNavigate, useRouteLoaderData } from "@remix-run/react";
 
 const Partners = () => {
   const navigate = useNavigate();
 
+  const { i18n } = useTranslation()
   const { partners } = useRouteLoaderData("root");
 
   return (
     <section className="partners">
       <div className="partners__content" data-sal="fade" data-sal-delay="200">
         <div className="partners__content-subtitle-container">
-          <span>{partners?.sub_title?.en}</span>
+          <span>{partners?.sub_title[i18n.language]}</span>
           <hr />
         </div>
-        <h3>{partners?.title?.en}</h3>
-        <p>{partners?.paragraph?.en}</p>
+        <h3>{partners?.title[i18n.language]}</h3>
+        <p>{partners?.paragraph[i18n.language]}</p>
       </div>
 
       <div className="partners__logo-container">

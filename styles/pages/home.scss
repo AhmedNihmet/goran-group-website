@@ -79,7 +79,7 @@
     -webkit-box-shadow: 0px 4px 12px 1px rgba(0, 0, 0, 0.21);
     -moz-box-shadow: 0px 4px 12px 1px rgba(0, 0, 0, 0.21);
 
-    .slick-active.slick-current {
+    .swiper-slide.swiper-slide-active {
       .home__hero-thumb-card {
         border-color: #bf2025;
         background-color: #bf2025;
@@ -132,7 +132,7 @@
   }
 
   &__hero-thumb-actions-container {
-    z-index: 1;
+    z-index: 10;
     width: calc(100% + 60px);
     position: absolute;
     top: 50%;

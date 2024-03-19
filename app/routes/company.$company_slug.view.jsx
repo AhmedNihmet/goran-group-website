@@ -1,9 +1,11 @@
 import sal from "sal.js";
 import classNames from "classnames";
+
 import { useEffect, useState } from "react";
 import { Navigation } from "swiper/modules";
-import { json, redirect, useLoaderData } from "@remix-run/react";
+import { useTranslation } from "react-i18next";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { json, redirect, useLoaderData } from "@remix-run/react";
 
 import companyViewStyles from "~/styles/pages/company-view.css";
 import mediaQueryStyles from "~/styles/media-queries.css";
@@ -57,6 +59,7 @@ export const loader = async ({ request, params }) => {
 
 const CompanyView = () => {
   const { data } = useLoaderData();
+  const { t, i18n } = useTranslation()
 
   const [isSliderControlActive, setIsSliderControlActive] = useState(null);
 
@@ -78,15 +81,15 @@ const CompanyView = () => {
       <section className="company-view__hero" data-sal="fade">
         <div className="company-view__hero-background">
           <div className="company-view__hero-background-mask" />
-          <img src={data.hero_image} alt={data.title.en} />
+          <img src={data.hero_image} alt={data.title[i18n.language]} />
         </div>
         <div className="company-view__hero-content">
           <div className="side-padding">
             <h1 data-sal="fade" data-sal-delay="200">
-              {data.title.en}
+              {data.title[i18n.language]}
             </h1>
             <p data-sal="fade" data-sal-delay="300">
-              {data.paragraph.en}
+              {data.paragraph[i18n.language]}
             </p>
             <div data-sal="fade" data-sal-delay="500">
               {data.company_video && (
@@ -109,14 +112,14 @@ const CompanyView = () => {
                     data-sal-delay="500"
                     style={{ "--sal-duration": "1s" }}
                   >
-                    <img src={service.image_path} alt={service.title.en} />
+                    <img src={service.image_path} alt={service.title[i18n.language]} />
                   </div>
                   <div className="company-view__service-card-content">
                     <h3 data-sal="fade" data-sal-delay="300">
-                      {service.title.en}
+                      {service.title[i18n.language]}
                     </h3>
                     <p data-sal="fade" data-sal-delay="300">
-                      {service.description.en}
+                      {service.description[i18n.language]}
                     </p>
                   </div>
                 </div>
@@ -130,10 +133,10 @@ const CompanyView = () => {
         <section className="company-view__slider-section side-padding">
           <div className="company-view__slider-section-header">
             <h2 data-sal="fade" data-sal-delay="200">
-              {data.gallery.title.en}
+              {data.gallery.title[i18n.language]}
             </h2>
             <p data-sal="fade" data-sal-delay="300">
-              {data.gallery.paragraph.en}
+              {data.gallery.paragraph[i18n.language]}
             </p>
           </div>
           <div data-sal="fade" data-sal-delay="300">
@@ -155,8 +158,8 @@ const CompanyView = () => {
               ))}
               <div className="company-view__slider-card-content">
                 <div className="company-view__slider-card-details">
-                  <span>Gallery</span>
-                  <h5>{data.title.en}</h5>
+                  <span>{t("Gallery")}</span>
+                  <h5>{data.title[i18n.language]}</h5>
                 </div>
                 <div className="company-view__slider-card-controls">
                   <button

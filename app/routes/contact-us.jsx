@@ -1,5 +1,6 @@
 import sal from "sal.js";
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import {
   Link,
   json,
@@ -59,6 +60,7 @@ export const loader = async ({ request }) => {
 
 const mapHeight = "550px";
 const ContactUs = () => {
+  const { i18n } = useTranslation()
   const loaderData = useLoaderData();
   const { social_links } = useRouteLoaderData("root");
 
@@ -72,7 +74,7 @@ const ContactUs = () => {
     <article className="contact-us">
       <section className="contact-us__header side-padding">
         <h1 data-sal="fade" data-sal-delay="200">
-          {loaderData.title.en}
+          {loaderData.title[i18n.language]}
         </h1>
 
         <div className="contact-us__header-content-container">
@@ -81,12 +83,12 @@ const ContactUs = () => {
             data-sal-delay="300"
             className="contact-us__header-content"
           >
-            <span>{loaderData.phone.title.en}</span>
+            <span>{loaderData.phone.title[i18n.language]}</span>
             {loaderData.phone.entities.map((item, index) => (
               <li
                 dir="ltr"
                 key={index}
-                className="contact-us__header-content-item"
+                className="contact-us__header-content-item phone"
               >
                 {item}
               </li>
@@ -97,10 +99,10 @@ const ContactUs = () => {
             data-sal="fade"
             data-sal-delay="400"
           >
-            <span>{loaderData.address.title.en}</span>
+            <span>{loaderData.address.title[i18n.language]}</span>
             {loaderData.address.entities.map((item, index) => (
               <li key={index} className="contact-us__header-content-item">
-                {item.en}
+                {item[i18n.language]}
               </li>
             ))}
           </ul>
@@ -109,9 +111,9 @@ const ContactUs = () => {
             data-sal="fade"
             data-sal-delay="500"
           >
-            <span>{loaderData.email.title.en}</span>
+            <span>{loaderData.email.title[i18n.language]}</span>
             {loaderData.email.entities.map((item, index) => (
-              <li key={index} className="contact-us__header-content-item" dir="ltr">
+              <li key={index} className="contact-us__header-content-item email" dir="ltr">
                 {item}
               </li>
             ))}
@@ -121,7 +123,7 @@ const ContactUs = () => {
             data-sal="fade"
             data-sal-delay="600"
           >
-            <span>{loaderData.social.title.en}</span>
+            <span>{loaderData.social.title[i18n.language]}</span>
             <ul className="contact-us__header-social-lists">
               <Link
                 target="_blank"

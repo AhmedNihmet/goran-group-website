@@ -1,10 +1,13 @@
 import CountUp from "react-countup";
+
+import { useTranslation } from "react-i18next";
 import { useRef, useEffect, useState } from "react";
 import { useRouteLoaderData } from "@remix-run/react";
 
 const Stats = () => {
   const statsRef = useRef(null);
 
+  const { i18n } = useTranslation()
   const { statistics } = useRouteLoaderData("root");
 
   const [isVisible, setIsVisible] = useState(false);
@@ -32,8 +35,8 @@ const Stats = () => {
   return (
     <section className="stats max-w" ref={statsRef}>
       <div className="stats__content">
-        <span>{statistics.sub_title.en}</span>
-        <h5>{statistics.title.en}</h5>
+        <span>{statistics.sub_title[i18n.language]}</span>
+        <h5>{statistics.title[i18n.language]}</h5>
       </div>
       <ul className="stats__list">
         <li className="stats__list-item" data-sal="fade" data-sal-delay="200">
@@ -48,7 +51,7 @@ const Stats = () => {
             )}
           </div>
           <span className="stats__list-item-count-title">
-            {statistics.award.title.en}
+            {statistics.award.title[i18n.language]}
           </span>
         </li>
         <li className="stats__list-item" data-sal="fade" data-sal-delay="300">
@@ -65,7 +68,7 @@ const Stats = () => {
             {statistics.clients.prefix}
           </div>
           <span className="stats__list-item-count-title">
-            {statistics.clients.title.en}
+            {statistics.clients.title[i18n.language]}
           </span>
         </li>
         <li className="stats__list-item" data-sal="fade" data-sal-delay="400">
@@ -80,7 +83,7 @@ const Stats = () => {
             )}
           </div>
           <span className="stats__list-item-count-title">
-            {statistics.employees.title.en}
+            {statistics.employees.title[i18n.language]}
           </span>
         </li>
         <li className="stats__list-item" data-sal="fade" data-sal-delay="500">
@@ -96,7 +99,7 @@ const Stats = () => {
             {statistics.projects.prefix}
           </div>
           <span className="stats__list-item-count-title">
-            {statistics.projects.title.en}
+            {statistics.projects.title[i18n.language]}
           </span>
         </li>
       </ul>
