@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { useEffect, useMemo, useState } from "react";
 import { json, redirect, useLoaderData } from "@remix-run/react";
 import { PhotoProvider, PhotoView } from "react-image-previewer";
-import { SlideToolbar, CloseButton } from 'react-image-previewer/ui';
+import { SlideToolbar, CloseButton } from "react-image-previewer/ui";
 
 import companyViewStyles from "~/styles/pages/company-view.css";
 import mediaQueryStyles from "~/styles/media-queries.css";
@@ -191,15 +191,17 @@ const CompanyView = () => {
             </button>
           </div>
 
-          <PhotoProvider overlayRender={props => {
-        const { onClose } = props
-        return (
-          <>
-            <SlideToolbar {...props} />
-            <CloseButton onClick={onClose} />
-          </>
-        )
-      }}>
+          <PhotoProvider
+            overlayRender={(props) => {
+              const { onClose } = props;
+              return (
+                <>
+                  <SlideToolbar {...props} />
+                  <CloseButton onClick={onClose} />
+                </>
+              );
+            }}
+          >
             <Swiper
               slidesPerView={"auto"}
               spaceBetween={20}

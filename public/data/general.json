@@ -230,7 +230,6 @@
           "ar": "من خلال دفع الابتكار والاستدامة، فإن تفانينا يغذي مستقبلًا محددًا بالتقدم."
         },
         "images": [
-          "/images/company/goran-generator/slider-2.jpg",
           "/images/company/goran-generator/slider-3.jpg",
           "/images/company/goran-generator/slider-4.jpg",
           "/images/company/goran-generator/slider-5.jpg",
@@ -242,6 +241,7 @@
           "/images/company/goran-generator/slider-12.jpg",
           "/images/company/goran-generator/slider-13.jpg",
           "/images/company/goran-generator/slider-14.jpg",
+          "/images/company/goran-generator/slider-2.jpg",
           "/images/company/goran-generator/slider-1.jpg"
         ]
       }
