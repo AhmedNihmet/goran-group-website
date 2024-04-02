@@ -79,6 +79,10 @@
     height: 22px;
     width: 22px;
   }
+
+  .company-view__list-item {
+    grid-row: 4 span;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -87,6 +91,11 @@
   }
   .home__chairman-content {
     padding-inline-start: 60px;
+  }
+
+  .company-view__service-card-image {
+    height: unset;
+    max-height: 400px;
   }
 
   html[dir="rtl"] .about-us__hero-content > h1 {

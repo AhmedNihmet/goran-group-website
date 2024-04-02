@@ -11,7 +11,7 @@ const Footer = () => {
   const { social_links } = useRouteLoaderData("root");
 
   return (
-    <section className="footer" data-sal="fade" data-sal-delay="200">
+    <section className="footer">
       <div className="side-padding">
         <section className="footer__links-section">
           <ul className="footer__links">
