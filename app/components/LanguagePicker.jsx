@@ -47,10 +47,10 @@ const LanguagePicker = ({ onTransparent = false, appearOnTop = false }) => {
         onClick={() => setIsActive((prevState) => !prevState)}
         className="button language-picker__selected-language"
       >
-        <img
+        {/* <img
           src={selectedLanguage.image_src}
           alt={selectedLanguage.image_alt}
-        />
+        /> */}
         <span>{t(selectedLanguage.title)}</span>
       </button>
       <ul className="language-picker__lists">
@@ -66,7 +66,7 @@ const LanguagePicker = ({ onTransparent = false, appearOnTop = false }) => {
                 setSelectedLanguage(language), setIsActive(false)
               )}
             >
-              <img src={language.image_src} alt={language.image_alt} />
+              {/* <img src={language.image_src} alt={language.image_alt} /> */}
               <span>{t(language.title)}</span>
             </button>
           </fetcher.Form>
