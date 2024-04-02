@@ -516,68 +516,24 @@
   ],
   "specializations": [
     {
-      "key": "health-care",
+      "key": "power-generators",
       "thumb_title": {
-        "en": "Health",
-        "ku": "تەندروستی",
-        "ar": "صحة"
+        "en": "Generators",
+        "ku": "مۆلیدەکان",
+        "ar": "مولدات كهرباء"
       },
       "title": {
-        "en": "Leading Healthcare Solutions Provider",
-        "ku": "پێشەنگی دابینکەری چارەسەری چاودێری تەندروستی",
-        "ar": "الرائدة في مجال توفير حلول الرعاية الصحية"
+        "en": "Your Trusted Partner in General Trading",
+        "ku": "هاوبەشی متمانەپێکراوت لە بازرگانی گشتیدا",
+        "ar": "شريكك الموثوق في التجارة العامة"
       },
-      "card_icon_path": "/images/specializations/health.png",
-      "image_path": "/images/home/hero-slider/health.jpg",
-      "thumbnail": "/images/home/hero-slider/health.jpg",
+      "card_icon_path": "/images/specializations/generators.png",
+      "image_path": "/images/home/hero-slider/generator.jpg",
+      "thumbnail": "/images/home/hero-slider/generator.jpg",
       "description": {
-        "en": "Innovating care for healthier communities, trusted by professionals.",
-        "ku": "داهێنانی چاودێری بۆ کۆمەڵگا تەندروستەکان، متمانەپێکراو لەلایەن کەسانی پیشەییەوە.",
-        "ar": "رعاية مبتكرة لمجتمعات أكثر صحة، موثوق بها من قبل المتخصصين."
-      },
-      "video_path": ""
-    },
-    {
-      "key": "oil-company",
-      "thumb_title": {
-        "en": "Oil Company",
-        "ku": "کۆمپانیای نەوت",
-        "ar": "شركة نفط"
-      },
-      "title": {
-        "en": "Global Energy Solutions Provider",
-        "ku": "دابینکەری چارەسەری وزەی جیهانی",
-        "ar": "مزود حلول الطاقة العالمية"
-      },
-      "card_icon_path": "/images/specializations/oil-company.png",
-      "image_path": "/images/home/hero-slider/oil-company.jpg",
-      "thumbnail": "/images/home/hero-slider/oil-company.jpg",
-      "description": {
-        "en": "Sustainable energy production for a dynamic, World powering progress.",
-        "ku": "بەرهەمهێنانی وزەی بەردەوام بۆ پێشکەوتنێکی دینامیکی و بەهێزکەری جیهانی.",
-        "ar": "إنتاج الطاقة المستدامة من أجل تقدم ديناميكي عالمي."
-      },
-      "video_path": "/images/company/falkonoil/falkenoil-video.mp4"
-    },
-    {
-      "key": "food-and-restaurants",
-      "thumb_title": {
-        "en": "Restaurant",
-        "ku": "چێشتخانە",
-        "ar": "مطعم"
-      },
-      "title": {
-        "en": "Culinary Excellence Redefined",
-        "ku": "باشترین چێشتلێنان",
-        "ar": "إعادة تعريف التميز في الطهي"
-      },
-      "card_icon_path": "/images/specializations/restaurant.png",
-      "image_path": "/images/home/hero-slider/restaurant.jpg",
-      "thumbnail": "/images/home/hero-slider/restaurant.jpg",
-      "description": {
-        "en": "Savior memorable dining experiences, crafted with passion and quality.",
-        "ku": "ئەزموونی خواردنی یادگاری ڕزگارکەر، کە بە سۆز و کوالیتی دروستکراوە.",
-        "ar": "استمتع بتجارب تناول طعام لا تُنسى، صُنعت بشغف وجودة عالية."
+        "en": "Empowering the future with reliable electricity.",
+        "ku": "بەهێزکردنی داهاتوو بە کارەبای متمانەپێکراو.",
+        "ar": "تمكين المستقبل بالكهرباء الموثوقة."
       },
       "video_path": ""
     },
@@ -604,6 +560,28 @@
       "video_path": ""
     },
     {
+      "key": "health-care",
+      "thumb_title": {
+        "en": "Health",
+        "ku": "تەندروستی",
+        "ar": "صحة"
+      },
+      "title": {
+        "en": "Leading Healthcare Solutions Provider",
+        "ku": "پێشەنگی دابینکەری چارەسەری چاودێری تەندروستی",
+        "ar": "الرائدة في مجال توفير حلول الرعاية الصحية"
+      },
+      "card_icon_path": "/images/specializations/health.png",
+      "image_path": "/images/home/hero-slider/health.jpg",
+      "thumbnail": "/images/home/hero-slider/health.jpg",
+      "description": {
+        "en": "Innovating care for healthier communities, trusted by professionals.",
+        "ku": "داهێنانی چاودێری بۆ کۆمەڵگا تەندروستەکان، متمانەپێکراو لەلایەن کەسانی پیشەییەوە.",
+        "ar": "رعاية مبتكرة لمجتمعات أكثر صحة، موثوق بها من قبل المتخصصين."
+      },
+      "video_path": ""
+    },
+    {
       "key": "general-trading",
       "thumb_title": {
         "en": "Trading",
@@ -626,26 +604,48 @@
       "video_path": ""
     },
     {
-      "key": "power-generators",
+      "key": "realestate-company",
       "thumb_title": {
-        "en": "Generators",
-        "ku": "مۆلیدەکان",
-        "ar": "مولدات كهرباء"
+        "en": "Realestate",
+        "ku": "خانووبەرە",
+        "ar": "العقارات"
       },
       "title": {
-        "en": "Your Trusted Partner in General Trading",
-        "ku": "هاوبەشی متمانەپێکراوت لە بازرگانی گشتیدا",
-        "ar": "شريكك الموثوق في التجارة العامة"
+        "en": "Premier Real Estate Solutions Provider in Iraqi Kurdistan",
+        "ku": "دابینکەری باشترین چارەسەری خانووبەرە لە کوردستانی عێراق",
+        "ar": "المزود الأول للحلول العقارية في كردستان العراق"
       },
-      "card_icon_path": "/images/specializations/generators.png",
-      "image_path": "/images/home/hero-slider/generator.jpg",
-      "thumbnail": "/images/home/hero-slider/generator.jpg",
+      "card_icon_path": "/images/specializations/property.png",
+      "image_path": "/images/home/hero-slider/realestate.jpg",
+      "thumbnail": "/images/home/hero-slider/realestate.jpg",
       "description": {
-        "en": "Empowering the future with reliable electricity.",
-        "ku": "بەهێزکردنی داهاتوو بە کارەبای متمانەپێکراو.",
-        "ar": "تمكين المستقبل بالكهرباء الموثوقة."
+        "en": "Leading real estate agency in Erbil, Iraq, with extensive experience.",
+        "ku": "نوسینگەی پێشەنگی خانووبەرە لە کوردستانی عێراق، بە ئەزموونێکی بەرفراوان.",
+        "ar": "وكالة عقارية رائدة في أربيل العراق بخبرة واسعة."
       },
       "video_path": ""
+    },
+    {
+      "key": "oil-company",
+      "thumb_title": {
+        "en": "Oil Company",
+        "ku": "کۆمپانیای نەوت",
+        "ar": "شركة نفط"
+      },
+      "title": {
+        "en": "Global Energy Solutions Provider",
+        "ku": "دابینکەری چارەسەری وزەی جیهانی",
+        "ar": "مزود حلول الطاقة العالمية"
+      },
+      "card_icon_path": "/images/specializations/oil-company.png",
+      "image_path": "/images/home/hero-slider/oil-company.jpg",
+      "thumbnail": "/images/home/hero-slider/oil-company.jpg",
+      "description": {
+        "en": "Sustainable energy production for a dynamic, World powering progress.",
+        "ku": "بەرهەمهێنانی وزەی بەردەوام بۆ پێشکەوتنێکی دینامیکی و بەهێزکەری جیهانی.",
+        "ar": "إنتاج الطاقة المستدامة من أجل تقدم ديناميكي عالمي."
+      },
+      "video_path": "/images/company/falkonoil/falkenoil-video.mp4"
     }
   ],
   "social_links": {
