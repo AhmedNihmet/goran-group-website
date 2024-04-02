@@ -103,7 +103,7 @@
   }
 
   &__slider-section {
-    margin-block-end: 200px;
+    margin-block-end: 120px;
     padding-block-start: 80px;
 
     .swiper-slide {
@@ -260,5 +260,9 @@
     &:hover {
       transform: scale(1.15);
     }
+  }
+
+  .contact-us {
+    margin-block-end: 200px;
   }
 }

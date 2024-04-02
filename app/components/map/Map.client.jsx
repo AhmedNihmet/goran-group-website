@@ -1,18 +1,17 @@
 import classNames from "classnames";
 import { useState } from "react";
-import { useTranslation } from "react-i18next";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
 import CurrentLocation from "~/Icons/CurrentLocation";
 
-const DEFAULT_MAP_TILE_STYLE = "light-v11"
+const DEFAULT_MAP_TILE_STYLE = "light-v11";
 
-export const Map = ({ height, position }) => {
-  const { t } = useTranslation()
+export const Map = ({ height, position, popupTitle = "Goran Group" }) => {
   const [mapStyle, setMapStyle] = useState(DEFAULT_MAP_TILE_STYLE);
 
   const handleMapStyleToggle = () => {
-    if (mapStyle === DEFAULT_MAP_TILE_STYLE) return setMapStyle("satellite-streets-v12");
+    if (mapStyle === DEFAULT_MAP_TILE_STYLE)
+      return setMapStyle("satellite-streets-v12");
 
     return setMapStyle(DEFAULT_MAP_TILE_STYLE);
   };
@@ -35,16 +34,14 @@ export const Map = ({ height, position }) => {
         }}
         center={position}
         zoom={16}
-        scrollWheelZoom={false} 
+        scrollWheelZoom={false}
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url={`https://api.mapbox.com/styles/v1/mapbox/${mapStyle}/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiYXJ0eW9tMmVmdyIsImEiOiJjanp2a215OGcwNWs3M21wZ3hpN3Bib2tuIn0.RyuwYpuTcGI81rHCHYf7Qw`}
         />
         <Marker position={position}>
-          <Popup>
-            {t("Goran Group")}
-          </Popup>
+          <Popup>{popupTitle}</Popup>
         </Marker>
       </MapContainer>
     </div>

@@ -244,6 +244,61 @@
           "/images/company/goran-generator/slider-2.jpg",
           "/images/company/goran-generator/slider-1.jpg"
         ]
+      },
+      "contact": {
+        "title": {
+          "en": "Contact Us",
+          "ku": "پەیوەندیمان پێوەبکە",
+          "ar": "اتصل بنا"
+        },
+        "phone": {
+          "title": {
+            "en": "Phone",
+            "ku": "تەلەفۆن",
+            "ar": "هاتف"
+          },
+          "entities": ["+964 (750) 200 3000", "+964 (750) 200 4000"]
+        },
+        "address": {
+          "title": {
+            "en": "Address",
+            "ku": "ناونیشان",
+            "ar": "عنوان"
+          },
+          "entities": [
+            {
+              "en": "Iraq - Kurdistan - Erbil: Italian Village",
+              "ku": "عێراق - کوردستان - هەولێر: گوندی ئیتاڵی",
+              "ar": "العراق - كردستان - اربيل : القرية الإيطالية"
+            },
+            {
+              "en": "Iraq - Kurdistan - Slemani",
+              "ku": "عێراق - کوردستان - سلێمانی",
+              "ar": "العراق - كردستان - السليمانية"
+            }
+          ]
+        },
+        "email": {
+          "title": {
+            "en": "Email",
+            "ku": "ئیمەیڵ",
+            "ar": "بريد إلكتروني"
+          },
+          "entities": ["gorangroup@emial.com"]
+        },
+        "social": {
+          "title": {
+            "en": "Social Media",
+            "ku": "سۆشیال میدیا",
+            "ar": "تابعنا"
+          },
+          "links": {
+            "facebook": ".",
+            "instagram": ".",
+            "linked_in": "."
+          }
+        },
+        "coordinates": [36.18541073719607, 43.96496355094828]
       }
     },
     {

@@ -5,20 +5,26 @@ import { Navigation } from "swiper/modules";
 import { useTranslation } from "react-i18next";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useEffect, useMemo, useState } from "react";
-import { json, redirect, useLoaderData } from "@remix-run/react";
+import { Link, json, redirect, useLoaderData } from "@remix-run/react";
 import { PhotoProvider, PhotoView } from "react-image-previewer";
 import { SlideToolbar, CloseButton } from "react-image-previewer/ui";
 
 import companyViewStyles from "~/styles/pages/company-view.css";
+import contactUsStyles from "~/styles/pages/contact-us.css";
 import mediaQueryStyles from "~/styles/media-queries.css";
 
 import Play from "~/Icons/Play";
 import Indicator from "~/Icons/Indicator";
+import ExpandIcon from "~/Icons/ExpandIcon";
+import Facebook from "~/Icons/social/Facebook";
+import Instagram from "~/Icons/social/Instagram";
+import LinkedIn from "~/Icons/social/LinkedIn";
 
+import ClientOnly from "~/components/ClientOnly";
+import { Map } from "~/components/map/Map.client";
 import CustomButton from "~/components/CustomButton";
 
 import { buildUrl } from "~/api/config";
-import ExpandIcon from "~/Icons/ExpandIcon";
 
 /**
  * @returns {import("@remix-run/node").LinkDescriptor[]}
@@ -30,7 +36,15 @@ export const links = () => [
   },
   {
     rel: "stylesheet",
+    href: contactUsStyles,
+  },
+  {
+    rel: "stylesheet",
     href: mediaQueryStyles,
+  },
+  {
+    rel: "stylesheet",
+    href: "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
   },
 ];
 
@@ -60,6 +74,7 @@ export const loader = async ({ request, params }) => {
   return json({ data: selectedCompany });
 };
 
+const mapHeight = "550px";
 const CompanyView = () => {
   const { data } = useLoaderData();
   const { i18n } = useTranslation();
@@ -233,6 +248,117 @@ const CompanyView = () => {
           </PhotoProvider>
         </section>
       )}
+
+      <section className="contact-us side-padding">
+        <section className="contact-us__header ">
+          <h1 data-sal="fade" data-sal-delay="200">
+            {data.contact.title[i18n.language]}
+          </h1>
+
+          <div className="contact-us__header-content-container">
+            <ul
+              data-sal="fade"
+              data-sal-delay="300"
+              className="contact-us__header-content"
+            >
+              <span>{data.contact.phone.title[i18n.language]}</span>
+              {data.contact.phone.entities.map((item, index) => (
+                <li
+                  dir="ltr"
+                  key={index}
+                  className="contact-us__header-content-item phone"
+                >
+                  {item}
+                </li>
+              ))}
+            </ul>
+            <ul
+              className="contact-us__header-content"
+              data-sal="fade"
+              data-sal-delay="400"
+            >
+              <span>{data.contact.address.title[i18n.language]}</span>
+              {data.contact.address.entities.map((item, index) => (
+                <li key={index} className="contact-us__header-content-item">
+                  {item[i18n.language]}
+                </li>
+              ))}
+            </ul>
+            <ul
+              className="contact-us__header-content"
+              data-sal="fade"
+              data-sal-delay="500"
+            >
+              <span>{data.contact.email.title[i18n.language]}</span>
+              {data.contact.email.entities.map((item, index) => (
+                <li
+                  key={index}
+                  className="contact-us__header-content-item email"
+                  dir="ltr"
+                >
+                  {item}
+                </li>
+              ))}
+            </ul>
+            <div
+              className="contact-us__header-socials"
+              data-sal="fade"
+              data-sal-delay="600"
+            >
+              <span>{data.contact.social.title[i18n.language]}</span>
+              <ul className="contact-us__header-social-lists">
+                <Link
+                  target="_blank"
+                  rel="noreferrer"
+                  to={data.contact.social.links.facebook}
+                  className="contact-us__header-social-item"
+                >
+                  <Facebook width={28} height={28} />
+                </Link>
+                <Link
+                  target="_blank"
+                  rel="noreferrer"
+                  to={data.contact.social.links.instagram}
+                  className="contact-us__header-social-item"
+                >
+                  <Instagram width={23} height={23} />
+                </Link>
+                <Link
+                  target="_blank"
+                  rel="noreferrer"
+                  to={data.contact.social.links.linked_in}
+                  className="contact-us__header-social-item"
+                >
+                  <LinkedIn width={32} height={32} />
+                </Link>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section
+          data-sal="fade"
+          data-sal-delay="600"
+          className="contact-us__map"
+        >
+          <ClientOnly
+            fallback={
+              <div
+                id="skeleton"
+                style={{ height: mapHeight, background: "#d1d1d1" }}
+              />
+            }
+          >
+            {() => (
+              <Map
+                height={mapHeight}
+                position={data.contact.coordinates}
+                popupTitle={data.title[i18n.language]}
+              />
+            )}
+          </ClientOnly>
+        </section>
+      </section>
     </article>
   );
 };
