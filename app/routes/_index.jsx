@@ -157,6 +157,7 @@ const Home = () => {
           effect={"fade"}
           ref={mainSliderRef}
           allowTouchMove={false}
+          className="home__main-slider"
           modules={[EffectFade, Navigation]}
         >
           {specializations.map((item) => (
