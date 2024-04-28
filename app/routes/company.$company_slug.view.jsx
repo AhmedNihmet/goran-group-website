@@ -307,30 +307,36 @@ const CompanyView = () => {
             >
               <span>{data.contact.social.title[i18n.language]}</span>
               <ul className="contact-us__header-social-lists">
-                <Link
-                  target="_blank"
-                  rel="noreferrer"
-                  to={data.contact.social.links.facebook}
-                  className="contact-us__header-social-item"
-                >
-                  <Facebook width={28} height={28} />
-                </Link>
-                <Link
-                  target="_blank"
-                  rel="noreferrer"
-                  to={data.contact.social.links.instagram}
-                  className="contact-us__header-social-item"
-                >
-                  <Instagram width={23} height={23} />
-                </Link>
-                <Link
-                  target="_blank"
-                  rel="noreferrer"
-                  to={data.contact.social.links.linked_in}
-                  className="contact-us__header-social-item"
-                >
-                  <LinkedIn width={32} height={32} />
-                </Link>
+                {data.contact.social.links.facebook && (
+                  <Link
+                    target="_blank"
+                    rel="noreferrer"
+                    to={data.contact.social.links.facebook}
+                    className="contact-us__header-social-item"
+                  >
+                    <Facebook width={28} height={28} />
+                  </Link>
+                )}
+                {data.contact.social.links.instagram && (
+                  <Link
+                    target="_blank"
+                    rel="noreferrer"
+                    to={data.contact.social.links.instagram}
+                    className="contact-us__header-social-item"
+                  >
+                    <Instagram width={23} height={23} />
+                  </Link>
+                )}
+                {data.contact.social.links.linked_in && (
+                  <Link
+                    target="_blank"
+                    rel="noreferrer"
+                    to={data.contact.social.links.linked_in}
+                    className="contact-us__header-social-item"
+                  >
+                    <LinkedIn width={32} height={32} />
+                  </Link>
+                )}
               </ul>
             </div>
           </div>

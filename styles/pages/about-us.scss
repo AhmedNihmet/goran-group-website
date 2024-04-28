@@ -67,11 +67,21 @@
   &__hero-detailed-paragraph {
     margin-block-end: 120px;
 
-    > p {
+    > div {
       color: #49494b;
       max-width: 1100px;
       display: grid;
       row-gap: 32px;
+
+      > ul {
+        display: grid;
+        row-gap: 12px;
+        padding-inline-start: 1rem;
+
+        > li {
+          list-style-type: disc;
+        }
+      }
     }
   }
 

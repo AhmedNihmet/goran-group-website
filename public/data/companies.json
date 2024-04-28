@@ -6,9 +6,9 @@
       "ar": "شركاتنا"
     },
     "paragraph": {
-      "en": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.",
-      "ku": "یەکگرتوو لە نایابی، گروپی گۆران لە سەرانسەری کەرتە جۆراوجۆرەکاندا گەشە دەکات، بە ڕێنمایی سەرکردایەتی دیدەوان. بە تیمێکی پیشەیی و بڕیاری ستراتیژی، ئێمە سوودەکان بەرز دەکەینەوە، پەرەپێدانی گەشەکردن و داهێنان لە ساڵی ٢٠٠٥ەوە.",
-      "ar": "تزدهر مجموعة جوران، متحدة في التميز، عبر قطاعات متنوعة، مسترشدة بقيادة حكيمة. بفضل فريق محترف وقرارات استراتيجية، نعمل على رفع الفوائد وتعزيز النمو والابتكار منذ عام 2005."
+      "en": "With human resources up to 400 employees. Goran Group provide its services in many Iraqi governorates, where its centers, which are directly linked to the head office in Erbil city - Kurdistan region, under one management approach.",
+      "ku": "بە توانای مرۆیی تا ٤٠٠ کارمەند. گروپی گۆران لە زۆرێک لە پارێزگاکانی عێراق خزمەتگوزاریەکانی پێشکەش دەکات، کە ناوەندەکانی، کە ڕاستەوخۆ پەیوەستن بە ئۆفیسی سەرەکی لە شاری هەولێر - هەرێمی کوردستان، لە ژێر یەک ڕێبازی بەڕێوەبردن.",
+      "ar": "بموارد بشرية تصل إلى 400 موظف. تقدم مجموعة شركات گوران خدماتها في العديد من المحافظات العراقية حيث ترتبط مراكزها مباشرة بالمكتب الرئيسي في العراق بمدينة أربيل في إقليم كردستان، تحت نهج إداري واحد."
     },
     "video_button_title": {
       "en": "See our work",
@@ -16,7 +16,7 @@
       "ar": "انظر عملنا"
     },
     "image_path": "/images/companies/hero-bg.jpg",
-    "video_path": "/images/company/falkonoil/falkenoil-video.mp4"
+    "video_path": ""
   },
   "companies_header": {
     "title": {
@@ -32,25 +32,30 @@
   },
   "we_work": {
     "title": {
-      "en": "We’ve worked extensively in terms of geography",
-      "ku": "ئێمە لە ڕووی جوگرافیاوە بە شێوەیەکی بەرفراوان کارمان کردووە",
-      "ar": "لقد عملنا على نطاق واسع من حيث الجغرافيا"
+      "en": "Our Strategy",
+      "ku": "ستراتیژی ئێمە",
+      "ar": "استراتيجيتنا"
     },
     "paragraphs": [
       {
-        "en": "United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.United in Excellence, Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.",
-        "ku": "یەکگرتوو لە نایابی، گروپی گۆران لە سەرانسەری کەرتە جۆراوجۆرەکاندا گەشە دەکات، بە ڕێنمایی سەرکردایەتی دیدەوان. بە تیمێکی پیشەیی و بڕیاری ستراتیژی، ئێمە سوودەکان بەرز دەکەینەوە، پەرەپێدانی گەشەکردن و داهێنان لە ساڵی ٢٠٠٥ەوە. یەکگرتوو لە نایابی، گروپی گۆران لە سەرانسەری کەرتە جۆراوجۆرەکاندا گەشە دەکات، بە ڕێنمایی سەرکردایەتی دیدەوان. بە تیمێکی پیشەیی و بڕیاری ستراتیژی، ئێمە سوودەکان بەرز دەکەینەوە، پەرەپێدانی گەشەکردن و داهێنان لە ساڵی ٢٠٠٥ەوە.",
-        "ar": "تزدهر مجموعة جوران، متحدة في التميز، عبر قطاعات متنوعة، مسترشدة بقيادة حكيمة. بفضل فريق محترف وقرارات استراتيجية، نعمل على رفع الفوائد وتعزيز النمو والابتكار منذ عام 2005. تزدهر مجموعة جوران، متحدة في التميز، عبر قطاعات متنوعة، مسترشدة بقيادة حكيمة. بفضل فريق محترف وقرارات استراتيجية، نعمل على رفع الفوائد وتعزيز النمو والابتكار منذ عام 2005."
-      },
+        "en": "Goran Group operate on the principle of comprehensiveness and multiplicity of services in many basic areas in the market.",
+        "ku": "گۆران گروپ لەسەر پرەنسیپی گشتگیری و فرەیی خزمەتگوزاری لە زۆر بوارە سەرەتاییەکانی ناو بازاڕدا کاردەکات.",
+        "ar": "تعمل مجموعة شركات گوران على مبدأ الشمولية والتعدد في الخدمات في العديد من المجالات الأساسية في السوق."
+      }, 
       {
-        "en": "Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005.",
-        "ku": "گروپی گۆران لە سەرانسەری کەرتە جۆراوجۆرەکاندا گەشە دەکات، بە ڕێنمایی سەرکردایەتی دیدەوان. بە تیمێکی پیشەیی و بڕیاری ستراتیژی، ئێمە سوودەکان بەرز دەکەینەوە، پەرەپێدانی گەشەکردن و داهێنان لە ساڵی ٢٠٠٥ەوە.",
-        "ar": "تزدهر مجموعة جوران عبر قطاعات متنوعة، مسترشدة بقيادة حكيمة. بفضل فريق محترف وقرارات استراتيجية، نعمل على رفع الفوائد وتعزيز النمو والابتكار منذ عام 2005."
-      },
+        "en": "The importance of this principle is to connect the customer chain between our companies so that we get customer satisfaction by providing all services through many local companies. ",
+        "ku": "گرنگی ئەم پرەنسیپە بریتییە لە بەستنەوەی زنجیرەی کڕیاران لە نێوان کۆمپانیاکانمان بۆ ئەوەی ڕەزامەندی کڕیار بەدەست بهێنین بە پێشکەشکردنی هەموو خزمەتگوزارییەکان لە ڕێگەی زۆرێک لە کۆمپانیا ناوخۆییەکانەوە.",
+        "ar": " تكمن أهمية هذا المبدأ في ربط سلسلة العملاء بين شركاتنا حتى نحصل على رضا العملاء من خلال تقديم جميع الخدمات من خلال العديد من الشركات المحلية."
+      }, 
       {
-        "en": "Goran Group thrives across diverse sectors, guided by visionary leadership. With a professional team and strategic decisions, we elevate benefits, fostering growth and innovation since 2005. Goran Group thrives across diverse sectors, guided by visionary leadership",
-        "ku": "گروپی گۆران لە سەرانسەری کەرتە جۆراوجۆرەکاندا گەشە دەکات، بە ڕێنمایی سەرکردایەتی دیدەوان. بە تیمێکی پیشەیی و بڕیاری ستراتیژی، ئێمە سوودەکان بەرز دەکەینەوە، پەرەپێدانی گەشەکردن و داهێنان لە ساڵی ٢٠٠٥ەوە. گروپی گۆران لە سەرانسەری کەرتە جۆراوجۆرەکاندا گەشە دەکات، بە ڕێنمایی سەرکردایەتی دیدەوان",
-        "ar": "تزدهر مجموعة جوران عبر قطاعات متنوعة، مسترشدة بقيادة حكيمة. بفضل فريق محترف وقرارات استراتيجية، نعمل على رفع الفوائد وتعزيز النمو والابتكار منذ عام 2005. تزدهر مجموعة جوران عبر قطاعات متنوعة، مسترشدة بقيادة حكيمة"
+        "en": "We are also working to strengthen the single field of work with after-sales services, such as trading diesel generators, which are supported by an expert maintenance department and a department specialized in spare parts that provides everything you need.",
+        "ku": "هەروەها کاردەکەین بۆ بەهێزکردنی تاکە بوارەکەی کارکردن لەگەڵ خزمەتگوزارییەکانی دوای فرۆشتن، وەک بازرگانیکردن بە مۆلیدە دیزڵییەکان، کە لەلایەن بەشی چاککردنەوەی شارەزا و بەشێکی تایبەتمەند لە پارچەی یەدەگەوە پاڵپشتی دەکرێن کە هەموو شتێکی پێویستت بۆ دابین دەکات.",
+        "ar": "نحن نعمل أيضًا على تعزيز مجال العمل الفردي بخدمات ما بعد البيع، مثل تجارة مولدات الديزل، والتي يدعمها قسم صيانة متخصصة وقسم متخصص في قطع الغيار الذي يوفر كل ما يحتاجه عميلنا."
+      }, 
+      {
+        "en": "All these elements make us confident to provide better service and higher performance to our customers.",
+        "ku": "هەموو ئەم توخمانە وامان لێدەکات متمانەمان بەخۆمان هەبێت بۆ پێشکەشکردنی خزمەتگوزارییەکی باشتر و ئەدای بەرزتر بۆ کڕیارەکانمان.",
+        "ar": "تلك الاستراتيجية التي تجعلنا واثقين من تقديم العناصر مع أفضل خدمة وأعلى أداء لعملائنا."
       }
     ]
   }

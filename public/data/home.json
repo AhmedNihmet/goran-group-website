@@ -6,14 +6,14 @@
       "ar": "معلومات عنا"
     }, 
     "title": {
-      "en": "Get to know us better!",
-      "ku": "زیاتر بزانە!",
-      "ar": "سوف تحظى بفرصة لتعرفنا أكثر!"
-    }, 
+      "en": "Who We Are?",
+      "ku": "ئێمە کێین؟",
+      "ar": "من نحن؟"
+    },
     "paragraph": {
-      "en": "Goran Group is a diverse conglomerate, housing multiple sectors each characterized by distinct methodologies. A cohesive and proficient team, under the leadership of the Chief Executive Officer and the oversight of the monitoring and planning committee, strives to enhance the organization's gains and foster its growth.",
-      "ku": "گروپی گۆران کۆمەڵەیەکی هەمەچەشنە، چەندین کەرت لەخۆدەگرێت کە هەریەکەیان بە میتۆدۆلۆژیای جیاواز تایبەتمەندن. تیمێکی یەکگرتوو و لێهاتوو، بە سەرکردایەتی بەڕێوەبەری جێبەجێکار و چاودێری لیژنەی چاودێری و پلاندانان، هەوڵدەدات بۆ بەرزکردنەوەی دەستکەوتەکانی ڕێکخراوەکە و پەرەپێدانی گەشەکردنی.",
-      "ar": "مجموعة جوران هي مجموعة متنوعة تضم قطاعات متعددة تتميز كل منها بمنهجيات متميزة. يسعى فريق متماسك ومتقن، بقيادة الرئيس التنفيذي وإشراف لجنة المراقبة والتخطيط، إلى تعزيز مكاسب المنظمة وتعزيز نموها."
+      "en": "Goran Group consists of many different fields of work that cover many market sectors, and under a unified management approach aimed at expansion and permanent development, the group seeks to increase its profits by providing the best quality and creating a satisfied customer, according to the approach of the general board of directors and sub-sections.",
+      "ku": "گروپی گۆران لە چەندین بوارە جیاوازەکانی کارکردن پێکدێت کە زۆرێک لە سێکتەری بازاڕ دەگرێتەوە، هەروەها لەژێر ڕێبازێکی بەڕێوەبردنی یەکگرتوو بە ئامانجی فراوانکردن و گەشەپێدانی هەمیشەیی، گروپەکە هەوڵدەدات قازانجەکانی زیاد بکات بە دابینکردنی باشترین کوالیتی و دروستکردنی کڕیارێکی ڕازی، بەپێی ئەو ڕێبازە لە دەستەی بەڕێوەبەری گشتی و بەشە لاوەکییەکان.",
+      "ar": "تتكون مجموعة شركات گوران من مجالات عمل مختلفة التي تغطي العديد من القطاعات، تسعى المجموعة تحت نهج إداري موحد يهدف إلى التوسع والتنمية الدائمة إلى زيادة أرباحها من خلال تقديم أفضل جودة وخلق عميل راض، وفقا لنهج مجلس الإدارة العام والأقسام الفرعية."
     },
     "image_path": "/images/home/about-us-image.webp",
     "action": {

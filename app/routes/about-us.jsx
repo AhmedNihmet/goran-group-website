@@ -1,6 +1,6 @@
 import sal from "sal.js";
 import classNames from "classnames";
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { json, useLoaderData, useRouteLoaderData } from "@remix-run/react";
 import { EffectCards, Navigation } from "swiper/modules";
@@ -152,17 +152,28 @@ const AboutUs = () => {
       </section>
 
       <section className="about-us__hero-detailed-paragraph max-w">
-        <p>
+        <div>
           {hero.paragraphs.map((paragraph, index) => {
             const delay = 200 + index * 100;
 
             return (
-              <span key={index} data-sal="fade" data-sal-delay={delay}>
-                {paragraph[i18n.language]}
-              </span>
+              <Fragment key={index}>
+                <p data-sal="fade" data-sal-delay={delay}>
+                  {paragraph[i18n.language]}
+                </p>
+                {paragraph?.list?.length > 0 && (
+                  <ul data-sal="fade" data-sal-delay={delay}>
+                    {paragraph.list.map((paragraphListItem) => (
+                      <li key={paragraphListItem.en}>
+                        {paragraphListItem[i18n.language]}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </Fragment>
             );
           })}
-        </p>
+        </div>
       </section>
 
       <section className="about-us__stats" data-sal="fade" data-sal-delay="200">
