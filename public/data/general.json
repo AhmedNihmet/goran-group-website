@@ -97,40 +97,36 @@
         "redirects_to": "/company/goran_generator/view"
       },
       {
-        "image_path": "/images/partners/saray.png",
-        "redirects_to": "/company/goran_generator/view"
-      },
-      {
         "image_path": "/images/partners/swarchak.png",
-        "redirects_to": "/company/goran_generator/view"
+        "redirects_to": "/company/warchack_co/view"
       },
       {
         "image_path": "/images/partners/jazeerat.png",
-        "redirects_to": "/company/goran_generator/view"
+        "redirects_to": "/company/jazeerat/view"
       },
       {
         "image_path": "/images/partners/limar.png",
-        "redirects_to": "/company/goran_generator/view"
+        "redirects_to": "/company/limar_realestate/view"
       },
       {
         "image_path": "/images/partners/khalil-company.png",
-        "redirects_to": "/company/goran_generator/view"
+        "redirects_to": "/company/general_trading/view"
       },
       {
-        "image_path": "/images/partners/bahceci.png",
-        "redirects_to": "/company/goran_generator/view"
+        "image_path": "/images/partners/rose.png",
+        "redirects_to": "/company/rose_medical_center/view"
       },
       {
         "image_path": "/images/partners/falkenoil.png",
-        "redirects_to": "/company/goran_generator/view"
+        "redirects_to": "/company/falkonoil/view"
       },
       {
         "image_path": "/images/partners/goran-for-generators.png",
-        "redirects_to": "/company/goran_generator/view"
+        "redirects_to": "/company/goran_for_generator/view"
       },
       {
         "image_path": "/images/partners/minas.png",
-        "redirects_to": "/company/goran_generator/view"
+        "redirects_to": "/company/minas/view"
       }
     ]
   },
@@ -1571,8 +1567,8 @@
     }
   ],
   "social_links": {
-    "facebook": ".",
-    "instagram": ".",
-    "linked_in": "."
+    "facebook": "https://www.facebook.com/profile.php?id=100057458319740",
+    "instagram": "",
+    "linked_in": "https://www.linkedin.com/company/goran-group/"
   }
 }
