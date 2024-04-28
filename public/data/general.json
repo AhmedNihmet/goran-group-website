@@ -136,8 +136,166 @@
   },
   "companies": [
     {
+      "slug": "goran_generator",
+      "thumbnail": "/images/company/goran-generator/thumbnail.webp",
+      "card_title": {
+        "en": "Goran Generator",
+        "ku": "کۆمپانیای گۆران بۆ مۆلیدە",
+        "ar": "مولد جوران"
+      },
+      "card_paragraph": {
+        "en": "Goran Generator Company excels in premium diesel generators, backed by 1000-hour guarantee!",
+        "ku": "کۆمپانیای مۆلیدەی گۆران لە مۆلیدەی دیزڵی بەرزدا سەرکەوتووە، بە گرەنتی 1000 کاتژمێر پشتگیری دەکرێت!",
+        "ar": "تتفوق شركة جوران للمولدات في إنتاج مولدات الديزل المتميزة، والمدعومة بضمان 1000 ساعة!"
+      },
+      "title": {
+        "en": "Goran Generator Co.",
+        "ku": "کۆمپانیای گۆران بۆ مۆلیدە.",
+        "ar": "شركة جوران للمولدات"
+      },
+      "paragraph": {
+        "en": "Goran Generator Company excels in premium diesel generators, backed by 1000-hour guarantee!",
+        "ku": "کۆمپانیای مۆلیدەی گۆران لە مۆلیدەی دیزڵی بەرزدا سەرکەوتووە، بە گرەنتی 1000 کاتژمێر پشتگیری دەکرێت!",
+        "ar": "تتفوق شركة جوران للمولدات في إنتاج مولدات الديزل المتميزة، والمدعومة بضمان 1000 ساعة!"
+      },
+      "hero_image": "/images/company/goran-generator/hero.webp",
+      "company_video": "",
+      "sub_sections": [
+        {
+          "key": 1,
+          "title": {
+            "en": "Superior Quality Generators",
+            "ku": "مۆلیدەی کوالیتی بەرز",
+            "ar": "مولدات عالية الجودة"
+          },
+          "description": {
+            "en": "Goran Generator Company, located in Erbil, Kurdistan – Iraq, specializes in providing top-notch diesel generators with a 1000-hour work guarantee. Our commitment to excellence ensures reliable electricity solutions tailored for private sectors.",
+            "ku": "کۆمپانیای مۆلیدەی گۆران کە دەکەوێتە شاری هەولێری کوردستان – عێراق، تایبەتمەندە لە دابینکردنی مۆلیدەی دیزڵی ئاست بەرز بە گرەنتی کارکردنی 1000 کاتژمێر. پابەندبوونمان بە باشی، چارەسەری کارەبایی متمانەپێکراو مسۆگەر دەکات کە بۆ کەرتە تایبەتەکان گونجاوە.",
+            "ar": "شركة غوران للمولدات، والتي تقع في أربيل، كردستان – العراق، متخصصة في توفير مولدات الديزل من الدرجة الأولى مع ضمان العمل لمدة 1000 ساعة. إن التزامنا بالتميز يضمن حلول كهرباء موثوقة ومصممة خصيصًا للقطاع الخاص."
+          },
+          "image_path": "/images/company/goran-generator/2.webp"
+        },
+        {
+          "key": 2,
+          "title": {
+            "en": "Expert Team and Diverse Brands",
+            "ku": "تیمی پسپۆڕ و براندە هەمەچەشنەکان",
+            "ar": "فريق الخبراء والعلامات التجارية المتنوعة"
+          },
+          "description": {
+            "en": "As a crucial division of the Goran Group, our success is owed to a skilled workforce spanning accounting, sales, marketing, and services. We offer a wide array of globally recognized generator brands, including British Perkins, Swedish Volvo, and American Cummins, each certified to instill trust in our clientele.",
+            "ku": "وەک دابەشکردنێکی چارەنووسساز لە گروپی گۆران، سەرکەوتنەکانمان قەرزاری هێزێکی کاری لێهاتووە کە ژمێریاری، فرۆشتن، بازاڕکردن، و خزمەتگوزاری دەگرێتەوە. ئێمە کۆمەڵێک براندی مۆلیدەی ناسراوی جیهانی پێشکەش دەکەین، لەوانە پێرکنزی بەریتانی، ڤۆڵڤۆی سویدی، و کامینزی ئەمریکی، کە هەریەکەیان بڕوانامەیان هەیە بۆ چاندنی متمانە بە کڕیارەکانمان.",
+            "ar": "باعتبارنا قسمًا مهمًا في مجموعة جوران، فإن نجاحنا يرجع إلى القوى العاملة الماهرة التي تشمل المحاسبة والمبيعات والتسويق والخدمات. نحن نقدم مجموعة واسعة من العلامات التجارية للمولدات المعترف بها عالميًا، بما في ذلك British Perkins، وVolvo السويدية، وAmerican Cummins، وكل منها معتمدة لغرس الثقة في عملائنا."
+          },
+          "image_path": "/images/company/goran-generator/9.webp"
+        },
+        {
+          "key": 3,
+          "title": {
+            "en": "Leading Sales and Service Provider",
+            "ku": "پێشەنگی فرۆشتن و پێشکەشکاری خزمەتگوزاری",
+            "ar": "الرائدة في مجال المبيعات والخدمات"
+          },
+          "description": {
+            "en": "With pride, we've secured the top spot in both sales and service provision in Kurdistan and Iraq. Strong partnerships with governmental bodies, organizations, and petroleum companies have propelled our success.",
+            "ku": "بە شانازییەوە پلەی یەکەممان لە هەردوو بواری فرۆشتن و پێشکەشکردنی خزمەتگوزاری لە کوردستان و عێراق مسۆگەر کردووە. هاوبەشی بەهێز لەگەڵ ئۆرگان و ڕێکخراوە حکومییەکان و کۆمپانیاکانی نەوت سەرکەوتنی ئێمەی بەرەوپێش بردووە.",
+            "ar": "وبكل فخر، حصلنا على المركز الأول في كل من المبيعات وتقديم الخدمات في كردستان والعراق. لقد ساهمت الشراكات القوية مع الهيئات الحكومية والمنظمات وشركات النفط في نجاحنا."
+          },
+          "image_path": "/images/company/goran-generator/1.webp"
+        },
+        {
+          "key": 4,
+          "title": {
+            "en": "Continuous Commitment to Excellence",
+            "ku": "پابەندبوونی بەردەوام بە باشترین",
+            "ar": "الالتزام المستمر بالتميز"
+          },
+          "description": {
+            "en": "Driven by an unwavering commitment, we strive to enhance services for citizens and enterprises continually. Our impressive track record underscores our dedication to delivering exemplary services in collaboration with the government.",
+            "ku": "ئێمە بەهۆی پابەندبوونێکی نەگۆڕەوە، هەوڵدەدەین خزمەتگوزارییەکان بۆ هاوڵاتیان و کۆمپانیاکان بە بەردەوامی بەرز بکەینەوە. پێشینەی سەرنجڕاکێشمان جەخت لەسەر خۆبەخشیمان دەکاتەوە بۆ پێشکەشکردنی خزمەتگوزارییە نموونەییەکان بە هاوکاری لەگەڵ حکومەت.",
+            "ar": "وانطلاقًا من التزامنا الثابت، فإننا نسعى جاهدين لتحسين الخدمات المقدمة للمواطنين والشركات بشكل مستمر. ويؤكد سجلنا الحافل تفانينا في تقديم خدمات مثالية بالتعاون مع الحكومة."
+          },
+          "image_path": "/images/company/goran-generator/7.webp"
+        }
+      ],
+      "gallery": {
+        "title": {
+          "en": "Driving Progress, Energizing Tomorrow",
+          "ku": "پێشکەوتنی لێخوڕین، سبەی وزەبەخش",
+          "ar": "قيادة التقدم وتنشيط الغد"
+        },
+        "paragraph": {
+          "en": "Propelling innovation and sustainability, our dedication fuels a future defined by advancement.",
+          "ku": "پاڵنەرەکانی داهێنان و بەردەوامی، خۆبەخشیمان سووتەمەنی داهاتوویەک دەدات کە بە پێشکەوتن پێناسە کراوە.",
+          "ar": "من خلال دفع الابتكار والاستدامة، فإن تفانينا يغذي مستقبلًا محددًا بالتقدم."
+        },
+        "images": [
+          "/images/company/goran-generator/0.webp",
+          "/images/company/goran-generator/1.webp",
+          "/images/company/goran-generator/2.webp",
+          "/images/company/goran-generator/3.webp",
+          "/images/company/goran-generator/4.webp",
+          "/images/company/goran-generator/5.webp",
+          "/images/company/goran-generator/6.webp",
+          "/images/company/goran-generator/7.webp",
+          "/images/company/goran-generator/8.webp",
+          "/images/company/goran-generator/9.webp"
+        ]
+      },
+      "contact": {
+        "title": {
+          "en": "Contact Us",
+          "ku": "پەیوەندیمان پێوەبکە",
+          "ar": "اتصل بنا"
+        },
+        "phone": {
+          "title": {
+            "en": "Phone",
+            "ku": "تەلەفۆن",
+            "ar": "هاتف"
+          },
+          "entities": ["+964 (750) 448 3162", "+964 (770) 448 3162"]
+        },
+        "address": {
+          "title": {
+            "en": "Address",
+            "ku": "ناونیشان",
+            "ar": "عنوان"
+          },
+          "entities": [
+            {
+              "en": "Iraq, Erbil, 60 Metric Street - opposite Silo",
+              "ku": "عێراق، هەولێر، شەقامی ٦٠ مەتری - بەرامبەر سایلۆ",
+              "ar": "العراق, أربيل شارع ٦٠ متري - مقابل سايلو"
+            }
+          ]
+        },
+        "email": {
+          "title": {
+            "en": "Email",
+            "ku": "ئیمەیڵ",
+            "ar": "بريد إلكتروني"
+          },
+          "entities": ["gorangenerator@gorangroup.com"]
+        },
+        "social": {
+          "title": {
+            "en": "Social Media",
+            "ku": "سۆشیال میدیا",
+            "ar": "تابعنا"
+          },
+          "links": {
+            "facebook": "https://www.facebook.com/gorangenerators/about",
+            "instagram": "https://www.instagram.com/gorangenerator/?hl=en",
+            "linked_in": ""
+          }
+        },
+        "coordinates": [36.182881507452365, 43.99474424749703]
+      }
+    },
+    {
       "slug": "general_trading",
-      "thumbnail": "/images/company/general-trading/thumbnail.webp",
+      "thumbnail": "/images/company/general-trading/thumbnail-2.webp",
       "card_title": {
         "en": "General Trading",
         "ku": "بازرگانی گشتی",
@@ -215,7 +373,7 @@
             "ku": "کۆمپانیای خەلیل گۆران ڕۆڵێکی گرنگی هەیە لە پاڵپشتیکردنی ژێرخانی هەرێمی کوردستان. لە ڕێگەی هاوبەشی لەگەڵ دامەزراوە حکومییەکان و کۆمپانیاکان، ئێمە چارەسەری سەرەکی مۆلیدەکانمان دابین کردووە بۆ دڵنیابوون لە دابینکردنی کارەبای بێ پچڕان. پێشینەی متمانەپێکراویمان وایکردووە ببنە هەڵبژاردەیەکی متمانەپێکراو بۆ کۆمپانیا گەورەکان، بەتایبەتی لە کەرتی نەوتدا.",
             "ar": "تلعب شركة خليل كوران دورا حيويا في دعم البنية التحتية لإقليم كردستان. ومن خلال الشراكات مع الهيئات الحكومية والشركات، قمنا بتوفير حلول المولدات الأساسية لضمان إمدادات الطاقة دون انقطاع. إن سجلنا الحافل بالموثوقية جعلنا الاختيار الموثوق به للشركات الكبرى، وخاصة في قطاع البترول."
           },
-          "image_path": "/images/company/general-trading/thumbnail.webp"
+          "image_path": "/images/company/general-trading/thumbnail-2.webp"
         }
       ],
       "gallery": {
@@ -234,7 +392,315 @@
           "/images/company/general-trading/1.webp",
           "/images/company/general-trading/2.webp",
           "/images/company/general-trading/3.webp",
+          "/images/company/general-trading/thumbnail-2.webp",
           "/images/company/general-trading/hero.webp"
+        ]
+      },
+      "contact": {
+        "title": {
+          "en": "Contact Us",
+          "ku": "پەیوەندیمان پێوەبکە",
+          "ar": "اتصل بنا"
+        },
+        "phone": {
+          "title": {
+            "en": "Phone",
+            "ku": "تەلەفۆن",
+            "ar": "هاتف"
+          },
+          "entities": ["+964 (750) 448 1805", "+964 (770) 448 1805"]
+        },
+        "address": {
+          "title": {
+            "en": "Address",
+            "ku": "ناونیشان",
+            "ar": "عنوان"
+          },
+          "entities": [
+            {
+              "en": "Iraq, Erbil, 60 M St. - Next to The Ministry of Justice",
+              "ku": "عێراق، هەولێر، 60 م. - تەنیشت وەزارەتی داد",
+              "ar": "العراق، أربيل شارع ٦٠ متري - جانب وزارة العدل"
+            }
+          ]
+        },
+        "email": {
+          "title": {
+            "en": "Email",
+            "ku": "ئیمەیڵ",
+            "ar": "بريد إلكتروني"
+          },
+          "entities": ["gorangroup@gorangroup.com"]
+        },
+        "social": {
+          "title": {
+            "en": "Social Media",
+            "ku": "سۆشیال میدیا",
+            "ar": "تابعنا"
+          },
+          "links": {
+            "facebook": "https://www.facebook.com/profile.php?id=100064003273906&sk=about",
+            "instagram": "",
+            "linked_in": "https://www.linkedin.com/company/goran-group/?originalSubdomain=iq"
+          }
+        },
+        "coordinates": [36.19485642222841, 44.042780813104415]
+      }
+    },
+    {
+      "slug": "warchack_co",
+      "thumbnail": "/images/company/swarchack-co/thumbnail.webp",
+      "card_title": {
+        "en": "SwarChak Co.",
+        "ku": "کۆمپانیای سوارچاک.",
+        "ar": "سوارجاك"
+      },
+      "card_paragraph": {
+        "en": "A General Contraction Company Located In Erbil, specialized in infrastructure development.",
+        "ku": "کۆمپانیای گرێبەستی گشتی تایبەتمەند لە پەرەپێدانی ژێرخانی پیشەسازی لە شاری هەولێر",
+        "ar": "شركة مقاولات عامة مقرها في أربيل، متخصصة في تطوير البنية التحتية."
+      },
+      "title": {
+        "en": "SwarChak Co.",
+        "ku": "کۆمپانیای سوارچاک.",
+        "ar": "سوارجاك"
+      },
+      "paragraph": {
+        "en": "A General Contraction Company Located In Erbil. SwarChak was established in 2005 and is specialized in infrastructure development. The projects that have been implemented so far have varied in the field of construction, installing power stations, building oil tanks, a refining plant for industrial oil, in addition to the craft of artesian wells.",
+        "ku": "کۆمپانیایەکی گرێبەستی گشتی دەکەوێتە شاری هەولێر. سوارچاک لە ساڵی ٢٠٠٥ دامەزراوە و تایبەتمەندە لە پەرەپێدانی ژێرخانی ئابووری. ئەو پڕۆژانەی تا ئێستا جێبەجێ کراون لە بواری بیناسازی، دانانی وێستگەی کارەبا، دروستکردنی تانکی نەوت، وێستگەیەکی پاڵاوتن بۆ نەوتی پیشەسازی، جگە لە کاری دەستی بیرە ئارتیزیەکان.",
+        "ar": "شركة مقاولات عامة تقع في اربيل. تأسست سوارجاك في عام 2005 وهي متخصصة في تطوير البنية التحتية. وتنوعت المشاريع التي تم تنفيذها حتى الآن في مجال البناء وتركيب محطات توليد الكهرباء وبناء خزانات النفط ومحطة تكرير النفط الصناعي، إضافة إلى حرفة الآبار الارتوازية."
+      },
+      "hero_image": "/images/company/swarchack-co/hero.webp",
+      "company_video": "",
+      "sub_sections": [
+        {
+          "key": 1,
+          "title": {
+            "en": "Leading Infrastructure Development Firm in Erbil",
+            "ku": "کۆمپانیای پێشەنگی گەشەپێدانی ژێرخانی هەولێر",
+            "ar": "الشركة الرائدة في تطوير البنية التحتية في أربيل"
+          },
+          "description": {
+            "en": "SwarChak, a general contracting company established in 2005, has emerged as a leading force in infrastructure development in Erbil. Specializing in a diverse array of projects, including construction, power station installation, oil tank construction, industrial oil refining plant establishment, and artesian well drilling, SwarChak is committed to excellence in every endeavor.",
+            "ku": "کۆمپانیای سوارچاک، کۆمپانیایەکی بەڵێندەرایەتی گشتییە و لە ساڵی ٢٠٠٥ دامەزراوە، وەک هێزێکی پێشەنگ لە پەرەپێدانی ژێرخانی شاری هەولێر سەریهەڵداوە. تایبەتمەندە لە کۆمەڵێک پڕۆژەی جۆراوجۆر، لەوانە بیناسازی، دانانی وێستگەی کارەبا، دروستکردنی تانکی نەوت، دامەزراندنی وێستگەی پاڵاوتنی نەوتی پیشەسازی، و کونکردنی بیرە ئارتێزییەکان، سوارچاک پابەندە بە باشی لە هەموو هەوڵێکدا.",
+            "ar": "برزت سوارتشاك، وهي شركة مقاولات عامة تأسست عام 2005، كقوة رائدة في تطوير البنية التحتية في أربيل. تتخصص سوارجاك في مجموعة متنوعة من المشاريع، بما في ذلك البناء وتركيب محطات الطاقة وبناء خزانات النفط وإنشاء محطات تكرير النفط الصناعية وحفر الآبار الارتوازية، وتلتزم بالتميز في كل مسعى."
+          },
+          "image_path": "/images/company/swarchack-co/1.jpg"
+        },
+        {
+          "key": 2,
+          "title": {
+            "en": "Commitment to Quality and Innovation",
+            "ku": "پابەندبوون بە کوالیتی و داهێنان",
+            "ar": "الالتزام بالجودة والابتكار"
+          },
+          "description": {
+            "en": "At SwarChak, we are dedicated to delivering high-quality infrastructure solutions that meet and exceed our clients' expectations. Our commitment to innovation ensures that we employ the latest technologies and methodologies in our projects, delivering results that are not only functional but also sustainable and environmentally friendly.",
+            "ku": "لە سوارچاک، ئێمە تایبەتمەندین بە گەیاندنی چارەسەری ژێرخانی کوالیتی بەرز کە چاوەڕوانییەکانی کڕیارەکانمان بەدی دێت و زیاترە. پابەندبوونمان بە داهێنان دڵنیای دەدات لەوەی کە نوێترین تەکنەلۆژیا و میتۆدۆلۆژیا لە پڕۆژەکانماندا بەکاردەهێنین، ئەنجامەکان دەگەیەنین کە نەک تەنها کارایین بەڵکو بەردەوام و دۆستی ژینگەن.",
+            "ar": "في سوارجاك نحن ملتزمون بتقديم حلول البنية التحتية عالية الجودة التي تلبي توقعات عملائنا وتتجاوزها. ويضمن التزامنا بالابتكار أننا نستخدم أحدث التقنيات والمنهجيات في مشاريعنا، مما يؤدي إلى نتائج ليست وظيفية فحسب، بل أيضًا مستدامة وصديقة للبيئة."
+          },
+          "image_path": "/images/company/swarchack-co/2.jpg"
+        },
+        {
+          "key": 3,
+          "title": {
+            "en": "Diverse Expertise in Infrastructure Projects",
+            "ku": "شارەزایی هەمەچەشن لە پڕۆژەکانی بنیاتنان",
+            "ar": "خبرات متنوعة في مشاريع البنية التحتية"
+          },
+          "description": {
+            "en": "SwarChak's project portfolio spans a wide spectrum of infrastructure development initiatives. From constructing buildings to installing power stations, building oil tanks, establishing industrial oil refining plants, and drilling artesian wells, our expertise covers various facets of infrastructure development, demonstrating our versatility and capability to undertake complex projects.",
+            "ku": "پۆرتفۆلیۆی پڕۆژەکانی سوارچاک بەشێکی بەرفراوانی دەستپێشخەرییەکانی پەرەپێدانی ژێرخانی دەگرێتەوە. لە دروستکردنی بیناوە تا دانانی وێستگەی کارەبا، دروستکردنی تانکی نەوت، دامەزراندنی وێستگەی پاڵاوتنی نەوتی پیشەسازی، و کونکردنی بیرە ئارتێزییەکان، شارەزاییەکانمان لایەنە جیاوازەکانی پەرەپێدانی ژێرخانی دەگرێتەوە، ئەمەش نیشانەی گشتگیری و توانای ئێمەیە بۆ ئەنجامدانی پڕۆژەی ئاڵۆز.",
+            "ar": "تشمل محفظة مشاريع سوارجاك نطاقًا واسعًا من مبادرات تطوير البنية التحتية. من تشييد المباني إلى تركيب محطات الطاقة، وبناء خزانات النفط، وإنشاء محطات تكرير النفط الصناعية، وحفر الآبار الارتوازية، تغطي خبرتنا جوانب مختلفة من تطوير البنية التحتية، مما يدل على تنوعنا وقدرتنا على تنفيذ المشاريع المعقدة."
+          },
+          "image_path": "/images/company/swarchack-co/3.jpg"
+        },
+        {
+          "key": 4,
+          "title": {
+            "en": "Contributing to Economic Development",
+            "ku": "بەشداریکردن لە گەشەپێدانی ئابووری",
+            "ar": "المساهمة في التنمية الاقتصادية"
+          },
+          "description": {
+            "en": "SwarChak's infrastructure projects play a vital role in driving economic development and prosperity in Erbil. By constructing essential facilities such as power stations, oil tanks, and industrial oil refining plants, we contribute to enhancing the region's industrial capabilities and fostering growth across various sectors.",
+            "ku": "پڕۆژەکانی ژێرخانی سوارچاک ڕۆڵێکی گرنگ دەگێڕن لە هاندانی گەشەسەندنی ئابووری و خۆشگوزەرانی لە هەولێر. بە دروستکردنی دامەزراوە سەرەکییەکانی وەک وێستگەی کارەبا، تانکی نەوت، و وێستگەی پاڵاوتنی نەوتی پیشەسازی، ئێمە بەشداری دەکەین لە بەرزکردنەوەی توانا پیشەسازییەکانی ناوچەکە و پەرەپێدانی گەشەکردن لە سەرانسەری کەرتە جیاوازەکاندا.",
+            "ar": "تلعب مشاريع البنية التحتية من سوارجاك دورًا حيويًا في دفع التنمية الاقتصادية والازدهار في أربيل. ومن خلال بناء المرافق الأساسية مثل محطات الطاقة وخزانات النفط ومحطات تكرير النفط الصناعية، فإننا نساهم في تعزيز القدرات الصناعية في المنطقة وتعزيز النمو في مختلف القطاعات."
+          },
+          "image_path": "/images/company/swarchack-co/4.jpg"
+        }
+      ],
+      "gallery": {
+        "title": {
+          "en": "pioneering sustainable solutions",
+          "ku": "پێشەنگی و چارەسەری بەردەوام",
+          "ar": "حلول مستدامة رائدة"
+        },
+        "paragraph": {
+          "en": "Fueling innovation and sustainability",
+          "ku": "پەرەپێدان بە داهێنان و بەردەوامیی",
+          "ar": "تعزيز الابتكار والاستدامة"
+        },
+        "images": [
+          "/images/company/swarchack-co/thumbnail.webp",
+          "/images/company/swarchack-co/1.jpg",
+          "/images/company/swarchack-co/2.jpg",
+          "/images/company/swarchack-co/3.jpg",
+          "/images/company/swarchack-co/4.jpg"
+        ]
+      },
+      "contact": {
+        "title": {
+          "en": "Contact Us",
+          "ku": "پەیوەندیمان پێوەبکە",
+          "ar": "اتصل بنا"
+        },
+        "phone": {
+          "title": {
+            "en": "Phone",
+            "ku": "تەلەفۆن",
+            "ar": "هاتف"
+          },
+          "entities": ["+964 (750) 448 6627"]
+        },
+        "address": {
+          "title": {
+            "en": "Address",
+            "ku": "ناونیشان",
+            "ar": "عنوان"
+          },
+          "entities": [
+            {
+              "en": "Iraq, Erbil, Park View - Gulan St.",
+              "ku": "عێراق، هەولێر، پارک ڤیو - شەقامی گوڵان.",
+              "ar": "العراق، أربيل بارك فيو - شارع كولان"
+            }
+          ]
+        },
+        "email": {
+          "title": {
+            "en": "Email",
+            "ku": "ئیمەیڵ",
+            "ar": "بريد إلكتروني"
+          },
+          "entities": ["gorangroup@gorangroup.com"]
+        },
+        "social": {
+          "title": {
+            "en": "Social Media",
+            "ku": "سۆشیال میدیا",
+            "ar": "تابعنا"
+          },
+          "links": {
+            "facebook": "https://www.facebook.com/profile.php?id=100064238491168&sk=about",
+            "instagram": "",
+            "linked_in": ""
+          }
+        },
+        "coordinates": [36.209482232588954, 43.983793055225206]
+      }
+    },
+    {
+      "slug": "goran_for_generator",
+      "thumbnail": "/images/company/goran-for-generator/thumbnail.webp",
+      "card_title": {
+        "en": "Goran For Generator",
+        "ku": "گۆران بۆ مۆلیدە",
+        "ar": "جوران للمولدات"
+      },
+      "card_paragraph": {
+        "en": "established in 2003, providing the public and private sectors with generators at the best price and the highest quality ",
+        "ku": "لە ساڵی ٢٠٠٣ دامەزراوە، بە باشترین نرخ و بەرزترین کوالیتی مۆلیدە بۆ کەرتی گشتی و تایبەت دابین دەکات",
+        "ar": "تأسست عام 2003، وتقوم بتزويد القطاعين العام والخاص بالمولدات الكهربائية بأفضل الأسعار وبأعلى جودة"
+      },
+      "title": {
+        "en": "Goran Company For Generator",
+        "ku": "کۆمپانیای گۆران بۆ مۆلیدە",
+        "ar": "شركة جوران للمولدات"
+      },
+      "paragraph": {
+        "en": "Established in 2003, providing the public and private sectors with generators at the best price and the highest quality that makes it number one in Iraq. It offers Power Generators as Perkins / UK and Leroy-Somer Alternators / French origin",
+        "ku": "لەساڵی 2003 دامەزراوە، دابینکردنی مۆلیدە بۆ کەرتی گشتی و تایبەت بە باشترین نرخ و بەرزترین کوالێتی کە وایکردووە پلەی یەکەم بێت لەسەر ئاستی عێراق. مۆلیدەی کارەبا وەک پێرکنز / بەریتانیا و لیرۆی-سۆمەر ئەلتەرناتۆر / بە ڕەچەڵەک فەرەنسی پێشکەش دەکات",
+        "ar": "تأسست عام 2003 وتقوم بتزويد القطاعين العام والخاص بالمولدات الكهربائية بأفضل الأسعار وبأعلى جودة مما يجعلها رقم واحد في العراق. وتقدم مولدات الطاقة مثل بيركنز / المملكة المتحدة ومولدات ليروي سومر / أصل فرنسي"
+      },
+      "hero_image": "/images/company/goran-for-generator/hero.jpg",
+      "company_video": "",
+      "sub_sections": [
+        {
+          "key": 4,
+          "title": {
+            "en": "Leading Power Supplier in Iraq",
+            "ku": "پێشەنگی دابینکەری کارەبا لە عێراق",
+            "ar": "الشركة الرائدة في مجال توفير الطاقة في العراق"
+          },
+          "description": {
+            "en": "Established in 2003, The Goran Company has become the foremost power supplier in Iraq, boasting unparalleled production capabilities. Renowned for our generators featuring British Perkins engines and French Liposome power technology, we offer a range of services tailored to meet our customers' needs, including a dedicated staff, top-notch customer service, and original parts.",
+            "ku": "کۆمپانیای گۆران کە لە ساڵی ٢٠٠٣ دامەزراوە، بووەتە پێشەنگی دابینکەری کارەبا لە عێراقدا، شانازی بە توانای بەرهەمهێنانی بێهاوتایەوە دەکات. بەناوبانگە بە مۆلیدەکانمان کە بزوێنەری پێرکنزی بەریتانی و تەکنەلۆژیای هێزی لیپۆسۆمی فەرەنسییان تێدایە، کۆمەڵێک خزمەتگوزاری پێشکەش دەکەین کە بەپێی پێداویستی کڕیارەکانمان داڕێژراون، لەوانە ستافێکی تایبەتمەند، خزمەتگوزاری کڕیارانی ئاست بەرز، و پارچەی ئۆرجیناڵ.",
+            "ar": "تأسست شركة جوران في عام 2003، وأصبحت المورد الأول للطاقة في العراق، حيث تفتخر بقدرات إنتاجية لا مثيل لها. نشتهر بمولداتنا التي تتميز بمحركات Perkins البريطانية وتقنية طاقة Liposome الفرنسية، ونحن نقدم مجموعة من الخدمات المصممة خصيصًا لتلبية احتياجات عملائنا، بما في ذلك طاقم عمل متخصص وخدمة عملاء من الدرجة الأولى وقطع غيار أصلية."
+          },
+          "image_path": "/images/company/goran-for-generator/1.jpg"
+        },
+        {
+          "key": 1,
+          "title": {
+            "en": "Unmatched Quality and Support",
+            "ku": "کوالیتی و پشتگیری بێ هاوتا",
+            "ar": "جودة ودعم لا مثيل لهما"
+          },
+          "description": {
+            "en": "At The Goran Company, we prioritize service excellence and customer satisfaction. Our generators come with a one-year warranty or 1000 hours of operation, covering both electrical and mechanical components. Customers trust us for our affordable prices, expert engineering support, original parts, and after-sales service, backed by a certificate of origin from our Mother Company.",
+            "ku": "لە کۆمپانیای گۆران ئێمە لە پێشینەی کارەکانی خزمەتگوزاری و ڕەزامەندی کڕیاران دەدەین. مۆلیدەکانمان گرەنتی یەک ساڵ یان ١٠٠٠ کاتژمێر کارکردنیان لەگەڵدایە، کە هەردوو پێکهاتەی کارەبایی و میکانیکی دەگرێتەوە. کڕیاران متمانەیان بە ئێمە هەیە بۆ نرخە گونجاوەکانمان، پشتگیری ئەندازیاری شارەزا، پارچەی ئەسڵی، و خزمەتگوزاری دوای فرۆشتن، کە پشتگیری دەکرێت بە بڕوانامەی سەرچاوە لە کۆمپانیای دایکمان.",
+            "ar": "في شركة جوران، نعطي الأولوية لتميز الخدمة ورضا العملاء. تأتي مولداتنا مع ضمان لمدة عام واحد أو 1000 ساعة تشغيل، ويغطي المكونات الكهربائية والميكانيكية. يثق العملاء بنا نظرًا لأسعارنا المعقولة والدعم الهندسي المتخصص وقطع الغيار الأصلية وخدمة ما بعد البيع، المدعومة بشهادة منشأ من شركتنا الأم."
+          },
+          "image_path": "/images/company/goran-for-generator/2.jpg"
+        },
+        {
+          "key": 2,
+          "title": {
+            "en": "Empowering Kurdistan's Development",
+            "ku": "بەهێزکردنی گەشەپێدانی کوردستان",
+            "ar": "تمكين تنمية كردستان"
+          },
+          "description": {
+            "en": "Since our inception, The Goran Company has sold approximately 4230 generators, catering to both private and governmental sectors in Kurdistan and beyond. Our commitment to reliable power solutions has earned us the trust of the Kurdistan Regional Government and various industries, including supermarkets. We are dedicated to continuous development and collaboration to serve the community.",
+            "ku": "لە سەرەتای دامەزراندنمانەوە کۆمپانیای گۆران نزیکەی ٤٢٣٠ مۆلیدەی فرۆشتووە، کە خزمەت بە هەردوو کەرتی تایبەت و حکومی دەکات لە کوردستان و دەرەوەی وڵات. پابەندبوونمان بە چارەسەری دەسەڵاتی متمانەپێکراو، متمانەی حکومەتی هەرێمی کوردستان و پیشەسازییە جیاوازەکان بە مارکێتەکانیشەوە بەدەست بهێنین. ئێمە تایبەتین بە گەشەپێدان و هاوکاری بەردەوام بۆ خزمەتکردنی کۆمەڵگا.",
+            "ar": "منذ تأسيسها، باعت شركة جوران ما يقرب من 4230 مولدًا، لتلبية احتياجات القطاعين الخاص والحكومي في كردستان وخارجها. لقد أكسبنا التزامنا بحلول الطاقة الموثوقة ثقة حكومة إقليم كردستان ومختلف الصناعات، بما في ذلك محلات السوبر ماركت. ونحن ملتزمون بالتطوير المستمر والتعاون لخدمة المجتمع."
+          },
+          "image_path": "/images/company/goran-for-generator/3.jpg"
+        },
+        {
+          "key": 3,
+          "title": {
+            "en": "Building Strong Relationships for Success",
+            "ku": "دروستکردنی پەیوەندی بەهێز بۆ سەرکەوتن",
+            "ar": "بناء علاقات قوية من أجل النجاح"
+          },
+          "description": {
+            "en": "The Goran Company values the trust and partnership we have cultivated with the Kurdistan Regional Government and our customers. Our collaborative efforts aim to provide uninterrupted power supply to citizens and support economic growth. We remain steadfast in our commitment to innovation and excellence in the ever-evolving field of power generation.",
+            "ku": "کۆمپانیای گۆران بەهای ئەو متمانە و هاوبەشییەی کە لەگەڵ حکومەتی هەرێمی کوردستان و کڕیارەکانمان چاندومانە. هەوڵە هاوبەشەکانمان ئامانجیان دابینکردنی کارەبای بێ پچڕانە بۆ هاوڵاتیان و پشتگیریکردنی گەشەی ئابووری. ئێمە لە پابەندبوونمان بە داهێنان و باشی لە بواری بەرهەمهێنانی کارەبادا کە هەمیشە لە گەشەکردندایە، جێگیر دەمێنینەوە.",
+            "ar": "تقدر شركة جوران الثقة والشراكة التي زرعناها مع حكومة إقليم كردستان وعملائنا. وتهدف جهودنا التعاونية إلى توفير إمدادات الطاقة دون انقطاع للمواطنين ودعم النمو الاقتصادي. نحن لا نزال ثابتين في التزامنا بالابتكار والتميز في مجال توليد الطاقة المتطور باستمرار."
+          },
+          "image_path": "/images/company/goran-for-generator/4.jpg"
+        }
+      ],
+      "gallery": {
+        "title": {
+          "en": "EMPOWERING PROGRESS, ILLUMINATING TOMORROW",
+          "ku": "پێشکەوتنی بە‌هێز بۆ ڕووناک کردنەوەی داهاتوو",
+          "ar": "تمكين التقدم، وإضاءة الغد"
+        },
+        "paragraph": {
+          "en": "Guiding Kurdistan's development since 2003",
+          "ku": "ڕێنماییکردنی گەشەسەندنی کوردستان لە ساڵی ٢٠٠٣ەوە",
+          "ar": "توجيه تنمية كردستان منذ عام 2003"
+        },
+        "images": [
+          "/images/company/goran-for-generator/1.jpg",
+          "/images/company/goran-for-generator/2.jpg",
+          "/images/company/goran-for-generator/3.jpg",
+          "/images/company/goran-for-generator/4.jpg",
+          "/images/company/goran-for-generator/5.jpg",
+          "/images/company/goran-for-generator/thumbnail.webp"
         ]
       },
       "contact": {
@@ -260,8 +726,8 @@
           "entities": [
             {
               "en": "Iraq, Erbil, Peshawa Qazi",
-              "ku": "عێراق - کوردستان - هەولێر: گوندی ئیتاڵی",
-              "ar": "عێراق، هەولێر، پێشەوا قازی"
+              "ku": "عێراق، هەولێر، پێشەوا قازی",
+              "ar": "العراق، أربيل، بيشاوا قازي"
             }
           ]
         },
@@ -280,122 +746,99 @@
             "ar": "تابعنا"
           },
           "links": {
-            "facebook": "https://www.facebook.com/profile.php?id=100064003273906&sk=about",
+            "facebook": "https://www.facebook.com/profile.php?id=100071452396287",
             "instagram": "",
-            "linked_in": "https://www.linkedin.com/company/goran-group/?originalSubdomain=iq"
+            "linked_in": ""
           }
         },
-        "coordinates": [36.19485642222841, 44.042780813104415]
+        "coordinates": [36.19471697949078, 44.04274212703858]
       }
     },
     {
-      "slug": "goran_generator",
-      "thumbnail": "/images/company/goran-generator/thumbnail.jpg",
+      "slug": "limar_realestate",
+      "thumbnail": "/images/company/limar-realestate/thumbnail.webp",
       "card_title": {
-        "en": "Goran Generator",
-        "ku": "کۆمپانیای گۆران بۆ مۆلیدە",
-        "ar": "مولد جوران"
+        "en": "Limar Realestate",
+        "ku": "",
+        "ar": ""
       },
       "card_paragraph": {
-        "en": "Goran Generator Company excels in premium diesel generators, backed by 1000-hour guarantee!",
-        "ku": "کۆمپانیای مۆلیدەی گۆران لە مۆلیدەی دیزڵی بەرزدا سەرکەوتووە، بە گرەنتی 1000 کاتژمێر پشتگیری دەکرێت!",
-        "ar": "تتفوق شركة جوران للمولدات في إنتاج مولدات الديزل المتميزة، والمدعومة بضمان 1000 ساعة!"
+        "en": "Limar Real Estate Agents is a leading real estate company with 10 years of experience in real estate brokerage",
+        "ku": "",
+        "ar": ""
       },
       "title": {
-        "en": "Goran Generator Co.",
-        "ku": "کۆمپانیای گۆران بۆ مۆلیدە.",
-        "ar": "شركة جوران للمولدات"
+        "en": "Limar Real Estate Agents",
+        "ku": "",
+        "ar": ""
       },
       "paragraph": {
-        "en": "Goran Generator Company excels in premium diesel generators, backed by 1000-hour guarantee!",
-        "ku": "کۆمپانیای مۆلیدەی گۆران لە مۆلیدەی دیزڵی بەرزدا سەرکەوتووە، بە گرەنتی 1000 کاتژمێر پشتگیری دەکرێت!",
-        "ar": "تتفوق شركة جوران للمولدات في إنتاج مولدات الديزل المتميزة، والمدعومة بضمان 1000 ساعة!"
+        "en": "Limar Real Estate Agents is a leading real estate company with 10 years of experience in real estate brokerage. We have a series of branches connected to the latest systems and deployed in Erbil, capital of the Iraqi Kurdistan region, and a professional team with extensive knowledge in the field of real estate with all its specialties with great experience to meet all your needs.",
+        "ku": "",
+        "ar": ""
       },
-      "hero_image": "/images/company/goran-generator/hero.jpg",
+      "hero_image": "/images/company/limar-realestate/cover.jpg",
       "company_video": "",
       "sub_sections": [
         {
           "key": 1,
           "title": {
-            "en": "Superior Quality Generators",
-            "ku": "مۆلیدەی کوالیتی بەرز",
-            "ar": "مولدات عالية الجودة"
+            "en": "Your Trusted Real Estate Partner",
+            "ku": "",
+            "ar": ""
           },
           "description": {
-            "en": "Goran Generator Company, located in Erbil, Kurdistan – Iraq, specializes in providing top-notch diesel generators with a 1000-hour work guarantee. Our commitment to excellence ensures reliable electricity solutions tailored for private sectors.",
-            "ku": "کۆمپانیای مۆلیدەی گۆران کە دەکەوێتە شاری هەولێری کوردستان – عێراق، تایبەتمەندە لە دابینکردنی مۆلیدەی دیزڵی ئاست بەرز بە گرەنتی کارکردنی 1000 کاتژمێر. پابەندبوونمان بە باشی، چارەسەری کارەبایی متمانەپێکراو مسۆگەر دەکات کە بۆ کەرتە تایبەتەکان گونجاوە.",
-            "ar": "شركة غوران للمولدات، والتي تقع في أربيل، كردستان – العراق، متخصصة في توفير مولدات الديزل من الدرجة الأولى مع ضمان العمل لمدة 1000 ساعة. إن التزامنا بالتميز يضمن حلول كهرباء موثوقة ومصممة خصيصًا للقطاع الخاص."
+            "en": "With a decade of experience in real estate brokerage, Limar Real Estate Agents stands as a leading firm in the Iraqi Kurdistan region. Our strategically located branches in Erbil, equipped with state-of-the-art systems, and a professional team with extensive expertise ensure we meet all your real estate needs. We pride ourselves on our reputation for quality service and commitment to excellence.",
+            "ku": "",
+            "ar": ""
           },
-          "image_path": "/images/company/goran-generator/thumbnail.jpg"
+          "image_path": "/images/company/limar-realestate/1.webp"
         },
         {
           "key": 2,
           "title": {
-            "en": "Expert Team and Diverse Brands",
-            "ku": "تیمی پسپۆڕ و براندە هەمەچەشنەکان",
-            "ar": "فريق الخبراء والعلامات التجارية المتنوعة"
+            "en": "Unparalleled Knowledge and Tools for Success",
+            "ku": "",
+            "ar": ""
           },
           "description": {
-            "en": "As a crucial division of the Goran Group, our success is owed to a skilled workforce spanning accounting, sales, marketing, and services. We offer a wide array of globally recognized generator brands, including British Perkins, Swedish Volvo, and American Cummins, each certified to instill trust in our clientele.",
-            "ku": "وەک دابەشکردنێکی چارەنووسساز لە گروپی گۆران، سەرکەوتنەکانمان قەرزاری هێزێکی کاری لێهاتووە کە ژمێریاری، فرۆشتن، بازاڕکردن، و خزمەتگوزاری دەگرێتەوە. ئێمە کۆمەڵێک براندی مۆلیدەی ناسراوی جیهانی پێشکەش دەکەین، لەوانە پێرکنزی بەریتانی، ڤۆڵڤۆی سویدی، و کامینزی ئەمریکی، کە هەریەکەیان بڕوانامەیان هەیە بۆ چاندنی متمانە بە کڕیارەکانمان.",
-            "ar": "باعتبارنا قسمًا مهمًا في مجموعة جوران، فإن نجاحنا يرجع إلى القوى العاملة الماهرة التي تشمل المحاسبة والمبيعات والتسويق والخدمات. نحن نقدم مجموعة واسعة من العلامات التجارية للمولدات المعترف بها عالميًا، بما في ذلك British Perkins، وVolvo السويدية، وAmerican Cummins، وكل منها معتمدة لغرس الثقة في عملائنا."
+            "en": "Limar Real Estate Agents boasts a team of seasoned professionals with in-depth knowledge across all specialties of the real estate industry. With access to the best resources, systems, and tools, we are equipped to deliver the highest quality services to our clients. Our success is rooted in our ability to adapt to the ever-evolving real estate landscape and provide innovative solutions.",
+            "ku": "",
+            "ar": ""
           },
-          "image_path": "/images/company/goran-generator/thumbnail.jpg"
+          "image_path": "/images/company/limar-realestate/2.webp"
         },
         {
           "key": 3,
           "title": {
-            "en": "Leading Sales and Service Provider",
-            "ku": "پێشەنگی فرۆشتن و پێشکەشکاری خزمەتگوزاری",
-            "ar": "الرائدة في مجال المبيعات والخدمات"
+            "en": "Navigating Erbil's Real Estate Landscape",
+            "ku": "",
+            "ar": ""
           },
           "description": {
-            "en": "With pride, we've secured the top spot in both sales and service provision in Kurdistan and Iraq. Strong partnerships with governmental bodies, organizations, and petroleum companies have propelled our success.",
-            "ku": "بە شانازییەوە پلەی یەکەممان لە هەردوو بواری فرۆشتن و پێشکەشکردنی خزمەتگوزاری لە کوردستان و عێراق مسۆگەر کردووە. هاوبەشی بەهێز لەگەڵ ئۆرگان و ڕێکخراوە حکومییەکان و کۆمپانیاکانی نەوت سەرکەوتنی ئێمەی بەرەوپێش بردووە.",
-            "ar": "وبكل فخر، حصلنا على المركز الأول في كل من المبيعات وتقديم الخدمات في كردستان والعراق. لقد ساهمت الشراكات القوية مع الهيئات الحكومية والمنظمات وشركات النفط في نجاحنا."
+            "en": "With a wealth of knowledge and experience in the local real estate market of Erbil, the capital of Iraqi Kurdistan, Limar Real Estate Agents offers unparalleled insight and expertise. We approach each opportunity with creativity and positivity, working tirelessly with our clients to help them achieve their goals, desires, and needs.",
+            "ku": "",
+            "ar": ""
           },
-          "image_path": "/images/company/goran-generator/thumbnail.jpg"
-        },
-        {
-          "key": 4,
-          "title": {
-            "en": "Continuous Commitment to Excellence",
-            "ku": "پابەندبوونی بەردەوام بە باشترین",
-            "ar": "الالتزام المستمر بالتميز"
-          },
-          "description": {
-            "en": "Driven by an unwavering commitment, we strive to enhance services for citizens and enterprises continually. Our impressive track record underscores our dedication to delivering exemplary services in collaboration with the government.",
-            "ku": "ئێمە بەهۆی پابەندبوونێکی نەگۆڕەوە، هەوڵدەدەین خزمەتگوزارییەکان بۆ هاوڵاتیان و کۆمپانیاکان بە بەردەوامی بەرز بکەینەوە. پێشینەی سەرنجڕاکێشمان جەخت لەسەر خۆبەخشیمان دەکاتەوە بۆ پێشکەشکردنی خزمەتگوزارییە نموونەییەکان بە هاوکاری لەگەڵ حکومەت.",
-            "ar": "وانطلاقًا من التزامنا الثابت، فإننا نسعى جاهدين لتحسين الخدمات المقدمة للمواطنين والشركات بشكل مستمر. ويؤكد سجلنا الحافل تفانينا في تقديم خدمات مثالية بالتعاون مع الحكومة."
-          },
-          "image_path": "/images/company/goran-generator/thumbnail.jpg"
+          "image_path": "/images/company/limar-realestate/3.webp"
         }
       ],
       "gallery": {
         "title": {
-          "en": "Driving Progress, Energizing Tomorrow",
-          "ku": "پێشکەوتنی لێخوڕین، سبەی وزەبەخش",
-          "ar": "قيادة التقدم وتنشيط الغد"
+          "en": "FACILITATING DREAMS, SHAPING DESTINIES",
+          "ku": "",
+          "ar": ""
         },
         "paragraph": {
-          "en": "Propelling innovation and sustainability, our dedication fuels a future defined by advancement.",
-          "ku": "پاڵنەرەکانی داهێنان و بەردەوامی، خۆبەخشیمان سووتەمەنی داهاتوویەک دەدات کە بە پێشکەوتن پێناسە کراوە.",
-          "ar": "من خلال دفع الابتكار والاستدامة، فإن تفانينا يغذي مستقبلًا محددًا بالتقدم."
+          "en": "your trusted partner in realizing real estate aspirations",
+          "ku": "",
+          "ar": ""
         },
         "images": [
-          "/images/company/goran-generator/slider-3.jpg",
-          "/images/company/goran-generator/slider-4.jpg",
-          "/images/company/goran-generator/slider-5.jpg",
-          "/images/company/goran-generator/slider-6.jpg",
-          "/images/company/goran-generator/slider-7.jpg",
-          "/images/company/goran-generator/slider-9.jpg",
-          "/images/company/goran-generator/slider-10.jpg",
-          "/images/company/goran-generator/slider-11.jpg",
-          "/images/company/goran-generator/slider-12.jpg",
-          "/images/company/goran-generator/slider-13.jpg",
-          "/images/company/goran-generator/slider-14.jpg",
-          "/images/company/goran-generator/slider-2.jpg",
-          "/images/company/goran-generator/slider-1.jpg"
+          "/images/company/limar-realestate/thumbnail.webp",
+          "/images/company/limar-realestate/1.webp",
+          "/images/company/limar-realestate/2.webp",
+          "/images/company/limar-realestate/3.webp"
         ]
       },
       "contact": {
@@ -410,7 +853,7 @@
             "ku": "تەلەفۆن",
             "ar": "هاتف"
           },
-          "entities": ["+964 (750) 200 3000", "+964 (750) 200 4000"]
+          "entities": ["+964 (751) 222 0000"]
         },
         "address": {
           "title": {
@@ -420,14 +863,9 @@
           },
           "entities": [
             {
-              "en": "Iraq - Kurdistan - Erbil: Italian Village",
-              "ku": "عێراق - کوردستان - هەولێر: گوندی ئیتاڵی",
-              "ar": "العراق - كردستان - اربيل : القرية الإيطالية"
-            },
-            {
-              "en": "Iraq - Kurdistan - Slemani",
-              "ku": "عێراق - کوردستان - سلێمانی",
-              "ar": "العراق - كردستان - السليمانية"
+              "en": "Iraq, Erbil, Gulan St. - Behind Star Towers",
+              "ku": "عێراق، هەولێر، شەقامی گوڵان - پشت ستار تاوەر",
+              "ar": "العراق, أربيل شارع كولان - خلف ستار تاورز"
             }
           ]
         },
@@ -437,7 +875,7 @@
             "ku": "ئیمەیڵ",
             "ar": "بريد إلكتروني"
           },
-          "entities": ["gorangroup@emial.com"]
+          "entities": ["info@gorangroup.com"]
         },
         "social": {
           "title": {
@@ -446,21 +884,21 @@
             "ar": "تابعنا"
           },
           "links": {
-            "facebook": ".",
-            "instagram": ".",
-            "linked_in": "."
+            "facebook": "https://www.facebook.com/limaragents",
+            "instagram": "",
+            "linked_in": ""
           }
         },
-        "coordinates": [36.18541073719607, 43.96496355094828]
+        "coordinates": [36.204959101219245, 43.984818724744635]
       }
-    },
+    }, 
     {
-      "slug": "bahceci_medical_center",
-      "thumbnail": "/images/company/bahceci/thumbnail.jpg",
+      "slug": "rose_medical_center",
+      "thumbnail": "/images/company/rose/thumbnail.jpg",
       "card_title": {
-        "en": "Bahceci",
-        "ku": "باخچەچی",
-        "ar": "بهجيجي"
+        "en": "Rose Medical Center",
+        "ku": "سەنتەری پزیشکی ڕۆز",
+        "ar": "مركز روز الطبي"
       },
       "card_paragraph": {
         "en": "Leading healthcare provider with advanced equipment and specialized services.",
@@ -468,16 +906,16 @@
         "ar": "الرائدة في مجال تقديم الرعاية الصحية مع المعدات المتطورة والخدمات المتخصصة."
       },
       "title": {
-        "en": "Bahceci Medical Center - Erbil",
-        "ku": "سەنتەری پزیشکی بەهجەچی - هەولێر",
-        "ar": "مركز بهجيجي الطبي - اربيل"
+        "en": "Rose Medical Center",
+        "ku": "سەنتەری پزیشکی ڕۆز",
+        "ar": "مركز روز الطبي"
       },
       "paragraph": {
         "en": "Leading healthcare provider with advanced equipment and specialized services.",
         "ku": "پێشەنگی دابینکەری چاودێری تەندروستی بە ئامێری پێشکەوتوو و خزمەتگوزاری تایبەتمەند.",
         "ar": "الرائدة في مجال تقديم الرعاية الصحية مع المعدات المتطورة والخدمات المتخصصة."
       },
-      "hero_image": "/images/company/bahceci/home.jpg",
+      "hero_image": "/images/company/rose/hero-2.webp",
       "company_video": "",
       "sub_sections": [
         {
@@ -488,11 +926,11 @@
             "ar": "موقع مركزي وهيبة"
           },
           "description": {
-            "en": "Bahceci Erbil Medical Center is a key establishment in Erbil, Iraq, centrally situated on 30th Street near the Iranian Consulate.",
-            "ku": "سەنتەری پزیشکی بەهجەچی هەولێر دامەزراوەیەکی سەرەکییە لە شاری هەولێری پایتەختی عێراق و لە ناوەنددا هەڵکەوتووە لە شەقامی 30 لە نزیک کونسوڵخانەی ئێران.",
-            "ar": "مركز بهجيجي أربيل الطبي هو مؤسسة رئيسية في أربيل، العراق، ويقع في موقع مركزي في شارع 30 بالقرب من القنصلية الإيرانية."
+            "en": "Rose Erbil Medical Center is a key establishment in Erbil, Iraq, centrally situated on 30th Street near the Iranian Consulate.",
+            "ku": "سەنتەری پزیشکی ڕۆز هەولێر دامەزراوەیەکی سەرەکییە لە شاری هەولێری عێراق و لە ناوەنددا هەڵکەوتووە لە شەقامی 30 لە نزیک کونسوڵخانەی ئێران.",
+            "ar": "مركز روز أربيل الطبي هو مؤسسة رئيسية في أربيل، العراق، ويقع في موقع مركزي في شارع 30 بالقرب من القنصلية الإيرانية."
           },
-          "image_path": "/images/company/bahceci/slider-6.jpg"
+          "image_path": "/images/company/rose/hero.webp"
         },
         {
           "key": 2,
@@ -502,11 +940,11 @@
             "ar": "المعدات الطبية المتقدمة"
           },
           "description": {
-            "en": "Renowned for its cutting-edge medical equipment, Bahceci Erbil Medical Center ensures top-quality healthcare.",
-            "ku": "سەنتەری پزیشکی بەهجەچی هەولێر کە بە ئامێرە پزیشکییە پێشکەوتووەکانی ناوبانگی دەرکردووە، چاودێری تەندروستی کوالیتی بەرز مسۆگەر دەکات.",
-            "ar": "يشتهر مركز بهجيجي أربيل الطبي بمعداته الطبية المتطورة، ويضمن رعاية صحية عالية الجودة."
+            "en": "Renowned for its cutting-edge medical equipment, Rose Erbil Medical Center ensures top-quality healthcare.",
+            "ku": "سەنتەری پزیشکی ڕۆز هەولێر کە بە ئامێرە پزیشکییە پێشکەوتووەکانی بەناوبانگە، چاودێری تەندروستی کوالیتی بەرز مسۆگەر دەکات.",
+            "ar": "يشتهر مركز روز أربيل الطبي بمعداته الطبية المتطورة، ويضمن رعاية صحية عالية الجودة."
           },
-          "image_path": "/images/company/bahceci/slider-6.jpg"
+          "image_path": "/images/company/rose/slider-5.jpg"
         },
         {
           "key": 3,
@@ -516,11 +954,11 @@
             "ar": "خدمات الرعاية الصحية الشاملة"
           },
           "description": {
-            "en": "Bahceci Erbil Medical Center offers an array of specialized services, including Aesthetics, Orthopedics, and Traumatologies",
-            "ku": "سەنتەری پزیشکی بەهجەچی هەولێر کۆمەڵێک خزمەتگوزاری تایبەتمەند پێشکەش دەکات، لەوانە جوانکاری، ئێسک و پروسکی، و زەبر و زەنگ",
-            "ar": "يقدم مركز بهجيجي أربيل الطبي مجموعة من الخدمات المتخصصة، بما في ذلك التجميل وجراحة العظام والكسور"
+            "en": "Rose Erbil Medical Center offers an array of specialized services, including Aesthetics, Orthopedics, and Traumatologies",
+            "ku": "سەنتەری پزیشکی ڕۆز هەولێر کۆمەڵێک خزمەتگوزاری تایبەتمەند پێشکەش دەکات، لەوانە جوانکاری، ئێسک و پروسکی، و زەبر و زەنگ",
+            "ar": "يقدم مركز روز أربيل الطبي مجموعة من الخدمات المتخصصة، بما في ذلك التجميل وجراحة العظام والكسور"
           },
-          "image_path": "/images/company/bahceci/slider-6.jpg"
+          "image_path": "/images/company/rose/slider-6.jpg"
         },
         {
           "key": 4,
@@ -530,11 +968,11 @@
             "ar": "الأقسام المتخصصة"
           },
           "description": {
-            "en": "Bahceci Erbil Medical Center boasts specialized departments focusing on Vertebrae, Brain, Nervous System, Physiotherapy, and Rehabilitation.",
-            "ku": "سەنتەری پزیشکی بەهجەچی هەولێر شانازی بە بەشە تایبەتمەندەکانەوە دەکات کە گرنگی بە کڕکڕاگەکان، مێشک، کۆئەندامی دەمار، چارەسەری فیزیۆتێراپی، و چاکسازی دەدەن.",
-            "ar": "يضم مركز بهجيجي أربيل الطبي أقسامًا متخصصة تركز على الفقرات والدماغ والجهاز العصبي والعلاج الطبيعي وإعادة التأهيل."
+            "en": "Rose Erbil Medical Center boasts specialized departments focusing on Vertebrae, Brain, Nervous System, Physiotherapy, and Rehabilitation.",
+            "ku": "سەنتەری پزیشکی ڕۆز هەولێر شانازی بە بەشە تایبەتمەندەکانەوە دەکات کە گرنگی بە کڕکڕاگەکان، مێشک، کۆئەندامی دەمار، چارەسەری فیزیۆتێراپی، و چاکسازی دەدەن.",
+            "ar": "يضم مركز روز أربيل الطبي أقسامًا متخصصة تركز على الفقرات والدماغ والجهاز العصبي والعلاج الطبيعي وإعادة التأهيل."
           },
-          "image_path": "/images/company/bahceci/slider-6.jpg"
+          "image_path": "/images/company/rose/slider-3.jpg"
         }
       ],
       "gallery": {
@@ -544,19 +982,195 @@
           "ar": "الرعاية الصحية الرائدة، تشكيل الغد"
         },
         "paragraph": {
-          "en": "Bahceci Erbil Medical Center pioneers healthcare in Erbil, Iraq, fostering progress and well-being",
-          "ku": "سەنتەری پزیشکی بەهجەچی هەولێر پێشەنگە لە بواری چاودێری تەندروستی لە هەولێری عێراق، پەرەپێدانی پێشکەوتن و خۆشگوزەرانی",
-          "ar": "مركز بهجيجي أربيل الطبي رائد في مجال الرعاية الصحية في أربيل، العراق، مما يعزز التقدم والرفاهية"
+          "en": "Rose Erbil Medical Center pioneers healthcare in Erbil, Iraq, fostering progress and well-being",
+          "ku": "سەنتەری پزیشکی ڕۆز هەولێر پێشەنگە لە بواری چاودێری تەندروستی لە هەولێری عێراق، پەرەپێدانی پێشکەوتن و خۆشگوزەرانی",
+          "ar": "مركز روز أربيل الطبي رائد في مجال الرعاية الصحية في أربيل، العراق، مما يعزز التقدم والرفاهية"
         },
         "images": [
-          "/images/company/bahceci/slider-1.jpg",
-          "/images/company/bahceci/slider-2.jpg",
-          "/images/company/bahceci/slider-3.jpg",
-          "/images/company/bahceci/slider-4.jpg",
-          "/images/company/bahceci/slider-5.jpg",
-          "/images/company/bahceci/slider-6.jpg",
-          "/images/company/bahceci/slider-7.jpg"
+          "/images/company/rose/hero.webp",
+          "/images/company/rose/slider-2.jpg",
+          "/images/company/rose/slider-3.jpg",
+          "/images/company/rose/slider-4.jpg",
+          "/images/company/rose/slider-5.jpg",
+          "/images/company/rose/slider-6.jpg",
+          "/images/company/rose/slider-7.jpg",
+          "/images/company/rose/slider-1.jpg"
         ]
+      },
+      "contact": {
+        "title": {
+          "en": "Contact Us",
+          "ku": "پەیوەندیمان پێوەبکە",
+          "ar": "اتصل بنا"
+        },
+        "phone": {
+          "title": {
+            "en": "Phone",
+            "ku": "تەلەفۆن",
+            "ar": "هاتف"
+          },
+          "entities": ["+964 (750) 840 2626", "+964 (750) 666 0999"]
+        },
+        "address": {
+          "title": {
+            "en": "Address",
+            "ku": "ناونیشان",
+            "ar": "عنوان"
+          },
+          "entities": [
+            {
+              "en": "Iraq, Erbil, 30 St. - Next to The Iranian Consulate",
+              "ku": "عێراق، هەولێر، 30م - تەنیشت کونسوڵخانەی ئێران",
+              "ar": "العراق, أربيل شارع ۳۰ متري - جانب القنصلية الإيرانية"
+            }
+          ]
+        },
+        "email": {
+          "title": {
+            "en": "Email",
+            "ku": "ئیمەیڵ",
+            "ar": "بريد إلكتروني"
+          },
+          "entities": ["Info@gorangroup.com"]
+        },
+        "social": {
+          "title": {
+            "en": "Social Media",
+            "ku": "سۆشیال میدیا",
+            "ar": "تابعنا"
+          },
+          "links": {
+            "facebook": "https://www.facebook.com/Rosebeautyerbil/",
+            "instagram": "https://www.instagram.com/rose.medical.center",
+            "linked_in": ""
+          }
+        },
+        "coordinates": [36.19652804195984, 44.000403279536656]
+      }
+    },
+    {
+      "slug": "minas",
+      "thumbnail": "/images/company/minas/thumbnail.webp",
+      "card_title": {
+        "en": "Minas Company",
+        "ku": "کۆمپانیای میناس",
+        "ar": "شركة ميناس"
+      },
+      "card_paragraph": {
+        "en": "A company specialized in health and cosmetic products",
+        "ku": "کۆمپانیایەکی تایبەتمەندە لە بواری تەندروستی و بەرهەمی جوانکاری",
+        "ar": "شركة متخصصة في المنتجات الصحية والتجميلية"
+      },
+      "title": {
+        "en": "Minas Company",
+        "ku": "کۆمپانیای میناس",
+        "ar": "شركة ميناس"
+      },
+      "paragraph": {
+        "en": "A company specialized in health and cosmetic products, established in 2009, where it began distributing medical devices, laboratory equipment and disposable products, in 2010 it began importing and distributing dental care products, and in 2013 the company began distributing cosmetic materials",
+        "ku": "کۆمپانیایەکی تایبەتمەندە لە بواری تەندروستی و بەرهەمی جوانکاری، لە ساڵی ٢٠٠٩ دامەزراوە، لەوێ دەستیکردووە بە دابەشکردنی ئامێرە پزیشکییەکان و ئامێرەکانی تاقیگە و بەرهەمە یەکجار بەکارهێنراوەکان، لە ساڵی ٢٠١٠ دەستیکردووە بە هاوردەکردن و دابەشکردنی بەرهەمەکانی چاودێری ددان، لە ساڵی ٢٠١٣ کۆمپانیاکە دەستیکردووە بە دابەشکردنی کەرەستەی جوانکاری",
+        "ar": "شركة متخصصة في المنتجات الصحية والتجميلية تأسست عام 2009 حيث بدأت بتوزيع الأجهزة الطبية ومعدات المختبرات والمنتجات ذات الاستعمال الواحد، وفي عام 2010 بدأت باستيراد وتوزيع منتجات العناية بالأسنان، وفي عام 2013 بدأت الشركة بتوزيع المواد التجميلية"
+      },
+      "hero_image": "/images/company/minas/hero.jpg",
+      "company_video": "",
+      "sub_sections": [
+        {
+          "key": 1,
+          "title": {
+            "en": "Your Premier Health and Cosmetics Provider",
+            "ku": "دابینکەری تەندروستی و جوانکاری سەرەکیتان",
+            "ar": "مزود خدمات الصحة ومستحضرات التجميل الأول الخاص بك"
+          },
+          "description": {
+            "en": "As a proud member of the Goran Group of companies from Iraq, Minas Company has been at the forefront of health and cosmetics distribution since its establishment in 2009. Beginning with the distribution of medical instruments, laboratory equipment, and disposable products, we expanded into dental care products in 2010 and ventured into the distribution of cosmetic products in 2013. Headquartered in Erbil, Kurdistan region, our commitment to quality and innovation has fueled our growth, leading to the establishment of a modern office in the heart of the city.",
+            "ku": "وەک ئەندامێکی سەربەرزی گروپی کۆمپانیاکانی جوران لە عێراقەوە، میناس لە سەرەتای دامەزراندنیەوە لە ساڵی ٢٠٠٩ەوە لە پێشەنگی دابەشکردنی بەرهەمە تەندروستی و جوانکارییەکان بووە، لە دابەشکردنی ئامێری پزیشکی و کەرەستەی تاقیگە و بەرهەمە یەکجار بەکارهێنراوەکانەوە دەستمان پێکردووە، فراوانتر بووین بۆ بەرهەمەکانی چاودێری ددان لە ساڵی... 2010 و لە ساڵی 2013 دەستی بە دابەشکردنی بەرهەمە جوانکارییەکان کرد، بارەگاکەمان لە شاری هەولێری هەرێمی کوردستانە، پابەندبوونمان بە کوالیتی و داهێنان بووەتە سووتەمەنی گەشەکردنمان، لە ئەنجامدا ئۆفیسێکی مۆدێرن لە دڵی شارەکەدا دروست بووە.",
+            "ar": "باعتبارها عضوًا فخورًا في مجموعة شركات جوران من العراق، كانت شركة ميناس في طليعة توزيع منتجات الصحة ومستحضرات التجميل منذ تأسيسها في عام 2009. بدءًا من توزيع الأدوات الطبية ومعدات المختبرات والمنتجات التي تستخدم لمرة واحدة، توسعنا إلى طب الأسنان منتجات العناية في عام 2010 وغامرنا في توزيع منتجات التجميل في عام 2013. يقع مقرنا الرئيسي في أربيل، إقليم كردستان، وقد أدى التزامنا بالجودة والابتكار إلى تعزيز نمونا، مما أدى إلى إنشاء مكتب حديث في قلب المدينة."
+          },
+          "image_path": "/images/company/minas/1.jpg"
+        },
+        {
+          "key": 2,
+          "title": {
+            "en": "Certified Products for Your Well-being",
+            "ku": "بەرهەمی بڕوانامەدار بۆ خۆشگوزەرانی ئێوە",
+            "ar": "منتجات معتمدة لرفاهيتك"
+          },
+          "description": {
+            "en": "At Minas Company, we take pride in offering a diverse range of health and cosmetics products that are certified by the Ministry of Health and officially approved. Our brands, including Biobalance, Episiva, Nutrigrow, and Diapex, are synonymous with quality and reliability. Whether it's medical instruments, dental care products, or cosmetics, we ensure that each product meets stringent quality standards to safeguard your well-being.",
+            "ku": "لە کۆمپانیای میناس شانازی دەکەین بە پێشکەشکردنی کۆمەڵێک بەرهەمی هەمەچەشنی تەندروستی و جوانکاری کە بڕوانامەی وەزارەتی تەندروستییان پێدراوە و بە فەرمی پەسەندکراون. براندەکانمان، لەوانە بایۆبالانس، ئیپیسیڤا، نیوتریگرۆ، و دایپێکس، هاوواتای کوالیتی و متمانەپێکردنن. جا ئامێری پزیشکی بێت، بەرهەمی چاودێری ددان، یان جوانکاری، ئێمە دڵنیا دەبینەوە لەوەی کە هەر بەرهەمێک ستانداردە توندەکانی کوالیتی بەدی دەهێنێت بۆ پاراستنی باشی تۆ.",
+            "ar": "نفخر في شركة ميناس بتقديم مجموعة متنوعة من المنتجات الصحية والتجميلية المعتمدة من وزارة الصحة والمعتمدة رسميًا. علاماتنا التجارية، بما في ذلك Biobalance وEpisiva وNutrigrow وDiapex، مرادفة للجودة والموثوقية. سواء كانت أدوات طبية أو منتجات العناية بالأسنان أو مستحضرات التجميل، فإننا نضمن أن كل منتج يلبي معايير الجودة الصارمة لحماية صحتك."
+          },
+          "image_path": "/images/company/minas/2.jpg"
+        }
+      ],
+      "gallery": {
+        "title": {
+          "en": "ELEVATING WELLNESS, ENHANCING BEAUTY",
+          "ku": "بەرزکردنەوەی تەندروستی، بەرزکردنەوەی جوانی",
+          "ar": "الارتقاء بالعافية وتعزيز الجمال"
+        },
+        "paragraph": {
+          "en": "Minas Company, a cornerstone of health and cosmetics provision, emerges as a beacon of excellence within the Goran Group, enriching lives since 2009.",
+          "ku": "کۆمپانیای میناس کە بەردی بناغەی دابینکردنی تەندروستی و جوانکارییە، وەک چرایەکی نایابی لەناو گروپی گۆراندا سەرهەڵدەدات و لە ساڵی ٢٠٠٩ەوە ژیان دەوڵەمەند دەکات.",
+          "ar": "شركة ميناس، حجر الزاوية في توفير الصحة ومستحضرات التجميل، تبرز كمنارة للتميز داخل مجموعة جوران، لإثراء الحياة منذ عام 2009."
+        },
+        "images": [ 
+          "/images/company/minas/1.jpg",
+          "/images/company/minas/2.jpg",
+          "/images/company/minas/3.jpg",
+          "/images/company/minas/4.jpg",
+          "/images/company/minas/thumbnail.webp"
+        ]
+      },
+      "contact": {
+        "title": {
+          "en": "Contact Us",
+          "ku": "پەیوەندیمان پێوەبکە",
+          "ar": "اتصل بنا"
+        },
+        "phone": {
+          "title": {
+            "en": "Phone",
+            "ku": "تەلەفۆن",
+            "ar": "هاتف"
+          },
+          "entities": ["+964 (750) 445 2297", "+964 (750) 473 1778"]
+        },
+        "address": {
+          "title": {
+            "en": "Address",
+            "ku": "ناونیشان",
+            "ar": "عنوان"
+          },
+          "entities": [
+            {
+              "en": "Iraq, Erbil, 60 M St.",
+              "ku": "عێراق، هەولێر، شەقامی ٦٠م.",
+              "ar": "العراق، أربيل شارع ٦٠ متري"
+            }
+          ]
+        },
+        "email": {
+          "title": {
+            "en": "Email",
+            "ku": "ئیمەیڵ",
+            "ar": "بريد إلكتروني"
+          },
+          "entities": ["info@gorangroup.com"]
+        },
+        "social": {
+          "title": {
+            "en": "Social Media",
+            "ku": "سۆشیال میدیا",
+            "ar": "تابعنا"
+          },
+          "links": {
+            "facebook": "https://www.facebook.com/cosmeticsminas/",
+            "instagram": "https://www.instagram.com/cosmeticsminas/?hl=en",
+            "linked_in": ""
+          }
+        },
+        "coordinates": [36.18978862217295, 43.9724422655303]
       }
     },
     {
@@ -601,6 +1215,56 @@
           "/images/company/jazeerat/slider-2.jpg",
           "/images/company/jazeerat/slider-3.jpg"
         ]
+      },
+      "contact": {
+        "title": {
+          "en": "Contact Us",
+          "ku": "پەیوەندیمان پێوەبکە",
+          "ar": "اتصل بنا"
+        },
+        "phone": {
+          "title": {
+            "en": "Phone",
+            "ku": "تەلەفۆن",
+            "ar": "هاتف"
+          },
+          "entities": ["+964 (750) 445 2297"]
+        },
+        "address": {
+          "title": {
+            "en": "Address",
+            "ku": "ناونیشان",
+            "ar": "عنوان"
+          },
+          "entities": [
+            {
+              "en": "Iraq, Kirkuk, Opposite Shwan Intersection",
+              "ku": "عێراق، کەرکوک، بەرامبەر چوارڕێیانی شوان",
+              "ar": "العراق، كركوك، مقابل تقاطع شوان"
+            }
+          ]
+        },
+        "email": {
+          "title": {
+            "en": "Email",
+            "ku": "ئیمەیڵ",
+            "ar": "بريد إلكتروني"
+          },
+          "entities": ["info@gorangroup.com"]
+        },
+        "social": {
+          "title": {
+            "en": "Social Media",
+            "ku": "سۆشیال میدیا",
+            "ar": "تابعنا"
+          },
+          "links": {
+            "facebook": "",
+            "instagram": "",
+            "linked_in": ""
+          }
+        },
+        "coordinates": [36.22042832049358, 44.009676526457476]
       }
     },
     {
@@ -719,6 +1383,56 @@
           "/images/company/falkonoil/slider-5.jpg",
           "/images/company/falkonoil/slider-6.jpg"
         ]
+      },
+      "contact": {
+        "title": {
+          "en": "Contact Us",
+          "ku": "پەیوەندیمان پێوەبکە",
+          "ar": "اتصل بنا"
+        },
+        "phone": {
+          "title": {
+            "en": "Phone",
+            "ku": "تەلەفۆن",
+            "ar": "هاتف"
+          },
+          "entities": ["+964 (750) 445 2297"]
+        },
+        "address": {
+          "title": {
+            "en": "Address",
+            "ku": "ناونیشان",
+            "ar": "عنوان"
+          },
+          "entities": [
+            {
+              "en": "Iraq, Erbil, 60 M St. - Next to The Ministry of Justice",
+              "ku": "عێراق، هەولێر، شەقامی 60 م - تەنیشت وەزارەتی داد",
+              "ar": "العراق، أربيل شارع ٦٠ متري - جانب وزارة العدل"
+            }
+          ]
+        },
+        "email": {
+          "title": {
+            "en": "Email",
+            "ku": "ئیمەیڵ",
+            "ar": "بريد إلكتروني"
+          },
+          "entities": ["falkenoil@gorangroup.com"]
+        },
+        "social": {
+          "title": {
+            "en": "Social Media",
+            "ku": "سۆشیال میدیا",
+            "ar": "تابعنا"
+          },
+          "links": {
+            "facebook": "https://www.facebook.com/falkenoil/",
+            "instagram": "https://www.instagram.com/falkenoil_middle_east/",
+            "linked_in": ""
+          }
+        },
+        "coordinates": [36.22042832049358, 44.009676526457476]
       }
     }
   ],

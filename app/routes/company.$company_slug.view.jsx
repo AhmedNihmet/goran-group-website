@@ -5,7 +5,7 @@ import { Navigation } from "swiper/modules";
 import { useTranslation } from "react-i18next";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useEffect, useMemo, useState } from "react";
-import { Link, json, redirect, useLoaderData } from "@remix-run/react";
+import { Link, json, redirect, useLoaderData, useSearchParams } from "@remix-run/react";
 import { PhotoProvider, PhotoView } from "react-image-previewer";
 import { SlideToolbar, CloseButton } from "react-image-previewer/ui";
 
@@ -79,6 +79,8 @@ const CompanyView = () => {
   const { data } = useLoaderData();
   const { i18n } = useTranslation();
 
+  const [searchParams, setSearchParams] = useSearchParams();
+
   const [isSliderControlActive, setIsSliderControlActive] = useState(null);
 
   useEffect(() => {
@@ -106,6 +108,17 @@ const CompanyView = () => {
     return result;
   }, [data.gallery.images]);
 
+  const playVideo = (url) => {
+    const updatedSearchParams = new URLSearchParams(searchParams);
+    updatedSearchParams.set("reel-state", "active");
+    updatedSearchParams.set(
+      "reel-url",
+      `${window?.location?.origin || ""}${url}`
+    );
+
+    return setSearchParams(updatedSearchParams);
+  };
+
   return (
     <article className="company-view">
       <section className="company-view__hero" data-sal="fade">
@@ -121,11 +134,15 @@ const CompanyView = () => {
             <p data-sal="fade" data-sal-delay="300">
               {data.paragraph[i18n.language]}
             </p>
-            <div data-sal="fade" data-sal-delay="500">
-              {data.company_video && (
-                <CustomButton text="See our work" icon={<Play />} />
-              )}
-            </div>
+            {data.company_video && (
+              <div data-sal="fade" data-sal-delay="500">
+                <CustomButton
+                  text="See our work"
+                  icon={<Play />}
+                  onClick={() => playVideo(data.company_video)}
+                />
+              </div>
+            )}
           </div>
         </div>
       </section>

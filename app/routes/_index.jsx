@@ -318,7 +318,7 @@ const Home = () => {
           </p>
         </div>
         <ul className="home__companies-cards">
-          {companies.map((company) => {
+          {companies.slice(0, 4).map((company) => {
             return (
               <Link
                 data-sal="fade"
