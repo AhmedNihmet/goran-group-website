@@ -1446,8 +1446,8 @@
         "ar": "شريكك الموثوق في التجارة العامة"
       },
       "card_icon_path": "/images/specializations/generators.png",
-      "image_path": "/images/home/hero-slider/generator.jpg",
-      "thumbnail": "/images/home/hero-slider/generator.jpg",
+      "image_path": "/images/home/hero-slider/generators.webp",
+      "thumbnail": "/images/home/hero-slider/generators-small.webp",
       "description": {
         "en": "Empowering the future with reliable electricity.",
         "ku": "بەهێزکردنی داهاتوو بە کارەبای متمانەپێکراو.",
@@ -1490,8 +1490,8 @@
         "ar": "الرائدة في مجال توفير حلول الرعاية الصحية"
       },
       "card_icon_path": "/images/specializations/health.png",
-      "image_path": "/images/home/hero-slider/health.jpg",
-      "thumbnail": "/images/home/hero-slider/health.jpg",
+      "image_path": "/images/home/hero-slider/health.webp",
+      "thumbnail": "/images/home/hero-slider/health-small.webp",
       "description": {
         "en": "Innovating care for healthier communities, trusted by professionals.",
         "ku": "داهێنانی چاودێری بۆ کۆمەڵگا تەندروستەکان، متمانەپێکراو لەلایەن کەسانی پیشەییەوە.",
