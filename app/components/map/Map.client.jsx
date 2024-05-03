@@ -1,12 +1,21 @@
 import classNames from "classnames";
-import { useState } from "react";
+import { Fragment, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
 import CurrentLocation from "~/Icons/CurrentLocation";
 
 const DEFAULT_MAP_TILE_STYLE = "light-v11";
 
-export const Map = ({ height, position, popupTitle = "Goran Group" }) => {
+export const Map = ({
+  height,
+  position,
+  isMultiple = false,
+  multiplePins = [],
+  popupTitle = "Goran Group",
+}) => {
+  const { i18n } = useTranslation();
+
   const [mapStyle, setMapStyle] = useState(DEFAULT_MAP_TILE_STYLE);
 
   const handleMapStyleToggle = () => {
@@ -33,7 +42,7 @@ export const Map = ({ height, position, popupTitle = "Goran Group" }) => {
           height: "100%",
         }}
         center={position}
-        zoom={16}
+        zoom={isMultiple ? 13 : 16}
         scrollWheelZoom={false}
       >
         <TileLayer
@@ -43,6 +52,15 @@ export const Map = ({ height, position, popupTitle = "Goran Group" }) => {
         <Marker position={position}>
           <Popup>{popupTitle}</Popup>
         </Marker>
+        {isMultiple && multiplePins.length > 0 && (
+          <Fragment>
+            {multiplePins.map((pin) => (
+              <Marker key={pin.id} position={pin.coordinates}>
+                <Popup>{pin.title[i18n.language]}</Popup>
+              </Marker>
+            ))}
+          </Fragment>
+        )}
       </MapContainer>
     </div>
   );

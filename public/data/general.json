@@ -873,23 +873,23 @@
       "thumbnail": "/images/company/limar-realestate/thumbnail.webp",
       "card_title": {
         "en": "Limar Realestate",
-        "ku": "",
-        "ar": ""
+        "ku": "لیمار بۆ خانووبەرە",
+        "ar": "شركة ليمار العقارية"
       },
       "card_paragraph": {
         "en": "Limar Real Estate Agents is a leading real estate company with 10 years of experience in real estate brokerage",
-        "ku": "",
-        "ar": ""
+        "ku": "کۆمپانیای لیمار بریکاری خانووبەرە کۆمپانیایەکی پێشەنگی خانووبەرەیە و ئەزموونی ١٠ ساڵ لە بواری دەڵاڵی خانووبەرەدا هەیە",
+        "ar": "شركة ليمار العقارية هي شركة عقارية رائدة تتمتع بخبرة 10 سنوات في مجال الوساطة العقارية"
       },
       "title": {
         "en": "Limar Real Estate Agents",
-        "ku": "",
-        "ar": ""
+        "ku": "لیمار بۆ خانووبەرە",
+        "ar": "شركة ليمار العقارية"
       },
       "paragraph": {
         "en": "Limar Real Estate Agents is a leading real estate company with 10 years of experience in real estate brokerage. We have a series of branches connected to the latest systems and deployed in Erbil, capital of the Iraqi Kurdistan region, and a professional team with extensive knowledge in the field of real estate with all its specialties with great experience to meet all your needs.",
-        "ku": "",
-        "ar": ""
+        "ku": "کۆمپانیای لیمار بریکاری خانووبەرە کۆمپانیایەکی پێشەنگی خانووبەرەیە و ئەزموونی ١٠ ساڵ لە بواری دەڵاڵی خانووبەرەدا هەیە. زنجیرەیەک لقمان هەیە کە بەستراوەتەوە بە نوێترین سیستەمەکان و جێگیرکراون لە شاری هەولێری پایتەختی هەرێمی کوردستانی عێراق، هەروەها تیمێکی پیشەیی بە شارەزایی بەرفراوان لە بواری خانووبەرە بە هەموو پسپۆڕییەکانییەوە بە ئەزموونێکی زۆر باش بۆ دابینکردنی هەموو پێداویستییەکانتان.",
+        "ar": "شركة ليمار العقارية هي شركة عقارية رائدة تتمتع بخبرة 10 سنوات في مجال الوساطة العقارية. لدينا سلسلة فروع متصلة بأحدث الأنظمة ومنتشرة في أربيل عاصمة إقليم كردستان العراق، وفريق عمل محترف ذو معرفة واسعة في المجال العقاري بكافة تخصصاته وذو خبرة كبيرة لتلبية جميع احتياجاتك."
       },
       "hero_image": "/images/company/limar-realestate/cover.jpg",
       "company_video": "",
@@ -898,13 +898,13 @@
           "key": 1,
           "title": {
             "en": "Your Trusted Real Estate Partner",
-            "ku": "",
-            "ar": ""
+            "ku": "هاوبەشی متمانەپێکراوی خانووبەرەتان",
+            "ar": "شريكك العقاري الموثوق"
           },
           "description": {
             "en": "With a decade of experience in real estate brokerage, Limar Real Estate Agents stands as a leading firm in the Iraqi Kurdistan region. Our strategically located branches in Erbil, equipped with state-of-the-art systems, and a professional team with extensive expertise ensure we meet all your real estate needs. We pride ourselves on our reputation for quality service and commitment to excellence.",
-            "ku": "",
-            "ar": ""
+            "ku": "بە ئەزموونی دە ساڵ لە بواری دەڵاڵی خانووبەرە، بریکاری خانووبەرەی لیمار وەک کۆمپانیایەکی پێشەنگ لە هەرێمی کوردستانی عێراق وەستاوە. لقەکانمان لە ھەولێر کە لە شوێنی ستراتیجی ھەیە، بە سیستەمی پێشکەوتوو تەیار کراوە، و تیمێکی پرۆفیشناڵ بە شارەزایی بەرفراوان دڵنیای دەدەنەوە کە ھەموو پێداویستیەکانی خانووبەرەتان دابین دەکەین. ئێمە شانازی بە ناوبانگمانەوە دەکەین بە خزمەتگوزاری کوالیتی و پابەندبوون بە باشترین.",
+            "ar": "مع عشر سنوات من الخبرة في مجال الوساطة العقارية، تعد شركة ليمار للوكلاء العقاريين شركة رائدة في إقليم كردستان العراق. إن فروعنا ذات الموقع الاستراتيجي في أربيل والمجهزة بأحدث الأنظمة وفريق محترف يتمتع بخبرة واسعة تضمن تلبية جميع احتياجاتك العقارية. نحن نفخر بسمعتنا في جودة الخدمة والالتزام بالتميز."
           },
           "image_path": "/images/company/limar-realestate/1.webp"
         },
@@ -912,13 +912,13 @@
           "key": 2,
           "title": {
             "en": "Unparalleled Knowledge and Tools for Success",
-            "ku": "",
-            "ar": ""
+            "ku": "زانیاری و ئامرازی بێهاوتای بۆ سەرکەوتن",
+            "ar": "معرفة وأدوات لا مثيل لها لتحقيق النجاح"
           },
           "description": {
             "en": "Limar Real Estate Agents boasts a team of seasoned professionals with in-depth knowledge across all specialties of the real estate industry. With access to the best resources, systems, and tools, we are equipped to deliver the highest quality services to our clients. Our success is rooted in our ability to adapt to the ever-evolving real estate landscape and provide innovative solutions.",
-            "ku": "",
-            "ar": ""
+            "ku": "لیمار بریکاری خانووبەرە شانازی بە تیمێکی پیشەیی بەئەزموون دەکات کە زانیاری قووڵیان هەیە لە سەرانسەری هەموو پسپۆڕییەکانی پیشەسازی خانووبەرە. بە دەستڕاگەیشتن بە باشترین سەرچاوە و سیستەم و ئامرازەکان، ئێمە ئامێری پێویستمان هەیە بۆ گەیاندنی بەرزترین خزمەتگوزاری کوالیتی بە کڕیارەکانمان. سەرکەوتنەکانمان ڕەگ و ڕیشەی لە توانای خۆماندایە بۆ گونجاندن لەگەڵ دیمەنی خانووبەرە کە هەمیشە لە گەشەکردندایە و چارەسەری داهێنەرانە پێشکەش بکەین.",
+            "ar": "تفتخر شركة Limar Real Estate Agents بفريق من المحترفين المتمرسين الذين يتمتعون بمعرفة متعمقة في جميع تخصصات صناعة العقارات. من خلال الوصول إلى أفضل الموارد والأنظمة والأدوات، نحن مجهزون لتقديم خدمات بأعلى جودة لعملائنا. إن نجاحنا متجذر في قدرتنا على التكيف مع المشهد العقاري المتطور باستمرار وتقديم حلول مبتكرة."
           },
           "image_path": "/images/company/limar-realestate/2.webp"
         },
@@ -926,13 +926,13 @@
           "key": 3,
           "title": {
             "en": "Navigating Erbil's Real Estate Landscape",
-            "ku": "",
-            "ar": ""
+            "ku": "گەشەپێدان بە دیمەنی خانووبەرە لە هەولێر",
+            "ar": "التنقل في المشهد العقاري في أربيل"
           },
           "description": {
             "en": "With a wealth of knowledge and experience in the local real estate market of Erbil, the capital of Iraqi Kurdistan, Limar Real Estate Agents offers unparalleled insight and expertise. We approach each opportunity with creativity and positivity, working tirelessly with our clients to help them achieve their goals, desires, and needs.",
-            "ku": "",
-            "ar": ""
+            "ku": "بە دەوڵەمەندی زانیاری و ئەزموون لە بازاڕی خانووبەرەی ناوخۆیی شاری هەولێری پایتەختی کوردستانی عێراق، بریکاری خانووبەرەی لیمار تێڕوانین و شارەزایی بێهاوتای پێشکەش دەکات. ئێمە بە داهێنان و ئەرێنی لە هەر دەرفەتێک نزیک دەبینەوە، ماندوو نەناسانە لەگەڵ کڕیارەکانمان کاردەکەین بۆ یارمەتیدانیان بۆ گەیشتن بە ئامانج و ئارەزوو و پێداویستییەکانیان.",
+            "ar": "مع ثروة من المعرفة والخبرة في سوق العقارات المحلي في أربيل، عاصمة كردستان العراق، يقدم وكلاء ليمار العقاريون رؤية وخبرة لا مثيل لها. نحن نتعامل مع كل فرصة بإبداع وإيجابية، ونعمل بلا كلل مع عملائنا لمساعدتهم على تحقيق أهدافهم ورغباتهم واحتياجاتهم."
           },
           "image_path": "/images/company/limar-realestate/3.webp"
         }
@@ -940,13 +940,13 @@
       "gallery": {
         "title": {
           "en": "FACILITATING DREAMS, SHAPING DESTINIES",
-          "ku": "",
-          "ar": ""
+          "ku": "ئاسانکاری بۆ خەونەکان، داڕشتنی چارەنووسەکان",
+          "ar": "تسهيل الأحلام، وتشكيل المصائر"
         },
         "paragraph": {
           "en": "your trusted partner in realizing real estate aspirations",
-          "ku": "",
-          "ar": ""
+          "ku": "هاوبەشە متمانەپێکراوەکەت لە بەدیهێنانی ئاواتەکانی خانووبەرە",
+          "ar": "شريكك الموثوق في تحقيق تطلعاتك العقارية"
         },
         "images": [
           "/images/company/limar-realestate/thumbnail.webp",

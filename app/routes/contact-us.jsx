@@ -60,7 +60,7 @@ export const loader = async ({ request }) => {
 
 const mapHeight = "550px";
 const ContactUs = () => {
-  const { i18n } = useTranslation()
+  const { i18n } = useTranslation();
   const loaderData = useLoaderData();
   const { social_links } = useRouteLoaderData("root");
 
@@ -113,7 +113,11 @@ const ContactUs = () => {
           >
             <span>{loaderData.email.title[i18n.language]}</span>
             {loaderData.email.entities.map((item, index) => (
-              <li key={index} className="contact-us__header-content-item email" dir="ltr">
+              <li
+                key={index}
+                className="contact-us__header-content-item email"
+                dir="ltr"
+              >
                 {item}
               </li>
             ))}
@@ -167,7 +171,14 @@ const ContactUs = () => {
             />
           }
         >
-          {() => <Map height={mapHeight} position={loaderData.coordinates} />}
+          {() => (
+            <Map
+              isMultiple
+              height={mapHeight}
+              position={loaderData.coordinates}
+              multiplePins={loaderData.company_coordinates}
+            />
+          )}
         </ClientOnly>
       </section>
     </article>
