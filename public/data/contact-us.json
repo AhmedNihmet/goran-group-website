@@ -10,7 +10,7 @@
       "ku": "تەلەفۆن",
       "ar": "هاتف"
     },
-    "entities": ["+964 (750) 200 3000", "+964 (750) 200 4000"]
+    "entities": ["+964 (750) 777 7719"]
   },
   "address": {
     "title": {
@@ -37,7 +37,7 @@
       "ku": "ئیمەیڵ",
       "ar": "بريد إلكتروني"
     },
-    "entities": ["gorangroup@emial.com"]
+    "entities": ["Info@gorangroup.com"]
   },
   "social": {
     "title": {

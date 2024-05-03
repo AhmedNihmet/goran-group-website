@@ -5,7 +5,15 @@ import { Navigation } from "swiper/modules";
 import { useTranslation } from "react-i18next";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useEffect, useMemo, useState } from "react";
-import { Link, json, redirect, useLoaderData, useSearchParams } from "@remix-run/react";
+import {
+  Link,
+  Outlet,
+  json,
+  redirect,
+  useLoaderData,
+  useLocation,
+  useSearchParams,
+} from "@remix-run/react";
 import { PhotoProvider, PhotoView } from "react-image-previewer";
 import { SlideToolbar, CloseButton } from "react-image-previewer/ui";
 
@@ -77,7 +85,8 @@ export const loader = async ({ request, params }) => {
 const mapHeight = "550px";
 const CompanyView = () => {
   const { data } = useLoaderData();
-  const { i18n } = useTranslation();
+  const { pathname } = useLocation();
+  const { t, i18n } = useTranslation();
 
   const [searchParams, setSearchParams] = useSearchParams();
 
@@ -95,6 +104,19 @@ const CompanyView = () => {
       threshold: 0.5,
     });
   }, []);
+
+  useEffect(() => {
+    const htmlElement = document.querySelector("html");
+    const navbarElement = document.querySelector("nav");
+
+    if (pathname.split("/").length > 4) {
+      htmlElement.classList.add("disable-scroll");
+      navbarElement.classList.add("disable-scroll");
+    } else {
+      htmlElement.classList.remove("disable-scroll");
+      navbarElement.classList.remove("disable-scroll");
+    }
+  }, [pathname]);
 
   const prepareGalleryArrays = useMemo(() => {
     const arrayOfImageStrings = data?.gallery?.images;
@@ -190,7 +212,11 @@ const CompanyView = () => {
             </p>
           </div>
 
-          <div className="company-view__slider-card-controls">
+          <div
+            data-sal="fade"
+            data-sal-delay="400"
+            className="company-view__slider-card-controls"
+          >
             <button
               onClick={() => setIsSliderControlActive("prev")}
               className={classNames(
@@ -235,6 +261,8 @@ const CompanyView = () => {
             }}
           >
             <Swiper
+              data-sal="fade"
+              data-sal-delay="600"
               slidesPerView={"auto"}
               spaceBetween={20}
               modules={[Navigation]}
@@ -263,6 +291,58 @@ const CompanyView = () => {
               ))}
             </Swiper>
           </PhotoProvider>
+        </section>
+      )}
+
+      {data?.our_products && (
+        <section
+          id="our-products"
+          className="company-view__our-products side-padding"
+        >
+          <h3
+            data-sal="fade"
+            data-sal-delay="300"
+            className="company-view__our-products-title"
+          >
+            {data.our_products.title[i18n.language]}
+          </h3>
+
+          <ul className="company-view__our-products-list">
+            {data.our_products.products.map((product, index) => {
+              const delay = index * 100;
+
+              return (
+                <li
+                  key={index}
+                  data-sal="fade"
+                  data-sal-delay={300 + delay}
+                  className="company-view__our-products-list-item"
+                >
+                  <div className="company-view__our-products-item-image">
+                    <img
+                      src={product.card_image}
+                      alt={product.title[i18n.language]}
+                    />
+                  </div>
+                  <div className="company-view__our-products-item-contents">
+                    <div>
+                      <span className="company-view__our-products-item-title">
+                        {product.title[i18n.language]}
+                      </span>
+                      <Link
+                        replace
+                        preventScrollReset
+                        to={`./${product.slug}`}
+                        className="company-view__our-products-item-action"
+                      >
+                        {t("View Products")}
+                      </Link>
+                    </div>
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
         </section>
       )}
 
@@ -382,6 +462,8 @@ const CompanyView = () => {
           </ClientOnly>
         </section>
       </section>
+
+      <Outlet />
     </article>
   );
 };

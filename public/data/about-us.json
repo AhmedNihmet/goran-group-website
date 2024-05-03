@@ -12,9 +12,9 @@
       "ar": "“قوة الاتـــحاد في يدك”"
     },
     "slider": [
-      "/images/about-us/stacked-cards/1.jpg",
-      "/images/about-us/stacked-cards/2.png",
-      "/images/about-us/stacked-cards/3.jpg"
+      "/images/about-us/stacked-cards/1.webp",
+      "/images/about-us/stacked-cards/0.webp",
+      "/images/about-us/stacked-cards/2.webp"
     ],
     "paragraphs": [
       {
@@ -48,9 +48,9 @@
             "ar": "الوكيل الحصري لشركة فولفو بنتا السويدية."
           },
           {
-            "en": "Exclusive agent for Perkins British engines and spare parts In cooperation with Mr. Ghaddar's Machinery Co. & Khonaysser Motors",
-            "ku": "بریکاری تایبەت بۆ پێرکنز بزوێنەر و پارچەی یەدەگی بەریتانی بە هاوکاری لەگەڵ کۆمپانیای مکینەی غەدار و خونایسەر مۆتۆرز",
-            "ar": "الوكيل الحصري لمحركات وقطع غيار بيركنز البريطانية بالتعاون مع شركة السيد غدار للآليات وخنيصر للسيارات"
+            "en": "Exclusive agent for Perkins British engines and spare parts In cooperation with Mr. Ghaddar's Machinery Co. & Khonaysser Motors.",
+            "ku": "بریکاری تایبەت بۆ پێرکنز بزوێنەر و پارچەی یەدەگی بەریتانی بە هاوکاری لەگەڵ کۆمپانیای مکینەی غەدار و خونایسەر مۆتۆرز.",
+            "ar": "الوكيل الحصري لمحركات وقطع غيار بيركنز البريطانية بالتعاون مع شركة السيد غدار للآليات وخنيصر للسيارات."
           }
         ]
       }

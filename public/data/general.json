@@ -75,16 +75,16 @@
       }
     }
   },
-  "partners": {
+  "our_companies": {
     "sub_title": {
       "en": "Goran Group‘s Companies",
       "ku": "کۆمپانیاکانی گروپی گۆران",
       "ar": "شركات مجموعة کوران"
     },
     "title": {
-      "en": "PARTNERS & BRANDS.",
-      "ku": "هاوبەشان و براندەکان.",
-      "ar": "الشركاء والعلامات التجارية."
+      "en": "Our Companies.",
+      "ku": "کۆمپانیاکانمان",
+      "ar": "شركاتنا"
     },
     "paragraph": {
       "en": "Goran Group company provides top quality products for its customers with the intention of providing best customer services.",
@@ -93,47 +93,78 @@
     },
     "logos": [
       {
-        "image_path": "/images/partners/goran-generator.png",
+        "image_path": "/images/our-companies/goran-generator.png",
         "redirects_to": "/company/goran_generator/view"
       },
       {
-        "image_path": "/images/partners/swarchak.png",
+        "image_path": "/images/our-companies/swarchak.png",
         "redirects_to": "/company/warchack_co/view"
       },
       {
-        "image_path": "/images/partners/jazeerat.png",
+        "image_path": "/images/our-companies/jazeerat.png",
         "redirects_to": "/company/jazeerat/view"
       },
       {
-        "image_path": "/images/partners/limar.png",
+        "image_path": "/images/our-companies/limar.png",
         "redirects_to": "/company/limar_realestate/view"
       },
       {
-        "image_path": "/images/partners/khalil-company.png",
+        "image_path": "/images/our-companies/khalil-company.png",
         "redirects_to": "/company/general_trading/view"
       },
       {
-        "image_path": "/images/partners/rose.png",
+        "image_path": "/images/our-companies/rose.png",
         "redirects_to": "/company/rose_medical_center/view"
       },
       {
-        "image_path": "/images/partners/falkenoil.png",
+        "image_path": "/images/our-companies/falkenoil.png",
         "redirects_to": "/company/falkonoil/view"
       },
       {
-        "image_path": "/images/partners/goran-for-generators.png",
+        "image_path": "/images/our-companies/goran-for-generators.png",
         "redirects_to": "/company/goran_for_generator/view"
       },
       {
-        "image_path": "/images/partners/minas.png",
+        "image_path": "/images/our-companies/minas.png",
         "redirects_to": "/company/minas/view"
+      }
+    ]
+  },
+  "our_partners": {
+    "sub_title": {
+      "en": "",
+      "ku": "",
+      "ar": ""
+    },
+    "title": {
+      "en": "Our Partners.",
+      "ku": "هاوبەشان و براندەکان.",
+      "ar": "الشركاء والعلامات التجارية."
+    },
+    "paragraph": {
+      "en": "",
+      "ku": "",
+      "ar": ""
+    },
+    "logos": [
+      {
+        "image_path": "/images/our-partners/volov-penta.webp",
+        "redirects_to": "/company/goran_generator/view#our-products"
+      },
+      {
+        "image_path": "/images/our-partners/perkins.webp",
+        "redirects_to": "/company/goran_generator/view#our-products"
+      },
+      {
+        "image_path": "/images/our-partners/cummins.svg",
+        "redirects_to": "/company/goran_generator/view#our-products"
       }
     ]
   },
   "companies": [
     {
       "slug": "goran_generator",
-      "thumbnail": "/images/company/goran-generator/thumbnail.webp",
+      "thumbnail": "/images/company/goran-generator/thumbnail-new.webp",
       "card_title": {
         "en": "Goran Generator",
         "ku": "کۆمپانیای گۆران بۆ مۆلیدە",
@@ -287,11 +318,47 @@
           }
         },
         "coordinates": [36.182881507452365, 43.99474424749703]
+      },
+      "our_products": {
+        "title": {
+          "en": "Our Products",
+          "ku": "",
+          "ar": ""
+        },
+        "products": [
+          {
+            "slug": "volvo_penta",
+            "title": {
+              "en": "Volvo Penta",
+              "ku": "ڤۆڵڤۆ پێنتا",
+              "ar": "فولفو بنتا"
+            },
+            "card_image": "/images/company/goran-generator/volvo-penta.webp"
+          },
+          {
+            "slug": "perkins",
+            "title": {
+              "en": "Perkins",
+              "ku": "پێرکنز",
+              "ar": "بيركنز"
+            },
+            "card_image": "/images/company/goran-generator/perkins.jpg"
+          },
+          {
+            "slug": "cummins",
+            "title": {
+              "en": "Cummins",
+              "ku": "کومینز",
+              "ar": "کومینز"
+            },
+            "card_image": "/images/company/goran-generator/cummins.webp"
+          }
+        ]
       }
     },
     {
       "slug": "general_trading",
-      "thumbnail": "/images/company/general-trading/thumbnail-2.webp",
+      "thumbnail": "/images/company/general-trading/thumbnail-3.webp",
       "card_title": {
         "en": "General Trading",
         "ku": "بازرگانی گشتی",
@@ -384,6 +451,7 @@
           "ar": "من خلال دفع الابتكار والاستدامة، فإن تفانينا يغذي مستقبلًا محددًا بالتقدم."
         },
         "images": [
+          "/images/company/general-trading/thumbnail-3.webp",
           "/images/company/general-trading/thumbnail.webp",
           "/images/company/general-trading/1.webp",
           "/images/company/general-trading/2.webp",
@@ -441,6 +509,42 @@
           }
         },
         "coordinates": [36.19485642222841, 44.042780813104415]
+      },
+      "our_products": {
+        "title": {
+          "en": "Our Products",
+          "ku": "",
+          "ar": ""
+        },
+        "products": [
+          {
+            "slug": "volvo_penta",
+            "title": {
+              "en": "Volvo Penta",
+              "ku": "ڤۆڵڤۆ پێنتا",
+              "ar": "فولفو بنتا"
+            },
+            "card_image": "/images/company/goran-generator/volvo-penta.webp"
+          },
+          {
+            "slug": "perkins",
+            "title": {
+              "en": "Perkins",
+              "ku": "پێرکنز",
+              "ar": "بيركنز"
+            },
+            "card_image": "/images/company/goran-generator/perkins.jpg"
+          },
+          {
+            "slug": "cummins",
+            "title": {
+              "en": "Cummins",
+              "ku": "کومینز",
+              "ar": "کومینز"
+            },
+            "card_image": "/images/company/goran-generator/cummins.webp"
+          }
+        ]
       }
     },
     {
@@ -597,106 +701,120 @@
       }
     },
     {
-      "slug": "goran_for_generator",
-      "thumbnail": "/images/company/goran-for-generator/thumbnail.webp",
+      "slug": "falkonoil",
+      "thumbnail": "/images/company/falkonoil/thumbnail.jpg",
       "card_title": {
-        "en": "Goran For Generator",
-        "ku": "گۆران بۆ مۆلیدە",
-        "ar": "کوران للمولدات"
+        "en": "Falkenoil",
+        "ku": "فالکینۆیل",
+        "ar": "فالكينويل"
       },
       "card_paragraph": {
-        "en": "established in 2003, providing the public and private sectors with generators at the best price and the highest quality ",
-        "ku": "لە ساڵی ٢٠٠٣ دامەزراوە، بە باشترین نرخ و بەرزترین کوالیتی مۆلیدە بۆ کەرتی گشتی و تایبەت دابین دەکات",
-        "ar": "تأسست عام 2003، وتقوم بتزويد القطاعين العام والخاص بالمولدات الكهربائية بأفضل الأسعار وبأعلى جودة"
+        "en": "40+ years supplying high-quality lubricants globally, embodying German excellence.",
+        "ku": "40+ ساڵ دابینکردنی چەورکەری کوالیتی بەرز لە ئاستی جیهانیدا، بەرجەستەکردنی نایابی ئەڵمانی.",
+        "ar": "أكثر من 40 عامًا في توريد مواد التشحيم عالية الجودة عالميًا، وتجسيد التميز الألماني."
       },
       "title": {
-        "en": "Goran Company For Generator",
-        "ku": "کۆمپانیای گۆران بۆ مۆلیدە",
-        "ar": "شركة کوران للمولدات"
+        "en": "Falkenoil",
+        "ku": "فالکینۆیل",
+        "ar": "فالكينويل"
       },
       "paragraph": {
-        "en": "Established in 2003, providing the public and private sectors with generators at the best price and the highest quality that makes it number one in Iraq. It offers Power Generators as Perkins / UK and Leroy-Somer Alternators / French origin",
-        "ku": "لەساڵی 2003 دامەزراوە، دابینکردنی مۆلیدە بۆ کەرتی گشتی و تایبەت بە باشترین نرخ و بەرزترین کوالێتی کە وایکردووە پلەی یەکەم بێت لەسەر ئاستی عێراق. مۆلیدەی کارەبا وەک پێرکنز / بەریتانیا و لیرۆی-سۆمەر ئەلتەرناتۆر / بە ڕەچەڵەک فەرەنسی پێشکەش دەکات",
-        "ar": "تأسست عام 2003 وتقوم بتزويد القطاعين العام والخاص بالمولدات الكهربائية بأفضل الأسعار وبأعلى جودة مما يجعلها رقم واحد في العراق. وتقدم مولدات الطاقة مثل بيركنز / المملكة المتحدة ومولدات ليروي سومر / أصل فرنسي"
+        "en": "40+ years supplying high-quality lubricants globally, embodying German excellence.",
+        "ku": "40+ ساڵ دابینکردنی چەورکەری کوالیتی بەرز لە ئاستی جیهانیدا، بەرجەستەکردنی نایابی ئەڵمانی.",
+        "ar": "أكثر من 40 عامًا في توريد مواد التشحيم عالية الجودة عالميًا، وتجسيد التميز الألماني."
       },
-      "hero_image": "/images/company/goran-for-generator/hero.jpg",
-      "company_video": "",
+      "hero_image": "/images/company/falkonoil/hero.jpg",
+      "company_video": "/images/company/falkonoil/falkenoil-video.mp4",
       "sub_sections": [
-        {
-          "key": 4,
-          "title": {
-            "en": "Leading Power Supplier in Iraq",
-            "ku": "پێشەنگی دابینکەری کارەبا لە عێراق",
-            "ar": "الشركة الرائدة في مجال توفير الطاقة في العراق"
-          },
-          "description": {
-            "en": "Established in 2003, The Goran Company has become the foremost power supplier in Iraq, boasting unparalleled production capabilities. Renowned for our generators featuring British Perkins engines and French Liposome power technology, we offer a range of services tailored to meet our customers' needs, including a dedicated staff, top-notch customer service, and original parts.",
-            "ku": "کۆمپانیای گۆران کە لە ساڵی ٢٠٠٣ دامەزراوە، بووەتە پێشەنگی دابینکەری کارەبا لە عێراقدا، شانازی بە توانای بەرهەمهێنانی بێهاوتایەوە دەکات. بەناوبانگە بە مۆلیدەکانمان کە بزوێنەری پێرکنزی بەریتانی و تەکنەلۆژیای هێزی لیپۆسۆمی فەرەنسییان تێدایە، کۆمەڵێک خزمەتگوزاری پێشکەش دەکەین کە بەپێی پێداویستی کڕیارەکانمان داڕێژراون، لەوانە ستافێکی تایبەتمەند، خزمەتگوزاری کڕیارانی ئاست بەرز، و پارچەی ئۆرجیناڵ.",
-            "ar": "تأسست شركة کوران في عام 2003، وأصبحت المورد الأول للطاقة في العراق، حيث تفتخر بقدرات إنتاجية لا مثيل لها. نشتهر بمولداتنا التي تتميز بمحركات Perkins البريطانية وتقنية طاقة Liposome الفرنسية، ونحن نقدم مجموعة من الخدمات المصممة خصيصًا لتلبية احتياجات عملائنا، بما في ذلك طاقم عمل متخصص وخدمة عملاء من الدرجة الأولى وقطع غيار أصلية."
-          },
-          "image_path": "/images/company/goran-for-generator/1.jpg"
-        },
         {
           "key": 1,
           "title": {
-            "en": "Unmatched Quality and Support",
-            "ku": "کوالیتی و پشتگیری بێ هاوتا",
-            "ar": "جودة ودعم لا مثيل لهما"
+            "en": "Decades of Dedication",
+            "ku": "دەیان ساڵە خۆبەخشی",
+            "ar": "عقود من التفاني"
           },
           "description": {
-            "en": "At The Goran Company, we prioritize service excellence and customer satisfaction. Our generators come with a one-year warranty or 1000 hours of operation, covering both electrical and mechanical components. Customers trust us for our affordable prices, expert engineering support, original parts, and after-sales service, backed by a certificate of origin from our Mother Company.",
-            "ku": "لە کۆمپانیای گۆران ئێمە لە پێشینەی کارەکانی خزمەتگوزاری و ڕەزامەندی کڕیاران دەدەین. مۆلیدەکانمان گرەنتی یەک ساڵ یان ١٠٠٠ کاتژمێر کارکردنیان لەگەڵدایە، کە هەردوو پێکهاتەی کارەبایی و میکانیکی دەگرێتەوە. کڕیاران متمانەیان بە ئێمە هەیە بۆ نرخە گونجاوەکانمان، پشتگیری ئەندازیاری شارەزا، پارچەی ئەسڵی، و خزمەتگوزاری دوای فرۆشتن، کە پشتگیری دەکرێت بە بڕوانامەی سەرچاوە لە کۆمپانیای دایکمان.",
-            "ar": "في شركة کوران، نعطي الأولوية لتميز الخدمة ورضا العملاء. تأتي مولداتنا مع ضمان لمدة عام واحد أو 1000 ساعة تشغيل، ويغطي المكونات الكهربائية والميكانيكية. يثق العملاء بنا نظرًا لأسعارنا المعقولة والدعم الهندسي المتخصص وقطع الغيار الأصلية وخدمة ما بعد البيع، المدعومة بشهادة منشأ من شركتنا الأم."
+            "en": "Falcon Oil has been developing, producing, and distributing high-quality lubricants and specialties for more than 40 years",
+            "ku": "زەیتی فالکۆن زیاتر لە ٤٠ ساڵە خەریکی پەرەپێدان و بەرهەمهێنان و دابەشکردنی چەورکەر و تایبەتمەندییە کوالیتی بەرزەکانە",
+            "ar": "تعمل شركة فالكون أويل على تطوير وإنتاج وتوزيع مواد التشحيم والتخصصات عالية الجودة منذ أكثر من 40 عامًا"
           },
-          "image_path": "/images/company/goran-for-generator/2.jpg"
+          "image_path": "/images/company/falkonoil/service-1.jpg"
         },
         {
           "key": 2,
           "title": {
-            "en": "Empowering Kurdistan's Development",
-            "ku": "بەهێزکردنی گەشەپێدانی کوردستان",
-            "ar": "تمكين تنمية كردستان"
+            "en": "Global Supply and Quality Assurance",
+            "ku": "دابینکردنی جیهانی و دڵنیایی جۆری",
+            "ar": "العرض العالمي وضمان الجودة"
           },
           "description": {
-            "en": "Since our inception, The Goran Company has sold approximately 4230 generators, catering to both private and governmental sectors in Kurdistan and beyond. Our commitment to reliable power solutions has earned us the trust of the Kurdistan Regional Government and various industries, including supermarkets. We are dedicated to continuous development and collaboration to serve the community.",
-            "ku": "لە سەرەتای دامەزراندنمانەوە کۆمپانیای گۆران نزیکەی ٤٢٣٠ مۆلیدەی فرۆشتووە، کە خزمەت بە هەردوو کەرتی تایبەت و حکومی دەکات لە کوردستان و دەرەوەی وڵات. پابەندبوونمان بە چارەسەری دەسەڵاتی متمانەپێکراو، متمانەی حکومەتی هەرێمی کوردستان و پیشەسازییە جیاوازەکان بە مارکێتەکانیشەوە بەدەست بهێنین. ئێمە تایبەتین بە گەشەپێدان و هاوکاری بەردەوام بۆ خزمەتکردنی کۆمەڵگا.",
-            "ar": "منذ تأسيسها، باعت شركة کوران ما يقرب من 4230 مولدًا، لتلبية احتياجات القطاعين الخاص والحكومي في كردستان وخارجها. لقد أكسبنا التزامنا بحلول الطاقة الموثوقة ثقة حكومة إقليم كردستان ومختلف الصناعات، بما في ذلك محلات السوبر ماركت. ونحن ملتزمون بالتطوير المستمر والتعاون لخدمة المجتمع."
+            "en": "We supply our customers globally with OEM certified engine oils, as well as performance-level engine oils, such as lubricants for industrial use. Continuous control of production processes through our partner's laboratories gives us a constant advantage.",
+            "ku": "ئێمە ڕۆنی بزوێنەری بڕوانامەی OEM بۆ کڕیارەکانمان دابین دەکەین لە ئاستی جیهانیدا، هەروەها ڕۆنی بزوێنەر لە ئاستی کاراییدا، وەک چەورکەر بۆ بەکارهێنانی پیشەسازی. کۆنترۆڵی بەردەوامی پرۆسەکانی بەرهەمهێنان لە ڕێگەی تاقیگەکانی هاوبەشەکەمانەوە سوودێکی بەردەواممان پێدەبەخشێت.",
+            "ar": "نحن نزود عملائنا على مستوى العالم بزيوت محركات معتمدة من صانعي القطع الأصلية (OEM)، بالإضافة إلى زيوت محركات ذات مستوى أداء، مثل مواد التشحيم للاستخدام الصناعي. إن التحكم المستمر في عمليات الإنتاج من خلال مختبرات شركائنا يمنحنا ميزة ثابتة."
           },
-          "image_path": "/images/company/goran-for-generator/3.jpg"
+          "image_path": "/images/company/falkonoil/service-2.jpg"
         },
         {
           "key": 3,
           "title": {
-            "en": "Building Strong Relationships for Success",
-            "ku": "دروستکردنی پەیوەندی بەهێز بۆ سەرکەوتن",
-            "ar": "بناء علاقات قوية من أجل النجاح"
+            "en": "Optimal Performance Assurance",
+            "ku": "دڵنیایی ئەدای گونجاو",
+            "ar": "ضمان الأداء الأمثل"
           },
           "description": {
-            "en": "The Goran Company values the trust and partnership we have cultivated with the Kurdistan Regional Government and our customers. Our collaborative efforts aim to provide uninterrupted power supply to citizens and support economic growth. We remain steadfast in our commitment to innovation and excellence in the ever-evolving field of power generation.",
-            "ku": "کۆمپانیای گۆران بەهای ئەو متمانە و هاوبەشییەی کە لەگەڵ حکومەتی هەرێمی کوردستان و کڕیارەکانمان چاندومانە. هەوڵە هاوبەشەکانمان ئامانجیان دابینکردنی کارەبای بێ پچڕانە بۆ هاوڵاتیان و پشتگیریکردنی گەشەی ئابووری. ئێمە لە پابەندبوونمان بە داهێنان و باشی لە بواری بەرهەمهێنانی کارەبادا کە هەمیشە لە گەشەکردندایە، جێگیر دەمێنینەوە.",
-            "ar": "تقدر شركة کوران الثقة والشراكة التي زرعناها مع حكومة إقليم كردستان وعملائنا. وتهدف جهودنا التعاونية إلى توفير إمدادات الطاقة دون انقطاع للمواطنين ودعم النمو الاقتصادي. نحن لا نزال ثابتين في التزامنا بالابتكار والتميز في مجال توليد الطاقة المتطور باستمرار."
+            "en": "Quality and constant communication with the engineering departments of the original equipment manufacturer ensure optimal performance",
+            "ku": "کوالیتی و پەیوەندی بەردەوام لەگەڵ بەشی ئەندازیاری بەرهەمهێنەری ئامێرە ئەسڵیەکان دڵنیای دەدات لە ئەدای گونجاو",
+            "ar": "الجودة والتواصل المستمر مع الأقسام الهندسية للشركة المصنعة للمعدات الأصلية يضمنان الأداء الأمثل"
           },
-          "image_path": "/images/company/goran-for-generator/4.jpg"
+          "image_path": "/images/company/falkonoil/service-3.jpg"
+        },
+        {
+          "key": 4,
+          "title": {
+            "en": "Seamless Coordination and Compliance",
+            "ku": "هەماهەنگی و پابەندبوون بە بێ کێشە",
+            "ar": "التنسيق والامتثال السلس"
+          },
+          "description": {
+            "en": "Falkenwell is the link between its customers and premium German manufacturers and will always coordinate the ordering process according to their customers' needs. Constant contact with our distribution partners takes care of compliance with individual orders based on a fair price-performance ratio.",
+            "ku": "فالکنوێڵ پەیوەندی نێوان کڕیارەکانی و بەرهەمهێنەرە ئەڵمانییە بەرزەکانە و هەمیشە بەپێی پێویستی کڕیارەکانیان پرۆسەی داواکردن هەماهەنگ دەکات. پەیوەندی بەردەوام لەگەڵ هاوبەشەکانی دابەشکردنمان ئاگاداری پابەندبوونە بە داواکاری تاکەکەسی لەسەر بنەمای ڕێژەی دادپەروەرانەی نرخ-ئەدا.",
+            "ar": "Falkenwell هي حلقة الوصل بين عملائها والشركات المصنعة الألمانية المتميزة وستقوم دائمًا بتنسيق عملية الطلب وفقًا لاحتياجات عملائها. إن الاتصال المستمر مع شركاء التوزيع لدينا يعتني بالامتثال للطلبات الفردية بناءً على نسبة السعر إلى الأداء العادلة."
+          },
+          "image_path": "/images/company/falkonoil/service-1.jpg"
+        },
+        {
+          "key": 5,
+          "title": {
+            "en": "Diverse Product Line",
+            "ku": "هێڵی بەرهەمی هەمەچەشن",
+            "ar": "خط إنتاج متنوع"
+          },
+          "description": {
+            "en": "Falcon Oil products include antifreeze, automobile oils, motorcycle oils, gear oils, hydraulic oils, and multi-grade motor oils.",
+            "ku": "بەرهەمەکانی زەیتی فالکۆن بریتین لە دژە بەستن، ڕۆنی ئۆتۆمبێل، ڕۆنی ماتۆڕسکیل، ڕۆنی گێڕ، ڕۆنی هایدرۆلیکی، ڕۆنی ماتۆڕی فرە پلە.",
+            "ar": "تشمل منتجات زيوت فالكون مانع التجمد، وزيوت السيارات، وزيوت الدراجات النارية، وزيوت التروس، والزيوت الهيدروليكية، وزيوت المحركات متعددة الدرجات."
+          },
+          "image_path": "/images/company/falkonoil/service-2.jpg"
         }
       ],
       "gallery": {
         "title": {
-          "en": "EMPOWERING PROGRESS, ILLUMINATING TOMORROW",
-          "ku": "پێشکەوتنی بە‌هێز بۆ ڕووناک کردنەوەی داهاتوو",
-          "ar": "تمكين التقدم، وإضاءة الغد"
+          "en": "POWERING PROGRESS, FUELING TOMORROW",
+          "ku": "پێشکەوتنی کارەبا، سووتەمەنی سبەی",
+          "ar": "تعزيز التقدم، وتغذية الغد"
         },
         "paragraph": {
-          "en": "Guiding Kurdistan's development since 2003",
-          "ku": "ڕێنماییکردنی گەشەسەندنی کوردستان لە ساڵی ٢٠٠٣ەوە",
-          "ar": "توجيه تنمية كردستان منذ عام 2003"
+          "en": "Accelerating innovation and sustainability, our commitment runs deep in every drop, propelling a future defined by progress and environmental responsibility.",
+          "ku": "خێراکردنی داهێنان و بەردەوامیی، پابەندبوونمان لە قووڵایی هەموو دڵۆپێکدا دەڕوات، داهاتوویەک دەباتە پێشەوە کە بە پێشکەوتن و بەرپرسیارێتی ژینگەیی پێناسە کراوە.",
+          "ar": "من خلال تسريع الابتكار والاستدامة، فإن التزامنا يتجذر في كل قطرة، مما يدفع مستقبلًا محددًا بالتقدم والمسؤولية البيئية."
         },
         "images": [
-          "/images/company/goran-for-generator/1.jpg",
-          "/images/company/goran-for-generator/2.jpg",
-          "/images/company/goran-for-generator/3.jpg",
-          "/images/company/goran-for-generator/4.jpg",
-          "/images/company/goran-for-generator/5.jpg",
-          "/images/company/goran-for-generator/thumbnail.webp"
+          "/images/company/falkonoil/slider-1.jpg",
+          "/images/company/falkonoil/slider-2.jpg",
+          "/images/company/falkonoil/slider-3.jpg",
+          "/images/company/falkonoil/slider-4.jpg",
+          "/images/company/falkonoil/slider-5.jpg",
+          "/images/company/falkonoil/slider-6.jpg"
         ]
       },
       "contact": {
@@ -711,7 +829,7 @@
             "ku": "تەلەفۆن",
             "ar": "هاتف"
           },
-          "entities": ["+964 (750) 448 3162", "+964 (770) 448 3162"]
+          "entities": ["+964 (750) 445 2297"]
         },
         "address": {
           "title": {
@@ -721,9 +839,9 @@
           },
           "entities": [
             {
-              "en": "Iraq, Erbil, Peshawa Qazi",
-              "ku": "عێراق، هەولێر، پێشەوا قازی",
-              "ar": "العراق، أربيل، بيشاوا قازي"
+              "en": "Iraq, Erbil, 60 M St. - Next to The Ministry of Justice",
+              "ku": "عێراق، هەولێر، شەقامی 60 م - تەنیشت وەزارەتی داد",
+              "ar": "العراق، أربيل شارع ٦٠ متري - جانب وزارة العدل"
             }
           ]
         },
@@ -733,7 +851,7 @@
             "ku": "ئیمەیڵ",
             "ar": "بريد إلكتروني"
           },
-          "entities": ["gorangenerator@gorangroup.com"]
+          "entities": ["falkenoil@gorangroup.com"]
         },
         "social": {
           "title": {
@@ -742,12 +860,12 @@
             "ar": "تابعنا"
           },
           "links": {
-            "facebook": "https://www.facebook.com/profile.php?id=100071452396287",
-            "instagram": "",
+            "facebook": "https://www.facebook.com/falkenoil/",
+            "instagram": "https://www.instagram.com/falkenoil_middle_east/",
             "linked_in": ""
           }
         },
-        "coordinates": [36.19471697949078, 44.04274212703858]
+        "coordinates": [36.22042832049358, 44.009676526457476]
       }
     },
     {
@@ -887,7 +1005,7 @@
         },
         "coordinates": [36.204959101219245, 43.984818724744635]
       }
-    }, 
+    },
     {
       "slug": "rose_medical_center",
       "thumbnail": "/images/company/rose/thumbnail.jpg",
@@ -1110,7 +1228,7 @@
           "ku": "کۆمپانیای میناس کە بەردی بناغەی دابینکردنی تەندروستی و جوانکارییە، وەک چرایەکی نایابی لەناو گروپی گۆراندا سەرهەڵدەدات و لە ساڵی ٢٠٠٩ەوە ژیان دەوڵەمەند دەکات.",
           "ar": "شركة ميناس، حجر الزاوية في توفير الصحة ومستحضرات التجميل، تبرز كمنارة للتميز داخل مجموعة کوران، لإثراء الحياة منذ عام 2009."
         },
-        "images": [ 
+        "images": [
           "/images/company/minas/1.jpg",
           "/images/company/minas/2.jpg",
           "/images/company/minas/3.jpg",
@@ -1264,120 +1382,106 @@
       }
     },
     {
-      "slug": "falkonoil",
-      "thumbnail": "/images/company/falkonoil/thumbnail.jpg",
+      "slug": "goran_for_generator",
+      "thumbnail": "/images/company/goran-for-generator/thumbnail.webp",
       "card_title": {
-        "en": "Falkenoil",
-        "ku": "فالکینۆیل",
-        "ar": "فالكينويل"
+        "en": "Goran For Generator",
+        "ku": "گۆران بۆ مۆلیدە",
+        "ar": "کوران للمولدات"
       },
       "card_paragraph": {
-        "en": "40+ years supplying high-quality lubricants globally, embodying German excellence.",
-        "ku": "40+ ساڵ دابینکردنی چەورکەری کوالیتی بەرز لە ئاستی جیهانیدا، بەرجەستەکردنی نایابی ئەڵمانی.",
-        "ar": "أكثر من 40 عامًا في توريد مواد التشحيم عالية الجودة عالميًا، وتجسيد التميز الألماني."
+        "en": "established in 2003, providing the public and private sectors with generators at the best price and the highest quality ",
+        "ku": "لە ساڵی ٢٠٠٣ دامەزراوە، بە باشترین نرخ و بەرزترین کوالیتی مۆلیدە بۆ کەرتی گشتی و تایبەت دابین دەکات",
+        "ar": "تأسست عام 2003، وتقوم بتزويد القطاعين العام والخاص بالمولدات الكهربائية بأفضل الأسعار وبأعلى جودة"
       },
       "title": {
-        "en": "Falkenoil",
-        "ku": "فالکینۆیل",
-        "ar": "فالكينويل"
+        "en": "Goran Company For Generator",
+        "ku": "کۆمپانیای گۆران بۆ مۆلیدە",
+        "ar": "شركة کوران للمولدات"
       },
       "paragraph": {
-        "en": "40+ years supplying high-quality lubricants globally, embodying German excellence.",
-        "ku": "40+ ساڵ دابینکردنی چەورکەری کوالیتی بەرز لە ئاستی جیهانیدا، بەرجەستەکردنی نایابی ئەڵمانی.",
-        "ar": "أكثر من 40 عامًا في توريد مواد التشحيم عالية الجودة عالميًا، وتجسيد التميز الألماني."
+        "en": "Established in 2003, providing the public and private sectors with generators at the best price and the highest quality that makes it number one in Iraq. It offers Power Generators as Perkins / UK and Leroy-Somer Alternators / French origin",
+        "ku": "لەساڵی 2003 دامەزراوە، دابینکردنی مۆلیدە بۆ کەرتی گشتی و تایبەت بە باشترین نرخ و بەرزترین کوالێتی کە وایکردووە پلەی یەکەم بێت لەسەر ئاستی عێراق. مۆلیدەی کارەبا وەک پێرکنز / بەریتانیا و لیرۆی-سۆمەر ئەلتەرناتۆر / بە ڕەچەڵەک فەرەنسی پێشکەش دەکات",
+        "ar": "تأسست عام 2003 وتقوم بتزويد القطاعين العام والخاص بالمولدات الكهربائية بأفضل الأسعار وبأعلى جودة مما يجعلها رقم واحد في العراق. وتقدم مولدات الطاقة مثل بيركنز / المملكة المتحدة ومولدات ليروي سومر / أصل فرنسي"
       },
-      "hero_image": "/images/company/falkonoil/hero.jpg",
-      "company_video": "/images/company/falkonoil/falkenoil-video.mp4",
+      "hero_image": "/images/company/goran-for-generator/hero.jpg",
+      "company_video": "",
       "sub_sections": [
+        {
+          "key": 4,
+          "title": {
+            "en": "Leading Power Supplier in Iraq",
+            "ku": "پێشەنگی دابینکەری کارەبا لە عێراق",
+            "ar": "الشركة الرائدة في مجال توفير الطاقة في العراق"
+          },
+          "description": {
+            "en": "Established in 2003, The Goran Company has become the foremost power supplier in Iraq, boasting unparalleled production capabilities. Renowned for our generators featuring British Perkins engines and French Liposome power technology, we offer a range of services tailored to meet our customers' needs, including a dedicated staff, top-notch customer service, and original parts.",
+            "ku": "کۆمپانیای گۆران کە لە ساڵی ٢٠٠٣ دامەزراوە، بووەتە پێشەنگی دابینکەری کارەبا لە عێراقدا، شانازی بە توانای بەرهەمهێنانی بێهاوتایەوە دەکات. بەناوبانگە بە مۆلیدەکانمان کە بزوێنەری پێرکنزی بەریتانی و تەکنەلۆژیای هێزی لیپۆسۆمی فەرەنسییان تێدایە، کۆمەڵێک خزمەتگوزاری پێشکەش دەکەین کە بەپێی پێداویستی کڕیارەکانمان داڕێژراون، لەوانە ستافێکی تایبەتمەند، خزمەتگوزاری کڕیارانی ئاست بەرز، و پارچەی ئۆرجیناڵ.",
+            "ar": "تأسست شركة کوران في عام 2003، وأصبحت المورد الأول للطاقة في العراق، حيث تفتخر بقدرات إنتاجية لا مثيل لها. نشتهر بمولداتنا التي تتميز بمحركات Perkins البريطانية وتقنية طاقة Liposome الفرنسية، ونحن نقدم مجموعة من الخدمات المصممة خصيصًا لتلبية احتياجات عملائنا، بما في ذلك طاقم عمل متخصص وخدمة عملاء من الدرجة الأولى وقطع غيار أصلية."
+          },
+          "image_path": "/images/company/goran-for-generator/1.jpg"
+        },
         {
           "key": 1,
           "title": {
-            "en": "Decades of Dedication",
-            "ku": "دەیان ساڵە خۆبەخشی",
-            "ar": "عقود من التفاني"
+            "en": "Unmatched Quality and Support",
+            "ku": "کوالیتی و پشتگیری بێ هاوتا",
+            "ar": "جودة ودعم لا مثيل لهما"
           },
           "description": {
-            "en": "Falcon Oil has been developing, producing, and distributing high-quality lubricants and specialties for more than 40 years",
-            "ku": "زەیتی فالکۆن زیاتر لە ٤٠ ساڵە خەریکی پەرەپێدان و بەرهەمهێنان و دابەشکردنی چەورکەر و تایبەتمەندییە کوالیتی بەرزەکانە",
-            "ar": "تعمل شركة فالكون أويل على تطوير وإنتاج وتوزيع مواد التشحيم والتخصصات عالية الجودة منذ أكثر من 40 عامًا"
+            "en": "At The Goran Company, we prioritize service excellence and customer satisfaction. Our generators come with a one-year warranty or 1000 hours of operation, covering both electrical and mechanical components. Customers trust us for our affordable prices, expert engineering support, original parts, and after-sales service, backed by a certificate of origin from our Mother Company.",
+            "ku": "لە کۆمپانیای گۆران ئێمە لە پێشینەی کارەکانی خزمەتگوزاری و ڕەزامەندی کڕیاران دەدەین. مۆلیدەکانمان گرەنتی یەک ساڵ یان ١٠٠٠ کاتژمێر کارکردنیان لەگەڵدایە، کە هەردوو پێکهاتەی کارەبایی و میکانیکی دەگرێتەوە. کڕیاران متمانەیان بە ئێمە هەیە بۆ نرخە گونجاوەکانمان، پشتگیری ئەندازیاری شارەزا، پارچەی ئەسڵی، و خزمەتگوزاری دوای فرۆشتن، کە پشتگیری دەکرێت بە بڕوانامەی سەرچاوە لە کۆمپانیای دایکمان.",
+            "ar": "في شركة کوران، نعطي الأولوية لتميز الخدمة ورضا العملاء. تأتي مولداتنا مع ضمان لمدة عام واحد أو 1000 ساعة تشغيل، ويغطي المكونات الكهربائية والميكانيكية. يثق العملاء بنا نظرًا لأسعارنا المعقولة والدعم الهندسي المتخصص وقطع الغيار الأصلية وخدمة ما بعد البيع، المدعومة بشهادة منشأ من شركتنا الأم."
           },
-          "image_path": "/images/company/falkonoil/service-1.jpg"
+          "image_path": "/images/company/goran-for-generator/2.jpg"
         },
         {
           "key": 2,
           "title": {
-            "en": "Global Supply and Quality Assurance",
-            "ku": "دابینکردنی جیهانی و دڵنیایی جۆری",
-            "ar": "العرض العالمي وضمان الجودة"
+            "en": "Empowering Kurdistan's Development",
+            "ku": "بەهێزکردنی گەشەپێدانی کوردستان",
+            "ar": "تمكين تنمية كردستان"
           },
           "description": {
-            "en": "We supply our customers globally with OEM certified engine oils, as well as performance-level engine oils, such as lubricants for industrial use. Continuous control of production processes through our partner's laboratories gives us a constant advantage.",
-            "ku": "ئێمە ڕۆنی بزوێنەری بڕوانامەی OEM بۆ کڕیارەکانمان دابین دەکەین لە ئاستی جیهانیدا، هەروەها ڕۆنی بزوێنەر لە ئاستی کاراییدا، وەک چەورکەر بۆ بەکارهێنانی پیشەسازی. کۆنترۆڵی بەردەوامی پرۆسەکانی بەرهەمهێنان لە ڕێگەی تاقیگەکانی هاوبەشەکەمانەوە سوودێکی بەردەواممان پێدەبەخشێت.",
-            "ar": "نحن نزود عملائنا على مستوى العالم بزيوت محركات معتمدة من صانعي القطع الأصلية (OEM)، بالإضافة إلى زيوت محركات ذات مستوى أداء، مثل مواد التشحيم للاستخدام الصناعي. إن التحكم المستمر في عمليات الإنتاج من خلال مختبرات شركائنا يمنحنا ميزة ثابتة."
+            "en": "Since our inception, The Goran Company has sold approximately 4230 generators, catering to both private and governmental sectors in Kurdistan and beyond. Our commitment to reliable power solutions has earned us the trust of the Kurdistan Regional Government and various industries, including supermarkets. We are dedicated to continuous development and collaboration to serve the community.",
+            "ku": "لە سەرەتای دامەزراندنمانەوە کۆمپانیای گۆران نزیکەی ٤٢٣٠ مۆلیدەی فرۆشتووە، کە خزمەت بە هەردوو کەرتی تایبەت و حکومی دەکات لە کوردستان و دەرەوەی وڵات. پابەندبوونمان بە چارەسەری دەسەڵاتی متمانەپێکراو، متمانەی حکومەتی هەرێمی کوردستان و پیشەسازییە جیاوازەکان بە مارکێتەکانیشەوە بەدەست بهێنین. ئێمە تایبەتین بە گەشەپێدان و هاوکاری بەردەوام بۆ خزمەتکردنی کۆمەڵگا.",
+            "ar": "منذ تأسيسها، باعت شركة کوران ما يقرب من 4230 مولدًا، لتلبية احتياجات القطاعين الخاص والحكومي في كردستان وخارجها. لقد أكسبنا التزامنا بحلول الطاقة الموثوقة ثقة حكومة إقليم كردستان ومختلف الصناعات، بما في ذلك محلات السوبر ماركت. ونحن ملتزمون بالتطوير المستمر والتعاون لخدمة المجتمع."
           },
-          "image_path": "/images/company/falkonoil/service-2.jpg"
+          "image_path": "/images/company/goran-for-generator/3.jpg"
         },
         {
           "key": 3,
           "title": {
-            "en": "Optimal Performance Assurance",
-            "ku": "دڵنیایی ئەدای گونجاو",
-            "ar": "ضمان الأداء الأمثل"
+            "en": "Building Strong Relationships for Success",
+            "ku": "دروستکردنی پەیوەندی بەهێز بۆ سەرکەوتن",
+            "ar": "بناء علاقات قوية من أجل النجاح"
           },
           "description": {
-            "en": "Quality and constant communication with the engineering departments of the original equipment manufacturer ensure optimal performance",
-            "ku": "کوالیتی و پەیوەندی بەردەوام لەگەڵ بەشی ئەندازیاری بەرهەمهێنەری ئامێرە ئەسڵیەکان دڵنیای دەدات لە ئەدای گونجاو",
-            "ar": "الجودة والتواصل المستمر مع الأقسام الهندسية للشركة المصنعة للمعدات الأصلية يضمنان الأداء الأمثل"
+            "en": "The Goran Company values the trust and partnership we have cultivated with the Kurdistan Regional Government and our customers. Our collaborative efforts aim to provide uninterrupted power supply to citizens and support economic growth. We remain steadfast in our commitment to innovation and excellence in the ever-evolving field of power generation.",
+            "ku": "کۆمپانیای گۆران بەهای ئەو متمانە و هاوبەشییەی کە لەگەڵ حکومەتی هەرێمی کوردستان و کڕیارەکانمان چاندومانە. هەوڵە هاوبەشەکانمان ئامانجیان دابینکردنی کارەبای بێ پچڕانە بۆ هاوڵاتیان و پشتگیریکردنی گەشەی ئابووری. ئێمە لە پابەندبوونمان بە داهێنان و باشی لە بواری بەرهەمهێنانی کارەبادا کە هەمیشە لە گەشەکردندایە، جێگیر دەمێنینەوە.",
+            "ar": "تقدر شركة کوران الثقة والشراكة التي زرعناها مع حكومة إقليم كردستان وعملائنا. وتهدف جهودنا التعاونية إلى توفير إمدادات الطاقة دون انقطاع للمواطنين ودعم النمو الاقتصادي. نحن لا نزال ثابتين في التزامنا بالابتكار والتميز في مجال توليد الطاقة المتطور باستمرار."
           },
-          "image_path": "/images/company/falkonoil/service-3.jpg"
-        },
-        {
-          "key": 4,
-          "title": {
-            "en": "Seamless Coordination and Compliance",
-            "ku": "هەماهەنگی و پابەندبوون بە بێ کێشە",
-            "ar": "التنسيق والامتثال السلس"
-          },
-          "description": {
-            "en": "Falkenwell is the link between its customers and premium German manufacturers and will always coordinate the ordering process according to their customers' needs. Constant contact with our distribution partners takes care of compliance with individual orders based on a fair price-performance ratio.",
-            "ku": "فالکنوێڵ پەیوەندی نێوان کڕیارەکانی و بەرهەمهێنەرە ئەڵمانییە بەرزەکانە و هەمیشە بەپێی پێویستی کڕیارەکانیان پرۆسەی داواکردن هەماهەنگ دەکات. پەیوەندی بەردەوام لەگەڵ هاوبەشەکانی دابەشکردنمان ئاگاداری پابەندبوونە بە داواکاری تاکەکەسی لەسەر بنەمای ڕێژەی دادپەروەرانەی نرخ-ئەدا.",
-            "ar": "Falkenwell هي حلقة الوصل بين عملائها والشركات المصنعة الألمانية المتميزة وستقوم دائمًا بتنسيق عملية الطلب وفقًا لاحتياجات عملائها. إن الاتصال المستمر مع شركاء التوزيع لدينا يعتني بالامتثال للطلبات الفردية بناءً على نسبة السعر إلى الأداء العادلة."
-          },
-          "image_path": "/images/company/falkonoil/service-1.jpg"
-        },
-        {
-          "key": 5,
-          "title": {
-            "en": "Diverse Product Line",
-            "ku": "هێڵی بەرهەمی هەمەچەشن",
-            "ar": "خط إنتاج متنوع"
-          },
-          "description": {
-            "en": "Falcon Oil products include antifreeze, automobile oils, motorcycle oils, gear oils, hydraulic oils, and multi-grade motor oils.",
-            "ku": "بەرهەمەکانی زەیتی فالکۆن بریتین لە دژە بەستن، ڕۆنی ئۆتۆمبێل، ڕۆنی ماتۆڕسکیل، ڕۆنی گێڕ، ڕۆنی هایدرۆلیکی، ڕۆنی ماتۆڕی فرە پلە.",
-            "ar": "تشمل منتجات زيوت فالكون مانع التجمد، وزيوت السيارات، وزيوت الدراجات النارية، وزيوت التروس، والزيوت الهيدروليكية، وزيوت المحركات متعددة الدرجات."
-          },
-          "image_path": "/images/company/falkonoil/service-2.jpg"
+          "image_path": "/images/company/goran-for-generator/4.jpg"
         }
       ],
       "gallery": {
         "title": {
-          "en": "POWERING PROGRESS, FUELING TOMORROW",
-          "ku": "پێشکەوتنی کارەبا، سووتەمەنی سبەی",
-          "ar": "تعزيز التقدم، وتغذية الغد"
+          "en": "EMPOWERING PROGRESS, ILLUMINATING TOMORROW",
+          "ku": "پێشکەوتنی بە‌هێز بۆ ڕووناک کردنەوەی داهاتوو",
+          "ar": "تمكين التقدم، وإضاءة الغد"
         },
         "paragraph": {
-          "en": "Accelerating innovation and sustainability, our commitment runs deep in every drop, propelling a future defined by progress and environmental responsibility.",
-          "ku": "خێراکردنی داهێنان و بەردەوامیی، پابەندبوونمان لە قووڵایی هەموو دڵۆپێکدا دەڕوات، داهاتوویەک دەباتە پێشەوە کە بە پێشکەوتن و بەرپرسیارێتی ژینگەیی پێناسە کراوە.",
-          "ar": "من خلال تسريع الابتكار والاستدامة، فإن التزامنا يتجذر في كل قطرة، مما يدفع مستقبلًا محددًا بالتقدم والمسؤولية البيئية."
+          "en": "Guiding Kurdistan's development since 2003",
+          "ku": "ڕێنماییکردنی گەشەسەندنی کوردستان لە ساڵی ٢٠٠٣ەوە",
+          "ar": "توجيه تنمية كردستان منذ عام 2003"
         },
         "images": [
-          "/images/company/falkonoil/slider-1.jpg",
-          "/images/company/falkonoil/slider-2.jpg",
-          "/images/company/falkonoil/slider-3.jpg",
-          "/images/company/falkonoil/slider-4.jpg",
-          "/images/company/falkonoil/slider-5.jpg",
-          "/images/company/falkonoil/slider-6.jpg"
+          "/images/company/goran-for-generator/1.jpg",
+          "/images/company/goran-for-generator/2.jpg",
+          "/images/company/goran-for-generator/3.jpg",
+          "/images/company/goran-for-generator/4.jpg",
+          "/images/company/goran-for-generator/5.jpg",
+          "/images/company/goran-for-generator/thumbnail.webp"
         ]
       },
       "contact": {
@@ -1392,7 +1496,7 @@
             "ku": "تەلەفۆن",
             "ar": "هاتف"
           },
-          "entities": ["+964 (750) 445 2297"]
+          "entities": ["+964 (750) 448 3162", "+964 (770) 448 3162"]
         },
         "address": {
           "title": {
@@ -1402,9 +1506,9 @@
           },
           "entities": [
             {
-              "en": "Iraq, Erbil, 60 M St. - Next to The Ministry of Justice",
-              "ku": "عێراق، هەولێر، شەقامی 60 م - تەنیشت وەزارەتی داد",
-              "ar": "العراق، أربيل شارع ٦٠ متري - جانب وزارة العدل"
+              "en": "Iraq, Erbil, Peshawa Qazi",
+              "ku": "عێراق، هەولێر، پێشەوا قازی",
+              "ar": "العراق، أربيل، بيشاوا قازي"
             }
           ]
         },
@@ -1414,7 +1518,7 @@
             "ku": "ئیمەیڵ",
             "ar": "بريد إلكتروني"
           },
-          "entities": ["falkenoil@gorangroup.com"]
+          "entities": ["gorangenerator@gorangroup.com"]
         },
         "social": {
           "title": {
@@ -1423,12 +1527,48 @@
             "ar": "تابعنا"
           },
           "links": {
-            "facebook": "https://www.facebook.com/falkenoil/",
-            "instagram": "https://www.instagram.com/falkenoil_middle_east/",
+            "facebook": "https://www.facebook.com/profile.php?id=100071452396287",
+            "instagram": "",
             "linked_in": ""
           }
         },
-        "coordinates": [36.22042832049358, 44.009676526457476]
+        "coordinates": [36.19471697949078, 44.04274212703858]
+      },
+      "our_products": {
+        "title": {
+          "en": "Our Products",
+          "ku": "",
+          "ar": ""
+        },
+        "products": [
+          {
+            "slug": "cummins_50_hz",
+            "title": {
+              "en": "Cummins",
+              "ku": "کومینز",
+              "ar": "کومینز"
+            },
+            "card_image": "/images/company/goran-generator/cummins.webp"
+          },
+          {
+            "slug": "john_deere",
+            "title": {
+              "en": "John Deere",
+              "ku": "جۆن دیر",
+              "ar": "جون دير"
+            },
+            "card_image": "/images/company/goran-for-generator/pr-g6000m.jpg"
+          },
+          {
+            "slug": "kubota_specs",
+            "title": {
+              "en": "Kubota",
+              "ku": "کوبۆتا",
+              "ar": "کوبوتا"
+            },
+            "card_image": "/images/company/goran-for-generator/products-Kubota-GL14000__71785.jpg"
+          }
+        ]
       }
     }
   ],
@@ -1570,5 +1710,805 @@
     "facebook": "https://www.facebook.com/profile.php?id=100057458319740",
     "instagram": "",
     "linked_in": "https://www.linkedin.com/company/goran-group/"
-  }
+  },
+  "partner_products": [
+    {
+      "slug": "volvo_penta",
+      "title": {
+        "en": "Volvo Penta",
+        "ku": "ڤۆڵڤۆ پێنتا",
+        "ar": "فولفو بنتا"
+      },
+      "card_image": "/images/company/goran-generator/volvo-penta.webp",
+      "products": [
+        {
+          "id": 1,
+          "title": {
+            "en": "Volvo Penta",
+            "ku": "ڤۆڵڤۆ پێنتا",
+            "ar": "فولفو بنتا"
+          },
+          "models": [
+            {
+              "label": "GGV109",
+              "src_location": "/images/partner-products/volvo-penta/GGV109.pdf"
+            },
+            {
+              "label": "GGV142",
+              "src_location": "/images/partner-products/volvo-penta/GGV142.pdf"
+            },
+            {
+              "label": "GGV167",
+              "src_location": "/images/partner-products/volvo-penta/GGV167.pdf"
+            },
+            {
+              "label": "GGV206",
+              "src_location": "/images/partner-products/volvo-penta/GGV206.pdf"
+            },
+            {
+              "label": "GGV224",
+              "src_location": "/images/partner-products/volvo-penta/GGV224.pdf"
+            },
+            {
+              "label": "GGV274",
+              "src_location": "/images/partner-products/volvo-penta/GGV274.pdf"
+            },
+            {
+              "label": "GGV330",
+              "src_location": "/images/partner-products/volvo-penta/GGV330.pdf"
+            },
+            {
+              "label": "GGV350",
+              "src_location": "/images/partner-products/volvo-penta/GGV350.pdf"
+            },
+            {
+              "label": "GGV387",
+              "src_location": "/images/partner-products/volvo-penta/GGV387.pdf"
+            },
+            {
+              "label": "GGV414",
+              "src_location": "/images/partner-products/volvo-penta/GGV414.pdf"
+            },
+            {
+              "label": "GGV452",
+              "src_location": "/images/partner-products/volvo-penta/GGV452.pdf"
+            },
+            {
+              "label": "GGV501",
+              "src_location": "/images/partner-products/volvo-penta/GGV501.pdf"
+            },
+            {
+              "label": "GGV556",
+              "src_location": "/images/partner-products/volvo-penta/GGV556.pdf"
+            },
+            {
+              "label": "GGV651",
+              "src_location": "/images/partner-products/volvo-penta/GGV651.pdf"
+            },
+            {
+              "label": "GGV700",
+              "src_location": "/images/partner-products/volvo-penta/GGV700.pdf"
+            },
+            {
+              "label": "GGV770",
+              "src_location": "/images/partner-products/volvo-penta/GGV770.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "perkins",
+      "title": {
+        "en": "Perkins",
+        "ku": "پێرکنز",
+        "ar": "بيركنز"
+      },
+      "card_image": "/images/company/goran-generator/perkins.jpg",
+      "products": [
+        {
+          "id": 2,
+          "title": {
+            "en": "Perkins",
+            "ku": "پێرکنز",
+            "ar": "بيركنز"
+          },
+          "models": [
+            {
+              "label": "GGP10",
+              "src_location": "/images/partner-products/perkins/GGP10.pdf"
+            },
+            {
+              "label": "GGP15",
+              "src_location": "/images/partner-products/perkins/GGP15.pdf"
+            },
+            {
+              "label": "GGP22",
+              "src_location": "/images/partner-products/perkins/GGP22.pdf"
+            },
+            {
+              "label": "GGP33",
+              "src_location": "/images/partner-products/perkins/GGP33.pdf"
+            },
+            {
+              "label": "GGP46.8",
+              "src_location": "/images/partner-products/perkins/GGP46.8.pdf"
+            },
+            {
+              "label": "GGP50",
+              "src_location": "/images/partner-products/perkins/GGP50.pdf"
+            },
+            {
+              "label": "GGP66",
+              "src_location": "/images/partner-products/perkins/GGP66.pdf"
+            },
+            {
+              "label": "GGP71",
+              "src_location": "/images/partner-products/perkins/GGP71.pdf"
+            },
+            {
+              "label": "GGP88",
+              "src_location": "/images/partner-products/perkins/GGP88.pdf"
+            },
+            {
+              "label": "GGP112",
+              "src_location": "/images/partner-products/perkins/GGP112.5.pdf"
+            },
+            {
+              "label": "GGP112",
+              "src_location": "/images/partner-products/perkins/GGP112.pdf"
+            },
+            {
+              "label": "GGP150",
+              "src_location": "/images/partner-products/perkins/GGP150.pdf"
+            },
+            {
+              "label": "GGP165",
+              "src_location": "/images/partner-products/perkins/GGP165.pdf"
+            },
+            {
+              "label": "GGP200",
+              "src_location": "/images/partner-products/perkins/GGP200.pdf"
+            },
+            {
+              "label": "GGP220",
+              "src_location": "/images/partner-products/perkins/GGP220.pdf"
+            },
+            {
+              "label": "GGP250",
+              "src_location": "/images/partner-products/perkins/GGP250.pdf"
+            },
+            {
+              "label": "GGP270",
+              "src_location": "/images/partner-products/perkins/GGP270.pdf"
+            },
+            {
+              "label": "GGP330",
+              "src_location": "/images/partner-products/perkins/GGP330.pdf"
+            },
+            {
+              "label": "GGP400",
+              "src_location": "/images/partner-products/perkins/GGP400.pdf"
+            },
+            {
+              "label": "GGP450",
+              "src_location": "/images/partner-products/perkins/GGP450.pdf"
+            },
+            {
+              "label": "GGP500",
+              "src_location": "/images/partner-products/perkins/GGP500.pdf"
+            },
+            {
+              "label": "GGP550",
+              "src_location": "/images/partner-products/perkins/GGP550.pdf"
+            },
+            {
+              "label": "GGP660",
+              "src_location": "/images/partner-products/perkins/GGP660.pdf"
+            },
+            {
+              "label": "GGP700",
+              "src_location": "/images/partner-products/perkins/GGP700.pdf"
+            },
+            {
+              "label": "GGP825",
+              "src_location": "/images/partner-products/perkins/GGP825.pdf"
+            },
+            {
+              "label": "GGP900",
+              "src_location": "/images/partner-products/perkins/GGP900.pdf"
+            },
+            {
+              "label": "GGP1125",
+              "src_location": "/images/partner-products/perkins/GGP1125.pdf"
+            },
+            {
+              "label": "GGP1385",
+              "src_location": "/images/partner-products/perkins/GGP1385.pdf"
+            },
+            {
+              "label": "GGP1650",
+              "src_location": "/images/partner-products/perkins/GGP1650.pdf"
+            },
+            {
+              "label": "GGP2028",
+              "src_location": "/images/partner-products/perkins/GGP2028.pdf"
+            },
+            {
+              "label": "GGP2250",
+              "src_location": "/images/partner-products/perkins/GGP2250.pdf"
+            },
+            {
+              "label": "GGP2500",
+              "src_location": "/images/partner-products/perkins/GGP2500.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cummins",
+      "title": {
+        "en": "Cummins",
+        "ku": "کومینز",
+        "ar": "کومینز"
+      },
+      "card_image": "/images/company/goran-generator/cummins.webp",
+      "products": [
+        {
+          "id": 1,
+          "title": {
+            "en": "Cummins 10-88",
+            "ku": "کومینز ١٠-٨٨",
+            "ar": "کومینز ١٠-٨٨"
+          },
+          "models": [
+            {
+              "label": "GGC11",
+              "src_location": "/images/partner-products/cummins/10-88/GGC11.pdf"
+            },
+            {
+              "label": "GGC25",
+              "src_location": "/images/partner-products/cummins/10-88/GGC25.pdf"
+            },
+            {
+              "label": "GGC27.5",
+              "src_location": "/images/partner-products/cummins/10-88/GGC27.5.pdf"
+            },
+            {
+              "label": "GGC38",
+              "src_location": "/images/partner-products/cummins/10-88/GGC38.pdf"
+            },
+            {
+              "label": "GGC44",
+              "src_location": "/images/partner-products/cummins/10-88/GGC44.pdf"
+            },
+            {
+              "label": "GGC50",
+              "src_location": "/images/partner-products/cummins/10-88/GGC50.pdf"
+            },
+            {
+              "label": "GGC55",
+              "src_location": "/images/partner-products/cummins/10-88/GGC55.pdf"
+            },
+            {
+              "label": "GGC62.5",
+              "src_location": "/images/partner-products/cummins/10-88/GGC62.5.pdf"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": {
+            "en": "Cummins 100-275",
+            "ku": "کومینز ١٠٠-٢٧٥",
+            "ar": "کومینز ١٠٠-٢٧٥"
+          },
+          "models": [
+            {
+              "label": "GGC110",
+              "src_location": "/images/partner-products/cummins/100-275/GGC110.pdf"
+            },
+            {
+              "label": "GGC125",
+              "src_location": "/images/partner-products/cummins/100-275/GGC125.pdf"
+            },
+            {
+              "label": "GGC150",
+              "src_location": "/images/partner-products/cummins/100-275/GGC150.pdf"
+            },
+            {
+              "label": "GGC170",
+              "src_location": "/images/partner-products/cummins/100-275/GGC170.pdf"
+            },
+            {
+              "label": "GGC200",
+              "src_location": "/images/partner-products/cummins/100-275/GGC200.pdf"
+            },
+            {
+              "label": "GGC275",
+              "src_location": "/images/partner-products/cummins/100-275/GGC275.pdf"
+            },
+            {
+              "label": "KGC200",
+              "src_location": "/images/partner-products/cummins/100-275/KGC200.pdf"
+            }
+          ]
+        }, 
+        {
+          "id": 3,
+          "title": {
+            "en": "Cummins 300-700",
+            "ku": "کومینز ٣٠٠-٧٠٠",
+            "ar": "کومینز ٣٠٠-٧٠٠"
+          },
+          "models": [
+            {
+              "label": "GGC330",
+              "src_location": "/images/partner-products/cummins/300-700/GGC330.pdf"
+            },
+            {
+              "label": "GGC350",
+              "src_location": "/images/partner-products/cummins/300-700/GGC350.pdf"
+            },
+            {
+              "label": "GGC400",
+              "src_location": "/images/partner-products/cummins/300-700/GGC400.pdf"
+            },
+            {
+              "label": "GGC450",
+              "src_location": "/images/partner-products/cummins/300-700/GGC450.pdf"
+            },
+            {
+              "label": "GGC500",
+              "src_location": "/images/partner-products/cummins/300-700/GGC500.pdf"
+            },
+            {
+              "label": "GGC550",
+              "src_location": "/images/partner-products/cummins/300-700/GGC550.pdf"
+            },
+            {
+              "label": "GGV700",
+              "src_location": "/images/partner-products/cummins/300-700/GGV700.pdf"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": {
+            "en": "Cummins 800-3000",
+            "ku": "کومینز ٨٠٠-٣٠٠٠",
+            "ar": "کومینز ٨٠٠-٣٠٠٠"
+          },
+          "models": [
+            {
+              "label": "GGC900",
+              "src_location": "/images/partner-products/cummins/800-3000/GGC900.pdf"
+            },
+            {
+              "label": "GGC1100",
+              "src_location": "/images/partner-products/cummins/800-3000/GGC1100.pdf"
+            },
+            {
+              "label": "GGC1100-1",
+              "src_location": "/images/partner-products/cummins/800-3000/GGC1100-1.pdf"
+            },
+            {
+              "label": "GGC1250",
+              "src_location": "/images/partner-products/cummins/800-3000/GGC1250.pdf"
+            },
+            {
+              "label": "GGC1400",
+              "src_location": "/images/partner-products/cummins/800-3000/GGC1400.pdf"
+            },
+            {
+              "label": "GGC1675",
+              "src_location": "/images/partner-products/cummins/800-3000/GGC1675.pdf"
+            },
+            {
+              "label": "GGC1875",
+              "src_location": "/images/partner-products/cummins/800-3000/GGC1875.pdf"
+            },
+            {
+              "label": "GGC2000",
+              "src_location": "/images/partner-products/cummins/800-3000/GGC2000.pdf"
+            },
+            {
+              "label": "GGC2000-1",
+              "src_location": "/images/partner-products/cummins/800-3000/GGC2000-1.pdf"
+            },
+            {
+              "label": "GGC2250",
+              "src_location": "/images/partner-products/cummins/800-3000/GGC2250.pdf"
+            },
+            {
+              "label": "GGC2500",
+              "src_location": "/images/partner-products/cummins/800-3000/GGC2500.pdf"
+            },
+            {
+              "label": "GGC3000",
+              "src_location": "/images/partner-products/cummins/800-3000/GGC3000.pdf"
+            },
+            {
+              "label": "GGC3125",
+              "src_location": "/images/partner-products/cummins/800-3000/GGC3125.pdf"
+            },
+            {
+              "label": "GGC3438",
+              "src_location": "/images/partner-products/cummins/800-3000/GGC3438.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cummins_50_hz",
+      "title": {
+        "en": "Cummins",
+        "ku": "کومینز",
+        "ar": "کومینز"
+      },
+      "card_image": "/images/company/goran-generator/cummins.webp",
+      "products": [
+        {
+          "id": 1,
+          "title": {
+            "en": "Cummins (50 Hz)",
+            "ku": "کومینز (50 هێرتز)",
+            "ar": "کومینز (50 هرتز)"
+          },
+          "models": [
+            {
+              "label": "CS1000-CS1100S QST(50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CS1000-CS1100S QST(50 Hz).pdf"
+            },
+            {
+              "label": "CS1250-CS1350S (50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CS1250-CS1350S (50 Hz).pdf"
+            },
+            {
+              "label": "CS2000-CS2200S (50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CS2000-CS2200S (50 Hz).pdf"
+            },
+            {
+              "label": "CT135-CT150S (50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT135-CT150S (50 Hz).pdf"
+            },
+            {
+              "label": "CT150-CT165S(50Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT150-CT165S(50Hz) copy.pdf"
+            },
+            {
+              "label": "CT200-CT220S (50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT200-CT220S (50 Hz).pdf"
+            },
+            {
+              "label": "CT250-CT275S (50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT250-CT275S (50 Hz).pdf"
+            },
+            {
+              "label": "CT300-CT330S (50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT300-CT330S (50 Hz).pdf"
+            },
+            {
+              "label": "CT360-CT390S (50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT360-CT390S (50 Hz).pdf"
+            },
+            {
+              "label": "CT365-CT400S QSG12 (50Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT365-CT400S QSG12 (50Hz).pdf"
+            },
+            {
+              "label": "CT410-CT450S (50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT410-CT450S (50 Hz).pdf"
+            },
+            {
+              "label": "CT410-CT450S QSG12 (50Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT410-CT450S QSG12 (50Hz).pdf"
+            },
+            {
+              "label": "CT460-CT530S (50 Hz",
+              "src_location": "/images/partner-products/cummins/50-hz/CT460-CT530S (50 Hz).pdf"
+            },
+            {
+              "label": "CT500-CT550S (50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT500-CT550S (50 Hz).pdf"
+            },
+            {
+              "label": "CT500-CT570S KTA19 (50Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT500-CT570S KTA19 (50Hz).pdf"
+            },
+            {
+              "label": "CT640-CT700S (50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT640-CT700S (50 Hz).pdf"
+            },
+            {
+              "label": "CT750-CT825S (50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT750-CT825S (50 Hz).pdf"
+            },
+            {
+              "label": "CT800-CT865S (50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT800-CT865S (50 Hz).pdf"
+            },
+            {
+              "label": "CT900-CT1000S (50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT900-CT1000S (50 Hz).pdf"
+            },
+            {
+              "label": "CT1000-CT1100S (50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT1000-CT1100S (50 Hz).pdf"
+            },
+            {
+              "label": "CT1000-CT1100S QST(50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT1000-CT1100S QST(50 Hz).pdf"
+            },
+            {
+              "label": "CT1250-CT1375S (50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT1250-CT1375S (50 Hz).pdf"
+            },
+            {
+              "label": "CT1400-CT1650S (50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT1400-CT1650S (50 Hz).pdf"
+            },
+            {
+              "label": "CT1500-CT1650S (50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT1500-CT1650S (50 Hz).pdf"
+            },
+            {
+              "label": "CT1850-CT2000S (50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT1850-CT2000S (50 Hz).pdf"
+            },
+            {
+              "label": "CT2000-CT2200S (50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT2000-CT2200S (50 Hz).pdf"
+            },
+            {
+              "label": "CT2050-CT2250S (50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT2050-CT2250S (50 Hz).pdf"
+            },
+            {
+              "label": "CT2400-CT2650S (50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT2400-CT2650S (50 Hz).pdf"
+            },
+            {
+              "label": "CT2500-CT2800S (50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT2500-CT2800S (50 Hz).pdf"
+            },
+            {
+              "label": "CT2750-CT3000S (50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT2750-CT3000S (50 Hz).pdf"
+            },
+            {
+              "label": "CT2850-CT3150S (50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT2850-CT3150S (50 Hz).pdf"
+            },
+            {
+              "label": "CT3150-CT3500S (50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT3150-CT3500S (50 Hz).pdf"
+            },
+            {
+              "label": "CT3350-CT3800S (50 Hz)",
+              "src_location": "/images/partner-products/cummins/50-hz/CT3350-CT3800S (50 Hz).pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "john_deere",
+      "title": {
+        "en": "John Deere",
+        "ku": "جۆن دیر",
+        "ar": "جون دير"
+      },
+      "card_image": "/images/company/goran-for-generator/pr-g6000m.jpg",
+      "products": [
+        {
+          "id": 1,
+          "title": {
+            "en": "John Deere (50 Hz)",
+            "ku": "جۆن دیر (50 هێرتز)",
+            "ar": "جۆن دیر (50 هرتز)"
+          },
+          "models": [
+            {
+              "label": "DT30-DT32S (50 Hz)",
+              "src_location": "/images/partner-products/john-deere/DT30-DT32S (50 Hz).pdf"
+            },
+            {
+              "label": "DT30-DT33S(DFU20) (50 Hz)",
+              "src_location": "/images/partner-products/john-deere/DT30-DT33S(DFU20) (50 Hz).pdf"
+            },
+            {
+              "label": "DT40-DT45S (50 Hz)",
+              "src_location": "/images/partner-products/john-deere/DT40-DT45S (50 Hz).pdf"
+            },
+            {
+              "label": "DT60-DT66S-3029 (50 Hz)",
+              "src_location": "/images/partner-products/john-deere/DT60-DT66S-3029 (50 Hz).pdf"
+            },
+            {
+              "label": "DT60-DT70S (50 Hz)",
+              "src_location": "/images/partner-products/john-deere/DT60-DT70S (50 Hz).pdf"
+            },
+            {
+              "label": "DT70-DT75S (50 Hz)",
+              "src_location": "/images/partner-products/john-deere/DT70-DT75S (50 Hz).pdf"
+            },
+            {
+              "label": "DT80-DT88S (50 Hz)",
+              "src_location": "/images/partner-products/john-deere/DT80-DT88S (50 Hz).pdf"
+            },
+            {
+              "label": "DT100-DT110S - HFG20 (50 Hz)",
+              "src_location": "/images/partner-products/john-deere/DT100-DT110S - HFG20 (50 Hz).pdf"
+            },
+            {
+              "label": "DT100-DT110S (50 Hz)",
+              "src_location": "/images/partner-products/john-deere/DT100-DT110S (50 Hz).pdf"
+            },
+            {
+              "label": "DT120-DT135S (50 Hz)",
+              "src_location": "/images/partner-products/john-deere/DT120-DT135S (50 Hz).pdf"
+            },
+            {
+              "label": "DT120-DT135S (G20-50 Hz)",
+              "src_location": "/images/partner-products/john-deere/DT120-DT135S (G20-50 Hz).pdf"
+            },
+            {
+              "label": "DT150-DT165S (50 Hz)",
+              "src_location": "/images/partner-products/john-deere/DT150-DT165S (50 Hz).pdf"
+            },
+            {
+              "label": "DT180-DT200S (50 Hz)",
+              "src_location": "/images/partner-products/john-deere/DT180-DT200S (50 Hz).pdf"
+            },
+            {
+              "label": "DT200-DT220S (50 Hz)",
+              "src_location": "/images/partner-products/john-deere/DT200-DT220S (50 Hz).pdf"
+            },
+            {
+              "label": "DT250-DT275S (50 Hz)",
+              "src_location": "/images/partner-products/john-deere/DT250-DT275S (50 Hz).pdf"
+            },
+            {
+              "label": "DT300-DT330S - HF475 (50 Hz)",
+              "src_location": "/images/partner-products/john-deere/DT300-DT330S - HF475 (50 Hz).pdf"
+            },
+            {
+              "label": "DT300-DT330S (50 Hz)",
+              "src_location": "/images/partner-products/john-deere/DT300-DT330S (50 Hz).pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "kubota_specs",
+      "title": {
+        "en": "Kubota",
+        "ku": "کوبۆتا",
+        "ar": "کوبوتا"
+      },
+      "card_image": "/images/company/goran-for-generator/products-Kubota-GL14000__71785.jpg",
+      "products": [
+        {
+          "id": 1,
+          "title": {
+            "en": "Kubota (50 Hz)",
+            "ku": "کوبۆتا (50 هێرتز)",
+            "ar": "کوبوتا (50 هرتز)"
+          },
+          "models": [
+            {
+              "label": "Ghaddar Sheet KT20  KT22S (2003-T) (50 Hz)",
+              "src_location": "/images/partner-products/kubota/50-hz/Ghaddar Sheet KT20  KT22S (2003-T) (50 Hz).pdf"
+            },
+            {
+              "label": "Ghaddar Sheet KT22.5  KT25S (50 Hz)",
+              "src_location": "/images/partner-products/kubota/50-hz/Ghaddar Sheet KT22.5  KT25S (50 Hz).pdf"
+            },
+            {
+              "label": "KT9-KT10S (50 Hz)",
+              "src_location": "/images/partner-products/kubota/50-hz/KT9-KT10S (50 Hz).pdf"
+            },
+            {
+              "label": "KT12-KT13S (50 Hz)",
+              "src_location": "/images/partner-products/kubota/50-hz/KT12-KT13S (50 Hz).pdf"
+            },
+            {
+              "label": "KT12.5-KT13.5S (50 Hz)",
+              "src_location": "/images/partner-products/kubota/50-hz/KT12.5-KT13.5S (50 Hz).pdf"
+            },
+            {
+              "label": "KT12.5-KT14S (1703) (50 Hz)",
+              "src_location": "/images/partner-products/kubota/50-hz/KT12.5-KT14S (1703) (50 Hz).pdf"
+            },
+            {
+              "label": "KT15-KT16S (50 Hz)",
+              "src_location": "/images/partner-products/kubota/50-hz/KT15-KT16S (50 Hz).pdf"
+            },
+            {
+              "label": "KT20-KT22S (50 Hz)",
+              "src_location": "/images/partner-products/kubota/50-hz/KT20-KT22S (50 Hz).pdf"
+            },
+            {
+              "label": "KT30-KT32S (50 Hz)",
+              "src_location": "/images/partner-products/kubota/50-hz/KT30-KT32S (50 Hz).pdf"
+            },
+            {
+              "label": "KT36-KT40S (50 Hz)",
+              "src_location": "/images/partner-products/kubota/50-hz/KT36-KT40S (50 Hz).pdf"
+            },
+            {
+              "label": "KT45-KT48S (50 Hz)",
+              "src_location": "/images/partner-products/kubota/50-hz/KT45-KT48S (50 Hz).pdf"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": {
+            "en": "Kubota (50 Hz - Single Phase)",
+            "ku": "کوبۆتا (50 هێرتز - تاک)",
+            "ar": "كوبوتا (50 هرتز - طور واحد)"
+          },
+          "models": [
+            {
+              "label": "Ghaddar Sheet KT3.5  KT3.7S (50 Hz) Single Phase",
+              "src_location": "/images/partner-products/kubota/50-hz-single-phase/Ghaddar Sheet KT3.5  KT3.7S (50 Hz) Single Phase.pdf"
+            },
+            {
+              "label": "Ghaddar Sheet KT9  KT10S (50 Hz)  Single Phase",
+              "src_location": "/images/partner-products/kubota/50-hz-single-phase/Ghaddar Sheet KT9  KT10S (50 Hz)  Single Phase.pdf"
+            },
+            {
+              "label": "Ghaddar Sheet KT12.5  KT13.5S (50 Hz)  Single Phase",
+              "src_location": "/images/partner-products/kubota/50-hz-single-phase/Ghaddar Sheet KT12.5  KT13.5S (50 Hz)  Single Phase.pdf"
+            },
+            {
+              "label": "Ghaddar Sheet KT14  KT16S  (2203) (50 Hz)  Single Phase",
+              "src_location": "/images/partner-products/kubota/50-hz-single-phase/Ghaddar Sheet KT14  KT16S  (2203) (50 Hz)  Single Phase.pdf"
+            },
+            {
+              "label": "Ghaddar Sheet KT14  KT16S (50 Hz)  Single Phase",
+              "src_location": "/images/partner-products/kubota/50-hz-single-phase/Ghaddar Sheet KT14  KT16S (50 Hz)  Single Phase.pdf"
+            },
+            {
+              "label": "Ghaddar Sheet KT15  KT17S (50 Hz)  Single Phase",
+              "src_location": "/images/partner-products/kubota/50-hz-single-phase/Ghaddar Sheet KT15  KT17S (50 Hz)  Single Phase.pdf"
+            },
+            {
+              "label": "Ghaddar Sheet KT17  KT19S (50 Hz)  Single Phase",
+              "src_location": "/images/partner-products/kubota/50-hz-single-phase/Ghaddar Sheet KT17  KT19S (50 Hz)  Single Phase.pdf"
+            },
+            {
+              "label": "Ghaddar Sheet KT19  KT21S (50 Hz)  Single Phase",
+              "src_location": "/images/partner-products/kubota/50-hz-single-phase/Ghaddar Sheet KT19  KT21S (50 Hz)  Single Phase.pdf"
+            },
+            {
+              "label": "Ghaddar Sheet KT20  KT22S (50 Hz)  Single Phase",
+              "src_location": "/images/partner-products/kubota/50-hz-single-phase/Ghaddar Sheet KT20  KT22S (50 Hz)  Single Phase.pdf"
+            },
+            {
+              "label": "Ghaddar Sheet KT20  KT23S  (3300) (50 Hz)  Single Phase",
+              "src_location": "/images/partner-products/kubota/50-hz-single-phase/Ghaddar Sheet KT20  KT23S  (3300) (50 Hz)  Single Phase.pdf"
+            },
+            {
+              "label": "Ghaddar Sheet KT27  KT30S  (3300T) (50 Hz)  Single Phase",
+              "src_location": "/images/partner-products/kubota/50-hz-single-phase/Ghaddar Sheet KT27  KT30S  (3300T) (50 Hz)  Single Phase.pdf"
+            },
+            {
+              "label": "Ghaddar Sheet KT27  KT30S (50 Hz)  Single Phase",
+              "src_location": "/images/partner-products/kubota/50-hz-single-phase/Ghaddar Sheet KT27  KT30S (50 Hz)  Single Phase.pdf"
+            },
+            {
+              "label": "Ghaddar Sheet KT37  KT40S (50 Hz)  Single Phase",
+              "src_location": "/images/partner-products/kubota/50-hz-single-phase/Ghaddar Sheet KT37  KT40S (50 Hz)  Single Phase.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

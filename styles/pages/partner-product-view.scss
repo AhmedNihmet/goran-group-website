@@ -1,0 +1,51 @@
+.partner-product-view {
+  padding: 24px;
+
+  &__container {
+    display: flex;
+    row-gap: 40px;
+    flex-direction: column;
+  }
+
+  &__table {
+    color: #212529;
+    background: #fff;
+    border: 1px solid #bf2025;
+    border-collapse: collapse;
+    width: 100%;
+    position: relative;
+    overflow-x: auto;
+
+    > thead {
+      background: #bf2025;
+      color: #fff;
+      position: sticky;
+
+      > tr:nth-of-type(2) {
+        background: #9a1b1f;
+      }
+    }
+
+    tr {
+      transition: background-color 200ms ease;
+
+      &:hover {
+        background-color: rgba(154, 27, 31, 0.055);
+      }
+    }
+
+    td,
+    th {
+      border: 1px solid #bf2025;
+      padding: 10px;
+    }
+  }
+
+  &__table-action-cell > a {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8px;
+  }
+}

@@ -182,4 +182,13 @@
   &__stats {
     margin-block-end: 120px;
   }
+
+  &__view-our-profile {
+    color: #49494b;
+    margin-block-start: 24px;
+
+    > a {
+      color: #bf2025;
+    }
+  }
 }
