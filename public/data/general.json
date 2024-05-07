@@ -93,6 +93,10 @@
     },
     "logos": [
       {
+        "image_path": "/images/our-companies/khalil-company.png",
+        "redirects_to": "/company/general_trading/view"
+      },
+      {
         "image_path": "/images/our-companies/goran-generator.png",
         "redirects_to": "/company/goran_generator/view"
       },
@@ -107,10 +111,6 @@
       {
         "image_path": "/images/our-companies/limar.png",
         "redirects_to": "/company/limar_realestate/view"
-      },
-      {
-        "image_path": "/images/our-companies/khalil-company.png",
-        "redirects_to": "/company/general_trading/view"
       },
       {
         "image_path": "/images/our-companies/rose.png",
@@ -156,8 +156,14 @@
         "redirects_to": "/company/goran_generator/view#our-products"
       },
       {
-        "image_path": "/images/our-partners/cummins.svg",
+        "image_path": "/images/our-partners/perkins.webp",
         "redirects_to": "/company/goran_generator/view#our-products"
+      },  
+      {
+        "image_path": "/images/our-partners/leroy-somer.webp"
+      },
+      {
+        "image_path": "/images/our-partners/stamford.webp"
       }
     ]
   },
@@ -165,6 +171,7 @@
     {
       "slug": "goran_generator",
       "thumbnail": "/images/company/goran-generator/thumbnail-new.webp",
+      "grid_thumbnail": "/images/our-companies/goran-generator.png",
       "card_title": {
         "en": "Goran Generator",
         "ku": "کۆمپانیای گۆران بۆ مۆلیدە",
@@ -187,6 +194,7 @@
       },
       "hero_image": "/images/company/goran-generator/hero.webp",
       "company_video": "",
+      "youtube_video": "https://www.youtube.com/embed/XIMLoLxmTDw?si=_gltd04Cd8VJ-G84",
       "sub_sections": [
         {
           "key": 1,
@@ -203,20 +211,6 @@
           "image_path": "/images/company/goran-generator/2.webp"
         },
         {
-          "key": 2,
-          "title": {
-            "en": "Expert Team and Diverse Brands",
-            "ku": "تیمی پسپۆڕ و براندە هەمەچەشنەکان",
-            "ar": "فريق الخبراء والعلامات التجارية المتنوعة"
-          },
-          "description": {
-            "en": "As a crucial division of the Goran Group, our success is owed to a skilled workforce spanning accounting, sales, marketing, and services. We offer a wide array of globally recognized generator brands, including British Perkins, Swedish Volvo, and American Cummins, each certified to instill trust in our clientele.",
-            "ku": "وەک دابەشکردنێکی چارەنووسساز لە گروپی گۆران، سەرکەوتنەکانمان قەرزاری هێزێکی کاری لێهاتووە کە ژمێریاری، فرۆشتن، بازاڕکردن، و خزمەتگوزاری دەگرێتەوە. ئێمە کۆمەڵێک براندی مۆلیدەی ناسراوی جیهانی پێشکەش دەکەین، لەوانە پێرکنزی بەریتانی، ڤۆڵڤۆی سویدی، و کامینزی ئەمریکی، کە هەریەکەیان بڕوانامەیان هەیە بۆ چاندنی متمانە بە کڕیارەکانمان.",
-            "ar": "باعتبارنا قسمًا مهمًا في مجموعة کوران، فإن نجاحنا يرجع إلى القوى العاملة الماهرة التي تشمل المحاسبة والمبيعات والتسويق والخدمات. نحن نقدم مجموعة واسعة من العلامات التجارية للمولدات المعترف بها عالميًا، بما في ذلك British Perkins، وVolvo السويدية، وAmerican Cummins، وكل منها معتمدة لغرس الثقة في عملائنا."
-          },
-          "image_path": "/images/company/goran-generator/9.webp"
-        },
-        {
           "key": 3,
           "title": {
             "en": "Leading Sales and Service Provider",
@@ -228,7 +222,7 @@
             "ku": "بە شانازییەوە پلەی یەکەممان لە هەردوو بواری فرۆشتن و پێشکەشکردنی خزمەتگوزاری لە کوردستان و عێراق مسۆگەر کردووە. هاوبەشی بەهێز لەگەڵ ئۆرگان و ڕێکخراوە حکومییەکان و کۆمپانیاکانی نەوت سەرکەوتنی ئێمەی بەرەوپێش بردووە.",
             "ar": "وبكل فخر، حصلنا على المركز الأول في كل من المبيعات وتقديم الخدمات في كردستان والعراق. لقد ساهمت الشراكات القوية مع الهيئات الحكومية والمنظمات وشركات النفط في نجاحنا."
           },
-          "image_path": "/images/company/goran-generator/1.webp"
+          "image_path": "/images/company/goran-generator/thumbnail.webp"
         },
         {
           "key": 4,
@@ -242,7 +236,21 @@
             "ku": "ئێمە بەهۆی پابەندبوونێکی نەگۆڕەوە، هەوڵدەدەین خزمەتگوزارییەکان بۆ هاوڵاتیان و کۆمپانیاکان بە بەردەوامی بەرز بکەینەوە. پێشینەی سەرنجڕاکێشمان جەخت لەسەر خۆبەخشیمان دەکاتەوە بۆ پێشکەشکردنی خزمەتگوزارییە نموونەییەکان بە هاوکاری لەگەڵ حکومەت.",
             "ar": "وانطلاقًا من التزامنا الثابت، فإننا نسعى جاهدين لتحسين الخدمات المقدمة للمواطنين والشركات بشكل مستمر. ويؤكد سجلنا الحافل تفانينا في تقديم خدمات مثالية بالتعاون مع الحكومة."
           },
-          "image_path": "/images/company/goran-generator/7.webp"
+          "image_path": "/images/company/goran-generator/10.webp"
+        },
+        {
+          "key": 2,
+          "title": {
+            "en": "Expert Team and Diverse Brands",
+            "ku": "تیمی پسپۆڕ و براندە هەمەچەشنەکان",
+            "ar": "فريق الخبراء والعلامات التجارية المتنوعة"
+          },
+          "description": {
+            "en": "As a crucial division of the Goran Group, our success is owed to a skilled workforce spanning accounting, sales, marketing, and services. We offer a wide array of globally recognized generator brands, including British Perkins, Swedish Volvo, and American Cummins, each certified to instill trust in our clientele.",
+            "ku": "وەک دابەشکردنێکی چارەنووسساز لە گروپی گۆران، سەرکەوتنەکانمان قەرزاری هێزێکی کاری لێهاتووە کە ژمێریاری، فرۆشتن، بازاڕکردن، و خزمەتگوزاری دەگرێتەوە. ئێمە کۆمەڵێک براندی مۆلیدەی ناسراوی جیهانی پێشکەش دەکەین، لەوانە پێرکنزی بەریتانی، ڤۆڵڤۆی سویدی، و کامینزی ئەمریکی، کە هەریەکەیان بڕوانامەیان هەیە بۆ چاندنی متمانە بە کڕیارەکانمان.",
+            "ar": "باعتبارنا قسمًا مهمًا في مجموعة کوران، فإن نجاحنا يرجع إلى القوى العاملة الماهرة التي تشمل المحاسبة والمبيعات والتسويق والخدمات. نحن نقدم مجموعة واسعة من العلامات التجارية للمولدات المعترف بها عالميًا، بما في ذلك British Perkins، وVolvo السويدية، وAmerican Cummins، وكل منها معتمدة لغرس الثقة في عملائنا."
+          },
+          "image_path": "/images/company/goran-generator/9.webp"
         }
       ],
       "gallery": {
@@ -266,7 +274,8 @@
           "/images/company/goran-generator/6.webp",
           "/images/company/goran-generator/7.webp",
           "/images/company/goran-generator/8.webp",
-          "/images/company/goran-generator/9.webp"
+          "/images/company/goran-generator/9.webp",
+          "/images/company/goran-generator/10.webp"
         ]
       },
       "contact": {
@@ -328,6 +337,7 @@
         "products": [
           {
             "slug": "volvo_penta",
+            "brochure_path": "/images/company/goran-generator/volvo.pdf",
             "title": {
               "en": "Volvo Penta",
               "ku": "ڤۆڵڤۆ پێنتا",
@@ -337,6 +347,7 @@
           },
           {
             "slug": "perkins",
+            "brochure_path": "/images/company/goran-generator/perkins.pdf",
             "title": {
               "en": "Perkins",
               "ku": "پێرکنز",
@@ -359,6 +370,7 @@
     {
       "slug": "general_trading",
       "thumbnail": "/images/company/general-trading/thumbnail-3.webp",
+      "grid_thumbnail": "/images/our-companies/khalil-company.png",
       "card_title": {
         "en": "General Trading",
         "ku": "بازرگانی گشتی",
@@ -550,6 +562,7 @@
     {
       "slug": "warchack_co",
       "thumbnail": "/images/company/swarchack-co/thumbnail.webp",
+      "grid_thumbnail": "/images/our-companies/swarchak.png",
       "card_title": {
         "en": "SwarChak Co.",
         "ku": "کۆمپانیای سوارچاک.",
@@ -702,7 +715,8 @@
     },
     {
       "slug": "falkonoil",
-      "thumbnail": "/images/company/falkonoil/thumbnail.jpg",
+      "thumbnail": "/images/company/falkonoil/thumbnail-2.webp",
+      "grid_thumbnail": "/images/our-companies/falkenoil.png",
       "card_title": {
         "en": "Falkenoil",
         "ku": "فالکینۆیل",
@@ -723,8 +737,9 @@
         "ku": "40+ ساڵ دابینکردنی چەورکەری کوالیتی بەرز لە ئاستی جیهانیدا، بەرجەستەکردنی نایابی ئەڵمانی.",
         "ar": "أكثر من 40 عامًا في توريد مواد التشحيم عالية الجودة عالميًا، وتجسيد التميز الألماني."
       },
-      "hero_image": "/images/company/falkonoil/hero.jpg",
+      "hero_image": "/images/company/falkonoil/hero-2.webp",
       "company_video": "/images/company/falkonoil/falkenoil-video.mp4",
+      "company_catalog": "/images/company/falkonoil/Falkenoil Passenger Car 15W-40.pdf",
       "sub_sections": [
         {
           "key": 1,
@@ -738,7 +753,7 @@
             "ku": "زەیتی فالکۆن زیاتر لە ٤٠ ساڵە خەریکی پەرەپێدان و بەرهەمهێنان و دابەشکردنی چەورکەر و تایبەتمەندییە کوالیتی بەرزەکانە",
             "ar": "تعمل شركة فالكون أويل على تطوير وإنتاج وتوزيع مواد التشحيم والتخصصات عالية الجودة منذ أكثر من 40 عامًا"
           },
-          "image_path": "/images/company/falkonoil/service-1.jpg"
+          "image_path": "/images/company/falkonoil/service-1.webp"
         },
         {
           "key": 2,
@@ -752,7 +767,7 @@
             "ku": "ئێمە ڕۆنی بزوێنەری بڕوانامەی OEM بۆ کڕیارەکانمان دابین دەکەین لە ئاستی جیهانیدا، هەروەها ڕۆنی بزوێنەر لە ئاستی کاراییدا، وەک چەورکەر بۆ بەکارهێنانی پیشەسازی. کۆنترۆڵی بەردەوامی پرۆسەکانی بەرهەمهێنان لە ڕێگەی تاقیگەکانی هاوبەشەکەمانەوە سوودێکی بەردەواممان پێدەبەخشێت.",
             "ar": "نحن نزود عملائنا على مستوى العالم بزيوت محركات معتمدة من صانعي القطع الأصلية (OEM)، بالإضافة إلى زيوت محركات ذات مستوى أداء، مثل مواد التشحيم للاستخدام الصناعي. إن التحكم المستمر في عمليات الإنتاج من خلال مختبرات شركائنا يمنحنا ميزة ثابتة."
           },
-          "image_path": "/images/company/falkonoil/service-2.jpg"
+          "image_path": "/images/company/falkonoil/service-2.webp"
         },
         {
           "key": 3,
@@ -766,7 +781,7 @@
             "ku": "کوالیتی و پەیوەندی بەردەوام لەگەڵ بەشی ئەندازیاری بەرهەمهێنەری ئامێرە ئەسڵیەکان دڵنیای دەدات لە ئەدای گونجاو",
             "ar": "الجودة والتواصل المستمر مع الأقسام الهندسية للشركة المصنعة للمعدات الأصلية يضمنان الأداء الأمثل"
           },
-          "image_path": "/images/company/falkonoil/service-3.jpg"
+          "image_path": "/images/company/falkonoil/service-3.webp"
         },
         {
           "key": 4,
@@ -780,7 +795,7 @@
             "ku": "فالکنوێڵ پەیوەندی نێوان کڕیارەکانی و بەرهەمهێنەرە ئەڵمانییە بەرزەکانە و هەمیشە بەپێی پێویستی کڕیارەکانیان پرۆسەی داواکردن هەماهەنگ دەکات. پەیوەندی بەردەوام لەگەڵ هاوبەشەکانی دابەشکردنمان ئاگاداری پابەندبوونە بە داواکاری تاکەکەسی لەسەر بنەمای ڕێژەی دادپەروەرانەی نرخ-ئەدا.",
             "ar": "Falkenwell هي حلقة الوصل بين عملائها والشركات المصنعة الألمانية المتميزة وستقوم دائمًا بتنسيق عملية الطلب وفقًا لاحتياجات عملائها. إن الاتصال المستمر مع شركاء التوزيع لدينا يعتني بالامتثال للطلبات الفردية بناءً على نسبة السعر إلى الأداء العادلة."
           },
-          "image_path": "/images/company/falkonoil/service-1.jpg"
+          "image_path": "/images/company/falkonoil/service-4.webp"
         },
         {
           "key": 5,
@@ -794,7 +809,7 @@
             "ku": "بەرهەمەکانی زەیتی فالکۆن بریتین لە دژە بەستن، ڕۆنی ئۆتۆمبێل، ڕۆنی ماتۆڕسکیل، ڕۆنی گێڕ، ڕۆنی هایدرۆلیکی، ڕۆنی ماتۆڕی فرە پلە.",
             "ar": "تشمل منتجات زيوت فالكون مانع التجمد، وزيوت السيارات، وزيوت الدراجات النارية، وزيوت التروس، والزيوت الهيدروليكية، وزيوت المحركات متعددة الدرجات."
           },
-          "image_path": "/images/company/falkonoil/service-2.jpg"
+          "image_path": "/images/company/falkonoil/service-5.webp"
         }
       ],
       "gallery": {
@@ -814,7 +829,9 @@
           "/images/company/falkonoil/slider-3.jpg",
           "/images/company/falkonoil/slider-4.jpg",
           "/images/company/falkonoil/slider-5.jpg",
-          "/images/company/falkonoil/slider-6.jpg"
+          "/images/company/falkonoil/slider-6.jpg",
+          "/images/company/falkonoil/service-3.webp",
+          "/images/company/falkonoil/service-5.webp"
         ]
       },
       "contact": {
@@ -871,6 +888,7 @@
     {
       "slug": "limar_realestate",
       "thumbnail": "/images/company/limar-realestate/thumbnail.webp",
+      "grid_thumbnail": "/images/our-companies/limar.png",
       "card_title": {
         "en": "Limar Realestate",
         "ku": "لیمار بۆ خانووبەرە",
@@ -1009,6 +1027,7 @@
     {
       "slug": "rose_medical_center",
       "thumbnail": "/images/company/rose/thumbnail.jpg",
+      "grid_thumbnail": "/images/our-companies/rose.png",
       "card_title": {
         "en": "Rose Medical Center",
         "ku": "سەنتەری پزیشکی ڕۆز",
@@ -1165,6 +1184,7 @@
     {
       "slug": "minas",
       "thumbnail": "/images/company/minas/thumbnail.webp",
+      "grid_thumbnail": "/images/our-companies/minas.png",
       "card_title": {
         "en": "Minas Company",
         "ku": "کۆمپانیای میناس",
@@ -1290,6 +1310,7 @@
     {
       "slug": "jazeerat",
       "thumbnail": "/images/company/jazeerat/thumbnail.jpg",
+      "grid_thumbnail": "/images/our-companies/jazeerat.png",
       "card_title": {
         "en": "Jazeerat",
         "ku": "جەزیرەت",
@@ -1384,6 +1405,7 @@
     {
       "slug": "goran_for_generator",
       "thumbnail": "/images/company/goran-for-generator/thumbnail.webp",
+      "grid_thumbnail": "/images/our-companies/goran-for-generators.png",
       "card_title": {
         "en": "Goran For Generator",
         "ku": "گۆران بۆ مۆلیدە",
@@ -1419,7 +1441,7 @@
             "ku": "کۆمپانیای گۆران کە لە ساڵی ٢٠٠٣ دامەزراوە، بووەتە پێشەنگی دابینکەری کارەبا لە عێراقدا، شانازی بە توانای بەرهەمهێنانی بێهاوتایەوە دەکات. بەناوبانگە بە مۆلیدەکانمان کە بزوێنەری پێرکنزی بەریتانی و تەکنەلۆژیای هێزی لیپۆسۆمی فەرەنسییان تێدایە، کۆمەڵێک خزمەتگوزاری پێشکەش دەکەین کە بەپێی پێداویستی کڕیارەکانمان داڕێژراون، لەوانە ستافێکی تایبەتمەند، خزمەتگوزاری کڕیارانی ئاست بەرز، و پارچەی ئۆرجیناڵ.",
             "ar": "تأسست شركة کوران في عام 2003، وأصبحت المورد الأول للطاقة في العراق، حيث تفتخر بقدرات إنتاجية لا مثيل لها. نشتهر بمولداتنا التي تتميز بمحركات Perkins البريطانية وتقنية طاقة Liposome الفرنسية، ونحن نقدم مجموعة من الخدمات المصممة خصيصًا لتلبية احتياجات عملائنا، بما في ذلك طاقم عمل متخصص وخدمة عملاء من الدرجة الأولى وقطع غيار أصلية."
           },
-          "image_path": "/images/company/goran-for-generator/1.jpg"
+          "image_path": "/images/company/goran-for-generator/gfg-1.webp"
         },
         {
           "key": 1,
@@ -1433,7 +1455,7 @@
             "ku": "لە کۆمپانیای گۆران ئێمە لە پێشینەی کارەکانی خزمەتگوزاری و ڕەزامەندی کڕیاران دەدەین. مۆلیدەکانمان گرەنتی یەک ساڵ یان ١٠٠٠ کاتژمێر کارکردنیان لەگەڵدایە، کە هەردوو پێکهاتەی کارەبایی و میکانیکی دەگرێتەوە. کڕیاران متمانەیان بە ئێمە هەیە بۆ نرخە گونجاوەکانمان، پشتگیری ئەندازیاری شارەزا، پارچەی ئەسڵی، و خزمەتگوزاری دوای فرۆشتن، کە پشتگیری دەکرێت بە بڕوانامەی سەرچاوە لە کۆمپانیای دایکمان.",
             "ar": "في شركة کوران، نعطي الأولوية لتميز الخدمة ورضا العملاء. تأتي مولداتنا مع ضمان لمدة عام واحد أو 1000 ساعة تشغيل، ويغطي المكونات الكهربائية والميكانيكية. يثق العملاء بنا نظرًا لأسعارنا المعقولة والدعم الهندسي المتخصص وقطع الغيار الأصلية وخدمة ما بعد البيع، المدعومة بشهادة منشأ من شركتنا الأم."
           },
-          "image_path": "/images/company/goran-for-generator/2.jpg"
+          "image_path": "/images/company/goran-for-generator/gfg-2.webp"
         },
         {
           "key": 2,
@@ -1447,7 +1469,7 @@
             "ku": "لە سەرەتای دامەزراندنمانەوە کۆمپانیای گۆران نزیکەی ٤٢٣٠ مۆلیدەی فرۆشتووە، کە خزمەت بە هەردوو کەرتی تایبەت و حکومی دەکات لە کوردستان و دەرەوەی وڵات. پابەندبوونمان بە چارەسەری دەسەڵاتی متمانەپێکراو، متمانەی حکومەتی هەرێمی کوردستان و پیشەسازییە جیاوازەکان بە مارکێتەکانیشەوە بەدەست بهێنین. ئێمە تایبەتین بە گەشەپێدان و هاوکاری بەردەوام بۆ خزمەتکردنی کۆمەڵگا.",
             "ar": "منذ تأسيسها، باعت شركة کوران ما يقرب من 4230 مولدًا، لتلبية احتياجات القطاعين الخاص والحكومي في كردستان وخارجها. لقد أكسبنا التزامنا بحلول الطاقة الموثوقة ثقة حكومة إقليم كردستان ومختلف الصناعات، بما في ذلك محلات السوبر ماركت. ونحن ملتزمون بالتطوير المستمر والتعاون لخدمة المجتمع."
           },
-          "image_path": "/images/company/goran-for-generator/3.jpg"
+          "image_path": "/images/company/goran-for-generator/gfg-3.webp"
         },
         {
           "key": 3,
@@ -1476,6 +1498,9 @@
           "ar": "توجيه تنمية كردستان منذ عام 2003"
         },
         "images": [
+          "/images/company/goran-for-generator/gfg-3.webp",
+          "/images/company/goran-for-generator/gfg-2.webp",
+          "/images/company/goran-for-generator/gfg-1.webp",
           "/images/company/goran-for-generator/1.jpg",
           "/images/company/goran-for-generator/2.jpg",
           "/images/company/goran-for-generator/3.jpg",
@@ -1652,14 +1677,38 @@
         "ar": "الرائدة في مجال توفير حلول الرعاية الصحية"
       },
       "card_icon_path": "/images/specializations/health.png",
-      "image_path": "/images/home/hero-slider/health.webp",
-      "thumbnail": "/images/home/hero-slider/health-small.webp",
+      "image_path": "/images/company/minas/hero.jpg",
+      "thumbnail": "/images/company/minas/thumbnail.webp",
       "description": {
         "en": "Innovating care for healthier communities, trusted by professionals.",
         "ku": "داهێنانی چاودێری بۆ کۆمەڵگا تەندروستەکان، متمانەپێکراو لەلایەن کەسانی پیشەییەوە.",
         "ar": "رعاية مبتكرة لمجتمعات أكثر صحة، موثوق بها من قبل المتخصصين."
       },
-      "video_path": ""
+      "video_path": "",
+      "redirects_to": "/company/minas/view"
+    },
+    {
+      "key": "oil-company",
+      "thumb_title": {
+        "en": "Oil Company",
+        "ku": "کۆمپانیای نەوت",
+        "ar": "شركة نفط"
+      },
+      "title": {
+        "en": "Global Energy Solutions Provider",
+        "ku": "دابینکەری چارەسەری وزەی جیهانی",
+        "ar": "مزود حلول الطاقة العالمية"
+      },
+      "card_icon_path": "/images/specializations/oil-company.png",
+      "image_path": "/images/home/hero-slider/falkenoil.jpg",
+      "thumbnail": "/images/home/hero-slider/falkenoil.jpg",
+      "description": {
+        "en": "Sustainable energy production for a dynamic, World powering progress.",
+        "ku": "بەرهەمهێنانی وزەی بەردەوام بۆ پێشکەوتنێکی دینامیکی و بەهێزکەری جیهانی.",
+        "ar": "إنتاج الطاقة المستدامة من أجل تقدم ديناميكي عالمي."
+      },
+      "video_path": "/images/company/falkonoil/falkenoil-video.mp4",
+      "redirects_to": "/company/falkonoil/view"
     },
     {
       "key": "realestate-company",
@@ -1682,28 +1731,6 @@
         "ar": "وكالة عقارية رائدة في أربيل العراق بخبرة واسعة."
       },
       "video_path": ""
-    },
-    {
-      "key": "oil-company",
-      "thumb_title": {
-        "en": "Oil Company",
-        "ku": "کۆمپانیای نەوت",
-        "ar": "شركة نفط"
-      },
-      "title": {
-        "en": "Global Energy Solutions Provider",
-        "ku": "دابینکەری چارەسەری وزەی جیهانی",
-        "ar": "مزود حلول الطاقة العالمية"
-      },
-      "card_icon_path": "/images/specializations/oil-company.png",
-      "image_path": "/images/home/hero-slider/oil-company.jpg",
-      "thumbnail": "/images/home/hero-slider/oil-company.jpg",
-      "description": {
-        "en": "Sustainable energy production for a dynamic, World powering progress.",
-        "ku": "بەرهەمهێنانی وزەی بەردەوام بۆ پێشکەوتنێکی دینامیکی و بەهێزکەری جیهانی.",
-        "ar": "إنتاج الطاقة المستدامة من أجل تقدم ديناميكي عالمي."
-      },
-      "video_path": "/images/company/falkonoil/falkenoil-video.mp4"
     }
   ],
   "social_links": {

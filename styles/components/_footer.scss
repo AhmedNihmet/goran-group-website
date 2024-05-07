@@ -137,9 +137,19 @@
     height: 80px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
     > span {
       text-transform: uppercase;
+    }
+  }
+
+  &__view-our-profile {
+    text-transform: uppercase;
+
+    > a {
+      color: #bf2025;
     }
   }
 }

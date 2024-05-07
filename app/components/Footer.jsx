@@ -111,6 +111,20 @@ const Footer = () => {
           </div>
         </section>
         <section className="footer__rights-section">
+          <h4 className="footer__view-our-profile">
+            <Link target="_blank" to="/images/about-us/goran-group-profile.pdf">
+              {t("View")}
+            </Link>
+            <span> {t("or")} </span>
+            <Link
+              download
+              target="_blank"
+              to="/images/about-us/goran-group-profile.pdf"
+            >
+              {t("Download")}
+            </Link>
+            <span> {t("our profile")}</span>.
+          </h4>
           <span>{t("RIGHTS RESERVED")}</span>
         </section>
       </div>

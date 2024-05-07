@@ -10,6 +10,7 @@ import {
   json,
   useLoaderData,
   useLocation,
+  useNavigate,
   useRouteLoaderData,
   useSearchParams,
 } from "@remix-run/react";
@@ -62,6 +63,8 @@ export const loader = async ({ request }) => {
 };
 
 const Home = () => {
+  const navigate = useNavigate();
+
   const mainSliderRef = useRef(null);
   const thumbSliderRef = useRef(null);
 
@@ -177,13 +180,23 @@ const Home = () => {
                     <p className="medium-paragraph">
                       {truncateString(item.description[i18n.language], 21)}
                     </p>
-                    {item?.video_path && (
-                      <CustomButton
-                        text={t("see a video")}
-                        icon={<Play />}
-                        onClick={() => playVideo(item.video_path)}
-                      />
-                    )}
+                    <div className="home__hero-content-actions">
+                      {item?.redirects_to && (
+                        <CustomButton
+                          icon={<Arrow />}
+                          text={t("See More")}
+                          onClick={() => navigate(item.redirects_to)}
+                        />
+                      )}
+                      {item?.video_path && (
+                        <CustomButton
+                          secondary
+                          icon={<Play />}
+                          text={t("see a video")}
+                          onClick={() => playVideo(item.video_path)}
+                        />
+                      )}
+                    </div>
                   </div>
                 </div>
               </section>

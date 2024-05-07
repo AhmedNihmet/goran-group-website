@@ -33,6 +33,7 @@ import { Map } from "~/components/map/Map.client";
 import CustomButton from "~/components/CustomButton";
 
 import { buildUrl } from "~/api/config";
+import View from "~/Icons/View";
 
 /**
  * @returns {import("@remix-run/node").LinkDescriptor[]}
@@ -156,15 +157,29 @@ const CompanyView = () => {
             <p data-sal="fade" data-sal-delay="300">
               {data.paragraph[i18n.language]}
             </p>
-            {data.company_video && (
-              <div data-sal="fade" data-sal-delay="500">
-                <CustomButton
-                  text="See our work"
-                  icon={<Play />}
-                  onClick={() => playVideo(data.company_video)}
-                />
-              </div>
-            )}
+            <div className="company-view__hero-content-actions">
+              {data.company_video && (
+                <div data-sal="fade" data-sal-delay="500">
+                  <CustomButton
+                    text="See our work"
+                    icon={<Play />}
+                    onClick={() => playVideo(data.company_video)}
+                  />
+                </div>
+              )}
+              {data?.company_catalog && (
+                <div data-sal="fade" data-sal-delay="550">
+                  <CustomButton
+                    secondary
+                    target="_blank"
+                    icon={<View />}
+                    text={t("see our catalog")}
+                    className="about-us__hero-content-download"
+                    linkTo="/images/company/falkonoil/Falkenoil Passenger Car 15W-40.pdf"
+                  />
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </section>
@@ -198,6 +213,19 @@ const CompanyView = () => {
               </li>
             ))}
           </ul>
+        </section>
+      )}
+
+      {data?.youtube_video && (
+        <section className="company-view__video side-padding">
+          <iframe
+            src={data.youtube_video}
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
         </section>
       )}
 
@@ -337,6 +365,18 @@ const CompanyView = () => {
                       >
                         {t("View Products")}
                       </Link>
+                      {product?.brochure_path && (
+                        <Link
+                          replace
+                          preventScrollReset
+                          target="_blank"
+                          rel="noreferrer"
+                          to={product.brochure_path}
+                          className="company-view__our-products-item-action"
+                        >
+                          {t("View Brochure")}
+                        </Link>
+                      )}
                     </div>
                   </div>
                 </li>

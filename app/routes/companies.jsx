@@ -17,7 +17,7 @@ import Play from "~/Icons/Play";
 import CustomButton from "~/components/CustomButton";
 import MissionAndVision from "~/components/page/MissionAndVision";
 
-import { buildUrl } from "~/api/config";
+import { buildUrl } from "~/api/config"; 
 
 /**
  * @returns {import("@remix-run/node").LinkDescriptor[]}
@@ -54,7 +54,7 @@ export const loader = async ({ request }) => {
 };
 
 const Companies = () => {
-  const { i18n } = useTranslation()
+  const { i18n } = useTranslation();
   const { companies } = useRouteLoaderData("root");
   const { hero, companies_header, we_work } = useLoaderData();
 
@@ -127,7 +127,10 @@ const Companies = () => {
                 className="companies__our-companies-list-item"
               >
                 <div className="companies__our-companies-list-item-image">
-                  <img alt={company.title[i18n.language]} src={company.thumbnail} />
+                  <img
+                    alt={company.title[i18n.language]}
+                    src={company.grid_thumbnail}
+                  />
                 </div>
                 <h5>{company.card_title[i18n.language]}</h5>
                 <p>{company.card_paragraph[i18n.language]}</p>

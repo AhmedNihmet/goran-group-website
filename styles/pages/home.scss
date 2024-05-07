@@ -69,6 +69,12 @@
     }
   }
 
+  &__hero-content-actions {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+  }
+
   &__hero-thumbs {
     border-radius: 3px;
     position: relative;

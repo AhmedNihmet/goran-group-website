@@ -181,14 +181,14 @@
 
   &__stats {
     margin-block-end: 120px;
-  }
+  } 
 
-  &__view-our-profile {
-    color: #49494b;
+  &__hero-content-download {
+    max-width: 160px;
     margin-block-start: 24px;
 
-    > a {
-      color: #bf2025;
+    @media (max-width: 540px) {
+      margin-inline: auto;
     }
   }
 }

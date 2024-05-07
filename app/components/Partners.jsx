@@ -62,10 +62,18 @@ const Partners = () => {
                   data-sal="fade"
                   data-sal-delay={250 + delay}
                   style={{ textAlign: "center" }}
-                  onClick={() => navigate(logo.redirects_to)}
+                  onClick={() =>
+                    logo.redirects_to ? navigate(logo.redirects_to) : {}
+                  }
                 >
                   {logo.image_path && (
-                    <img src={logo.image_path} alt="Goran Groups Partner" />
+                    <img
+                      src={logo.image_path}
+                      alt="Goran Groups Partner"
+                      style={{
+                        cursor: !logo.redirects_to ? "default" : "pointer",
+                      }}
+                    />
                   )}
                 </div>
               );

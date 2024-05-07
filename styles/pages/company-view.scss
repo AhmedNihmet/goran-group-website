@@ -58,6 +58,12 @@
     }
   }
 
+  &__hero-content-actions {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+  }
+
   &__service-list {
     margin-block-end: 60px;
   }
@@ -402,6 +408,17 @@
 
     &:hover {
       color: #bf2025;
+    }
+  }
+
+  &__video {
+    width: 100%;
+    height: 620px;
+    margin-block: 60px;
+
+    > iframe {
+      width: 100%;
+      height: 100%;
     }
   }
 }

@@ -32,6 +32,14 @@
     &::before { 
       opacity: 0.9;
     }
+  } 
+  
+  &--secondary { 
+    border: 1px solid #BF2025;
+
+    &::before {
+      background-color: #bf20251a;
+    }
   }
 
   * {

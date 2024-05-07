@@ -1,26 +1,24 @@
 import sal from "sal.js";
 import classNames from "classnames";
-import { Fragment, useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
+
 import { Swiper, SwiperSlide } from "swiper/react";
-import {
-  Link,
-  json,
-  useLoaderData,
-  useRouteLoaderData,
-} from "@remix-run/react";
+import { Fragment, useEffect, useState } from "react";
 import { EffectCards, Navigation } from "swiper/modules";
+import { json, useLoaderData, useRouteLoaderData } from "@remix-run/react";
 
 import aboutUsStyles from "~/styles/pages/about-us.css";
 import mediaQueryStyles from "~/styles/media-queries.css";
 
 import Arrow from "~/Icons/Arrow";
+import Download from "~/Icons/Download";
 
 import Stats from "~/components/page/Stats";
 import Partners from "~/components/Partners";
+import CustomButton from "~/components/CustomButton";
 import MissionAndVision from "~/components/page/MissionAndVision";
 
 import { buildUrl } from "~/api/config";
-import { useTranslation } from "react-i18next";
 
 /**
  * @returns {import("@remix-run/node").LinkDescriptor[]}
@@ -94,6 +92,16 @@ const AboutUs = () => {
           <p data-sal="fade" data-sal-delay="300">
             {hero.sub_title[i18n.language]}
           </p>
+          <div data-sal="fade" data-sal-delay="350">
+          <CustomButton
+            downloadable
+            target="_blank"
+            icon={<Download />}
+            text={t("our profile")}
+            className="about-us__hero-content-download"
+            linkTo="/images/about-us/goran-group-profile.pdf"
+          />
+          </div>
         </div>
         <div
           data-sal="fade"
@@ -179,25 +187,6 @@ const AboutUs = () => {
             );
           })}
         </div>
-        <h4
-          data-sal="fade"
-          data-sal-delay={600}
-          className="about-us__view-our-profile"
-        >
-          <span>* {t("Click here to")} </span>
-          <Link target="_blank" to="/images/about-us/goran-group-profile.pdf">
-            {t("View")}
-          </Link>
-          <span> {t("or")} </span>
-          <Link
-            download
-            target="_blank"
-            to="/images/about-us/goran-group-profile.pdf"
-          >
-            {t("Download")}
-          </Link>
-          <span> {t("our profile")}</span>.
-        </h4>
       </section>
 
       <section className="about-us__stats" data-sal="fade" data-sal-delay="200">
