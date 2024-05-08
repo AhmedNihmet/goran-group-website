@@ -73,8 +73,7 @@ const Footer = () => {
             <MainLogo width={195} height={76} />
 
             <div className="footer__links-end-section-phone-numbers" dir="ltr">
-              <span>+964 (750) 200 4000</span>
-              <span>+964 (750) 200 3000</span>
+              <span>+964 (750) 777 7719</span> 
             </div>
           </div>
         </section>
