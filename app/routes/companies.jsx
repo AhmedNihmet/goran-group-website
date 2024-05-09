@@ -116,9 +116,7 @@ const Companies = () => {
           </p>
         </div>
         <div
-          className="companies__our-companies-list"
-          data-sal="fade"
-          data-sal-delay="100"
+          className="companies__our-companies-list" 
         >
           {companies.map((company, index) => {
             const delay = index * 50;
