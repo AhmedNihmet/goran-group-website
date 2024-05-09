@@ -26,12 +26,7 @@ const Footer = () => {
             </li>
             <li className="footer__link-items">
               <Link to="?specialty=oil-company">{t("Oil Company")}</Link>
-            </li>
-            <li className="footer__link-items">
-              <Link to="?specialty=food-and-restaurants">
-                {t("Food & Restaurants")}
-              </Link>
-            </li>
+            </li> 
             <li className="footer__link-items">
               <Link to="?specialty=power-generators">
                 {t("Power Generators")}

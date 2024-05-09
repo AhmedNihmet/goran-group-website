@@ -140,10 +140,15 @@ const Home = () => {
   const playVideo = (url) => {
     const updatedSearchParams = new URLSearchParams(searchParams);
     updatedSearchParams.set("reel-state", "active");
-    updatedSearchParams.set(
-      "reel-url",
-      `${window?.location?.origin || ""}${url}`
-    );
+
+    if (url.includes("youtube")) {
+      updatedSearchParams.set("reel-url", url)
+    } else {
+      updatedSearchParams.set(
+        "reel-url",
+        `${window?.location?.origin || ""}${url}`
+      );
+    }
 
     return setSearchParams(updatedSearchParams);
   };

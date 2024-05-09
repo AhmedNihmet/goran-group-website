@@ -222,7 +222,7 @@
             "ku": "بە شانازییەوە پلەی یەکەممان لە هەردوو بواری فرۆشتن و پێشکەشکردنی خزمەتگوزاری لە کوردستان و عێراق مسۆگەر کردووە. هاوبەشی بەهێز لەگەڵ ئۆرگان و ڕێکخراوە حکومییەکان و کۆمپانیاکانی نەوت سەرکەوتنی ئێمەی بەرەوپێش بردووە.",
             "ar": "وبكل فخر، حصلنا على المركز الأول في كل من المبيعات وتقديم الخدمات في كردستان والعراق. لقد ساهمت الشراكات القوية مع الهيئات الحكومية والمنظمات وشركات النفط في نجاحنا."
           },
-          "image_path": "/images/company/goran-generator/thumbnail.webp"
+          "image_path": "/images/company/goran-generator/photo_2024-05-09_11-05-20.jpg"
         },
         {
           "key": 4,
@@ -236,7 +236,7 @@
             "ku": "ئێمە بەهۆی پابەندبوونێکی نەگۆڕەوە، هەوڵدەدەین خزمەتگوزارییەکان بۆ هاوڵاتیان و کۆمپانیاکان بە بەردەوامی بەرز بکەینەوە. پێشینەی سەرنجڕاکێشمان جەخت لەسەر خۆبەخشیمان دەکاتەوە بۆ پێشکەشکردنی خزمەتگوزارییە نموونەییەکان بە هاوکاری لەگەڵ حکومەت.",
             "ar": "وانطلاقًا من التزامنا الثابت، فإننا نسعى جاهدين لتحسين الخدمات المقدمة للمواطنين والشركات بشكل مستمر. ويؤكد سجلنا الحافل تفانينا في تقديم خدمات مثالية بالتعاون مع الحكومة."
           },
-          "image_path": "/images/company/goran-generator/10.webp"
+          "image_path": "/images/company/goran-generator/photo_2024-05-09_11-05-50.jpg"
         },
         {
           "key": 2,
@@ -545,7 +545,7 @@
               "ku": "پێرکنز",
               "ar": "بيركنز"
             },
-            "card_image": "/images/company/goran-generator/perkins.jpg"
+            "card_image": "/images/company/goran-generator/perkins.webp"
           },
           {
             "slug": "cummins",
@@ -883,7 +883,8 @@
           }
         },
         "coordinates": [36.22042832049358, 44.009676526457476]
-      }
+      },
+      "external_link": "https://www.falkenoil.de/"
     },
     {
       "slug": "limar_realestate",
@@ -1305,7 +1306,8 @@
           }
         },
         "coordinates": [36.18978862217295, 43.9724422655303]
-      }
+      },
+      "external_link": "https://minascosmetic.com/"
     },
     {
       "slug": "jazeerat",
@@ -1618,7 +1620,8 @@
         "ku": "بەهێزکردنی داهاتوو بە کارەبای متمانەپێکراو.",
         "ar": "تمكين المستقبل بالكهرباء الموثوقة."
       },
-      "video_path": ""
+      "video_path": "https://www.youtube.com/watch?v=mxG5OjyH0UE",
+      "redirects_to": "/company/goran_generator/view"
     },
     {
       "key": "general-trading",
@@ -1640,7 +1643,8 @@
         "ku": "گەشتکردن بە بازاڕەکاندا، گەیاندنی نایابی لە هەموو مامەڵەیەکدا.",
         "ar": "التنقل في الأسواق، وتقديم التميز في كل معاملة."
       },
-      "video_path": ""
+      "video_path": "",
+      "redirects_to": "/company/general_trading/view"
     },
     {
       "key": "general-constructions",

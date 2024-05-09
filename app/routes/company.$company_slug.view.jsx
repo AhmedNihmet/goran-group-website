@@ -34,6 +34,7 @@ import CustomButton from "~/components/CustomButton";
 
 import { buildUrl } from "~/api/config";
 import View from "~/Icons/View";
+import ExternalLink from "~/Icons/ExternalLink";
 
 /**
  * @returns {import("@remix-run/node").LinkDescriptor[]}
@@ -134,10 +135,15 @@ const CompanyView = () => {
   const playVideo = (url) => {
     const updatedSearchParams = new URLSearchParams(searchParams);
     updatedSearchParams.set("reel-state", "active");
-    updatedSearchParams.set(
-      "reel-url",
-      `${window?.location?.origin || ""}${url}`
-    );
+
+    if (url.includes("youtube")) {
+      updatedSearchParams.set("reel-url", url);
+    } else {
+      updatedSearchParams.set(
+        "reel-url",
+        `${window?.location?.origin || ""}${url}`
+      );
+    }
 
     return setSearchParams(updatedSearchParams);
   };
@@ -174,12 +180,19 @@ const CompanyView = () => {
                     target="_blank"
                     icon={<View />}
                     text={t("see our catalog")}
-                    className="about-us__hero-content-download"
                     linkTo="/images/company/falkonoil/Falkenoil Passenger Car 15W-40.pdf"
                   />
                 </div>
               )}
             </div>
+            {data?.external_link && (
+              <div className="company-view__referral-link">
+                <Link target="_blank" rel="noreferrer" to={data.external_link}>
+                  <span>Go to website</span> 
+                    <ExternalLink /> 
+                </Link>
+              </div>
+            )} 
           </div>
         </div>
       </section>
